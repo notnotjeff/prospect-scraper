@@ -1,0 +1,5 @@
+node_modules
+serviceAccountKey.json
+.env
+.vscode
+.DS_Store
