@@ -14,6 +14,9 @@ async function scrapeSeasonStatlines() {
   console.log("Completed Scrape");
 
   console.log("Starting Insert...");
+  const date = new Date();
+  const updated_at = date.toISOString();
+
   await Promise.all(
     prospectData.map(
       async ({
@@ -40,6 +43,7 @@ async function scrapeSeasonStatlines() {
           shots_pg,
           games_played,
           age,
+          updated_at,
         });
       }
     )
