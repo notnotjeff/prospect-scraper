@@ -45,6 +45,7 @@ async function scrapeSeasonStatlines() {
     )
   );
   console.log("Completed Insert");
+  process.exit();
 }
 
 scrapeSeasonStatlines();
