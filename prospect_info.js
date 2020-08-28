@@ -475,4 +475,21 @@ module.exports = [
     league: "OHL",
     ep_url: "https://www.eliteprospects.com/player/395424/kalle-loponen",
   },
+  {
+    first_name: "Filip",
+    last_name: "Hallander",
+    position: "C",
+    shoots: "L",
+    dob: "2000-06-29",
+    draft_round: 2,
+    draft_pick: 58,
+    draft_year: 2018,
+    league_id: 0,
+    statline_url:
+      "https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics",
+    game_statline_url:
+      "https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/gamelog",
+    league: "SHL",
+    ep_url: "https://www.eliteprospects.com/player/293387/filip-hallander",
+  },
 ];
