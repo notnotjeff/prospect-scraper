@@ -10,7 +10,7 @@ function getDateOfSundayInMonth(sn, m) {
   return new Date(currentYear, month, sunday)
 }
 
-module.exports = function isDaylightSavings(today) {
+module.exports = function (today) {
   const dstStart = getDateOfSundayInMonth(2, 3)
   const dstEnd = getDateOfSundayInMonth(1, 11)
   const offsetHours = today.getTimezoneOffset() === 0 ? 0 : 4 // If run locally in EST you need to offset for time difference from UTC
