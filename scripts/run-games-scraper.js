@@ -1,5 +1,3 @@
-// Use 'node scraper/season_scraper.js' to run script
-
 const db = require('../db')
 
 const dotenv = require('dotenv')
@@ -9,9 +7,10 @@ const prospects = require('../prospect_info')
 dotenv.config()
 
 async function scrapeCurrentGames() {
-  console.log('Starting Games Scrape...')
   const date = new Date()
-  const created_at = date.toISOString()
+  console.log(`Starting Games Scrape for ${date.toString()}...`)
+  const currentDate = new Date()
+  const created_at = currentDate.toISOString()
 
   await Promise.all(
     prospects.map(async prospect => {

@@ -14,12 +14,12 @@ module.exports = async function (prospect, date) {
   const { day: singleDigitDay } = utils.dateHelpers.setDateValues(date, { zeroPad: false })
   const { day, month, year } = utils.dateHelpers.setDateValues(date, { zeroPad: true })
   const monthName = utils.dateHelpers.getMonthName(date.getMonth(), { isZeroIndexed: true, shortendNames: true })
-  const url = `https://en.khl.ru/players/30159${prospect.league_id}`
+  const url = `https://en.khl.ru/players/${prospect.league_id}/`
 
   const scrapedProspect = await utils.htmlRequest(url)
 
   const games = []
-  scrapedProspect('#pl_Games > tbody > tr[role="row"]').each(function (_i, elm) {
+  scrapedProspect('#pl_Games > tbody > tr').each(function (_i, elm) {
     const row = scrapedProspect(elm)
       .text()
       .trim()
@@ -28,7 +28,7 @@ module.exports = async function (prospect, date) {
     games.push(row)
   })
 
-  const game = games?.find(g => g[0] === `${singleDigitDay} ${monthName} ${year}`)
+  const game = games?.find(g => g[3] === `${singleDigitDay} ${monthName} ${year}`)
 
   if (!game) {
     return null
@@ -38,11 +38,11 @@ module.exports = async function (prospect, date) {
     first_name: prospect.first_name,
     last_name: prospect.last_name,
     league: prospect.league,
-    goals: +game[4],
-    assists: +game[5],
-    points: +game[6],
-    shots: +game[17],
-    penalty_minutes: +game[10],
+    goals: +game[7],
+    assists: +game[8],
+    points: +game[9],
+    shots: +game[20],
+    penalty_minutes: +game[13],
     date: `${year}-${month}-${day}`,
   }
 }

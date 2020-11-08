@@ -22,6 +22,7 @@
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm run check-format && npm run lint && npm run test",
     "scrape:games": "node scripts/run-games-scraper",
+    "scrape:games:remove": "node scripts/run-remove-old-games",
     "scrape:seasons": "node scripts/run-season-scraper",
     "twitter:run": "node twitter/bot.js"
   },

@@ -1,5 +1,3 @@
-// Use 'node scraper/season_scraper.js' to run script
-
 const db = require('../db')
 
 const dotenv = require('dotenv')

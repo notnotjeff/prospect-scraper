@@ -21,7 +21,7 @@ describe('ohlScraper()', () => {
       league: 'OHL',
       ep_url: 'https://www.eliteprospects.com/player/359539/nicholas-robertson',
     }
-    const date = new Date()
+    const date = new Date('2019-12-05')
 
     jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '05', month: '12', year: '2019' }))
     jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
@@ -37,7 +37,7 @@ describe('ohlScraper()', () => {
   })
 
   test('it returns null when there is no game on the specified date', async () => {
-    const prospectJson = require('./__fixtures__/ahl_rasmus_sandin.fixture')
+    const prospectJson = require('./__fixtures__/ohl_nick_robertson.fixture')
     const prospect = {
       first_name: 'Nick',
       last_name: 'Robertson',
@@ -55,7 +55,7 @@ describe('ohlScraper()', () => {
       league: 'OHL',
       ep_url: 'https://www.eliteprospects.com/player/359539/nicholas-robertson',
     }
-    const date = new Date()
+    const date = new Date('2010-01-01')
 
     jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '2019' }))
     jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)

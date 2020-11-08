@@ -20,7 +20,7 @@ describe('gamesScraper()', () => {
       league: 'AHL',
       ep_url: 'https://www.eliteprospects.com/player/289453/rasmus-sandin',
     }
-    const date = '2019-10-20'
+    const date = new Date('2019-10-20 12:00:00')
 
     jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
 
@@ -38,7 +38,7 @@ describe('gamesScraper()', () => {
     const prospect = {
       league: 'NOT-A-REAL-LEAGUE',
     }
-    const date = '2019-10-20'
+    const date = new Date('2019-10-20 12:00:00')
 
     await expect(gamesScraper(prospect, date)).rejects.toThrow()
   })
@@ -47,7 +47,7 @@ describe('gamesScraper()', () => {
     const prospect = {
       league: 'AHL',
     }
-    const date = '2019-10-20'
+    const date = new Date('2019-10-20 12:00:00')
 
     jest.spyOn(leaguesScraper, 'ahlScraper').mockImplementation(() => null)
 
