@@ -21,12 +21,14 @@ async function scrapeCurrentGames() {
           await db('games')
             .insert({
               ...game,
+              date_time: `${game.date} 12:00:00`,
               created_at,
               updated_at: created_at,
             })
             .onConflict(['last_name', 'first_name', 'date'])
             .merge({
               ...game,
+              date_time: `${game.date} 12:00:00`,
               updated_at: created_at,
             })
         }
