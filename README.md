@@ -13,7 +13,7 @@ When adding a scraper for a new league there are a few steps to follow:
 
 ## Finnish Leagues
 
-When looking to add a Finnish league check out [this aggregate site](http://www.leijonat.fi/) for details links to various league websites.
+When looking to add a Finnish league check out [this aggregate site](http://www.leijonat.fi/) for links to various league websites.
 
 # Adding a Prospect
 
@@ -29,11 +29,11 @@ For a prospect to have their data scraped it must exist inside `prospect_info.js
   draft_round: 'The round that the player was picked in (set as null if undrafted) [integer]',
   draft_pick: 'The exact pick number the player was taken at in their draft (set as null if undrafted) [integer]',
   draft_year: 'Year the player was drafted (set as null if undrafted) [integer]',
-  league_id: 'If a player has a league id put it here, this is not used at the moment so it is optional (you can set it to null if preferable) [string]',
+  ep_url: 'The link to the prospects Eliteprospects page which is shown to the user to allow them to have easy access to other seasons beyond the current one being scraped [string]',
+  league_id: 'If a player has a league id put it here, some leagues require one in order to scrape the prospects [string]',
   statline_url: 'The url to the page/json data to scrape a players season statistics [string]',
   game_statline_url: 'The url to the page/json data to scrape a players individual played games [string]',
   league: 'The shorthand version of the current league that the player is playing in (check the LEAGUE_CODES constant to see the available leagues) [string]',
-  ep_url: 'The link to the prospects Eliteprospects page which is shown to the user to allow them to have easy access to other seasons beyond the current one being scraped [string]',
 }
 ```
 
@@ -49,26 +49,29 @@ An example of a filled out prospect looks like this:
   draft_round: 1,
   draft_pick: 17,
   draft_year: 2017,
+  ep_url: 'http://www.eliteprospects.com/player.php?player=224910',
   league_id: '6893',
   statline_url:
     'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
   game_statline_url:
     'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
   league: 'AHL',
-  ep_url: 'http://www.eliteprospects.com/player.php?player=224910',
 }
 ```
+
+The fields `league_id`, `statline_url`, `game_statline_url`, and `league` are important to how the scraper works (both when scraping games or season statlines). The following section (Finding Prospect URLs) will break down how to fill out these fields for different leagues in order for the scraper to work properly.
 
 # Finding Prospect URLs
 
 After adding a prospect object to the `prospect_info.js` file (see Adding a Prospect section) you'll need to get the prospect's `statline_url` (the link to where the scraper can find the player's full season stats) and the `game_statline_url` (the link to where the scraper can find the prospect's played games). These URLs (along with the league field) determine how a prospect's statistics will be scraped
 
-Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league:
+Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
 
 ## Allsvenskan
 
-Example URLs
+Needed fields:
 ```
+league_id: null,
 statline_url: 'https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All&team=110b-110bJcIAI',
 game_statline_url: null,
 league: 'Allsv',
@@ -90,9 +93,9 @@ https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All
 
 At the moment there is no scraper for getting a prospects individual games so you can set the `game_statline_url` to `null`
 
-# MHL
+## MHL
 
-Example URLs
+Needed fields:
 ```
 statline_url: null,
 game_statline_url: null,
@@ -110,7 +113,7 @@ At the moment the game scraper is not built for the MHL
 
 ## SM-Sarja U20
 
-Example URLs
+Needed fields:
 ```
 statline_url: null,
 game_statline_url: null,
@@ -126,8 +129,9 @@ This scraper works a bit different than most other ones as it uses the prospect'
 
 ## SHL
 
-Example URLs
+Needed fields:
 ```
+league_id: null,
 statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics',
 game_statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/gamelog',
 league: 'SHL',
