@@ -1,44 +1,26 @@
 const isDaylightSavings = require('./utils/is-daylight-savings')
 
-module.exports = function setDateValues() {
-  const today = new Date()
-  const yesterday = new Date()
-  yesterday.setDate(today.getDate() - 1)
-  const todayIsDaylightSavings = isDaylightSavings(today)
-  const yesterdayIsDaylightSavings = isDaylightSavings(yesterday)
+module.exports = function (date, { zeroPad = true }) {
+  const dateIsDaylightSavings = isDaylightSavings(date)
 
-  if (+today.getTimezoneOffset() === 0) {
-    const todayOffset = todayIsDaylightSavings ? 4 : 5
-    const yesterdayOffset = yesterdayIsDaylightSavings ? 4 : 5
-    today.setHours(today.getHours() - todayOffset)
-    yesterday.setHours(yesterday.getHours() - yesterdayOffset)
+  if (+date.getTimezoneOffset() === 0) {
+    const dateOffset = dateIsDaylightSavings ? 4 : 5
+    date.setHours(date.getHours() - dateOffset)
   } else {
-    const todayOffset = todayIsDaylightSavings ? 0 : 1
-    const yesterdayOffset = yesterdayIsDaylightSavings ? 0 : 1
-    today.setHours(today.getHours() - todayOffset)
-    yesterday.setHours(yesterday.getHours() - yesterdayOffset)
+    const dateOffset = dateIsDaylightSavings ? 0 : 1
+    date.setHours(date.getHours() - dateOffset)
   }
 
-  let day = String(today.getDate())
-  let month = String(today.getMonth() + 1)
-  const year = String(today.getFullYear())
+  let day = String(date.getDate())
+  let month = String(date.getMonth() + 1)
+  const year = String(date.getFullYear())
 
-  let yDay = String(yesterday.getDate())
-  let yMonth = String(yesterday.getMonth() + 1)
-  const yYear = String(yesterday.getFullYear())
-
-  // Add leading 0's to month and day if they're less than 10
-  day = day < 10 ? `0${day}` : `${day}`
-  yDay = yDay < 10 ? `0${yDay}` : `${yDay}`
-  month = month < 10 ? `0${month}` : `${month}`
-  yMonth = yMonth < 10 ? `0${yMonth}` : `${yMonth}`
+  day = zeroPad && day < 10 ? `0${day}` : `${day}`
+  month = zeroPad && month < 10 ? `0${month}` : `${month}`
 
   return {
     day,
     month,
     year,
-    yDay,
-    yMonth,
-    yYear,
   }
 }

@@ -1,4 +1,4 @@
-module.exports = function getDateFromArray(date, y, m, d) {
+module.exports = function (date, y, m, d) {
   let day = date[d]
   let month = date[m]
   const year = date[y]

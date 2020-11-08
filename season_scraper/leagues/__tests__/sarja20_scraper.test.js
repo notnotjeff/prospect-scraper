@@ -21,7 +21,7 @@ describe('sarja20Scraper()', () => {
     }
 
     jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2020-2021')
-    // jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const { goals, assists, points, shots, games_played } = await sarja20Scraper(prospect)
 

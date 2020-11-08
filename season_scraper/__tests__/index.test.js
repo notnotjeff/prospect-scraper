@@ -13,7 +13,7 @@ describe('seasonScraper()', () => {
       draft_round: 1,
       draft_pick: 29,
       draft_year: 2018,
-      league_id: 7314,
+      league_id: '7314',
       statline_url:
         'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7314&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
       game_statline_url:
