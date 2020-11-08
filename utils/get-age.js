@@ -1,4 +1,4 @@
-module.exports = function getAge(dateString) {
+module.exports = function (dateString) {
   const today = new Date()
   const birthDate = new Date(dateString)
   const age = today - birthDate

@@ -342,7 +342,7 @@ module.exports = [
     draft_round: 4,
     draft_pick: 115,
     draft_year: 2019,
-    league_id: '7662',
+    league_id: '17871',
     statline_url:
       'https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&p=1&client_code=lhjmq&view=Teamstat&fmt=json&player_id=17871&lang=en&force_player=0&callback=json',
     game_statline_url: `https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&client_code=lhjmq&view=Gamebygame&lang=en&season_id=${qmjhl_season_id}&fmt=json&dfdsfdsa=2fdsa&player_id=17871&force_player=0&callback=json`,

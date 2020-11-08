@@ -1,6 +1,6 @@
 const isDaylightSavings = require('./utils/is-daylight-savings')
 
-module.exports = function getCurrentTime() {
+module.exports = function () {
   // Set Time
   const day = new Date()
   let amPm = ''

@@ -67,6 +67,24 @@ After adding a prospect object to the `prospect_info.js` file (see Adding a Pros
 
 Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
 
+## AHL
+
+Needed fields:
+```
+league_id: '7314',
+statline_url:
+  'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7314&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+game_statline_url: null,
+league: 'AHL',
+```
+
+To get the league_id for the prospect:
+
+1. [Go to the AHL's search page](https://theahl.com/?s=) and enter the prospect's name.
+2. Click on the `Players` button to show the players with the name you just searched
+3. Click on the player's name to go to their profile.
+4. Copy the number in the browser's address bar into the `league_id` field for the prospect. For example, for the following URL `https://theahl.com/stats/player/7314/rasmus-sandin` the id is `7314`
+
 ## Allsvenskan
 
 Needed fields:
@@ -93,6 +111,34 @@ https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All
 
 At the moment there is no scraper for getting a prospects individual games so you can set the `game_statline_url` to `null`
 
+## KHL
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: '30159',
+league: 'KHL',
+```
+
+1. [Go to the KHL's player page](https://en.khl.ru/players/) and use the search bar on the left side to look up the prospect.
+2. Click on the player you searched to go to their profile page.
+3. Copy the number from the URL in the browser's address bar into the prospect's `league_id`. For example, with this URL `https://en.khl.ru/players/30159/` the prospect id is `30159`
+
+## Liiga
+
+Needed fields:
+```
+league_id: '31555838',
+statline_url: 'https://liiga.fi/fi/pelaajat/31555838/niemela-topi',
+game_statline_url: null,
+league: 'Liiga',
+```
+
+1. [Go to the Liiga player page](https://liiga.fi/fi/pelaajat/) and search for the prospect (by team or by name).
+2. Click on the prospect's name in the table to go to their profile page.
+3. Copy the number from the URL in the browser's address bar and paste it into the prospect's `league_id`. For example, in the URL `https://liiga.fi/fi/pelaajat/31555838/niemela-topi/` the prospect's id would be `31555838`
+
 ## MHL
 
 Needed fields:
@@ -110,6 +156,34 @@ This league only needs the prospect's `league_id` field to function. To get the 
 3. In the browser's address bar, copy the number and paste it into the player's `league_id` field. For example, Dmitry Ovchinnikov's profile URL is `https://engmhl.khl.ru/players/31214/`, therefore his `league_id` is `31214`
 
 At the moment the game scraper is not built for the MHL
+
+## OHL
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: '7662',
+league: 'OHL',
+```
+
+1. [Go to the OHL's search people page](https://ontariohockeyleague.com/searchpeople) and enter the prospect name.
+2. Click on the prospect you are looking for which goes to their profile page.
+3. Copy the number from the URL in the browser's address bar into the prospect's `league_id` field. For example, with the URL `https://ontariohockeyleague.com/players/7662` the player's id would be `7662`
+
+## QMJHL
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: '17871',
+league: 'QMJHL',
+```
+
+1. [Go to the QMJHL's search people page](https://theqmjhl.ca/searchpeople) and enter the prospect name.
+2. Click on the prospect you are looking for which goes to their profile page.
+3. Copy the number from the URL in the browser's address bar into the prospect's `league_id` field. For example, with the URL `https://theqmjhl.ca/players/17871` the player's id would be `17871`
 
 ## SM-Sarja U20
 
@@ -149,4 +223,18 @@ To get the `game_statline_url` you'll continue from step 5:
 
 6. Click on the `Matcher` heading beside the prospect's profile picture to go to the game log page
 7. Copy the URL from the browser's address bar and paste it in the prospect's `game_statline_url` field. It should look like: `https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/gamelog`
+
+## WHL
+
+Needed fields:
+```
+statline_url: 'http://lscluster.hockeytech.com/feed/?feed=modulekit&view=player&key=41b145a848f4bd67&fmt=json&client_code=whl&lang=en&player_id=27355&category=seasonstats',
+game_statline_url: null,
+league_id: '27355',
+league: 'WHL',
+```
+
+1. [Go to the WHL's search people page](https://whl.ca/searchpeople) and enter the prospect name.
+2. Click on the prospect you are looking for which goes to their profile page.
+3. Copy the number from the URL in the browser's address bar into the prospect's `league_id` field. For example, with the URL `https://whl.ca/players/27355` the player's id would be `27355`
 

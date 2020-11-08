@@ -1,4 +1,4 @@
-module.exports = function getCurrentSeason(format = 'YYYY-YY') {
+module.exports = function (format = 'YYYY-YY') {
   // Return string in format YYYY-YY || YY-YY || YY-YYYY || YYYY-YYYY
   const date = new Date(Date.now())
   const month = date.getMonth() + 1
