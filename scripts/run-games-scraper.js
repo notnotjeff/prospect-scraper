@@ -7,8 +7,8 @@ const prospects = require('../prospect_info')
 dotenv.config()
 
 async function scrapeCurrentGames() {
-  const dateInEst = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York' }).format(new Date())
-  const date = new Date(`${dateInEst} 12:00:00`)
+  const [month, day, year] = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York' }).format(new Date()).split('/')
+  const date = new Date(new Date(Date.UTC(+year, +month - 1, +day, 12, 0, 0)).toUTCString())
   console.log(`Starting Games Scrape for ${date.toString()}...`)
   const currentDate = new Date()
   const created_at = currentDate.toISOString()
