@@ -16,7 +16,6 @@ const LEAGUE_CODES = {
 
 dotenv.config()
 
-// Enter date in YYYY-MM-DD format
 module.exports = async (prospect, date) => {
   const scraperName = LEAGUE_CODES[prospect.league]
   if (!scraperName) {
