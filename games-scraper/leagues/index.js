@@ -8,6 +8,7 @@ const shlScraper = require('./shlScraper')
 const vhlScraper = require('./vhlScraper')
 const ncaaScraper = require('./ncaaScraper')
 const liigaScraper = require('./liigaScraper')
+const mhlScraper = require('./mhlScraper')
 
 module.exports = {
   ohlScraper,
@@ -20,4 +21,5 @@ module.exports = {
   vhlScraper,
   ncaaScraper,
   liigaScraper,
+  mhlScraper,
 }

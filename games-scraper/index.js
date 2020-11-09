@@ -12,6 +12,7 @@ const LEAGUE_CODES = {
   VHL: 'vhlScraper',
   NCAA: 'ncaaScraper',
   Liiga: 'liigaScraper',
+  MHL: 'mhlScraper',
 }
 
 dotenv.config()
