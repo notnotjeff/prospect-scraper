@@ -8,7 +8,7 @@ async function removeOldGames() {
   date.setDate(date.getDate() - 3)
   console.log(`Removing games from before ${date}...`)
 
-  await db('games').where('date', '<=', date.toDateString()).del()
+  await db('games').where('created_at', '<=', date.toDateString()).del()
 
   console.log('Finished removing games!')
   process.exit()
