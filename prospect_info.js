@@ -213,7 +213,7 @@ module.exports = [
     league_id: '23461',
     statline_url: 'https://www.hokej.cz/hrac/23461/career?t=224&stats-section=all',
     game_statline_url: 'https://www.hokej.cz/hrac/23461?t=224',
-    league: 'CZE2',
+    league: 'CZE',
     ep_url: 'https://www.eliteprospects.com/player/247241/filip-kral',
   },
   {

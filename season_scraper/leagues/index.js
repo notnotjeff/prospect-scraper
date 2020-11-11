@@ -11,7 +11,8 @@ const ncaaScraper = require('./ncaa_scraper.js')
 const nlaScraper = require('./nla_scraper.js')
 const liigaScraper = require('./liiga_scraper.js')
 const mestisScraper = require('./mestis_scraper.js')
-const czech2Scraper = require('./czech2_scraper.js')
+const cze2Scraper = require('./cze2_scraper.js')
+const czeScraper = require('./cze_scraper.js')
 const allsvenskanScraper = require('./allsvenskan_scraper.js')
 const sarja20Scraper = require('./sarja20_scraper.js')
 const mhlScraper = require('./mhl_scraper.js')
@@ -30,8 +31,29 @@ module.exports = {
   nlaScraper,
   liigaScraper,
   mestisScraper,
-  czech2Scraper,
+  cze2Scraper,
+  czeScraper,
   allsvenskanScraper,
   sarja20Scraper,
   mhlScraper,
+  leagueCodes: {
+    OHL: 'ohlScraper',
+    WHL: 'whlScraper',
+    QMJHL: 'qmjhlScraper',
+    AHL: 'ahlScraper',
+    USHL: 'ushlScraper',
+    NLA: 'nlaScraper',
+    KHL: 'khlScraper',
+    ECHL: 'echlScraper',
+    SHL: 'shlScraper',
+    VHL: 'vhlScraper',
+    NCAA: 'ncaaScraper',
+    Liiga: 'liigaScraper',
+    Mestis: 'mestisScraper',
+    CZE2: 'cze2Scraper',
+    CZE: 'czeScraper',
+    Allsv: 'allsvenskanScraper',
+    Sarja20: 'sarja20Scraper',
+    MHL: 'mhlScraper',
+  },
 }
