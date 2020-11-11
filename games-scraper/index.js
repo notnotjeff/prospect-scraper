@@ -1,24 +1,10 @@
 const dotenv = require('dotenv')
 const leagueScrapers = require('./leagues')
 
-const LEAGUE_CODES = {
-  OHL: 'ohlScraper',
-  WHL: 'whlScraper',
-  QMJHL: 'qmjhlScraper',
-  AHL: 'ahlScraper',
-  USHL: 'ushlScraper',
-  KHL: 'khlScraper',
-  SHL: 'shlScraper',
-  VHL: 'vhlScraper',
-  NCAA: 'ncaaScraper',
-  Liiga: 'liigaScraper',
-  MHL: 'mhlScraper',
-}
-
 dotenv.config()
 
 module.exports = async (prospect, date) => {
-  const scraperName = LEAGUE_CODES[prospect.league]
+  const scraperName = leagueScrapers.leagueCodes[prospect.league]
   if (!scraperName) {
     throw new Error(`No scraper found for league: ${prospect.league}`)
   }
