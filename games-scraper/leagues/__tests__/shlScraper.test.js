@@ -66,4 +66,30 @@ describe('shlScraper()', () => {
 
     await expect(shlScraper(prospect, date)).rejects.toThrow()
   })
+
+  test('asdf', async () => {
+    const prospectHtml = require('./__fixtures__/shl_pontus_holmberg.fixture')
+    const prospect = {
+      first_name: 'Pontus',
+      last_name: 'Holmberg',
+      position: 'LW',
+      shoots: 'L',
+      dob: '1999-03-09',
+      draft_round: 6,
+      draft_pick: 156,
+      draft_year: 2018,
+      league_id: 'fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg',
+      statline_url: 'https://www.shl.se/lag/fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg/statistics',
+      game_statline_url: 'https://www.shl.se/lag/fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg/gamelog',
+      league: 'SHL',
+      ep_url: 'https://www.eliteprospects.com/player/265859/pontus-holmberg',
+    }
+    const date = new Date('2020-11-10 12:00:00')
+
+    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+
+    const gameData = await shlScraper(prospect, date)
+
+    expect(gameData).toEqual(null)
+  })
 })

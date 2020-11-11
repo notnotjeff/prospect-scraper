@@ -178,13 +178,9 @@ module.exports = [
     draft_round: 3,
     draft_pick: 76,
     draft_year: 2018,
-    league_id: '7484',
+    league_id: '39846',
     statline_url: 'https://en.khl.ru/players/39846/',
     game_statline_url: 'https://en.khl.ru/players/39846/',
-    // statline_url:
-    //   'http://lscluster.hockeytech.com/feed/?feed=modulekit&view=player&key=2976319eb44abe94&fmt=json&client_code=ohl&lang=en&player_id=7484&category=seasonstats',
-    // game_statline_url:
-    //   'http://lscluster.hockeytech.com/feed/?feed=modulekit&view=player&key=2976319eb44abe94&fmt=json&client_code=ohl&lang=en&player_id=7484&category=gamebygame',
     league: 'KHL',
     ep_url: 'https://www.eliteprospects.com/player/315260/semyon-der-arguchintsev',
   },
@@ -468,7 +464,7 @@ module.exports = [
     league_id: '17505',
     statline_url:
       'https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&p=1&client_code=lhjmq&view=Teamstat&fmt=json&player_id=17505&lang=en&force_player=0&callback=json',
-    game_statline_url: `https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&client_code=lhjmq&view=Gamebygame&lang=en&season_id=${qmjhl_season_id}&fmt=json&dfdsfdsa=2fdsa&player_id=17505&force_player=0&callback=json`,
+    game_statline_url: null,
     league: 'QMJHL',
     ep_url: 'https://www.eliteprospects.com/player/410562/william-villeneuve',
   },

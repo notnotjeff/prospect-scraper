@@ -20,12 +20,14 @@ module.exports = async function (prospect, date) {
 
   const games = []
   scrapedProspect('#pl_Games > tbody > tr').each(function (_i, elm) {
-    const row = scrapedProspect(elm)
-      .text()
-      .trim()
-      .split('\n')
-      .map(r => r.trim())
-    games.push(row)
+    const cells = []
+    scrapedProspect(elm)
+      .find('td')
+      .each(function (_cellI, cellElm) {
+        const cell = scrapedProspect(cellElm).text().trim().replace('\n', '').replace('\t', '')
+        cells.push(cell)
+      })
+    games.push(cells)
   })
 
   const game = games?.find(g => g[3] === `${singleDigitDay} ${monthName} ${year}`)
