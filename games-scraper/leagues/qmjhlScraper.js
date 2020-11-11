@@ -6,7 +6,7 @@ const utils = require('../../utils')
 //   league: "QMJHL",
 // }
 
-const QMJHL_SEASON_ID = '193'
+const QMJHL_SEASON_ID = '196'
 
 module.exports = async function (prospect, date) {
   if (!prospect.league_id) {
