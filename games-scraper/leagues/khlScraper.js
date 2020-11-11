@@ -2,8 +2,8 @@ const utils = require('../../utils')
 
 // EXAMPLE PROSPECT.JS JSON
 // {
-//   league_id: '30159'
-//   league: "KHL",
+//   league_id: '30159',
+//   league: 'KHL',
 // }
 
 module.exports = async function (prospect, date) {
