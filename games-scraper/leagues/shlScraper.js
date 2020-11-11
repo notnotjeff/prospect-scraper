@@ -18,17 +18,20 @@ module.exports = async function (prospect, date) {
 
   const games = []
   scrapedProspect('.rmss_t-stat-table__row').each(function (_i, elm) {
-    const row = scrapedProspect(elm)
-      .text()
-      .trim()
-      .split('\n')
-      .map(r => r.trim())
-    games.push(row)
+    const cells = []
+    scrapedProspect(elm)
+      .find('td')
+      .each(function (_cellI, cellElm) {
+        const cell = scrapedProspect(cellElm).text().trim().replace('\n', '').replace('\t', '')
+        cells.push(cell)
+      })
+    games.push(cells)
   })
 
   const game = games?.find(g => g[0] === `${year}-${month}-${day}`)
 
-  if (!game) {
+  // If there is no game today, or the player is unavailable for play (the stat columns have text explaining the cause) then return null
+  if (!game || game?.[4].match(/[a-zA-Z]+/)) {
     return null
   }
 
