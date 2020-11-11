@@ -1,10 +1,10 @@
 const cheerio = require('cheerio')
-const czech2Scraper = require('../czech2_scraper')
+const czeScraper = require('../cze_scraper')
 const utils = require('../../../utils')
 
-describe('czech2Scraper()', () => {
+describe('czeScraper()', () => {
   test('gets prospect html table and scrapes current season', async () => {
-    const prospectHtml = require('./__fixtures__/czech2_kral_profile.fixture')
+    const prospectHtml = require('./__fixtures__/cze_kral_profile.fixture')
     const prospect = {
       first_name: 'Filip',
       last_name: 'Kral',
@@ -17,19 +17,19 @@ describe('czech2Scraper()', () => {
       league_id: '23461',
       statline_url: 'https://www.hokej.cz/hrac/23461/career?t=224&stats-section=all',
       game_statline_url: 'https://www.hokej.cz/hrac/23461?t=224',
-      league: 'CZE2',
+      league: 'CZE',
       ep_url: 'https://www.eliteprospects.com/player/247241/filip-kral',
     }
 
     jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2020-2021')
     jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
-    const { goals, assists, points, shots, games_played } = await czech2Scraper(prospect)
+    const { goals, assists, points, shots, games_played } = await czeScraper(prospect)
 
-    expect(goals).toEqual(2)
+    expect(goals).toEqual(0)
     expect(assists).toEqual(2)
-    expect(points).toEqual(4)
+    expect(points).toEqual(2)
     expect(shots).toEqual(null)
-    expect(games_played).toEqual(2)
+    expect(games_played).toEqual(3)
   })
 })

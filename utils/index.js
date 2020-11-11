@@ -1,4 +1,4 @@
-const dateHelpers = require('./date-helpers')
+const dateHelpers = require('./date')
 const calculateRates = require('./calculate-rates')
 const getAge = require('./get-age')
 const htmlRequest = require('./html-request')

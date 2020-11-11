@@ -4,15 +4,16 @@ const utils = require('../../utils')
 // {
 //   statline_url: "https://www.hokej.cz/hrac/23461/career?t=224&stats-section=all",
 //   games_url: "https://www.hokej.cz/hrac/23461?t=224"
-//   league: "CZE2",
+//   league: "CZE",
 // }
 
 module.exports = async function (prospect) {
-  if (!prospect.statline_url) {
-    throw new Error(`Cannot complete CZE2 scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
+  if (!prospect.league_id) {
+    throw new Error(`Cannot complete CZE2 scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_url`)
   }
 
-  const prospectPage = await utils.htmlRequest(prospect.statline_url)
+  const url = `https://www.hokej.cz/hrac/${prospect.league_id}/career?stats-section=all`
+  const prospectPage = await utils.htmlRequest(url)
 
   const currentSeasonYear = utils.getCurrentSeason('YYYY-YYYY')
   let currentYearRow = null
@@ -27,7 +28,7 @@ module.exports = async function (prospect) {
 
   currentYearRow.find('tr').each(function (_i, elm) {
     const row = prospectPage(elm).text()
-    if (row.includes('CHANCE LIGA')) {
+    if (row.includes('Tipsport extraliga')) {
       mainTeamRow = prospectPage(elm)
         .text()
         .split('\n')
