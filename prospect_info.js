@@ -240,12 +240,16 @@ module.exports = [
     draft_round: 4,
     draft_pick: 118,
     draft_year: 2018,
-    league_id: 'c8ff052d590070ffd158a1c4',
-    statline_url: 'https://www.echl.com/api/s3?q=player-b7ea99e8a16f1597fada3b6d.json',
-    game_statline_url: '',
+    league_id: '60490663', // MESTIS ID
+    statline_url: 'https://mestis.fi/en/pelaajat/60490663/hollowell-mac',
+    game_statline_url: 'https://mestis.fi/en/pelaajat/60490663/hollowell-mac/ottelu-ottelulta',
+    // league_id: 'c8ff052d590070ffd158a1c4', // ECHL ID
+    // statline_url: 'https://www.echl.com/api/s3?q=player-b7ea99e8a16f1597fada3b6d.json',
+    // game_statline_url: '',
+    // league_id: '7303', // AHL ID
     // statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7303&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
     // game_statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7303&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-    league: 'ECHL',
+    league: 'Mestis',
     ep_url: 'https://www.eliteprospects.com/player/267652/mac-hollowell',
   },
   {
