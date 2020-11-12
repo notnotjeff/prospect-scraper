@@ -571,10 +571,10 @@ module.exports = [
     draft_round: 7,
     draft_pick: 213,
     draft_year: 2020,
-    league_id: '',
+    league_id: '6748',
     statline_url: '',
     game_statline_url: '',
-    league: 'NCAA',
+    league: 'BCHL',
     ep_url: 'https://www.eliteprospects.com/player/201945/ryan-tverberg',
   },
 ]
