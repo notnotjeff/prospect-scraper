@@ -23,7 +23,7 @@ module.exports = async function (prospect) {
   const season = seasons.find(({ row: { season_name } }) => season_name === `${currentSeason} Regular Season`)
 
   if (!season) {
-    return { goals: null, assists: null, points: null, shots: null, games_played: null }
+    return { goals: 0, assists: 0, points: 0, shots: 0, games_played: 0 }
   }
 
   return {
