@@ -170,6 +170,23 @@ module.exports = [
     ep_url: 'https://www.eliteprospects.com/player/289453/rasmus-sandin',
   },
   {
+    first_name: 'Joey',
+    last_name: 'Anderson',
+    position: 'RW',
+    shoots: 'R',
+    dob: '1998-06-19',
+    draft_round: 3,
+    draft_pick: 73,
+    draft_year: 2016,
+    league_id: '7297',
+    statline_url:
+      'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7297&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+    game_statline_url:
+      'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7297&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+    league: 'AHL',
+    ep_url: 'https://www.eliteprospects.com/player/247964/joey-anderson',
+  },
+  {
     first_name: 'Semyon',
     last_name: 'Der-Arguchintsev',
     position: 'C',
