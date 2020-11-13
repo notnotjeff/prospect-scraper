@@ -67,6 +67,19 @@ After adding a prospect object to the `prospect_info.js` file (see Adding a Pros
 
 Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
 
+1. [AHL](#AHL)
+2. [Allsvenskan](#Allsvenskan)
+3. [KHL](#KHL)
+4. [Liiga](#Liiga)
+5. [MHL](#MHL)
+6. [OHL](#OHL)
+7. [QMJHL](#QMJHL)
+8. [SM-Sarja U20](#SM-Sarja)
+9. [SHL](#SHL)
+10. [USHL](#USHL)
+11. [VHL](#VHL)
+12. [WHL](#WHL)
+
 ## AHL
 
 Needed fields:
@@ -185,7 +198,7 @@ league: 'QMJHL',
 2. Click on the prospect you are looking for which goes to their profile page.
 3. Copy the number from the URL in the browser's address bar into the prospect's `league_id` field. For example, with the URL `https://theqmjhl.ca/players/17871` the player's id would be `17871`
 
-## SM-Sarja U20
+## SM-Sarja
 
 Needed fields:
 ```
@@ -195,7 +208,7 @@ league_id: 255011063073080359893401,
 league: 'Sarja20',
 ```
 
-This scraper works a bit different than most other ones as it uses the prospect's `league_id` field to determine the URL so all you need is to find the player's id and it will work (games scraper still needs to be built)! To do that:
+This scraper uses the prospect's `league_id` field to determine the URL so all you need is to find the player's id and it will work. To do that:
 
 1. [Go to this page](http://www.leijonat.fi/index.php/pelaajat) and search for the desired prospect (see the search bar on the right side of the page)
 2. In the list of prospects that should now appear after searching, click on the desired prospect to get to their profile page
