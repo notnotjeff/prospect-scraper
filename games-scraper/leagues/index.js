@@ -4,6 +4,7 @@ const cze2Scraper = require('./cze2Scraper')
 const czeScraper = require('./czeScraper')
 const khlScraper = require('./khlScraper')
 const liigaScraper = require('./liigaScraper')
+const mestisScraper = require('./mestisScraper')
 const mhlScraper = require('./mhlScraper')
 const ncaaScraper = require('./ncaaScraper')
 const ohlScraper = require('./ohlScraper')
@@ -19,6 +20,7 @@ module.exports = {
   whlScraper,
   qmjhlScraper,
   ahlScraper,
+  mestisScraper,
   ushlScraper,
   khlScraper,
   shlScraper,
@@ -43,5 +45,6 @@ module.exports = {
     MHL: 'mhlScraper',
     CZE: 'czeScraper',
     CZE2: 'cze2Scraper',
+    Mestis: 'mestisScraper',
   },
 }
