@@ -12,7 +12,7 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete KHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const page = await utils.htmlRequest(prospect.statline_url)
+  const page = await utils.request.htmlRequest(prospect.statline_url)
 
   let goals = 0
   let assists = 0

@@ -13,7 +13,7 @@ module.exports = async function (prospect) {
   }
 
   const url = `https://engmhl.khl.ru/players/${prospect.league_id}/`
-  const page = await utils.htmlRequest(url)
+  const page = await utils.request.htmlRequest(url)
 
   let goals = 0
   let assists = 0

@@ -13,7 +13,7 @@ describe('nlaScraper()', () => {
       league: 'NLA',
     }
 
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const { goals, assists, points, shots, games_played } = await nlaScraper(prospect)
 

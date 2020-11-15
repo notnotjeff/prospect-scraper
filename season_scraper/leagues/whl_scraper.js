@@ -12,9 +12,9 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete WHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const scrapedProspect = await utils.jsonRequest(prospect.statline_url)
+  const scrapedProspect = await utils.request.jsonRequest(prospect.statline_url)
 
-  const currentSeasonYear = utils.dateHelpers.getSeasonStartYear()
+  const currentSeasonYear = utils.date.getSeasonStartYear()
   const currentSeasons = scrapedProspect.SiteKit.Player.regular.filter(season => {
     return season.season_name.includes(currentSeasonYear.toString())
   })

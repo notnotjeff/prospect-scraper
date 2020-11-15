@@ -21,7 +21,7 @@ describe('sarja20Scraper()', () => {
     }
     const date = new Date('2020-10-10 12:00:00')
 
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await sarja20Scraper(prospect, date)
 
@@ -52,7 +52,7 @@ describe('sarja20Scraper()', () => {
     }
     const noGameAtdate = new Date('2010-09-26 12:00:00')
 
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await sarja20Scraper(prospect, noGameAtdate)
 

@@ -22,8 +22,8 @@ describe('ncaaScraper()', () => {
     }
     const date = new Date('2019-11-01 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
 
     const gameData = await ncaaScraper(prospect, date)
 
@@ -54,8 +54,8 @@ describe('ncaaScraper()', () => {
     }
     const noGameAtdate = new Date('2010-09-26 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
 
     const gameData = await ncaaScraper(prospect, noGameAtdate)
 
@@ -81,8 +81,8 @@ describe('ncaaScraper()', () => {
     }
     const date = new Date('2019-11-01 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
 
     await expect(ncaaScraper(prospect, date)).rejects.toThrow()
   })
@@ -106,8 +106,8 @@ describe('ncaaScraper()', () => {
     }
     const date = new Date('2010-11-01 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2010-2011')
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2010-2011')
 
     await expect(ncaaScraper(prospect, date)).rejects.toThrow()
   })

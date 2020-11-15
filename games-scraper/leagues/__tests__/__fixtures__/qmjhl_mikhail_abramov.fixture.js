@@ -196,7 +196,7 @@ module.exports = {
             shootout_attempts: '-',
             shootout_goals_win: '-',
             shootout_shots: '-',
-            penalty_minutes: '-',
+            penalty_minutes: '2',
             shooting_percentage: '20.0',
             shootout_shots_percentage: '-',
             points: 3,

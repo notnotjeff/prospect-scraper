@@ -21,8 +21,8 @@ describe('qmjhlScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/514653/mikhail-abramov',
     }
 
-    jest.spyOn(utils.dateHelpers, 'getSeasonStartYear').mockImplementation(() => 2019)
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'getSeasonStartYear').mockImplementation(() => 2019)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const { goals, assists, points, shots, games_played } = await qmjhlScraper(prospect)
 

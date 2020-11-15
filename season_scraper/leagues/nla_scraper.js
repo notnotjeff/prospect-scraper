@@ -12,7 +12,7 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete NLA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const scrapedProspect = await utils.jsonRequest(prospect.statline_url)
+  const scrapedProspect = await utils.request.jsonRequest(prospect.statline_url)
   const teamData = JSON.parse(
     String(scrapedProspect)
       .match(/\((.*?)\)/)[0]

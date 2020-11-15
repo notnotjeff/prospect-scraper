@@ -21,7 +21,7 @@ describe('allsvenskanScraper()', () => {
       ep_url: 'http://www.eliteprospects.com/player.php?player=187806',
     }
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await allsvenskanScraper(prospect)
 

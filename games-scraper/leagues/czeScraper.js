@@ -11,11 +11,11 @@ module.exports = async function (prospect, date) {
     throw new Error(`Cannot complete CZE scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const { day: singleDigitDay, month: singleDigitMonth } = utils.dateHelpers.setDateValues(date, { zeroPad: false })
-  const { day, month, year } = utils.dateHelpers.setDateValues(date, { zeroPad: true })
+  const { day: singleDigitDay, month: singleDigitMonth } = utils.date.setDateValues(date, { zeroPad: false })
+  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
   const url = `https://www.hokej.cz/hrac/${prospect.league_id}/match`
 
-  const scrapedProspect = await utils.htmlRequest(url)
+  const scrapedProspect = await utils.request.htmlRequest(url)
 
   const games = []
   scrapedProspect('.table-stats > tbody > tr').each(function (_i, elm) {

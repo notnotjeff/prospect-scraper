@@ -1,4 +1,4 @@
-const getCurrentSeason = require('../get-current-season')
+const getCurrentSeason = require('../getCurrentSeason')
 
 describe('getCurrentSeason()', () => {
   describe('when month is greater than 8 (still the current season)', () => {

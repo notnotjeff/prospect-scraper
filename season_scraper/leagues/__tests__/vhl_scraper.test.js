@@ -21,7 +21,7 @@ describe('vhlScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/420947/semyon-kizimov',
     }
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await vhlScraper(prospect)
 

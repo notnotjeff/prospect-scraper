@@ -1,9 +1,11 @@
-const getMonthName = require('./get-month-name')
-const getSeasonStartYear = require('./get-season-start-year')
-const setDateValues = require('./set-date-values')
+const getMonthName = require('./getMonthName')
+const getSeasonStartYear = require('./getSeasonStartYear')
+const setDateValues = require('./setDateValues')
+const getCurrentSeason = require('./getCurrentSeason')
 
 module.exports = {
   getMonthName,
   getSeasonStartYear,
   setDateValues,
+  getCurrentSeason,
 }
