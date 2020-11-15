@@ -11,8 +11,8 @@ module.exports = async prospect => {
   }
 
   const countingStats = await leagueScrapers[scraperName](prospect)
-  const rateStats = utils.calculateRates(countingStats)
-  const age = utils.getAge(prospect.dob)
+  const rateStats = utils.calculation.scoringRates(countingStats)
+  const age = utils.calculation.ageOnDate(prospect.dob)
 
   return {
     ...prospect,

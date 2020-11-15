@@ -12,7 +12,7 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete SHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const page = await utils.htmlRequest(prospect.statline_url)
+  const page = await utils.request.htmlRequest(prospect.statline_url)
 
   let goals = 0
   let assists = 0
@@ -20,7 +20,7 @@ module.exports = async function (prospect) {
   let shots = 0
   let games_played = 0
   let currentYearRow = null
-  const currentSeasonYear = utils.getCurrentSeason('YYYY-YYYY').split('-').join('/')
+  const currentSeasonYear = utils.date.getCurrentSeason('YYYY-YYYY').split('-').join('/')
 
   page('table.rmss_t-stat-table > tbody > tr.rmss_t-stat-table__row').each(function (_i, elm) {
     const row = page(elm).text().trim().split('\n')

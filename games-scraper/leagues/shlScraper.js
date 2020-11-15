@@ -11,10 +11,10 @@ module.exports = async function (prospect, date) {
     throw new Error(`Cannot complete SHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const { day, month, year } = utils.dateHelpers.setDateValues(date, { zeroPad: true })
+  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
   const url = `https://www.shl.se/lag/${prospect.league_id}/gamelog`
 
-  const scrapedProspect = await utils.htmlRequest(url)
+  const scrapedProspect = await utils.request.htmlRequest(url)
 
   const games = []
   scrapedProspect('.rmss_t-stat-table__row').each(function (_i, elm) {

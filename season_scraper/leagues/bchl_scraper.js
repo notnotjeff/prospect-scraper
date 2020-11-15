@@ -14,11 +14,11 @@ module.exports = async function (prospect) {
   }
 
   const url = `https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=${prospect.league_id}&site_id=1&key=ca4e9e599d4dae55&client_code=bchl&league_id=&lang=en&statsType=standard`
-  const scrapedProspect = await utils.jsonRequest(url)
+  const scrapedProspect = await utils.request.jsonRequest(url)
 
   const parsedProspect = JSON.parse(String(scrapedProspect).slice(1, -1))
   const seasons = parsedProspect.careerStats[0].sections[0].data
-  const currentSeason = utils.getCurrentSeason()
+  const currentSeason = utils.date.getCurrentSeason()
 
   const season = seasons.find(({ row: { season_name } }) => season_name === `${currentSeason} Regular Season`)
 

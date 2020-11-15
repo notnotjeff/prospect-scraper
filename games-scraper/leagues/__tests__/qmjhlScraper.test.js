@@ -21,9 +21,9 @@ describe('qmjhlScraper()', () => {
     }
     const date = new Date()
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '29', month: '09', year: '2019' }))
-    jest.spyOn(utils.dateHelpers, 'getMonthName').mockImplementation(() => 'September')
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '29', month: '09', year: '2019' }))
+    jest.spyOn(utils.date, 'getMonthName').mockImplementation(() => 'September')
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await qmjhlScraper(prospect, date)
 
@@ -31,7 +31,7 @@ describe('qmjhlScraper()', () => {
     expect(gameData.assists).toEqual(2)
     expect(gameData.points).toEqual(3)
     expect(gameData.shots).toEqual(5)
-    expect(gameData.penalty_minutes).toEqual(0)
+    expect(gameData.penalty_minutes).toEqual(2)
     expect(gameData.date).toEqual('2019-09-29')
   })
 
@@ -54,9 +54,9 @@ describe('qmjhlScraper()', () => {
     }
     const date = new Date()
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '1019' }))
-    jest.spyOn(utils.dateHelpers, 'getMonthName').mockImplementation(() => '')
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '1019' }))
+    jest.spyOn(utils.date, 'getMonthName').mockImplementation(() => '')
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await qmjhlScraper(prospect, date)
 
@@ -89,9 +89,9 @@ describe('qmjhlScraper()', () => {
     }
     const date = new Date('2019-09-20')
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '20', month: '09', year: '2019' }))
-    jest.spyOn(utils.dateHelpers, 'getMonthName').mockImplementation(() => 'September')
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '20', month: '09', year: '2019' }))
+    jest.spyOn(utils.date, 'getMonthName').mockImplementation(() => 'September')
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await qmjhlScraper(prospect, date)
 

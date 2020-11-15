@@ -13,9 +13,9 @@ module.exports = async function (prospect) {
   }
 
   const url = `https://www.hokej.cz/hrac/${prospect.league_id}/career?stats-section=all`
-  const prospectPage = await utils.htmlRequest(url)
+  const prospectPage = await utils.request.htmlRequest(url)
 
-  const currentSeasonYear = utils.getCurrentSeason('YYYY-YYYY')
+  const currentSeasonYear = utils.date.getCurrentSeason('YYYY-YYYY')
   let currentYearRow = null
   let mainTeamRow = null
 

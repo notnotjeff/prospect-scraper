@@ -12,9 +12,9 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete ECHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const scrapedProspect = await utils.jsonRequest(prospect.statline_url)
+  const scrapedProspect = await utils.request.jsonRequest(prospect.statline_url)
 
-  const currentSeason = utils.getCurrentSeason()
+  const currentSeason = utils.date.getCurrentSeason()
   let goals = 0
   let assists = 0
   let points = 0

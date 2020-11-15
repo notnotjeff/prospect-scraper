@@ -22,7 +22,7 @@ describe('czeScraper()', () => {
     }
     const date = new Date('2020-11-09 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const gameData = await czeScraper(prospect, date)
 
@@ -53,7 +53,7 @@ describe('czeScraper()', () => {
     }
     const date = new Date('2010-05-10 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const gameData = await czeScraper(prospect, date)
 
@@ -79,7 +79,7 @@ describe('czeScraper()', () => {
     }
     const date = new Date('2010-10-07 12:00:00')
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const gameData = await czeScraper(prospect, date)
 

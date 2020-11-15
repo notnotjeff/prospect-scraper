@@ -13,7 +13,7 @@ describe('mestisScraper()', () => {
       league: 'Mestis',
     }
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await mestisScraper(prospect)
 

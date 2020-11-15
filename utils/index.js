@@ -1,15 +1,9 @@
-const dateHelpers = require('./date')
-const calculateRates = require('./calculate-rates')
-const getAge = require('./get-age')
-const htmlRequest = require('./html-request')
-const jsonRequest = require('./json-request')
-const getCurrentSeason = require('./get-current-season')
+const date = require('./date')
+const calculation = require('./calculation')
+const request = require('./request')
 
 module.exports = {
-  dateHelpers,
-  calculateRates,
-  getAge,
-  htmlRequest,
-  jsonRequest,
-  getCurrentSeason,
+  date,
+  calculation,
+  request,
 }

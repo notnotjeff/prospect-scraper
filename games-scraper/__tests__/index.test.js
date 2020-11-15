@@ -22,7 +22,7 @@ describe('gamesScraper()', () => {
     }
     const date = new Date('2019-10-20 12:00:00')
 
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const prospectData = await gamesScraper(prospect, date)
 

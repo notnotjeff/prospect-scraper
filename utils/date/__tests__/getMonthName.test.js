@@ -36,4 +36,12 @@ describe('getMonthName()', () => {
 
     expect(monthName).toEqual(result)
   })
+
+  describe('when no parameters are passed', () => {
+    test('it does not zero index and uses full names', () => {
+      const monthName = getMonthName(1, {})
+
+      expect(monthName).toEqual('January')
+    })
+  })
 })
