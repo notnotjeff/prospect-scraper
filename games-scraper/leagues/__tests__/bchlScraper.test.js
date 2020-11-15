@@ -21,8 +21,8 @@ describe('bchlScraper()', () => {
     }
     const date = new Date('2020-10-27 12:00:00')
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '27', month: '10', year: '2020' }))
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '27', month: '10', year: '2020' }))
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await bchlScraper(prospect, date)
 
@@ -53,8 +53,8 @@ describe('bchlScraper()', () => {
     }
     const date = new Date()
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '2010' }))
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '2010' }))
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await bchlScraper(prospect, date)
 

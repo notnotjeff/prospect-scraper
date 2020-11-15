@@ -20,8 +20,8 @@ describe('echlScraper()', () => {
       ep_url: 'http://www.eliteprospects.com/player.php?player=217051',
     }
 
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2019-20')
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-20')
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const { goals, assists, points, shots, games_played } = await echlScraper(prospect)
 

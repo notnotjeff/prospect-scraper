@@ -13,11 +13,11 @@ module.exports = async function (prospect, date) {
     throw new Error(`Cannot complete Sarja20 scrape, prospect is missing: \n league_id`)
   }
 
-  const currentSeason = utils.getCurrentSeason('YYYY-YYYY').split('-')[1]
-  const { day, month, year } = utils.dateHelpers.setDateValues(date, { zeroPad: true })
+  const currentSeason = utils.date.getCurrentSeason('YYYY-YYYY').split('-')[1]
+  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
   const url = `https://www.leijonat.fi/modules/mod_playercardseriestats/helper/getplayerseriestats3.php?lkq=${prospect.league_id}&season=${currentSeason}&isgoalie=0&isskater=1`
 
-  const scrapedProspect = await utils.jsonRequest(url)
+  const scrapedProspect = await utils.request.jsonRequest(url)
 
   const game = scrapedProspect?.AllSkaterGames?.find(({ GameDate: gameDate }) => gameDate === `${day}.${month}.${year}`)
 

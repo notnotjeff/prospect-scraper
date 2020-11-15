@@ -21,8 +21,8 @@ describe('czech2Scraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/247241/filip-kral',
     }
 
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2020-2021')
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await czech2Scraper(prospect)
 

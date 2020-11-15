@@ -21,8 +21,8 @@ describe('shlScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/265859/pontus-holmberg',
     }
 
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2019-2020')
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await shlScraper(prospect)
 

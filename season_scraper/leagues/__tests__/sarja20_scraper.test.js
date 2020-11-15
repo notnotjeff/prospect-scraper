@@ -20,8 +20,8 @@ describe('sarja20Scraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/395424/kalle-loponen',
     }
 
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2020-2021')
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const { goals, assists, points, shots, games_played } = await sarja20Scraper(prospect)
 

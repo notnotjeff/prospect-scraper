@@ -21,7 +21,7 @@ describe('mhlScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/534929/dmitri-ovchinnikov',
     }
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await mhlScraper(prospect)
 

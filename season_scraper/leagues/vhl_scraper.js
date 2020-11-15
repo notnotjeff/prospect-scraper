@@ -12,7 +12,7 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete VHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const season = await utils.htmlRequest(prospect.statline_url)
+  const season = await utils.request.htmlRequest(prospect.statline_url)
 
   let goals = 0
   let assists = 0

@@ -21,7 +21,7 @@ describe('khlScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/518585/rodion-amirov',
     }
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await khlScraper(prospect)
 

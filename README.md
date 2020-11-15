@@ -334,7 +334,7 @@ This method doesn't work for all scrapers because by copying this way you introd
 
 ```javascript
 const testUtils = require('path_to_test/utils')
-testUtils.createHtmlFixture('testing', await utils.htmlRequest('https://en.khl.ru/players/30159/'))
+testUtils.createHtmlFixture('testing', await utils.request.htmlRequest('https://en.khl.ru/players/30159/'))
 
 // Creates the file testing.fixture.js in test/utils/created-fixtures
 ```

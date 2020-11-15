@@ -1,5 +1,5 @@
 module.exports = function (dateString) {
-  const today = new Date()
+  const today = new Date(Date.now())
   const birthDate = new Date(dateString)
   const age = today - birthDate
 

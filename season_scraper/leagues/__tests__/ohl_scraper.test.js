@@ -22,8 +22,8 @@ describe('ohlScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/359539/nicholas-robertson',
     }
 
-    jest.spyOn(utils.dateHelpers, 'getSeasonStartYear').mockImplementation(() => 2019)
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'getSeasonStartYear').mockImplementation(() => 2019)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const { goals, assists, points, shots, games_played } = await ohlScraper(prospect)
 

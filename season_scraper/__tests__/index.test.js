@@ -23,9 +23,9 @@ describe('seasonScraper()', () => {
     }
     const age = 19
 
-    jest.spyOn(utils, 'getCurrentSeason').mockImplementation(() => '2019-20')
-    jest.spyOn(utils, 'getAge').mockImplementation(() => age)
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-20')
+    jest.spyOn(utils.calculation, 'ageOnDate').mockImplementation(() => age)
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const prospectData = await seasonScraper(prospect)
 

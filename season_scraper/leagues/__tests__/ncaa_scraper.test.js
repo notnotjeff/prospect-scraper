@@ -21,7 +21,7 @@ describe('ncaaScraper()', () => {
       ep_url: 'https://www.eliteprospects.com/player/201476/nick-abruzzese',
     }
 
-    jest.spyOn(utils, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
     const { goals, assists, points, shots, games_played } = await ncaaScraper(prospect)
 

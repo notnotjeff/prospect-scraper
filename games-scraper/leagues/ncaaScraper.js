@@ -11,11 +11,11 @@ module.exports = async function (prospect, date) {
     throw new Error(`Cannot complete NCAA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const currentYear = utils.getCurrentSeason('YYYY-YYYY')
-  const { day, month, year } = utils.dateHelpers.setDateValues(date, { zeroPad: true })
+  const currentYear = utils.date.getCurrentSeason('YYYY-YYYY')
+  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
   const url = `http://collegehockeyinc.com/stats/players${currentYear.slice(-2)}.php?${prospect.league_id}`
 
-  const scrapedProspect = await utils.htmlRequest(url)
+  const scrapedProspect = await utils.request.htmlRequest(url)
 
   const games = []
   scrapedProspect('body > div.page.text-center > main > section > div > div > div > div.playerstatsfull > table:nth-child(3) > tbody > tr').each(
@@ -30,14 +30,13 @@ module.exports = async function (prospect, date) {
   )
 
   // Check table header to make sure we have the right page (should have current season and players name in the title)
-  const sanitizedTableHeader = String(games[0] ? games[0][0] || '' : '')
-    .replace(`'`, '')
-    .replace(`.`, '')
+  const sanitizedTableHeader = String(games?.[0]?.[0]).replace(`'`, '').replace(`.`, '')
   const sanitizedFirstName = prospect.first_name.replace(`'`, '').replace(`.`, '')
   const sanitizedLastName = prospect.last_name.replace(`'`, '').replace(`.`, '')
   const sanitizedYears = currentYear.replace(`'`, '').replace(`.`, '')
 
   if (
+    !sanitizedTableHeader ||
     !sanitizedTableHeader.includes(sanitizedLastName) ||
     !sanitizedTableHeader.includes(sanitizedFirstName) ||
     !sanitizedTableHeader.includes(sanitizedYears)

@@ -12,7 +12,7 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete Mestis scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const season = await utils.htmlRequest(prospect.statline_url)
+  const season = await utils.request.htmlRequest(prospect.statline_url)
 
   const shots = +season('#stats-section > table:nth-of-type(1) > tbody > tr > td:nth-of-type(15)').text()
   const goals = +season('#stats-section > table:nth-of-type(1) > tbody > tr > td:nth-of-type(5)').text()

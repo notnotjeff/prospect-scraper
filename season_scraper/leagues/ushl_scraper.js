@@ -12,12 +12,12 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete USHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const scrapedProspect = await utils.jsonRequest(prospect.statline_url)
+  const scrapedProspect = await utils.request.jsonRequest(prospect.statline_url)
 
   const parsedProspect = JSON.parse(String(scrapedProspect).slice(5, -1))
   const seasons = parsedProspect.careerStats[0].sections[0].data
 
-  const currentSeason = utils.getCurrentSeason()
+  const currentSeason = utils.date.getCurrentSeason()
   const currentSeasons = seasons.filter(season => {
     return season.row.season_name === `${currentSeason}`
   })

@@ -23,8 +23,8 @@ describe('whlScraper()', () => {
     }
     const date = new Date()
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '25', month: '10', year: '2019' }))
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '25', month: '10', year: '2019' }))
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await whlScraper(prospect, date)
 
@@ -57,8 +57,8 @@ describe('whlScraper()', () => {
     }
     const date = new Date()
 
-    jest.spyOn(utils.dateHelpers, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '2019' }))
-    jest.spyOn(utils, 'jsonRequest').mockImplementation(() => prospectJson)
+    jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '21', month: '10', year: '2019' }))
+    jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
     const gameData = await whlScraper(prospect, date)
 
