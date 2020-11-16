@@ -2,7 +2,7 @@
 // const currentFinnishYear = today.getMonth() + 1 < 9 ? `${today.getFullYear()}` : `${today.getFullYear() + 1}`;
 const qmjhl_season_id = 193
 
-// EXAMPLE (See 'scraper/league_scraper' individual files for specific URLs for each league)
+// EXAMPLE (See 'scraper/leagueScraper' individual files for specific URLs for each league)
 // {
 //   first_name: 'Timothy',
 //   last_name: 'Liljegren',
@@ -306,11 +306,10 @@ module.exports = [
     draft_round: null,
     draft_pick: null,
     draft_year: null,
-    league_id: '7517',
-    statline_url: 'https://www.echl.com/api/s3?q=player-a7a81ba19f324b9a59b9c0ea.json',
-    game_statline_url: '',
-    // statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7517&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-    // game_statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7517&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+    statline_url: null,
+    game_statline_url: null,
+    league_id: 'a7a81ba19f324b9a59b9c0ea', // ECHL ID
+    // league_id: '7517', // AHL ID
     league: 'ECHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=262071',
   },
@@ -323,11 +322,8 @@ module.exports = [
     draft_round: null,
     draft_pick: null,
     draft_year: null,
-    league_id: '7544',
-    statline_url: 'https://www.echl.com/api/s3?q=player-c8ff052d590070ffd158a1c4.json',
-    game_statline_url: '',
-    // statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7544&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-    // game_statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7544&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+    league_id: 'c8ff052d590070ffd158a1c4', // ECHL ID
+    // league_id: '7544', // AHL ID
     league: 'ECHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=199895',
   },
@@ -340,11 +336,10 @@ module.exports = [
     draft_round: null,
     draft_pick: null,
     draft_year: null,
-    league_id: '7989',
-    statline_url: 'https://www.echl.com/api/s3?q=player-5ae4e4e2e12fbdac1ee2e381.json',
-    game_statline_url: '',
-    // statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7989&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-    // game_statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7989&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+    statline_url: null,
+    game_statline_url: null,
+    league_id: '5ae4e4e2e12fbdac1ee2e381', // ECHL ID
+    // league_id: '7989', // AHL ID
     league: 'ECHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=217051',
   },
