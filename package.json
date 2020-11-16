@@ -21,10 +21,10 @@
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm run check-format && npm run lint && npm run test",
-    "scrape:games": "node scripts/run-games-scraper",
-    "scrape:games:remove": "node scripts/run-remove-old-games",
-    "scrape:games:remove-all": "node scripts/run-remove-all-games",
-    "scrape:seasons": "node scripts/run-season-scraper",
+    "games:scrape": "node scripts/run-games-scraper",
+    "games:remove": "node scripts/run-remove-all-games",
+    "games:remove-old": "node scripts/run-remove-old-games",
+    "seasons:scrape": "node scripts/run-season-scraper",
     "twitter:run": "node twitter/bot.js"
   },
   "dependencies": {
