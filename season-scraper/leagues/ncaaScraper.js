@@ -17,7 +17,7 @@ module.exports = async function (prospect) {
   const season = await utils.request.htmlRequest(url)
 
   // Check player bio to make sure we have the right page (should have players name)
-  const bio = season('playerbios').text()
+  const bio = season('.playerbios').text()
   const sanitizedBio = bio.replace(`'`, '').replace(`.`, '')
   const sanitizedFirstName = prospect.first_name.replace(`'`, '').replace(`.`, '')
   const sanitizedLastName = prospect.last_name.replace(`'`, '').replace(`.`, '')
