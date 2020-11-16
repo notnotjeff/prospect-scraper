@@ -4,11 +4,9 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 async function removeAllGames() {
-  const date = new Date()
-  date.setDate(date.getDate() + 5)
-  console.log(`Removing games from before ${date}...`)
+  console.log(`Removing all games...`)
 
-  await db('games').where('date', '<=', date.toDateString()).del()
+  await db('games').where('created_at', '!=', null).del()
 
   console.log('Finished removing games!')
   process.exit()
