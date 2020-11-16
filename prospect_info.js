@@ -1,7 +1,3 @@
-// const today = new Date();
-// const currentFinnishYear = today.getMonth() + 1 < 9 ? `${today.getFullYear()}` : `${today.getFullYear() + 1}`;
-const qmjhl_season_id = 193
-
 // EXAMPLE (See 'scraper/leagueScraper' individual files for specific URLs for each league)
 // {
 //   first_name: 'Timothy',
@@ -385,9 +381,8 @@ module.exports = [
     draft_pick: 115,
     draft_year: 2019,
     league_id: '17871',
-    statline_url:
-      'https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&p=1&client_code=lhjmq&view=Teamstat&fmt=json&player_id=17871&lang=en&force_player=0&callback=json',
-    game_statline_url: `https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&client_code=lhjmq&view=Gamebygame&lang=en&season_id=${qmjhl_season_id}&fmt=json&dfdsfdsa=2fdsa&player_id=17871&force_player=0&callback=json`,
+    statline_url: null,
+    game_statline_url: null,
     league: 'QMJHL',
     ep_url: 'https://www.eliteprospects.com/player/514653/mikhail-abramov',
   },
@@ -508,8 +503,7 @@ module.exports = [
     draft_pick: 122,
     draft_year: 2020,
     league_id: '17505',
-    statline_url:
-      'https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&p=1&client_code=lhjmq&view=Teamstat&fmt=json&player_id=17505&lang=en&force_player=0&callback=json',
+    statline_url: null,
     game_statline_url: null,
     league: 'QMJHL',
     ep_url: 'https://www.eliteprospects.com/player/410562/william-villeneuve',
@@ -588,7 +582,7 @@ module.exports = [
     league_id: '',
     statline_url: '',
     game_statline_url: '',
-    league: 'NCAA',
+    league: 'USHL',
     ep_url: 'https://www.eliteprospects.com/player/541027/john-fusco',
   },
   {
