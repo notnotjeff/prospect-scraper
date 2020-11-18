@@ -40,4 +40,21 @@ describe('ncaaScraper()', () => {
       await expect(ncaaScraper(prospect)).rejects.toThrow()
     })
   })
+
+  describe('when null league_id is inputted', () => {
+    test('it throws error', async () => {
+      const prospectHtml = require('./__fixtures__/ncaa_nick_abruzzese.fixture')
+      const prospect = {
+        first_name: 'Not Nick',
+        last_name: 'Not Abruzzese',
+        league_id: 'harm22',
+        league: 'NCAA',
+      }
+
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+
+      await expect(ncaaScraper(prospect)).rejects.toThrow()
+    })
+  })
 })

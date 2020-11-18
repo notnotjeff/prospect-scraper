@@ -31,4 +31,12 @@ describe('allsvenskanScraper()', () => {
     expect(shots).toEqual(33)
     expect(games_played).toEqual(10)
   })
+
+  describe('when null league_id is inputted', () => {
+    test('it throws error', async () => {
+      const prospect = { league: 'Allsv' }
+
+      await expect(allsvenskanScraper(prospect)).rejects.toThrow()
+    })
+  })
 })

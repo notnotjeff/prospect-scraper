@@ -17,7 +17,6 @@ module.exports = async function (prospect) {
 
   const currentSeasonYear = utils.date.getCurrentSeason('YYYY-YYYY')
   let currentYearRow = null
-  let mainTeamRow = null
 
   prospectPage('#table--1 > tbody').each(function (_i, elm) {
     const row = prospectPage(elm).text()
@@ -26,24 +25,28 @@ module.exports = async function (prospect) {
     }
   })
 
+  if (!currentYearRow) {
+    return { goals: null, assists: null, points: null, shots: null, games_played: null }
+  }
+
+  const seasons = []
   currentYearRow.find('tr').each(function (_i, elm) {
-    const row = prospectPage(elm).text()
-    if (row.includes('CHANCE LIGA')) {
-      mainTeamRow = prospectPage(elm)
-        .text()
-        .split('\n')
-        .map(td => td.trim())
-        .filter(td => td !== '')
-    }
+    const row = prospectPage(elm)
+    const tds = []
+    row.find('td').each(function (_i, elm) {
+      const td = prospectPage(elm).text().trim()
+      tds.push(td)
+    })
+    seasons.push(tds.filter(td => td !== '' || td !== currentSeasonYear))
   })
 
-  const hasYearHeader = mainTeamRow[0] === currentSeasonYear
+  const season = seasons.find(s => s[0] === 'CHANCE LIGA')
 
-  const goals = 0 + +mainTeamRow[hasYearHeader ? 4 : 3]
-  const assists = 0 + +mainTeamRow[hasYearHeader ? 5 : 4]
-  const points = 0 + +mainTeamRow[hasYearHeader ? 6 : 5]
-  const games_played = 0 + +mainTeamRow[hasYearHeader ? 3 : 2]
-  const shots = null
-
-  return { goals, assists, points, shots, games_played }
+  return {
+    goals: +season[3],
+    assists: +season[4],
+    points: +season[5],
+    games_played: +season[2],
+    shots: null,
+  }
 }

@@ -12,43 +12,41 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete VHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
+  const currentSeason = utils.date.getCurrentSeason('YY-YY').split('-').join('/')
   const url = `http://www.vhlru.ru/en/players/${prospect.league_id}/`
-  const season = await utils.request.htmlRequest(url)
+  const page = await utils.request.htmlRequest(url)
 
-  let goals = 0
-  let assists = 0
-  let points = 0
-  let shots = 0
-  let games_played = 0
-  let rowNumber = 4
+  const seasons = []
+  page(`.player_stats > tbody > tr`).each(function (_i, elm) {
+    const row = page(elm)
+    const tds = []
+    row.find('th').each(function (_tdI, tdElm) {
+      const td = page(tdElm).text().trim()
+      tds.push(td)
+    })
+    row.find('td').each(function (_tdI, tdElm) {
+      const td = page(tdElm).text().trim()
+      tds.push(td)
+    })
+    seasons.push(tds)
+  })
 
-  // Set rowNumber to the right table row based on if their summary statline has playoffs or not (adds an extra row)
-  rowNumber = season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`).text() === 'SHL Summary' ? 5 : 4
-  // If the last season was the playoffs skip it and go to regular season
-  if (
-    season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber + 1})`)
-      .text()
-      .includes('Playoffs')
-  ) {
-    rowNumber += 2
+  let season = null
+  seasons.forEach((s, i) => {
+    if (s[0].includes(currentSeason) && s[0].includes('Regular Season')) {
+      season = seasons[i + 1]
+    }
+  })
+
+  if (!season) {
+    return { goals: null, assists: null, points: null, shots: null, games_played: null }
   }
 
-  // If the player has a summary row then alter the default column number so correct stats are plucked
-  const columnNumber = season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`).children('td:nth-child(1)').text() === 'Summary:' ? 3 : 4
-
-  goals = +season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`).children(`td:nth-child(${columnNumber})`).text()
-  assists = +season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`)
-    .children(`td:nth-child(${columnNumber + 1})`)
-    .text()
-  points = +season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`)
-    .children(`td:nth-child(${columnNumber + 2})`)
-    .text()
-  shots = +season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`)
-    .children(`td:nth-child(${columnNumber + 11})`)
-    .text()
-  games_played = +season(`.player_stats > tbody > tr:nth-last-of-type(${rowNumber})`)
-    .children(`td:nth-child(${columnNumber - 1})`)
-    .text()
-
-  return { goals, assists, points, shots, games_played }
+  return {
+    goals: +season[3],
+    assists: +season[4],
+    points: +season[5],
+    shots: +season[14],
+    games_played: +season[2],
+  }
 }

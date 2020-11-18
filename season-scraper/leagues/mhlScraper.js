@@ -29,11 +29,11 @@ module.exports = async function (prospect) {
     shots += +page('.site_table > tbody > tr:nth-of-type(2) > td:nth-of-type(15)').text()
     games_played += +page('.site_table > tbody > tr:nth-of-type(2) > td:nth-of-type(3)').text()
   } else {
-    goals += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)').text()
-    assists += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(4)').text()
-    points += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(5)').text()
-    shots += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(14)').text()
-    games_played += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)').text()
+    goals += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(4)').text()
+    assists += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(5)').text()
+    points += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(6)').text()
+    shots += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(15)').text()
+    games_played += +page('.site_table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)').text()
   }
 
   return { goals, assists, points, shots, games_played }

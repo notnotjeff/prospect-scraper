@@ -24,4 +24,37 @@ describe('bchlScraper()', () => {
     expect(shots).toEqual(null)
     expect(games_played).toEqual(58)
   })
+
+  describe('when null league_id is inputted', () => {
+    test('it throws error', async () => {
+      const prospect = { league: 'BCHL' }
+
+      await expect(bchlScraper(prospect)).rejects.toThrow()
+    })
+  })
+
+  describe('when season does not exist', () => {
+    test('it returns null values', async () => {
+      const prospectJson = require('./__fixtures__/bchl_dawson_tritt.fixture')
+      const prospect = {
+        first_name: 'Dawson',
+        last_name: 'Tritt',
+        league_id: '5115',
+        statline_url: '',
+        game_statline_url: '',
+        league: 'BCHL',
+      }
+
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2010-11')
+      jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
+
+      const { goals, assists, points, shots, games_played } = await bchlScraper(prospect)
+
+      expect(goals).toEqual(null)
+      expect(assists).toEqual(null)
+      expect(points).toEqual(null)
+      expect(shots).toEqual(null)
+      expect(games_played).toEqual(null)
+    })
+  })
 })

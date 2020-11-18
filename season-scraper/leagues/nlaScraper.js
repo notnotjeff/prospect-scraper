@@ -19,23 +19,17 @@ module.exports = async function (prospect) {
       .slice(1, -1),
   )
 
-  const fullName = `${prospect.last_name} ${prospect.first_name}`
-  let goals = 0
-  let assists = 0
-  let points = 0
-  const shots = null
-  let games_played = 0
+  const statline = teamData.data.find(player => player[1] === `${prospect.last_name} ${prospect.first_name}`)
 
-  const statline = teamData.data.filter(player => {
-    return player[1] === fullName
-  })
-
-  if (statline.length > 0) {
-    games_played += +statline[0][4]
-    goals += +statline[0][5]
-    assists += +statline[0][6]
-    points += goals + assists
+  if (!statline) {
+    return { goals: null, assists: null, points: null, shots: null, games_played: null }
   }
 
-  return { goals, assists, points, shots, games_played }
+  return {
+    games_played: +statline[4],
+    goals: +statline[5],
+    assists: +statline[6],
+    points: +statline[5] + +statline[6],
+    shots: null,
+  }
 }
