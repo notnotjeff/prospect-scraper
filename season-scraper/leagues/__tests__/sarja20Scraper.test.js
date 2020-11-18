@@ -31,4 +31,12 @@ describe('sarja20Scraper()', () => {
     expect(shots).toEqual(null)
     expect(games_played).toEqual(16)
   })
+
+  describe('when null league_id is inputted', () => {
+    test('it throws error', async () => {
+      const prospect = { league: 'Sarja20' }
+
+      await expect(sarja20Scraper(prospect)).rejects.toThrow()
+    })
+  })
 })

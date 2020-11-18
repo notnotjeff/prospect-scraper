@@ -36,4 +36,26 @@ describe('mhlScraper()', () => {
     const prospect = {}
     await expect(mhlScraper(prospect)).rejects.toThrow()
   })
+
+  describe('when latest statline is playoffs', () => {
+    test('it looks further down the table to grab stats', async () => {
+      const prospectHtml = require('./__fixtures__/mhl_rodion_amirov.fixture')
+      const prospect = {
+        first_name: 'Rodion',
+        last_name: 'Amirov',
+        league_id: '30159',
+        league: 'MHL',
+      }
+
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+
+      const { goals, assists, points, shots, games_played } = await mhlScraper(prospect)
+
+      expect(goals).toEqual(10)
+      expect(assists).toEqual(12)
+      expect(points).toEqual(22)
+      expect(shots).toEqual(85)
+      expect(games_played).toEqual(17)
+    })
+  })
 })
