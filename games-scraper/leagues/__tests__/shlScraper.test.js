@@ -3,7 +3,7 @@ const shlScraper = require('../shlScraper')
 const utils = require('../../../utils')
 
 describe('shlScraper()', () => {
-  test('it gets prospect html and scrapes for game on date', async () => {
+  it('it gets prospect html and scrapes for game on date', async () => {
     const prospectHtml = require('./__fixtures__/shl_filip_hallander.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -34,7 +34,7 @@ describe('shlScraper()', () => {
     expect(gameData.date).toEqual('2020-10-03')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectHtml = require('./__fixtures__/shl_filip_hallander.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -60,14 +60,14 @@ describe('shlScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 
     await expect(shlScraper(prospect, date)).rejects.toThrow()
   })
 
-  test('asdf', async () => {
+  it('asdf', async () => {
     const prospectHtml = require('./__fixtures__/shl_pontus_holmberg.fixture')
     const prospect = {
       first_name: 'Pontus',

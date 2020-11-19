@@ -3,7 +3,7 @@ const shlScraper = require('../shlScraper')
 const utils = require('../../../utils')
 
 describe('shlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/shl_pontus_holmberg.fixture')
     const prospect = {
       first_name: 'Pontus',
@@ -34,7 +34,7 @@ describe('shlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'SHL' }
 
       await expect(shlScraper(prospect)).rejects.toThrow()

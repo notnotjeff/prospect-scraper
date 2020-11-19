@@ -3,7 +3,7 @@ const ncaaScraper = require('../ncaaScraper')
 const utils = require('../../../utils')
 
 describe('ncaaScraper()', () => {
-  test('it gets prospect html and scrapes for game on date', async () => {
+  it('it gets prospect html and scrapes for game on date', async () => {
     const prospectHtml = require('./__fixtures__/ncaa_ryan_oconnell.fixture')
     const prospect = {
       first_name: 'Ryan',
@@ -35,7 +35,7 @@ describe('ncaaScraper()', () => {
     expect(gameData.date).toEqual('2019-11-01')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectHtml = require('./__fixtures__/ncaa_ryan_oconnell.fixture')
     const prospect = {
       first_name: 'Ryan',
@@ -62,14 +62,14 @@ describe('ncaaScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 
     await expect(ncaaScraper(prospect, date)).rejects.toThrow()
   })
 
-  test('it throws an error if the page does not belong to the player', async () => {
+  it('it throws an error if the page does not belong to the player', async () => {
     const prospectHtml = require('./__fixtures__/ncaa_ryan_oconnell.fixture')
     const prospect = {
       first_name: 'Unknown',
@@ -87,7 +87,7 @@ describe('ncaaScraper()', () => {
     await expect(ncaaScraper(prospect, date)).rejects.toThrow()
   })
 
-  test('it throws an error if the page is not current year', async () => {
+  it('it throws an error if the page is not current year', async () => {
     const prospectHtml = require('./__fixtures__/ncaa_ryan_oconnell.fixture')
     const prospect = {
       first_name: 'Ryan',

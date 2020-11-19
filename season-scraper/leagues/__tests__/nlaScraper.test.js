@@ -2,7 +2,7 @@ const nlaScraper = require('../nlaScraper')
 const utils = require('../../../utils')
 
 describe('nlaScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/nla_denis_malgin.fixture')
     const prospect = {
       first_name: 'Denis',
@@ -25,7 +25,7 @@ describe('nlaScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'NLA' }
 
       await expect(nlaScraper(prospect)).rejects.toThrow()
@@ -33,7 +33,7 @@ describe('nlaScraper()', () => {
   })
 
   describe('when player does not exist', () => {
-    test('returns null values', async () => {
+    it('returns null values', async () => {
       const prospectJson = require('./__fixtures__/nla_denis_malgin.fixture')
       const prospect = {
         first_name: 'Not Denis',

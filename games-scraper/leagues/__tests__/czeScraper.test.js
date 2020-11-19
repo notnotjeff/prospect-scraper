@@ -3,7 +3,7 @@ const czeScraper = require('../czeScraper')
 const utils = require('../../../utils')
 
 describe('czeScraper()', () => {
-  test('it gets prospect html and scrapes for game on date', async () => {
+  it('it gets prospect html and scrapes for game on date', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -34,7 +34,7 @@ describe('czeScraper()', () => {
     expect(gameData.date).toEqual('2020-11-09')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -60,7 +60,7 @@ describe('czeScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it will not scrape games from other Czech leagues', async () => {
+  it('it will not scrape games from other Czech leagues', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -86,7 +86,7 @@ describe('czeScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 

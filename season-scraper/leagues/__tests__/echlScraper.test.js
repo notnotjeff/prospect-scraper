@@ -2,7 +2,7 @@ const echlScraper = require('../echlScraper')
 const utils = require('../../../utils')
 
 describe('echlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/echl_justin_brazeau.fixture')
     const prospect = {
       first_name: 'Justin',
@@ -33,7 +33,7 @@ describe('echlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'ECHL' }
 
       await expect(echlScraper(prospect)).rejects.toThrow()
@@ -41,7 +41,7 @@ describe('echlScraper()', () => {
   })
 
   describe('when season cannot be found', () => {
-    test('it returns null values', async () => {
+    it('it returns null values', async () => {
       const prospectJson = require('./__fixtures__/echl_justin_brazeau.fixture')
       const prospect = {
         first_name: 'Justin',

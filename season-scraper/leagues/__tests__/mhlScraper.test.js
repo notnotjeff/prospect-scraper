@@ -3,7 +3,7 @@ const mhlScraper = require('../mhlScraper')
 const utils = require('../../../utils')
 
 describe('mhlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/mhl_dmitry_ovchinnikov.fixture')
     const prospect = {
       first_name: 'Dmitry',
@@ -32,13 +32,13 @@ describe('mhlScraper()', () => {
     expect(games_played).toEqual(12)
   })
 
-  test('it throws error when league_id field does not exist or is null', async () => {
+  it('it throws error when league_id field does not exist or is null', async () => {
     const prospect = {}
     await expect(mhlScraper(prospect)).rejects.toThrow()
   })
 
   describe('when latest statline is playoffs', () => {
-    test('it looks further down the table to grab stats', async () => {
+    it('it looks further down the table to grab stats', async () => {
       const prospectHtml = require('./__fixtures__/mhl_rodion_amirov.fixture')
       const prospect = {
         first_name: 'Rodion',

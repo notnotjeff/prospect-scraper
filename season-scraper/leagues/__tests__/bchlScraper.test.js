@@ -2,7 +2,7 @@ const bchlScraper = require('../bchlScraper')
 const utils = require('../../../utils')
 
 describe('bchlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/bchl_dawson_tritt.fixture')
     const prospect = {
       first_name: 'Dawson',
@@ -26,7 +26,7 @@ describe('bchlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'BCHL' }
 
       await expect(bchlScraper(prospect)).rejects.toThrow()
@@ -34,7 +34,7 @@ describe('bchlScraper()', () => {
   })
 
   describe('when season does not exist', () => {
-    test('it returns null values', async () => {
+    it('it returns null values', async () => {
       const prospectJson = require('./__fixtures__/bchl_dawson_tritt.fixture')
       const prospect = {
         first_name: 'Dawson',

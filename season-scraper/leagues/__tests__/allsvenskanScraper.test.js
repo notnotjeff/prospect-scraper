@@ -3,7 +3,7 @@ const allsvenskanScraper = require('../allsvenskanScraper')
 const utils = require('../../../utils')
 
 describe('allsvenskanScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/allsvenskan_jesper_lindgren.fixture')
     const prospect = {
       first_name: 'Jesper',
@@ -33,7 +33,7 @@ describe('allsvenskanScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'Allsv' }
 
       await expect(allsvenskanScraper(prospect)).rejects.toThrow()

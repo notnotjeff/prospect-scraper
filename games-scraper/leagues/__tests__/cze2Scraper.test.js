@@ -3,7 +3,7 @@ const cze2Scraper = require('../cze2Scraper')
 const utils = require('../../../utils')
 
 describe('cze2Scraper()', () => {
-  test('it gets prospect html and scrapes for game on date', async () => {
+  it('it gets prospect html and scrapes for game on date', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -34,7 +34,7 @@ describe('cze2Scraper()', () => {
     expect(gameData.date).toEqual('2020-09-30')
   })
 
-  test('it gets prospect html and scrapes for game on date if day is single digit', async () => {
+  it('it gets prospect html and scrapes for game on date if day is single digit', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -65,7 +65,7 @@ describe('cze2Scraper()', () => {
     expect(gameData.date).toEqual('2020-10-05')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -91,7 +91,7 @@ describe('cze2Scraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it will not scrape games from other Czech leagues', async () => {
+  it('it will not scrape games from other Czech leagues', async () => {
     const prospectHtml = require('./__fixtures__/cze_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -117,7 +117,7 @@ describe('cze2Scraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 

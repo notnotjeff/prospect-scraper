@@ -3,7 +3,7 @@ const vhlScraper = require('../vhlScraper')
 const utils = require('../../../utils')
 
 describe('vhlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/vhl_semyon_kizimov.fixture')
     const prospect = {
       first_name: 'Semyon',
@@ -33,7 +33,7 @@ describe('vhlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'VHL' }
 
       await expect(vhlScraper(prospect)).rejects.toThrow()
@@ -41,7 +41,7 @@ describe('vhlScraper()', () => {
   })
 
   describe('when last row in table is playoffs', () => {
-    test('it looks above to get regular season', async () => {
+    it('it looks above to get regular season', async () => {
       const prospectHtml = require('./__fixtures__/vhl_vladislav_kara.fixture')
       const prospect = {
         first_name: 'Vladislav',
@@ -64,7 +64,7 @@ describe('vhlScraper()', () => {
   })
 
   describe('when season does not exist', () => {
-    test('it returns null values', async () => {
+    it('it returns null values', async () => {
       const prospectHtml = require('./__fixtures__/vhl_vladislav_kara.fixture')
       const prospect = {
         first_name: 'Vladislav',
@@ -83,6 +83,29 @@ describe('vhlScraper()', () => {
       expect(points).toEqual(null)
       expect(shots).toEqual(null)
       expect(games_played).toEqual(null)
+    })
+  })
+
+  describe('when skater has multiple seasons', () => {
+    it('it returns null values', async () => {
+      const prospectHtml = require('./__fixtures__/vhl_nikolai_chebykin.fixture')
+      const prospect = {
+        first_name: 'Nikolai',
+        last_name: 'Chebykin',
+        league_id: '22161',
+        league: 'VHL',
+      }
+
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '20-21')
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+
+      const { goals, assists, points, shots, games_played } = await vhlScraper(prospect)
+
+      expect(goals).toEqual(0)
+      expect(assists).toEqual(3)
+      expect(points).toEqual(3)
+      expect(shots).toEqual(4)
+      expect(games_played).toEqual(4)
     })
   })
 })

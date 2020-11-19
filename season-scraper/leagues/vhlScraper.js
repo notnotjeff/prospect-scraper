@@ -31,22 +31,34 @@ module.exports = async function (prospect) {
     seasons.push(tds)
   })
 
-  let season = null
-  seasons.forEach((s, i) => {
-    if (s[0].includes(currentSeason) && s[0].includes('Regular Season')) {
-      season = seasons[i + 1]
+  let seasonRow = null
+  const parsedSeasons = []
+  seasons.forEach(s => {
+    if (s.length === 1) {
+      seasonRow = s[0]
+    } else {
+      parsedSeasons.push([seasonRow, ...s])
     }
   })
 
-  if (!season) {
+  const teams = parsedSeasons.filter(s => s[0].includes(currentSeason) && !s[1].includes('Summary:'))
+
+  if (!teams.length) {
     return { goals: null, assists: null, points: null, shots: null, games_played: null }
   }
 
-  return {
-    goals: +season[3],
-    assists: +season[4],
-    points: +season[5],
-    shots: +season[14],
-    games_played: +season[2],
-  }
+  const season = teams.reduce(
+    (acc, team) => {
+      return {
+        goals: acc.goals + +team[4],
+        assists: acc.assists + +team[5],
+        points: acc.points + +team[6],
+        shots: acc.shots + +team[15],
+        games_played: acc.games_played + +team[3],
+      }
+    },
+    { goals: 0, assists: 0, points: 0, shots: 0, games_played: 0 },
+  )
+
+  return season
 }
