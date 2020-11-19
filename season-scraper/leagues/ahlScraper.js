@@ -20,23 +20,19 @@ module.exports = async function (prospect) {
   const seasons = parsedProspect.careerStats[0].sections[0].data
 
   const currentSeason = utils.date.getCurrentSeason()
-  const currentSeasons = seasons.filter(season => {
+  const season = seasons.find(season => {
     return season.row.season_name === `${currentSeason} Regular Season`
   })
 
-  let goals = 0
-  let assists = 0
-  let points = 0
-  let shots = 0
-  let games_played = 0
+  if (!season) {
+    return { goals: null, assists: null, points: null, shots: null, games_played: null }
+  }
 
-  currentSeasons.forEach(season => {
-    goals += +season.row.goals
-    assists += +season.row.assists
-    points += +season.row.points
-    shots += +season.row.shots
-    games_played += +season.row.games_played
-  })
-
-  return { goals, assists, points, shots, games_played }
+  return {
+    goals: +season.row.goals,
+    assists: +season.row.assists,
+    points: +season.row.points,
+    shots: +season.row.shots,
+    games_played: +season.row.games_played,
+  }
 }
