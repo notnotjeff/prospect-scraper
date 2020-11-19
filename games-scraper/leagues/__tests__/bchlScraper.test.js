@@ -2,7 +2,7 @@ const bchlScraper = require('../bchlScraper')
 const utils = require('../../../utils')
 
 describe('bchlScraper()', () => {
-  test('it gets prospect json and scrapes game on date', async () => {
+  it('it gets prospect json and scrapes game on date', async () => {
     const prospectJson = require('./__fixtures__/bchl_ryan_tverberg.fixture')
     const prospect = {
       first_name: 'Ryan',
@@ -34,7 +34,7 @@ describe('bchlScraper()', () => {
     expect(gameData.date).toEqual('2020-10-27')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectJson = require('./__fixtures__/bchl_ryan_tverberg.fixture')
     const prospect = {
       first_name: 'Ryan',
@@ -61,7 +61,7 @@ describe('bchlScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 

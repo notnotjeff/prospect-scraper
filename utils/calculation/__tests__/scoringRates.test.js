@@ -1,7 +1,7 @@
 const scoringRates = require('../scoringRates')
 
 describe('scoringRates()', () => {
-  test('it calculates per game rates for a prospects statline', () => {
+  it('it calculates per game rates for a prospects statline', () => {
     const statline = { goals: 6, assists: 6, points: 6, shots: 6, games_played: 9 }
 
     const { goals_pg, assists_pg, points_pg, shots_pg } = scoringRates(statline)
@@ -13,7 +13,7 @@ describe('scoringRates()', () => {
   })
 
   describe('when stats passed in are null', () => {
-    test('it returns null per game rates', () => {
+    it('it returns null per game rates', () => {
       const { goals_pg, assists_pg, points_pg, shots_pg } = scoringRates({})
 
       expect(goals_pg).toEqual(null)

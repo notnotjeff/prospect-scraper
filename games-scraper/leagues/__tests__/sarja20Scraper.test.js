@@ -2,7 +2,7 @@ const sarja20Scraper = require('../sarja20Scraper')
 const utils = require('../../../utils')
 
 describe('sarja20Scraper()', () => {
-  test('it gets prospect html and scrapes for game on date', async () => {
+  it('it gets prospect html and scrapes for game on date', async () => {
     const prospectJson = require('./__fixtures__/sarja20_kalle_loponen.fixture')
     const prospect = {
       first_name: 'Kalle',
@@ -33,7 +33,7 @@ describe('sarja20Scraper()', () => {
     expect(gameData.date).toEqual('2020-10-10')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectJson = require('./__fixtures__/sarja20_kalle_loponen.fixture')
     const prospect = {
       first_name: 'Kalle',
@@ -59,7 +59,7 @@ describe('sarja20Scraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 

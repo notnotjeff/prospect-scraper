@@ -2,7 +2,7 @@ const whlScraper = require('../whlScraper')
 const utils = require('../../../utils')
 
 describe('whlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/whl_filip_kral.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -36,7 +36,7 @@ describe('whlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'WHL' }
 
       await expect(whlScraper(prospect)).rejects.toThrow()
@@ -44,7 +44,7 @@ describe('whlScraper()', () => {
   })
 
   describe('when season does not exist', () => {
-    test('gets prospect json and scrapes current season stats', async () => {
+    it('gets prospect json and scrapes current season stats', async () => {
       const prospectJson = require('./__fixtures__/whl_filip_kral.fixture')
       const prospect = {
         first_name: 'Filip',
@@ -69,7 +69,7 @@ describe('whlScraper()', () => {
   })
 
   describe('when player has no stats for season replace - with 0', () => {
-    test('gets prospect json and scrapes current season stats', async () => {
+    it('gets prospect json and scrapes current season stats', async () => {
       const prospectJson = require('./__fixtures__/whl_filip_kral.fixture')
       const prospect = {
         first_name: 'Filip',

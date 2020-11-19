@@ -2,7 +2,7 @@ const utils = require('../../utils')
 const seasonScraper = require('..')
 
 describe('seasonScraper()', () => {
-  test('it successfully scrapes player stats', async () => {
+  it('it successfully scrapes player stats', async () => {
     const prospectJson = require('./__fixtures__/rasmus_sandin.fixture')
     const prospect = {
       first_name: 'Rasmus',
@@ -41,7 +41,7 @@ describe('seasonScraper()', () => {
     expect(prospectData.shots_pg).toEqual('1.24')
   })
 
-  test('it throws error when the scraper is not found in the LEAGUE_CODES constant', async () => {
+  it('it throws error when the scraper is not found in the LEAGUE_CODES constant', async () => {
     const prospect = {
       league: 'NOT-A-REAL-LEAGUE',
       statline_url: 'http://www.not-real-url.com',

@@ -2,7 +2,7 @@ const getCurrentSeason = require('../getCurrentSeason')
 
 describe('getCurrentSeason()', () => {
   describe('when month is greater than 8 (still the current season)', () => {
-    test.each([
+    it.each([
       ['YYYY-YY', '2020-21'],
       ['YYYY-YYYY', '2020-2021'],
       ['YY-YYYY', '20-2021'],
@@ -14,7 +14,7 @@ describe('getCurrentSeason()', () => {
       expect(currentYear).toEqual(result)
     })
 
-    test('it uses YYYY-YY format when none is passed', () => {
+    it('it uses YYYY-YY format when none is passed', () => {
       jest.spyOn(global.Date, 'now').mockImplementation(() => new Date(Date.parse('2020-09-14T11:01:58.135Z')).valueOf())
       const currentYear = getCurrentSeason()
 
@@ -23,7 +23,7 @@ describe('getCurrentSeason()', () => {
   })
 
   describe('when month is less than 8 (still the current season)', () => {
-    test.each([
+    it.each([
       ['YYYY-YY', '2020-21'],
       ['YYYY-YYYY', '2020-2021'],
       ['YY-YYYY', '20-2021'],
@@ -35,7 +35,7 @@ describe('getCurrentSeason()', () => {
       expect(currentYear).toEqual(result)
     })
 
-    test('it uses YYYY-YY format when none is passed', () => {
+    it('it uses YYYY-YY format when none is passed', () => {
       jest.spyOn(global.Date, 'now').mockImplementation(() => new Date(Date.parse('2021-03-14T11:01:58.135Z')).valueOf())
       const currentYear = getCurrentSeason()
 

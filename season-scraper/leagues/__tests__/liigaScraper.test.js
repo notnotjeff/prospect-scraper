@@ -3,7 +3,7 @@ const liigaScraper = require('../liigaScraper')
 const utils = require('../../../utils')
 
 describe('liigaScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/liiga_mikko_kokkonen.fixture')
     const prospect = {
       first_name: 'Mikko',
@@ -33,7 +33,7 @@ describe('liigaScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'Liiga' }
 
       await expect(liigaScraper(prospect)).rejects.toThrow()
@@ -41,7 +41,7 @@ describe('liigaScraper()', () => {
   })
 
   describe('when season is not found in profile', () => {
-    test('it returns null values', async () => {
+    it('it returns null values', async () => {
       const prospectHtml = require('./__fixtures__/liiga_mikko_kokkonen.fixture')
       const prospect = {
         first_name: 'Mikko',

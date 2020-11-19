@@ -2,7 +2,7 @@ const ahlScraper = require('../ahlScraper')
 const utils = require('../../../utils')
 
 describe('ahlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/ahl_rasmus_sandin.fixture')
     const prospect = {
       first_name: 'Rasmus',
@@ -33,7 +33,7 @@ describe('ahlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'AHL' }
 
       await expect(ahlScraper(prospect)).rejects.toThrow()
@@ -41,7 +41,7 @@ describe('ahlScraper()', () => {
   })
 
   describe('when season does not exist', () => {
-    test('it returns null values', async () => {
+    it('it returns null values', async () => {
       const prospectJson = require('./__fixtures__/ahl_rasmus_sandin.fixture')
       const prospect = {
         first_name: 'Rasmus',

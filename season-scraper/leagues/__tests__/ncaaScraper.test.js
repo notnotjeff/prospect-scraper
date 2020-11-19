@@ -3,7 +3,7 @@ const ncaaScraper = require('../ncaaScraper')
 const utils = require('../../../utils')
 
 describe('ncaaScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/ncaa_nick_abruzzese.fixture')
     const prospect = {
       first_name: 'Nick',
@@ -34,7 +34,7 @@ describe('ncaaScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'NCAA' }
 
       await expect(ncaaScraper(prospect)).rejects.toThrow()
@@ -42,7 +42,7 @@ describe('ncaaScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospectHtml = require('./__fixtures__/ncaa_nick_abruzzese.fixture')
       const prospect = {
         first_name: 'Not Nick',

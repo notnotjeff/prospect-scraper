@@ -3,7 +3,7 @@ const cze2Scraper = require('../cze2Scraper')
 const utils = require('../../../utils')
 
 describe('cze2Scraper()', () => {
-  test('gets prospect html table and scrapes current season', async () => {
+  it('gets prospect html table and scrapes current season', async () => {
     const prospectHtml = require('./__fixtures__/cze_kral_profile.fixture')
     const prospect = {
       first_name: 'Filip',
@@ -34,7 +34,7 @@ describe('cze2Scraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'CZE2' }
 
       await expect(cze2Scraper(prospect)).rejects.toThrow()
@@ -42,7 +42,7 @@ describe('cze2Scraper()', () => {
   })
 
   describe('when season does not exist', () => {
-    test('returns null values', async () => {
+    it('returns null values', async () => {
       const prospectHtml = require('./__fixtures__/cze_kral_profile.fixture')
       const prospect = {
         first_name: 'Filip',

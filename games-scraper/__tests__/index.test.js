@@ -3,7 +3,7 @@ const gamesScraper = require('../')
 const leaguesScraper = require('../leagues')
 
 describe('gamesScraper()', () => {
-  test('it successfully scrapes player stats', async () => {
+  it('it successfully scrapes player stats', async () => {
     const prospectJson = require('./__fixtures__/rasmus_sandin.fixture')
     const prospect = {
       first_name: 'Rasmus',
@@ -34,7 +34,7 @@ describe('gamesScraper()', () => {
     expect(prospectData.date).toEqual('2019-10-20')
   })
 
-  test('it throws error when the scraper is not found in the LEAGUE_CODES constant', async () => {
+  it('it throws error when the scraper is not found in the LEAGUE_CODES constant', async () => {
     const prospect = {
       league: 'NOT-A-REAL-LEAGUE',
     }
@@ -43,7 +43,7 @@ describe('gamesScraper()', () => {
     await expect(gamesScraper(prospect, date)).rejects.toThrow()
   })
 
-  test('it returns null if there is no game data returned by leagueScraper', async () => {
+  it('it returns null if there is no game data returned by leagueScraper', async () => {
     const prospect = {
       league: 'AHL',
     }

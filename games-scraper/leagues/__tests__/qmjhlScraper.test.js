@@ -2,7 +2,7 @@ const qmjhlScraper = require('../qmjhlScraper')
 const utils = require('../../../utils')
 
 describe('qmjhlScraper()', () => {
-  test('it gets prospect json and scrapes game on date', async () => {
+  it('it gets prospect json and scrapes game on date', async () => {
     const prospectJson = require('./__fixtures__/qmjhl_mikhail_abramov.fixture')
     const prospect = {
       first_name: 'Mikhail',
@@ -35,7 +35,7 @@ describe('qmjhlScraper()', () => {
     expect(gameData.date).toEqual('2019-09-29')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectJson = require('./__fixtures__/qmjhl_mikhail_abramov.fixture')
     const prospect = {
       first_name: 'Mikhail',
@@ -63,14 +63,14 @@ describe('qmjhlScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 
     await expect(qmjhlScraper(prospect, date)).rejects.toThrow()
   })
 
-  test('it converts "-" to 0 if stat category is blank', async () => {
+  it('it converts "-" to 0 if stat category is blank', async () => {
     const prospectJson = require('./__fixtures__/qmjhl_mikhail_abramov.fixture')
     const prospect = {
       first_name: 'Mikhail',

@@ -287,30 +287,10 @@ league: 'WHL',
 
 # Removing a Prospect
 
-To remove a prospect from the system you'll need to reset the database so that all the prospects are wiped and you can rescrape with only the prospects you need. The commands are divided into Production and Development, if you are just testing you can run the project in development and see if everything works. Once it's all good to go, make sure you push your codeTo do this:
+To remove a prospect from the system you'll need to:
 
-1. Go into the `leafs-prospects-backend` project in terminal and run the following commands (first wipes/recreates the local database, the second wipes/recreates production so be careful!):
-Development:
-```
-npm run db:recreate
-```
-Production:
-```
-heroku run npm run db:recreate
-```
-2. Back inside this project, remove the prospect's object from the array in `prospect_info.js` so it is not scraped again. 
-3. **You'll need to commit and launch the code in this project after deleting the prospect in the object if you want the change to last in Production. If you don't launch the code then the old code that is in Production which still has the prospect in the object will recreate the prospect again!**
-4. Inside this project, run the following commands in terminal (first two commands scrape to the local database, the second two scrape to production so be careful):
-Development:
-```
-npm run scrape:seasons
-npm run scrape:games
-```
-Production:
-```
-heroku run npm run scrape:seasons
-heroku run npm run scrape:games
-```
+1. Remove the prospect's object from the array in `prospect_info.js` so it is not scraped again. 
+2. Run the command `npm run seasons:reset` to wipe the database and re-scrape the prospect's season statlines.
 
 # Testing
 

@@ -3,7 +3,7 @@ const mestisScraper = require('../mestisScraper')
 const utils = require('../../../utils')
 
 describe('mestisScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/mestis_kasper_simontaival.fixture')
     const prospect = {
       first_name: 'Kasper',
@@ -26,7 +26,7 @@ describe('mestisScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'Mestis' }
 
       await expect(mestisScraper(prospect)).rejects.toThrow()

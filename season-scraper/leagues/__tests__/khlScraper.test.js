@@ -3,7 +3,7 @@ const khlScraper = require('../khlScraper')
 const utils = require('../../../utils')
 
 describe('khlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/khl_rodion_amirov.fixture')
     const prospect = {
       first_name: 'Rodion',
@@ -33,7 +33,7 @@ describe('khlScraper()', () => {
   })
 
   describe('when latest season is playoffs', () => {
-    test('it skips that row and uses regular season stats', async () => {
+    it('it skips that row and uses regular season stats', async () => {
       const prospectHtml = require('./__fixtures__/khl_alexander_barabanov.fixture')
       const prospect = {
         first_name: 'Alexander',
@@ -55,7 +55,7 @@ describe('khlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'KHL' }
 
       await expect(khlScraper(prospect)).rejects.toThrow()

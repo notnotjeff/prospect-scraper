@@ -2,7 +2,7 @@ const sarja20Scraper = require('../sarja20Scraper')
 const utils = require('../../../utils')
 
 describe('sarja20Scraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/sarja20_kalle_loponen.fixture')
     const prospect = {
       first_name: 'Kalle',
@@ -33,7 +33,7 @@ describe('sarja20Scraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'Sarja20' }
 
       await expect(sarja20Scraper(prospect)).rejects.toThrow()

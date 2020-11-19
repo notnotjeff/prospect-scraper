@@ -2,7 +2,7 @@ const qmjhlScraper = require('../qmjhlScraper')
 const utils = require('../../../utils')
 
 describe('qmjhlScraper()', () => {
-  test('gets prospect json and scrapes current season stats', async () => {
+  it('gets prospect json and scrapes current season stats', async () => {
     const prospectJson = require('./__fixtures__/qmjhl_mikhail_abramov.fixture')
     const prospect = {
       first_name: 'Mikhail',
@@ -34,7 +34,7 @@ describe('qmjhlScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    test('it throws error', async () => {
+    it('it throws error', async () => {
       const prospect = { league: 'QMJHL' }
 
       await expect(qmjhlScraper(prospect)).rejects.toThrow()
@@ -42,7 +42,7 @@ describe('qmjhlScraper()', () => {
   })
 
   describe('when season does not exist', () => {
-    test('gets prospect json and scrapes current season stats', async () => {
+    it('gets prospect json and scrapes current season stats', async () => {
       const prospectJson = require('./__fixtures__/qmjhl_mikhail_abramov.fixture')
       const prospect = {
         first_name: 'Mikhail',
@@ -67,7 +67,7 @@ describe('qmjhlScraper()', () => {
   })
 
   describe('when player has no stats for season replace - with 0', () => {
-    test('gets prospect json and scrapes current season stats', async () => {
+    it('gets prospect json and scrapes current season stats', async () => {
       const prospectJson = require('./__fixtures__/qmjhl_mikhail_abramov.fixture')
       const prospect = {
         first_name: 'Mikhail',

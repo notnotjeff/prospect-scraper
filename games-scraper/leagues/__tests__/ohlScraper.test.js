@@ -2,7 +2,7 @@ const ohlScraper = require('../ohlScraper')
 const utils = require('../../../utils')
 
 describe('ohlScraper()', () => {
-  test('it gets prospect json and scrapes game on date', async () => {
+  it('it gets prospect json and scrapes game on date', async () => {
     const prospectJson = require('./__fixtures__/ohl_nick_robertson.fixture')
     const prospect = {
       first_name: 'Nick',
@@ -36,7 +36,7 @@ describe('ohlScraper()', () => {
     expect(gameData.date).toEqual('2019-12-05')
   })
 
-  test('it returns null when there is no game on the specified date', async () => {
+  it('it returns null when there is no game on the specified date', async () => {
     const prospectJson = require('./__fixtures__/ohl_nick_robertson.fixture')
     const prospect = {
       first_name: 'Nick',
@@ -65,7 +65,7 @@ describe('ohlScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  test('it throws error if prospect does not have a league_id', async () => {
+  it('it throws error if prospect does not have a league_id', async () => {
     const prospect = {}
     const date = new Date()
 
