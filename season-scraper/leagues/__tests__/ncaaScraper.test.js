@@ -34,15 +34,38 @@ describe('ncaaScraper()', () => {
   })
 
   describe('when null league_id is inputted', () => {
-    it('it throws error', async () => {
+    it('throws error', async () => {
       const prospect = { league: 'NCAA' }
 
       await expect(ncaaScraper(prospect)).rejects.toThrow()
     })
   })
 
-  describe('when null league_id is inputted', () => {
-    it('it throws error', async () => {
+  describe('when no games played', () => {
+    it('returns null values', async () => {
+      const prospectHtml = require('./__fixtures__/ncaa_ryan_oconnell.fixture')
+      const prospect = {
+        first_name: 'Ryan',
+        last_name: "O'Connell",
+        league_id: 'osum09',
+        league: 'NCAA',
+      }
+
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
+
+      const { goals, assists, points, shots, games_played } = await ncaaScraper(prospect)
+
+      expect(goals).toEqual(null)
+      expect(assists).toEqual(null)
+      expect(points).toEqual(null)
+      expect(shots).toEqual(null)
+      expect(games_played).toEqual(null)
+    })
+  })
+
+  describe('when player name is not found on page', () => {
+    it('throws error', async () => {
       const prospectHtml = require('./__fixtures__/ncaa_nick_abruzzese.fixture')
       const prospect = {
         first_name: 'Not Nick',
