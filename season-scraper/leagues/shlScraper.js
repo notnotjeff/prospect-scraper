@@ -8,7 +8,7 @@ const utils = require('../../utils')
 // }
 
 module.exports = async function (prospect) {
-  if (!prospect.statline_url) {
+  if (!prospect.league_id) {
     throw new Error(`Cannot complete SHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
