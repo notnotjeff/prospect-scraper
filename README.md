@@ -68,25 +68,26 @@ After adding a prospect object to the `prospect_info.js` file (see Adding a Pros
 Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
 
 1. [AHL](#AHL)
-2. [Allsvenskan](#Allsvenskan)
-3. [KHL](#KHL)
-4. [Liiga](#Liiga)
-5. [MHL](#MHL)
-6. [OHL](#OHL)
-7. [QMJHL](#QMJHL)
-8. [SM-Sarja U20](#SM-Sarja)
-9. [SHL](#SHL)
-10. [USHL](#USHL)
-11. [VHL](#VHL)
-12. [WHL](#WHL)
+2. [BCHL](#BCHL)
+3. [Allsvenskan](#Allsvenskan)
+4. [KHL](#KHL)
+5. [Liiga](#Liiga)
+6. [MHL](#MHL)
+7. [NCAA](#NCAA)
+8. [OHL](#OHL)
+9. [QMJHL](#QMJHL)
+10. [SM-Sarja U20](#SM-Sarja)
+11. [SHL](#SHL)
+12. [USHL](#USHL)
+13. [VHL](#VHL)
+14. [WHL](#WHL)
 
 ## AHL
 
 Needed fields:
 ```
 league_id: '7314',
-statline_url:
-  'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7314&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
+statline_url: null,
 game_statline_url: null,
 league: 'AHL',
 ```
@@ -124,6 +125,23 @@ https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All
 
 At the moment there is no scraper for getting a prospects individual games so you can set the `game_statline_url` to `null`
 
+## BCHL
+
+Needed fields:
+```
+league_id: '7314',
+statline_url: null,
+game_statline_url: null,
+league: 'BCHL',
+```
+
+To get the league_id for the prospect:
+
+1. [Go to the BCHL's search page](https://bchl.ca/?s=) and enter the prospect's name.
+2. Click on the `Players` button to show the players with the name you just searched
+3. Click on the player's name to go to their profile.
+4. Copy the number in the browser's address bar into the `league_id` field for the prospect. For example, for the following URL `https://bchl.ca/stats/player/6748/ryan-tverberg` the id is `6748`
+
 ## KHL
 
 Needed fields:
@@ -143,7 +161,7 @@ league: 'KHL',
 Needed fields:
 ```
 league_id: '31555838',
-statline_url: 'https://liiga.fi/fi/pelaajat/31555838/niemela-topi',
+statline_url: null,
 game_statline_url: null,
 league: 'Liiga',
 ```
@@ -174,7 +192,7 @@ Needed fields:
 ```
 statline_url: null,
 game_statline_url: null,
-league_id: '31214',
+league_id: 'minm23',
 league: 'NCAA',
 ```
 
@@ -237,7 +255,7 @@ This scraper uses the prospect's `league_id` field to determine the URL so all y
 Needed fields:
 ```
 league_id: '1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander',
-statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics',
+statline_url: null,
 game_statline_url: null,
 league: 'SHL',
 ```
@@ -259,8 +277,7 @@ For the SHL the game scraper uses the player's id which is a combination of the 
 Needed fields:
 ```
 league_id: '7842',
-statline_url:
-  'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7842&site_id=0&key=e828f89b243dc43f&client_code=ushl&league_id=&lang=en&statsType=standard&callback=json',
+statline_url: null,
 game_statline_url: null,
 league: 'USHL',
 ```
@@ -277,7 +294,7 @@ In order to get the `league_id` for the prospect you'll need to:
 Needed fields:
 ```
 league_id: '25697',
-statline_url: 'http://www.vhlru.ru/en/players/25697/',
+statline_url: null,
 game_statline_url: null,
 league: 'VHL',
 ```
@@ -293,7 +310,7 @@ In order to get a VHL prospect to scrape properly you'll need their profile link
 
 Needed fields:
 ```
-statline_url: 'http://lscluster.hockeytech.com/feed/?feed=modulekit&view=player&key=41b145a848f4bd67&fmt=json&client_code=whl&lang=en&player_id=27355&category=seasonstats',
+statline_url: null,
 game_statline_url: null,
 league_id: '27355',
 league: 'WHL',
@@ -326,6 +343,5 @@ For the most part you can just copy a browser console query of the body object:
 
 ```javascript
 module.exports = `BODY_CODE_GOES_INSIDE_STRING`
-```
 ```
 
