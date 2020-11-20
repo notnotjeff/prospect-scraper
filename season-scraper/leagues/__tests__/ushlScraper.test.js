@@ -14,10 +14,8 @@ describe('ushlScraper()', () => {
       draft_pick: 146,
       draft_year: 2019,
       league_id: '7842',
-      statline_url:
-        'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7842&site_id=0&key=e828f89b243dc43f&client_code=ushl&league_id=&lang=en&statsType=standard&callback=json',
-      game_statline_url:
-        'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=7842&site_id=0&key=e828f89b243dc43f&client_code=ushl&league_id=&lang=en&statsType=standard&callback=json',
+      statline_url: null,
+      game_statline_url: null,
       league: 'USHL',
       ep_url: 'https://www.eliteprospects.com/player/427432/mike-koster',
     }

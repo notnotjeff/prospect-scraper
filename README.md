@@ -168,7 +168,25 @@ This league only needs the prospect's `league_id` field to function. To get the 
 2. Click the player's name in order to head to the profile page
 3. In the browser's address bar, copy the number and paste it into the player's `league_id` field. For example, Dmitry Ovchinnikov's profile URL is `https://engmhl.khl.ru/players/31214/`, therefore his `league_id` is `31214`
 
-At the moment the game scraper is not built for the MHL
+## NCAA
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: '31214',
+league: 'NCAA',
+```
+
+This league only needs the prospect's `league_id` field to function. To get the id:
+
+1. Go to [the league's team page](http://collegehockeyinc.com/teams-and-conferences.php) and locate the name of the team the player plays for
+2. Click the team's name in order to head to the profile page for the team
+3. Click on the `Roster` button to load the team's roster
+4. Locate the player's name on the roster and click on it
+5. In the browser's address bar, copy the number after the `?` and paste it into the player's `league_id` field. For example, Mike Koster's profile URL is `http://collegehockeyinc.com/stats/players21.php?minm23`, therefore his `league_id` is `minm23`
+
+**One thing to note is that these profile urls are built using the player's team abbreviation and sequencial id generated based on player number order on the team. So if either of those things change you'll need to update the `league_id`.**
 
 ## OHL
 
@@ -309,13 +327,5 @@ For the most part you can just copy a browser console query of the body object:
 ```javascript
 module.exports = `BODY_CODE_GOES_INSIDE_STRING`
 ```
-
-This method doesn't work for all scrapers because by copying this way you introduce additional new line characters which can break how the scraper interprets the HTML (see KHL game scraper). For those you can use a test utility called `createHtmlFixture()`. To use it pass in a file name and the response from `htmlRequest()` (await the response) and it will create a fixture for you within `test/utils/created-fixtures` which you can move to the `__fixtures__` folder for your tests. You can run this function in a test to build the appropriate fixture (make sure to import the module first).
-
-```javascript
-const testUtils = require('path_to_test/utils')
-testUtils.createHtmlFixture('testing', await utils.request.htmlRequest('https://en.khl.ru/players/30159/'))
-
-// Creates the file testing.fixture.js in test/utils/created-fixtures
 ```
 
