@@ -8,31 +8,22 @@ describe('ncaaScraper()', () => {
     const prospect = {
       first_name: 'Ryan',
       last_name: "O'Connell",
-      position: 'D',
-      shoots: 'L',
-      dob: '1999-04-25',
-      draft_round: 7,
-      draft_pick: 203,
-      draft_year: 2017,
-      league_id: 'osum16',
-      statline_url: 'http://collegehockeyinc.com/stats/players20.php?osum16',
-      game_statline_url: 'http://collegehockeyinc.com/stats/players20.php?osum16',
+      league_id: 'osum09',
       league: 'NCAA',
-      ep_url: 'https://www.eliteprospects.com/player/286946/ryan-o-connell',
     }
-    const date = new Date('2019-11-01 12:00:00')
+    const date = new Date('2020-11-23 12:00:00')
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
 
     const gameData = await ncaaScraper(prospect, date)
 
     expect(gameData.goals).toEqual(0)
     expect(gameData.assists).toEqual(1)
     expect(gameData.points).toEqual(1)
-    expect(gameData.shots).toEqual(2)
+    expect(gameData.shots).toEqual(0)
     expect(gameData.penalty_minutes).toEqual(0)
-    expect(gameData.date).toEqual('2019-11-01')
+    expect(gameData.date).toEqual('2020-11-23')
   })
 
   it('it returns null when there is no game on the specified date', async () => {
@@ -40,22 +31,13 @@ describe('ncaaScraper()', () => {
     const prospect = {
       first_name: 'Ryan',
       last_name: "O'Connell",
-      position: 'D',
-      shoots: 'L',
-      dob: '1999-04-25',
-      draft_round: 7,
-      draft_pick: 203,
-      draft_year: 2017,
-      league_id: 'osum16',
-      statline_url: 'http://collegehockeyinc.com/stats/players20.php?osum16',
-      game_statline_url: 'http://collegehockeyinc.com/stats/players20.php?osum16',
+      league_id: 'osum09',
       league: 'NCAA',
-      ep_url: 'https://www.eliteprospects.com/player/286946/ryan-o-connell',
     }
     const noGameAtdate = new Date('2010-09-26 12:00:00')
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
 
     const gameData = await ncaaScraper(prospect, noGameAtdate)
 

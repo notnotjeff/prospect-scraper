@@ -181,9 +181,9 @@ module.exports = `
 <table class="base2" width="100%">
          <tbody><tr>
            <td width="120"><img src="http://ohiostatebuckeyes.com/wp-content/uploads/2018/05/24_OConnell_Ryan_jersey-4-e1537651692149-840x1024.jpg" alt="photo" width="120" height="170"></td>
-           <td bgcolor="#DDDDDD"><span class="playerbios"><img src="http://www.collegehockeystats.net/img120/1920/osu120.gif" alt="logo" width="120" align="right">#24 Ryan&nbsp;O'Connell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+           <td bgcolor="#DDDDDD"><span class="playerbios"><img src="http://www.collegehockeystats.net/img120/2021/osu120.gif" alt="logo" width="120" align="right">#24 Ryan&nbsp;O'Connell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
 <span class="reg13">Ohio State Buckeyes<br>
-<strong>Class:</strong>&nbsp;Sophomore<br>
+<strong>Class:</strong>&nbsp;Junior<br>
 <strong>Position:</strong>&nbsp;Defense<br>
 <strong>Height:</strong>&nbsp;6-1<br>
 <strong>Weight:</strong>&nbsp;185<br>
@@ -195,7 +195,7 @@ module.exports = `
              <div align="center"><img src="/transparent.gif" alt="" width="5" height="10"></div>
              <table class="base">
                <tbody><tr class="white10" bgcolor="#333333">
-                 <td colspan="3">Ryan&nbsp;O'Connell - 2019-2020 Game by Game</td>
+                 <td colspan="3">Ryan&nbsp;O'Connell - 2020-2021 Game by Game</td>
                  <td>Points</td>
                  <td>GW</td>
                  <td>PP Pts</td>
@@ -209,513 +209,32 @@ module.exports = `
                  <td>Season GP:Pts</td>
                  <td>Reverse GP:Pts</td>
                </tr>
-<tr bgcolor="#999999">
-<td><a href="/stats/mboxes20.php?mosuwon1.o06"><font color="000000">10/06/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwon1.o06"><font color="000000">WESTERN ONTARIO</font></a></td>
-<td>W  5-2  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td colspan="3" align="center"><i>Exhibition</i></td><td> 1/ 2</td>
-<td> 0</td>
-<td>-1</td>
-<td colspan="2" align="center"><i>Exhibition</i></td>
-</tr>
 <tr>
-<td><a href="/stats/mboxes20.php?mosuwmu1.o11"><font color="000000">10/11/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwmu1.o11"><font color="000000">vs Western Michigan</font></a></td>
-<td>T  2-2  OT</td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosurit1.o12"><font color="000000">10/12/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosurit1.o12"><font color="000000">vs RIT</font></a></td>
-<td>W  3-1  </td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td><a href="/stats/mboxes20.php?mosuuno1.o18"><font color="000000">10/18/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuuno1.o18"><font color="000000">OMAHA</font></a></td>
-<td>W  3-2  </td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosuuno1.o19"><font color="000000">10/19/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuuno1.o19"><font color="000000">OMAHA</font></a></td>
-<td>L  1-2  </td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td><a href="/stats/mboxes20.php?mmrcosu1.o25"><font color="000000">10/25/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mmrcosu1.o25"><font color="000000">at Mercyhurst</font></a></td>
-<td>W  7-2  </td><td>0-1-1</td>
+<td><a href="/stats/mboxes21.php?mminosu1.n23"><font color="000000">11/23/2020</font></a></td>
+<td><a href="/stats/mboxes21.php?mminosu1.n23"><font color="000000">at Minnesota</font></a></td>
+<td>L  1-4  </td><td>0-1-1</td>
 <td>&nbsp;</td>
-<td>0-1-1</td>
+<td>0-0-0</td>
 <td>0-0-0</td>
 <td>&nbsp;</td>
 <td> 1:1 </td>
 <td> 1:0-1-1</td>
 <td> 0/ 0</td>
-<td> 1</td>
-<td>-1</td>
+<td> 0</td>
+<td>E</td>
 <td> 1: 0- 1- 1</td>
-<td>29: 1- 6- 7</td>
+<td> 1: 0- 1- 1</td>
 </tr>
 <tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mmrcosu1.o26"><font color="000000">10/26/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mmrcosu1.o26"><font color="000000">at Mercyhurst</font></a></td>
-<td>W  3-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 1/ 2</td>
-<td> 0</td>
-<td>E</td>
-<td> 2: 0- 1- 1</td>
-<td>28: 1- 5- 6</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mmicosu1.n01"><font color="000000">11/01/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mmicosu1.n01"><font color="000000">MICHIGAN</font></a></td>
-<td>W  3-2  </td><td>0-1-1</td>
-<td>&nbsp;</td>
-<td>0-1-1</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1:1 </td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 2</td>
-<td>E</td>
-<td> 3: 0- 2- 2</td>
-<td>27: 1- 5- 6</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mmicosu1.n02"><font color="000000">11/02/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mmicosu1.n02"><font color="000000">MICHIGAN</font></a></td>
-<td>W  2-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td> 4: 0- 2- 2</td>
-<td>26: 1- 4- 5</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mndmosu1.n08"><font color="000000">11/08/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mndmosu1.n08"><font color="000000">at Notre Dame</font></a></td>
-<td>L  2-3  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 1/ 2</td>
-<td> 0</td>
-<td>-2</td>
-<td> 5: 0- 2- 2</td>
-<td>25: 1- 4- 5</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mndmosu1.n09"><font color="000000">11/09/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mndmosu1.n09"><font color="000000">at Notre Dame</font></a></td>
-<td>L  1-2  </td><td>0-1-1</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1:1 </td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>+1</td>
-<td> 6: 0- 3- 3</td>
-<td>24: 1- 4- 5</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mosupsu1.n22"><font color="000000">11/22/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosupsu1.n22"><font color="000000">at Penn State</font></a></td>
-<td>L  4-5  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td> 7: 0- 3- 3</td>
-<td>23: 1- 3- 4</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosupsu1.n23"><font color="000000">11/23/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mosupsu1.n23"><font color="000000">at Penn State</font></a></td>
-<td>W  4-3  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td> 8: 0- 3- 3</td>
-<td>22: 1- 3- 4</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mmsuosu1.n30"><font color="000000">11/30/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mmsuosu1.n30"><font color="000000">MICHIGAN STATE</font></a></td>
-<td>W  3-1  </td><td>0-1-1</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1:1 </td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-<td> 9: 0- 4- 4</td>
-<td>21: 1- 3- 4</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mmsuosu1.d01"><font color="000000">12/01/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mmsuosu1.d01"><font color="000000">MICHIGAN STATE</font></a></td>
-<td>W  2-0  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td>10: 0- 4- 4</td>
-<td>20: 1- 2- 3</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mminosu1.d06"><font color="000000">12/06/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mminosu1.d06"><font color="000000">MINNESOTA</font></a></td>
-<td>W  3-2  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td>11: 0- 4- 4</td>
-<td>19: 1- 2- 3</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mminosu1.d07"><font color="000000">12/07/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mminosu1.d07"><font color="000000">MINNESOTA</font></a></td>
-<td>T  1-1  OT</td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td><a href="/stats/mboxes20.php?mclgosu1.d27"><font color="000000">12/27/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mclgosu1.d27"><font color="000000">COLGATE</font></a></td>
-<td>W  3-2  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 1/ 2</td>
-<td> 0</td>
-<td>+1</td>
-<td>12: 0- 4- 4</td>
-<td>18: 1- 2- 3</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mclgosu1.d28"><font color="000000">12/28/2019</font></a></td>
-<td><a href="/stats/mboxes20.php?mclgosu1.d28"><font color="000000">COLGATE</font></a></td>
-<td>W  3-0  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td>13: 0- 4- 4</td>
-<td>17: 1- 2- 3</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mcorosu1.j03"><font color="000000">01/03/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mcorosu1.j03"><font color="000000">vs Cornell</font></a></td>
-<td>L  2-5  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>-1</td>
-<td>14: 0- 4- 4</td>
-<td>16: 1- 2- 3</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?marmosu1.j04"><font color="000000">01/04/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?marmosu1.j04"><font color="000000">vs Army West Point</font></a></td>
-<td>W  2-1  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td>15: 0- 4- 4</td>
-<td>15: 1- 2- 3</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mosuwis1.j10"><font color="000000">01/10/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwis1.j10"><font color="000000">at Wisconsin</font></a></td>
-<td>W  4-2  </td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosuwis1.j11"><font color="000000">01/11/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwis1.j11"><font color="000000">at Wisconsin</font></a></td>
-<td>L  2-5  </td><td colspan="12" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td><a href="/stats/mboxes20.php?mndmosu1.j17"><font color="000000">01/17/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mndmosu1.j17"><font color="000000">NOTRE DAME</font></a></td>
-<td>T  4-4  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td>16: 0- 4- 4</td>
-<td>14: 1- 2- 3</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mndmosu1.j18"><font color="000000">01/18/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mndmosu1.j18"><font color="000000">NOTRE DAME</font></a></td>
-<td>W  2-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td>17: 0- 4- 4</td>
-<td>13: 1- 2- 3</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mminosu1.j24"><font color="000000">01/24/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mminosu1.j24"><font color="000000">at Minnesota</font></a></td>
-<td>L  3-6  </td><td>0-1-1</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1:1 </td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>-1</td>
-<td>18: 0- 5- 5</td>
-<td>12: 1- 2- 3</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mminosu1.j25"><font color="000000">01/25/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mminosu1.j25"><font color="000000">at Minnesota</font></a></td>
-<td>L  1-4  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>-1</td>
-<td>19: 0- 5- 5</td>
-<td>11: 1- 1- 2</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mmicosu1.j31"><font color="000000">01/31/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mmicosu1.j31"><font color="000000">at Michigan</font></a></td>
-<td>L  2-3  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td>20: 0- 5- 5</td>
-<td>10: 1- 1- 2</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mmicosu1.f01"><font color="000000">02/01/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mmicosu1.f01"><font color="000000">at Michigan</font></a></td>
-<td>W  4-1  </td><td>0-1-1</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1:1 </td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+2</td>
-<td>21: 0- 6- 6</td>
-<td> 9: 1- 1- 2</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mosupsu1.f07"><font color="000000">02/07/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosupsu1.f07"><font color="000000">PENN STATE</font></a></td>
-<td>T  2-2  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 3</td>
-<td>E</td>
-<td>22: 0- 6- 6</td>
-<td> 8: 1- 0- 1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosupsu1.f08"><font color="000000">02/08/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosupsu1.f08"><font color="000000">PENN STATE</font></a></td>
-<td>L  3-6  </td><td>1-0-1</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td> 1:1 </td>
-<td>&nbsp;</td>
-<td> 1:1-0-1</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td>23: 1- 6- 7</td>
-<td> 7: 1- 0- 1</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mmsuosu1.f21"><font color="000000">02/21/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mmsuosu1.f21"><font color="000000">at Michigan State</font></a></td>
-<td>W  1-0  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-<td>24: 1- 6- 7</td>
-<td> 6: 0- 0- 0</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mmsuosu1.f22"><font color="000000">02/22/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mmsuosu1.f22"><font color="000000">at Michigan State</font></a></td>
-<td>W  4-2  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>-2</td>
-<td>25: 1- 6- 7</td>
-<td> 5: 0- 0- 0</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mosuwis1.f28"><font color="000000">02/28/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwis1.f28"><font color="000000">WISCONSIN</font></a></td>
-<td>L  2-3  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-<td>26: 1- 6- 7</td>
-<td> 4: 0- 0- 0</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosuwis1.f29"><font color="000000">02/29/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwis1.f29"><font color="000000">WISCONSIN</font></a></td>
-<td>T  3-3  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-<td>27: 1- 6- 7</td>
-<td> 3: 0- 0- 0</td>
-</tr>
-<tr>
-<td><a href="/stats/mboxes20.php?mosuwis1.m06"><font color="000000">03/06/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwis1.m06"><font color="000000">WISCONSIN</font></a></td>
-<td>W  9-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-<td>28: 1- 6- 7</td>
-<td> 2: 0- 0- 0</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><a href="/stats/mboxes20.php?mosuwis1.m07"><font color="000000">03/07/2020</font></a></td>
-<td><a href="/stats/mboxes20.php?mosuwis1.m07"><font color="000000">WISCONSIN</font></a></td>
-<td>W  2-1  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td>29: 1- 6- 7</td>
-<td> 1: 0- 0- 0</td>
-</tr>
-<tr>
 <td><strong>Season Totals:</strong></td>
-<td colspan="2"><strong>29 Games Played<strong></strong></strong></td>
-<td><strong>1-6-7<strong></strong></strong></td>
+<td colspan="2"><strong> 1 Games Played<strong></strong></strong></td>
+<td><strong>0-1-1<strong></strong></strong></td>
 <td>&nbsp;</td>
-<td><strong>0-2-2<strong></strong></strong></td>
+<td><strong>0-0-0<strong></strong></strong></td>
 <td><strong>0-0-0<strong></strong></strong></td>
 <td colspan="3">&nbsp;</td>
-<td><strong>3/6<strong></strong></strong></td>
-<td><strong>16<strong></strong></strong></td>
+<td><strong>0/0<strong></strong></strong></td>
+<td><strong>0<strong></strong></strong></td>
 <td><strong>E</strong></td>
 <td colspan="2">&nbsp;</td>
 </tr>
@@ -727,35 +246,35 @@ module.exports = `
 </tr>
 <tr>
 <td><strong>Plays:</strong></td>
-<td>29 GMS</td>
-<td>17-9-3</td>
+<td>1 GMS</td>
+<td>0-1-0</td>
 <td><strong>Does Not Play:</strong></td>
-<td>7 GMS</td>
-<td>3-2-2</td>
+<td>0 GMS</td>
+<td>0-0-0</td>
 </tr>
 <tr>
 <td><strong>Scores a Goal:</strong></td>
+<td>0 GMS</td>
+<td>0-0-0</td>
+<td><strong>Does Not Score a Goal:</strong></td>
 <td>1 GMS</td>
 <td>0-1-0</td>
-<td><strong>Does Not Score a Goal:</strong></td>
-<td>35 GMS</td>
-<td>20-10-5</td>
 </tr>
 <tr>
 <td><strong>Scores an Assist:</strong></td>
-<td>6 GMS</td>
-<td>4-2-0</td>
+<td>1 GMS</td>
+<td>0-1-0</td>
 <td><strong>Does Not Score an Assist:</strong></td>
-<td>30 GMS</td>
-<td>16-9-5</td>
+<td>0 GMS</td>
+<td>0-0-0</td>
 </tr>
 <tr>
 <td><strong>Scores a Point:</strong></td>
-<td>7 GMS</td>
-<td>4-3-0</td>
+<td>1 GMS</td>
+<td>0-1-0</td>
 <td><strong>Does Not Score a Point:</strong></td>
-<td>29 GMS</td>
-<td>16-8-5</td>
+<td>0 GMS</td>
+<td>0-0-0</td>
 </tr>
              </tbody></table>
                 </div>
@@ -767,7 +286,7 @@ module.exports = `
          <tbody><tr>
            <td width="90"><img src="http://ohiostatebuckeyes.com/wp-content/uploads/2018/05/24_OConnell_Ryan_jersey-4-e1537651692149-840x1024.jpg" alt="photo" width="90" height="128"></td>
            <td bgcolor="#DDDDDD"><span class="playerbios"><img src="http://www.collegehockeystats.net/img50/osu50.gif" alt="logo" width="50" align="right">#24 Ryan&nbsp;O'Connell<br>Ohio State Buckeyes</span><br>
-<span class="reg13"><strong>Class:</strong>&nbsp;Sophomore<br>
+<span class="reg13"><strong>Class:</strong>&nbsp;Junior<br>
 <strong>Position:</strong>&nbsp;Defense<br>
 <strong>Height:</strong>&nbsp;6-1<br>
 <strong>Weight:</strong>&nbsp;185<br>
@@ -778,7 +297,7 @@ module.exports = `
              <div align="center"><img src="/transparent.gif" alt="" width="5" height="10"></div>
              <table class="playerstats">
                <tbody><tr class="white10" bgcolor="#333333">
-                 <th colspan="3">2019-2020 Game by Game</th>
+                 <th colspan="3">2020-2021 Game by Game</th>
                  <th>Points</th>
                  <th>Pstrk</th>
                  <th>P/M</th>
@@ -786,293 +305,20 @@ module.exports = `
                  <th>+/-</th>
                </tr>
 <tr>
-<td>10/11</td>
-<td>vs  Western Michigan</td>
-<td>T  2-2  OT</td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr bgcolor="#DDDDDD">
-<td>10/12</td>
-<td>vs               RIT</td>
-<td>W  3-1  </td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td>10/18</td>
-<td>            Omaha</td>
-<td>W  3-2  </td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr bgcolor="#DDDDDD">
-<td>10/19</td>
-<td>            Omaha</td>
-<td>L  1-2  </td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td>10/25</td>
-<td>at        Mercyhurst</td>
-<td>W  7-2  </td><td>0-1-1</td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>-1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>10/26</td>
-<td>at        Mercyhurst</td>
-<td>W  3-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1/ 2</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr>
-<td>11/01</td>
-<td>         Michigan</td>
-<td>W  3-2  </td><td>0-1-1</td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 2</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>11/02</td>
-<td>         Michigan</td>
-<td>W  2-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr>
-<td>11/08</td>
-<td>at        Notre Dame</td>
-<td>L  2-3  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1/ 2</td>
-<td> 0</td>
-<td>-2</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>11/09</td>
-<td>at        Notre Dame</td>
-<td>L  1-2  </td><td>0-1-1</td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>+1</td>
-</tr>
-<tr>
-<td>11/22</td>
-<td>at        Penn State</td>
-<td>L  4-5  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
 <td>11/23</td>
-<td>at        Penn State</td>
-<td>W  4-3  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-</tr>
-<tr>
-<td>11/30</td>
-<td>   Michigan State</td>
-<td>W  3-1  </td><td>0-1-1</td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>12/01</td>
-<td>   Michigan State</td>
-<td>W  2-0  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr>
-<td>12/06</td>
-<td>        Minnesota</td>
-<td>W  3-2  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>12/07</td>
-<td>        Minnesota</td>
-<td>T  1-1  OT</td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td>12/27</td>
-<td>          Colgate</td>
-<td>W  3-2  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1/ 2</td>
-<td> 0</td>
-<td>+1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>12/28</td>
-<td>          Colgate</td>
-<td>W  3-0  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-</tr>
-<tr>
-<td>01/03</td>
-<td>vs           Cornell</td>
-<td>L  2-5  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>-1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>01/04</td>
-<td>vs   Army West Point</td>
-<td>W  2-1  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr>
-<td>01/10</td>
-<td>at         Wisconsin</td>
-<td>W  4-2  </td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr bgcolor="#DDDDDD">
-<td>01/11</td>
-<td>at         Wisconsin</td>
-<td>L  2-5  </td><td colspan="5" align="center"><i>---- DID NOT DRESS ----</i></td></tr><tr>
-<td>01/17</td>
-<td>       Notre Dame</td>
-<td>T  4-4  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>01/18</td>
-<td>       Notre Dame</td>
-<td>W  2-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr>
-<td>01/24</td>
 <td>at         Minnesota</td>
-<td>L  3-6  </td><td>0-1-1</td>
+<td>L  1-4  </td><td>0-1-1</td>
 <td> 1:0-1-1</td>
 <td> 0/ 0</td>
 <td> 0</td>
-<td>-1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>01/25</td>
-<td>at         Minnesota</td>
-<td>L  1-4  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>-1</td>
-</tr>
-<tr>
-<td>01/31</td>
-<td>at          Michigan</td>
-<td>L  2-3  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
 <td>E</td>
 </tr>
 <tr bgcolor="#DDDDDD">
-<td>02/01</td>
-<td>at          Michigan</td>
-<td>W  4-1  </td><td>0-1-1</td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+2</td>
-</tr>
-<tr>
-<td>02/07</td>
-<td>       Penn State</td>
-<td>T  2-2  OT</td><td>0-0-0</td>
+<td colspan="3"><strong>Season Totals:  1 Games Played</strong></td>
+<td><strong>0-1-1</strong></td>
 <td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 3</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>02/08</td>
-<td>       Penn State</td>
-<td>L  3-6  </td><td>1-0-1</td>
-<td> 1:1-0-1</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-</tr>
-<tr>
-<td>02/21</td>
-<td>at    Michigan State</td>
-<td>W  1-0  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>02/22</td>
-<td>at    Michigan State</td>
-<td>W  4-2  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>-2</td>
-</tr>
-<tr>
-<td>02/28</td>
-<td>        Wisconsin</td>
-<td>L  2-3  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 1</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>02/29</td>
-<td>        Wisconsin</td>
-<td>T  3-3  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-</tr>
-<tr>
-<td>03/06</td>
-<td>        Wisconsin</td>
-<td>W  9-1  </td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>+1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td>03/07</td>
-<td>        Wisconsin</td>
-<td>W  2-1  OT</td><td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr>
-<td colspan="3"><strong>Season Totals: 29 Games Played</strong></td>
-<td><strong>1-6-7</strong></td>
-<td>&nbsp;</td>
-<td><strong>3/6</strong></td>
-<td><strong>16</strong></td>
+<td><strong>0/0</strong></td>
+<td><strong>0</strong></td>
 <td><strong>E</strong></td>
 </tr>
              </tbody></table>
@@ -1083,35 +329,35 @@ module.exports = `
 </tr>
 <tr>
 <td><strong>Plays:</strong></td>
-<td>29 GMS</td>
-<td>17-9-3</td>
+<td>1 GMS</td>
+<td>0-1-0</td>
 <td><strong>Does Not Play:</strong></td>
-<td>7 GMS</td>
-<td>3-2-2</td>
+<td>0 GMS</td>
+<td>0-0-0</td>
 </tr>
 <tr>
 <td><strong>Scores a Goal:</strong></td>
+<td>0 GMS</td>
+<td>0-0-0</td>
+<td><strong>Does Not Score a Goal:</strong></td>
 <td>1 GMS</td>
 <td>0-1-0</td>
-<td><strong>Does Not Score a Goal:</strong></td>
-<td>35 GMS</td>
-<td>20-10-5</td>
 </tr>
 <tr>
 <td><strong>Scores an Assist:</strong></td>
-<td>6 GMS</td>
-<td>4-2-0</td>
+<td>1 GMS</td>
+<td>0-1-0</td>
 <td><strong>Does Not Score an Assist:</strong></td>
-<td>30 GMS</td>
-<td>16-9-5</td>
+<td>0 GMS</td>
+<td>0-0-0</td>
 </tr>
 <tr>
 <td><strong>Scores a Point:</strong></td>
-<td>7 GMS</td>
-<td>4-3-0</td>
+<td>1 GMS</td>
+<td>0-1-0</td>
 <td><strong>Does Not Score a Point:</strong></td>
-<td>29 GMS</td>
-<td>16-8-5</td>
+<td>0 GMS</td>
+<td>0-0-0</td>
 </tr>
              </tbody></table>
                 </div>
