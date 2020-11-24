@@ -45,13 +45,14 @@ module.exports = async function (prospect, date) {
       `This is the wrong URL for ${prospect.first_name} ${prospect.last_name}. The NCAA player page changes yearly, make sure you've validated the URL and updated the player's id for the current year.`,
     )
   }
-
   const game = games?.find(g => g[0] === `${month}/${day}/${year}`)
   if (!game) {
     return null
   }
-
-  const [goals, assists, points] = game[4].split('-').map(s => +s)
+  const [goals, assists, points] = game[2]
+    .split(' ')[4]
+    .split('-')
+    .map(s => +s)
   const penalty_minutes = +game[9].split('/')[1].trim()
   const shots = +game[10]
 
