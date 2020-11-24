@@ -481,7 +481,7 @@ module.exports = [
     league_id: '31214',
     statline_url: null,
     game_statline_url: null,
-    league: 'KHL',
+    league: 'MHL',
     ep_url: 'https://www.eliteprospects.com/player/534929/dmitri-ovchinnikov',
   },
   {
