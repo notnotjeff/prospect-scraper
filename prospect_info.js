@@ -373,10 +373,10 @@ module.exports = [
     draft_round: 5,
     draft_pick: 146,
     draft_year: 2019,
-    league_id: '7842',
+    league_id: 'minm23',
     statline_url: null,
     game_statline_url: null,
-    league: 'USHL',
+    league: 'NCAA',
     ep_url: 'https://www.eliteprospects.com/player/427432/mike-koster',
   },
   {
