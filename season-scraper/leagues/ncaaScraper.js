@@ -1,11 +1,13 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   profile_url: "http://collegehockeyinc.com/stats/players19.php?mrcm11",
-//   games_url: "http://collegehockeyinc.com/stats/players19.php?mrcm11",
-//   league: "NCAA",
-// }
+// Helper function to check table header to make sure we have the right page (should have current season and players name)
+function checkPage(header, firstName, lastName) {
+  const sanitizedTableHeader = header.replace(`'`, '').replace(`.`, '')
+  const sanitizedFirstName = firstName.replace(`'`, '').replace(`.`, '')
+  const sanitizedLastName = lastName.replace(`'`, '').replace(`.`, '')
+
+  return !sanitizedTableHeader || !sanitizedTableHeader.includes(sanitizedLastName) || !sanitizedTableHeader.includes(sanitizedFirstName)
+}
 
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
@@ -16,25 +18,29 @@ module.exports = async function (prospect) {
   const url = `http://collegehockeyinc.com/stats/players${currentSeason.slice(-2)}.php?${prospect.league_id}`
   const page = await utils.request.htmlRequest(url)
 
-  // Check player bio to make sure we have the right page (should have player's name)
-  const bio = page('.playerbios').text()
-  const sanitizedBio = bio.replace(`'`, '').replace(`.`, '')
-  const sanitizedFirstName = prospect.first_name.replace(`'`, '').replace(`.`, '')
-  const sanitizedLastName = prospect.last_name.replace(`'`, '').replace(`.`, '')
+  const rows = []
+  page('body > div.page.text-center > main > section > div > div > div > div.playerstatsfull > table:nth-child(3) > tbody > tr').each(function (
+    _i,
+    elm,
+  ) {
+    const tds = []
+    const row = page(elm)
+    row.find('td').each(function (_tdI, tdElm) {
+      const td = page(tdElm).text().trim()
+      tds.push(td)
+    })
+    rows.push(tds)
+  })
+  const season = rows.find(r => r[0] === 'Season Totals:')
 
-  if (!sanitizedBio || !sanitizedBio.includes(sanitizedLastName) || !sanitizedBio.includes(sanitizedFirstName)) {
+  const bio = page('.playerbios').text()
+  const isWrongPage = checkPage(String(bio), prospect.first_name, prospect.last_name)
+
+  if (isWrongPage) {
     throw new Error(
       `This is the wrong URL for ${prospect.first_name} ${prospect.last_name}. The NCAA player page changes yearly, make sure you've validated the URL and updated the player's id for the current year.`,
     )
   }
-
-  const season = []
-  page(
-    'body > div.page.text-center > main > section > div > div > div > div.playerstatsfull > table:nth-child(3) > tbody > tr:nth-last-child(1) > td',
-  ).each(function (_cellI, cellElm) {
-    const cell = page(cellElm).text().trim().replace('\n', '').replace('\t', '')
-    season.push(cell)
-  })
 
   const gamesPlayed = season[1].match(/\d+/)?.[0]
   if (['', '0', null, undefined].includes(gamesPlayed)) {
