@@ -5,10 +5,10 @@ const fs = require('fs')
 jest.mock('twit')
 jest.mock('fs')
 
-const consumerKey = ''
-const consumerSecretKey = ''
-const accessTokenKey = ''
-const accessTokenSecret = ''
+const consumerKey = 'cKey'
+const consumerSecretKey = 'cSecret'
+const accessTokenKey = 'aToken'
+const accessTokenSecret = 'aSecret'
 const imagePath = ''
 const altText = 'Alt text!'
 const message = 'Message!'
@@ -20,6 +20,12 @@ describe('TwitterConnection', () => {
     new TwitterConnection(consumerKey, consumerSecretKey, accessTokenKey, accessTokenSecret)
 
     expect(T).toHaveBeenCalledTimes(1)
+    expect(T.mock.calls[0][0]).toEqual({
+      consumer_key: consumerKey,
+      consumer_secret: consumerSecretKey,
+      access_token: accessTokenKey,
+      access_token_secret: accessTokenSecret,
+    })
   })
 
   describe('#postImage()', () => {
@@ -27,7 +33,7 @@ describe('TwitterConnection', () => {
       fs.readFileSync.mockReturnValue(fileReturn)
       const twitterConnection = new TwitterConnection(consumerKey, consumerSecretKey, accessTokenKey, accessTokenSecret)
 
-      jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, data, callback) {
+      jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, _data, callback) {
         switch (method) {
           case 'media/upload':
             callback(false, { media_id_string: mediaString })
@@ -36,7 +42,6 @@ describe('TwitterConnection', () => {
             callback(false)
             break
           case 'statuses/update':
-            break
           default:
             break
         }
@@ -57,7 +62,7 @@ describe('TwitterConnection', () => {
       fs.readFileSync.mockReturnValue(fileReturn)
       const twitterConnection = new TwitterConnection(consumerKey, consumerSecretKey, accessTokenKey, accessTokenSecret)
 
-      jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, data, callback) {
+      jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, _data, callback) {
         switch (method) {
           case 'media/upload':
             callback(true, { media_id_string: mediaString })
@@ -66,7 +71,6 @@ describe('TwitterConnection', () => {
             callback(false)
             break
           case 'statuses/update':
-            break
           default:
             break
         }
@@ -81,7 +85,7 @@ describe('TwitterConnection', () => {
       fs.readFileSync.mockReturnValue(fileReturn)
       const twitterConnection = new TwitterConnection(consumerKey, consumerSecretKey, accessTokenKey, accessTokenSecret)
 
-      jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, data, callback) {
+      jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, _data, callback) {
         switch (method) {
           case 'media/upload':
             callback(false, { media_id_string: mediaString })
@@ -90,7 +94,6 @@ describe('TwitterConnection', () => {
             callback(true)
             break
           case 'statuses/update':
-            break
           default:
             break
         }

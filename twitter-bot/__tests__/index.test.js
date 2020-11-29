@@ -1,9 +1,9 @@
 const twitterBot = require('../')
 const requestUtils = require('../../utils/request')
-const TwitterConnection = require('../../classes/TwitterConnection')
+const TwitterConnection = require('../../utils/twitter/TwitterConnection')
 
 // Mock TwitterConnection class
-jest.mock('../../classes/TwitterConnection')
+jest.mock('../../utils/twitter/TwitterConnection')
 
 describe('twitterBot()', () => {
   it('makes puppeteer browser request to leafs-prospects/games and takes screenshot of yesterdays games', async () => {
