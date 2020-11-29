@@ -345,3 +345,23 @@ For the most part you can just copy a browser console query of the body object:
 module.exports = `BODY_CODE_GOES_INSIDE_STRING`
 ```
 
+# Twitter Bot
+
+To run the Twitter bot you need to:
+
+1. Setup the environment variables. Make sure your `.env` file has all of these filled out:
+```javascript
+TWITTER_CONSUMER_KEY='<CONSUMER_KEY_HERE>'
+TWITTER_CONSUMER_SECRET='<CONSUMER_SECRET_HERE>'
+TWITTER_ACCESS_TOKEN_KEY='<ACCESS_TOKEN_HERE>'
+TWITTER_ACCESS_TOKEN_SECRET='<ACCESS_TOKEN_SECRET_HERE>'
+GAMES_FE_URL='localhost:3000/games' // Page for the puppeteer browser to go to and get the content
+GAMES_BE_URL='localhost:5000/games' // The request url that puppeteer waits for completion before moving onto taking the snapshot
+```
+2. Start the server (if in development) or make sure the project is hosted (in production)
+3. Run the following command in console:
+```
+npm run twitter:games-recap
+```
+
+By default you can find the Leafs development Twitter bot at `@leafsprospects2`. Anytime you use the run command in the development environment it will post 

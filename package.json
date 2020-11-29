@@ -33,6 +33,7 @@
     "dotenv": "^8.2.0",
     "knex": "^0.21.12",
     "pg": "^8.2.1",
+    "puppeteer": "^5.5.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "twit": "^2.2.11"
