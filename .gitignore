@@ -1,6 +1,9 @@
 node_modules
 serviceAccountKey.json
 .env
+.env.production
+.env.test
+.env.development
 .vscode
 .DS_Store
 coverage
