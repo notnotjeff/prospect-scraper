@@ -20,8 +20,9 @@ describe('twitterBot()', () => {
       screenshot: jest.fn(async () => Promise.resolve()),
     }
     const mockPage = {
-      waitForResponse: jest.fn(async callback => Promise.resolve(callback({ url: () => '' }))),
       $: jest.fn(async () => mockElement),
+      setUserAgent: jest.fn(async () => true),
+      waitForSelector: jest.fn(async () => true),
     }
     const mockBrowserRequest = jest.fn(async (_url, callback) => callback(mockPage))
     jest.spyOn(requestUtils, 'browserRequest').mockImplementation(mockBrowserRequest)
@@ -29,7 +30,7 @@ describe('twitterBot()', () => {
     await twitterBot()
 
     expect(mockElement.screenshot.mock.calls.length).toEqual(1)
-    expect(mockPage.waitForResponse.mock.calls.length).toEqual(1)
+    expect(mockPage.waitForSelector.mock.calls.length).toEqual(1)
     expect(mockPage.$.mock.calls.length).toEqual(1)
     expect(TwitterConnection).toHaveBeenCalledTimes(1)
 

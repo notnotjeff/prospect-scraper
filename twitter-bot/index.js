@@ -8,12 +8,12 @@ module.exports = async () => {
   yesterday.setDate(yesterday.getDate() - 1)
 
   await requestUtils.browserRequest(process.env.GAMES_FE_URL, async page => {
-    await page.waitForResponse(response => response.url() === process.env.GAMES_BE_URL)
+    await page.waitForSelector('.last_name')
     const element = await page.$('#games-yesterday')
     await element.screenshot({ path: imagePath, type: 'jpeg' })
   })
 
-  const message = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth()}-${yesterday.getDate()} \n ${process.env.GAMES_FE_URL}`
+  const message = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth()}-${yesterday.getDate()}: (${process.env.GAMES_FE_URL})`
   const altText = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth()}-${yesterday.getDate()}`
   const twitterConnection = new TwitterConnection(
     process.env.TWITTER_CONSUMER_KEY,

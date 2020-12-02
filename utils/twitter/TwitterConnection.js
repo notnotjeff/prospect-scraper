@@ -27,5 +27,7 @@ module.exports = class TwitterConnection {
         })
       }
     })
+
+    fs.unlinkSync(imagePath)
   }
 }

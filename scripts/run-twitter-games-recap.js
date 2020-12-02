@@ -10,8 +10,6 @@ async function postYesterdaysGamesOnTwitter() {
     console.log('Finished tweeting games!')
   } catch (err) {
     console.error(err)
-  } finally {
-    process.exit()
   }
 }
 

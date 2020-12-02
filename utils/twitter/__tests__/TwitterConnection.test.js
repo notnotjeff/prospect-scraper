@@ -31,6 +31,7 @@ describe('TwitterConnection', () => {
   describe('#postImage()', () => {
     it('uses Twitter connection to post image to connected account', () => {
       fs.readFileSync.mockReturnValue(fileReturn)
+      fs.unlinkSync.mockReturnValue(true)
       const twitterConnection = new TwitterConnection(consumerKey, consumerSecretKey, accessTokenKey, accessTokenSecret)
 
       jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, _data, callback) {
@@ -60,6 +61,7 @@ describe('TwitterConnection', () => {
 
     it('will not make call to media/metadata/create or statuses/update if error is true after media/upload stage', () => {
       fs.readFileSync.mockReturnValue(fileReturn)
+      fs.unlinkSync.mockReturnValue(true)
       const twitterConnection = new TwitterConnection(consumerKey, consumerSecretKey, accessTokenKey, accessTokenSecret)
 
       jest.spyOn(twitterConnection.twitterInstance, 'post').mockImplementation(function (method, _data, callback) {

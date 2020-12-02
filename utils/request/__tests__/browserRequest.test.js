@@ -10,6 +10,7 @@ describe('browserRequest()', () => {
     const mockPage = {
       goto: jest.fn(),
       close: jest.fn(),
+      setUserAgent: jest.fn(),
     }
     const mockBrowser = {
       newPage: jest.fn(() => mockPage),
@@ -39,6 +40,7 @@ describe('browserRequest()', () => {
         throw new Error()
       },
       close: jest.fn(),
+      setUserAgent: jest.fn(),
     }
     const mockBrowser = {
       newPage: jest.fn(() => mockPage),

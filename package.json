@@ -27,7 +27,7 @@
     "games:remove-old": "node scripts/run-games-remove-old",
     "seasons:scrape": "node scripts/run-seasons-scrape",
     "seasons:reset": "node scripts/run-seasons-reset",
-    "twitter:run": "node twitter/bot.js"
+    "twitter:games-recap": "node scripts/run-twitter-games-recap.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
