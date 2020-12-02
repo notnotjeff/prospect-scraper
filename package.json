@@ -16,6 +16,7 @@
   "scripts": {
     "test": "jest --watch",
     "test:no-watch": "jest",
+    "open-coverage": "open coverage/lcov-report/index.html",
     "lint": "eslint --ignore-path ../.gitignore .",
     "prettier": "prettier --ignore-path ../.gitignore \"**/*.+(js|json)\"",
     "format": "npm run prettier -- --write",
@@ -26,13 +27,14 @@
     "games:remove-old": "node scripts/run-games-remove-old",
     "seasons:scrape": "node scripts/run-seasons-scrape",
     "seasons:reset": "node scripts/run-seasons-reset",
-    "twitter:run": "node twitter/bot.js"
+    "twitter:games-recap": "node scripts/run-twitter-games-recap.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
     "knex": "^0.21.12",
     "pg": "^8.2.1",
+    "puppeteer": "^5.5.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "twit": "^2.2.11"
