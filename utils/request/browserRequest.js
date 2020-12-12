@@ -8,7 +8,9 @@ module.exports = async function (url, callback) {
   const page = await browser.newPage()
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36')
   try {
-    await page.goto(url)
+    await page.goto(url, {
+      waitUntil: ['load', 'networkidle0', 'domcontentloaded'],
+    })
     await callback(page)
     await page.close()
     await browser.close()
