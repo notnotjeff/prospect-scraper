@@ -5,6 +5,7 @@ const fs = require('fs')
 const path = require('path')
 
 module.exports = async () => {
+  console.log('THIS IS DIRNAME:', __dirname)
   const imagePath = `${path.resolve(__dirname, '../')}/twitter-bot/images/yesterdays_games.png`
   let buffer = null
   let yesterday = new Date()
