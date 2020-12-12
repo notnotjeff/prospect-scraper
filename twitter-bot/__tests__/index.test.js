@@ -1,6 +1,7 @@
 const twitterBot = require('../')
 const requestUtils = require('../../utils/request')
 const TwitterConnection = require('../../utils/twitter/TwitterConnection')
+const fs = require('fs')
 
 // Mock TwitterConnection class
 jest.mock('../../utils/twitter/TwitterConnection')
@@ -17,7 +18,7 @@ describe('twitterBot()', () => {
 
     // Mock puppeteer request
     const mockElement = {
-      screenshot: jest.fn(async () => Promise.resolve()),
+      screenshot: jest.fn(async () => true),
     }
     const mockPage = {
       $: jest.fn(async () => mockElement),
@@ -25,7 +26,9 @@ describe('twitterBot()', () => {
       waitForSelector: jest.fn(async () => true),
     }
     const mockBrowserRequest = jest.fn(async (_url, callback) => callback(mockPage))
+    const mockWriteFileSync = jest.fn(async () => true)
     jest.spyOn(requestUtils, 'browserRequest').mockImplementation(mockBrowserRequest)
+    jest.spyOn(fs, 'writeFileSync').mockImplementation(mockWriteFileSync)
 
     await twitterBot()
 
@@ -33,6 +36,7 @@ describe('twitterBot()', () => {
     expect(mockPage.waitForSelector.mock.calls.length).toEqual(1)
     expect(mockPage.$.mock.calls.length).toEqual(1)
     expect(TwitterConnection).toHaveBeenCalledTimes(1)
+    expect(mockWriteFileSync).toHaveBeenCalledTimes(1)
 
     const mockTwitterConnectionInstance = TwitterConnection.mock.instances[0]
     expect(mockTwitterConnectionInstance.postImage.mock.calls.length).toEqual(1)

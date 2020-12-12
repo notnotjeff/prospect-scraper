@@ -13,7 +13,6 @@ module.exports = class TwitterConnection {
   }
 
   postImage(imagePath, altText, message) {
-    console.log('THIS IS IMAGEPATH (TwitterConnection.js):', imagePath)
     const b64content = fs.readFileSync(imagePath, { encoding: 'base64' })
     const bot = this.twitterInstance
 
@@ -24,15 +23,11 @@ module.exports = class TwitterConnection {
         bot.post('media/metadata/create', metaParams, function (err) {
           if (!err) {
             bot.post('statuses/update', { status: message, media_ids: [mediaIdStr] })
-          } else {
-            console.log(err)
           }
         })
-      } else {
-        console.log(err)
       }
     })
 
-    // fs.unlinkSync(imagePath)
+    fs.unlinkSync(imagePath)
   }
 }
