@@ -4,7 +4,8 @@ const TwitterConnection = require('../utils/twitter/TwitterConnection')
 const fs = require('fs')
 
 module.exports = async () => {
-  const imagePath = `${__dirname}/images/yesterdays_games.png`
+  const imageFolder = `${__dirname}/images`
+  const imagePath = `${imageFolder}/yesterdays_games.png`
   let buffer = null
   let yesterday = new Date()
   yesterday.setDate(yesterday.getDate() - 1)
@@ -15,6 +16,9 @@ module.exports = async () => {
     buffer = await element.screenshot({ type: 'png' })
   })
 
+  if (!fs.existsSync(imageFolder)) {
+    fs.mkdirSync(imageFolder)
+  }
   fs.writeFileSync(imagePath, buffer.toString('binary'), 'binary')
 
   const message = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth()}-${yesterday.getDate()}: (${process.env.GAMES_FE_URL})`
