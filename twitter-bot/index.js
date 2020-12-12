@@ -2,12 +2,9 @@ require('dotenv').config()
 const requestUtils = require('../utils/request')
 const TwitterConnection = require('../utils/twitter/TwitterConnection')
 const fs = require('fs')
-const path = require('path')
 
 module.exports = async () => {
-  console.log('THIS IS DIRNAME:', __dirname)
   const imagePath = `${__dirname}/images/yesterdays_games.png`
-  console.log('THIS IS IMAGEPATH (index.js):', imagePath)
   let buffer = null
   let yesterday = new Date()
   yesterday.setDate(yesterday.getDate() - 1)
