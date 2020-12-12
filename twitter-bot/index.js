@@ -6,7 +6,8 @@ const path = require('path')
 
 module.exports = async () => {
   console.log('THIS IS DIRNAME:', __dirname)
-  const imagePath = `${path.resolve(__dirname, '../')}/twitter-bot/images/yesterdays_games.png`
+  const imagePath = `${__dirname}/images/yesterdays_games.png`
+  console.log('THIS IS IMAGEPATH (index.js):', imagePath)
   let buffer = null
   let yesterday = new Date()
   yesterday.setDate(yesterday.getDate() - 1)
