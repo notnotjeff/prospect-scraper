@@ -21,8 +21,10 @@ module.exports = async () => {
   }
   fs.writeFileSync(imagePath, buffer.toString('binary'), 'binary')
 
-  const message = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth()}-${yesterday.getDate()}: (${process.env.GAMES_FE_URL})`
-  const altText = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth()}-${yesterday.getDate()}`
+  const message = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth() + 1}-${yesterday.getDate()}: (${
+    process.env.GAMES_FE_URL
+  })`
+  const altText = `Prospect statlines from ${yesterday.getFullYear()}-${yesterday.getMonth() + 1}-${yesterday.getDate()}`
   const twitterConnection = new TwitterConnection(
     process.env.TWITTER_CONSUMER_KEY,
     process.env.TWITTER_CONSUMER_SECRET,
