@@ -23,6 +23,7 @@
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm run check-format && npm run lint && npm run test",
     "games:scrape": "node scripts/run-games-scrape",
+    "games:wjc": "node scripts/run-games-wjc",
     "games:remove": "node scripts/run-games-remove",
     "games:remove-old": "node scripts/run-games-remove-old",
     "seasons:scrape": "node scripts/run-seasons-scrape",

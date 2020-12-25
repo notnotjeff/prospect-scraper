@@ -332,6 +332,8 @@ module.exports = [
     statline_url: null,
     game_statline_url: null,
     league: 'Liiga',
+    wjc_id: '45425',
+    wjc_team: 'FIN',
     ep_url: 'https://www.eliteprospects.com/player/347571/mikko-kokkonen',
   },
   {
@@ -347,6 +349,8 @@ module.exports = [
     statline_url: null,
     game_statline_url: null,
     league: 'QMJHL',
+    wjc_id: '3126259',
+    wjc_team: 'RUS',
     ep_url: 'https://www.eliteprospects.com/player/514653/mikhail-abramov',
   },
   {
@@ -422,6 +426,8 @@ module.exports = [
     statline_url: null,
     game_statline_url: null,
     league: 'KHL',
+    wjc_id: '3126246',
+    wjc_team: 'RUS',
     ep_url: 'https://www.eliteprospects.com/player/518585/rodion-amirov',
   },
   {
@@ -437,6 +443,8 @@ module.exports = [
     statline_url: null,
     game_statline_url: null,
     league: 'Liiga',
+    wjc_id: '3125868',
+    wjc_team: 'FIN',
     ep_url: 'https://www.eliteprospects.com/player/448946/roni-hirvonen',
   },
   {
@@ -452,6 +460,8 @@ module.exports = [
     statline_url: null,
     game_statline_url: null,
     league: 'Liiga',
+    wjc_id: '3125883',
+    wjc_team: 'FIN',
     ep_url: 'https://www.eliteprospects.com/player/499424/topi-niemela',
   },
   {
