@@ -51,11 +51,14 @@ An example of a filled out prospect looks like this:
   draft_year: 2017,
   ep_url: 'http://www.eliteprospects.com/player.php?player=224910',
   league_id: '6893',
+  team_id: null,
   statline_url:
     'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
   game_statline_url:
     'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
   league: 'AHL',
+  wjc_id: '123456',
+  wjc_team: 'SWE',
 }
 ```
 
@@ -68,19 +71,25 @@ After adding a prospect object to the `prospect_info.js` file (see Adding a Pros
 Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
 
 1. [AHL](#AHL)
-2. [BCHL](#BCHL)
-3. [Allsvenskan](#Allsvenskan)
-4. [KHL](#KHL)
-5. [Liiga](#Liiga)
-6. [MHL](#MHL)
-7. [NCAA](#NCAA)
-8. [OHL](#OHL)
-9. [QMJHL](#QMJHL)
-10. [SM-Sarja U20](#SM-Sarja)
-11. [SHL](#SHL)
-12. [USHL](#USHL)
-13. [VHL](#VHL)
-14. [WHL](#WHL)
+2. [Allsvenskan](#Allsvenskan)
+3. [BCHL](#BCHL)
+4. [CZE](#CZE)
+5. [CZE2](#CZE2)
+6. [ECHL](#ECHL)
+7. [KHL](#KHL)
+8. [Liiga](#Liiga)
+9. [Mestis](#Mestis)
+10. [MHL](#MHL)
+11. [NCAA](#NCAA)
+12. [NLA](#NLA)
+13. [OHL](#OHL)
+14. [QMJHL](#QMJHL)
+15. [SM-Sarja U20](#SM-Sarja)
+16. [SHL](#SHL)
+17. [USHL](#USHL)
+18. [VHL](#VHL)
+19. [WHL](#WHL)
+20. [WJC](#WJC)
 
 ## AHL
 
@@ -142,6 +151,57 @@ To get the league_id for the prospect:
 3. Click on the player's name to go to their profile.
 4. Copy the number in the browser's address bar into the `league_id` field for the prospect. For example, for the following URL `https://bchl.ca/stats/player/6748/ryan-tverberg` the id is `6748`
 
+## CZE
+
+Needed fields:
+```
+league_id: '23461',
+statline_url: null,
+game_statline_url: null,
+league: 'CZE',
+```
+
+To get the league_id for the prospect:
+
+1. [Go to the CZE's search page](https://www.hokej.cz/vyhledavani) and enter the prospect's name.
+2. Click on the appropriate link for the player's profile
+3. Copy the number in the browser's address bar into the `league_id` field for the prospect. For example, for the following URL `https://www.hokej.cz/hrac/23461` the id is `23461`
+
+## CZE2
+
+Needed fields:
+```
+league_id: '23461',
+statline_url: null,
+game_statline_url: null,
+league: 'CZE2',
+```
+
+To get the league_id for the prospect:
+
+1. [Go to the CZE's search page](https://www.hokej.cz/vyhledavani) and enter the prospect's name.
+2. Click on the appropriate link for the player's profile
+3. Copy the number in the browser's address bar into the `league_id` field for the prospect. For example, for the following URL `https://www.hokej.cz/hrac/23461` the id is `23461`
+
+## ECHL
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: 'a7a81ba19f324b9a59b9c0ea',
+league: 'ECHL',
+```
+
+To get the league_id for the prospect:
+
+1. [Go to the ECHL's Team Directory page](https://www.echl.com/en/pages/team-directory) and click on the appropriate link for the team the prospect plays for.
+2. Click on the `Roster` link
+3. Click on the desired player's table row to bring up the profile
+4. Open the browser developer tools to the Network Tab
+5. Look for the JSON response for the player (query params look like `s3?q=player-<id>`)
+6. Copy the number from the JSON request into the player's `league_id` field. For example the request `https://www.echl.com/api/s3?q=player-69906a5633645b14f186782b.json` would yield a `league_id` of `69906a5633645b14f186782b`
+
 ## KHL
 
 Needed fields:
@@ -169,6 +229,20 @@ league: 'Liiga',
 1. [Go to the Liiga player page](https://liiga.fi/fi/pelaajat/) and search for the prospect (by team or by name).
 2. Click on the prospect's name in the table to go to their profile page.
 3. Copy the number from the URL in the browser's address bar and paste it into the prospect's `league_id`. For example, in the URL `https://liiga.fi/fi/pelaajat/31555838/niemela-topi/` the prospect's id would be `31555838`
+
+## Mestis
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: '29969148',
+league: 'Mestis',
+```
+
+1. [Go to the Mestis player page](https://mestis.fi/en/pelaajat/) and search for the prospect (by team or by name).
+2. Click on the prospect's name in the table to go to their profile page.
+3. Copy the number from the URL in the browser's address bar and paste it into the prospect's `league_id`. For example, in the URL `https://mestis.fi/en/pelaajat/29969148/aalto-santeri` the prospect's id would be `29969148`
 
 ## MHL
 
@@ -205,6 +279,21 @@ This league only needs the prospect's `league_id` field to function. To get the 
 5. In the browser's address bar, copy the number after the `?` and paste it into the player's `league_id` field. For example, Mike Koster's profile URL is `http://collegehockeyinc.com/stats/players21.php?minm23`, therefore his `league_id` is `minm23`
 
 **One thing to note is that these profile urls are built using the player's team abbreviation and sequencial id generated based on player number order on the team. So if either of those things change you'll need to update the `league_id`.**
+
+## NLA
+
+Needed fields:
+```
+statline_url: null,
+game_statline_url: null,
+league_id: '7662',
+league: 'NLA',
+```
+
+1. [Go to the NLA's player statistics page](https://www.sihf.ch/de/game-center/national-league#/players/points/desc/page/0/).
+2. Filter by the team the desired prospect plays for.
+3. Open the Network tab in the browser dev tools and search for the `https://data.sihf.ch` request
+3. Copy the exact link into the statline URL. For example `https://data.sihf.ch/Statistic/api/cms/cache300?alias=player&searchQuery=1//1&filterQuery=2020/3092/101151&filterBy=Season,Phase&orderBy=points&orderByDescending=true&take=20&callback=externalStatisticsCallback&skip=-1&language=de`
 
 ## OHL
 
@@ -319,6 +408,22 @@ league: 'WHL',
 1. [Go to the WHL's search people page](https://whl.ca/searchpeople) and enter the prospect name.
 2. Click on the prospect you are looking for which goes to their profile page.
 3. Copy the number from the URL in the browser's address bar into the prospect's `league_id` field. For example, with the URL `https://whl.ca/players/27355` the player's id would be `27355`
+
+## WJC
+
+There is only a scraper for WJC games and it is run by a separate npm command (`npm run games:wjc`). The WJC uses its own keys (to not interfere with season scraper).
+
+```
+wjc_id: '3126259',
+wjc_team: 'RUS', // Options: RUS, SVK, SUI, GER, FIN, RUS, USA, SWE, CZE, AUT, CAN
+```
+
+1. [Go to the IIHF's WJC page](https://www.iihf.com/en/events/2021/wm20) and go to the games section (this is 2021, you'll need to find the current year).
+2. Go to the `Teams` page using the menu
+3. Find the team of the prospect you need and click on the logo.
+4. Find the prospect in the Players list and inspect the element.
+5. Copy the id number from the players `<tr>` for the table. It is listed under the `data-fwk-id` tag. For instance, Mikhail Abramov's id is `3126259`
+
 
 # Removing a Prospect
 
