@@ -31,6 +31,10 @@ module.exports = async function (prospect, date) {
       stats.push(scrapedProspect(elm).text().replace(/\n/g, ''))
     })
 
+    if (!stats.length) {
+      return null
+    }
+
     return {
       first_name: prospect.first_name,
       last_name: prospect.last_name,

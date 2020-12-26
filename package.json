@@ -11,7 +11,8 @@
     "verbose": true,
     "modulePathIgnorePatterns": [
       "__fixtures__"
-    ]
+    ],
+    "clearMocks": true
   },
   "scripts": {
     "test": "jest --watch",

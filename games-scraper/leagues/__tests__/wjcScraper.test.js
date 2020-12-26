@@ -121,4 +121,27 @@ describe('wjcScraper()', () => {
       expect(utils.request.htmlRequest.mock.calls[1]).toEqual(['https://www.iihf.com/en/events/2021/wm20/gamecenter/statistics/22716/1-sui-vs-svk'])
     })
   })
+
+  describe('when player is not playing in teams game', () => {
+    it('returns null', async () => {
+      const prospectIndexHtml = require('./__fixtures__/wjc_index.fixture')
+      const prospectGameHtml = require('./__fixtures__/wjc_swiss.fixture')
+      const prospect = {
+        first_name: 'Michal',
+        last_name: 'Mrazik',
+        wjc_team: 'SVK',
+        wjc_id: '1',
+      }
+      const date = new Date()
+
+      jest.spyOn(utils.date, 'setDateValues').mockImplementation(() => ({ day: '25', month: '12', year: '2020' }))
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementationOnce(() => cheerio.load(prospectIndexHtml))
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectGameHtml))
+
+      const gameData = await wjcScraper(prospect, date)
+
+      expect(gameData).toEqual(null)
+      expect(utils.request.htmlRequest.mock.calls.length).toEqual(2)
+    })
+  })
 })
