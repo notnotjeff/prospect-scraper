@@ -9,8 +9,8 @@ describe('wjcScraper()', () => {
     const prospect = {
       first_name: 'Michal',
       last_name: 'Mrazik',
-      wjc_team: 'SVK',
-      wjc_id: '45612',
+      team_id: 'SVK',
+      league_id: '45612',
     }
     const date = new Date()
 
@@ -34,8 +34,8 @@ describe('wjcScraper()', () => {
     const prospect = {
       first_name: 'Michal',
       last_name: 'Mrazik',
-      wjc_team: 'SVK',
-      wjc_id: '45612',
+      team_id: 'SVK',
+      league_id: '45612',
     }
     const date = new Date()
 
@@ -48,13 +48,13 @@ describe('wjcScraper()', () => {
     expect(gameData).toEqual(null)
   })
 
-  describe('when no wjc_id', () => {
+  describe('when no league_id', () => {
     it('throws error', async () => {
       const prospect = {
         first_name: 'Michal',
         last_name: 'Mrazik',
-        wjc_team: 'SVK',
-        wjc_id: null,
+        team_id: 'SVK',
+        league_id: null,
       }
       const date = new Date()
 
@@ -62,13 +62,13 @@ describe('wjcScraper()', () => {
     })
   })
 
-  describe('when no wjc_team', () => {
+  describe('when no team_id', () => {
     it('throws error', async () => {
       const prospect = {
         first_name: 'Michal',
         last_name: 'Mrazik',
-        wjc_team: null,
-        wjc_id: '45612',
+        team_id: null,
+        league_id: '45612',
       }
       const date = new Date()
 
@@ -83,8 +83,8 @@ describe('wjcScraper()', () => {
       const prospect = {
         first_name: 'Michal',
         last_name: 'Mrazik',
-        wjc_team: 'SVK',
-        wjc_id: '45612',
+        team_id: 'SVK',
+        league_id: '45612',
       }
       const date = new Date()
 
@@ -104,8 +104,8 @@ describe('wjcScraper()', () => {
       const prospect = {
         first_name: 'Michal',
         last_name: 'Mrazik',
-        wjc_team: 'SVK',
-        wjc_id: '45612',
+        team_id: 'SVK',
+        league_id: '45612',
       }
       const date = new Date()
 
@@ -129,8 +129,8 @@ describe('wjcScraper()', () => {
       const prospect = {
         first_name: 'Michal',
         last_name: 'Mrazik',
-        wjc_team: 'SVK',
-        wjc_id: '1',
+        team_id: 'SVK',
+        league_id: '1',
       }
       const date = new Date()
 

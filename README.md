@@ -411,11 +411,11 @@ league: 'WHL',
 
 ## WJC
 
-There is only a scraper for WJC games and it is run by a separate npm command (`npm run games:wjc`). The WJC uses its own keys (to not interfere with season scraper).
-
+Needed fields:
 ```
-wjc_id: '3126259',
-wjc_team: 'RUS', // Options: RUS, SVK, SUI, GER, FIN, RUS, USA, SWE, CZE, AUT, CAN
+league_id: '3126259',
+team_id: 'RUS', // Options: RUS, SVK, SUI, GER, FIN, RUS, USA, SWE, CZE, AUT, CAN (if team name is not listed here check IIHF Games page for which abbreviation is used)
+league: 'WJC',
 ```
 
 1. [Go to the IIHF's WJC page](https://www.iihf.com/en/events/2021/wm20) and go to the games section (this is 2021, you'll need to find the current year).

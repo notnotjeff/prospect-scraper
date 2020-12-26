@@ -4,7 +4,7 @@ const findGameUrl = async (dateString, urlYear, prospect) => {
   const indexUrl = `https://www.iihf.com/en/events/${urlYear}/wm20/schedule`
   const indexPage = await utils.request.htmlRequest(indexUrl)
   const scorecard = indexPage(
-    `div[data-hometeam="${prospect.wjc_team}"][data-date="${dateString}"] > .s-hover > a, div[data-guestteam="${prospect.wjc_team}"][data-date="${dateString}"] > .s-hover > a`,
+    `div[data-hometeam="${prospect.team_id}"][data-date="${dateString}"] > .s-hover > a, div[data-guestteam="${prospect.team_id}"][data-date="${dateString}"] > .s-hover > a`,
   ).attr('href')
 
   return scorecard
@@ -14,7 +14,7 @@ const findProspectStats = async (prospect, gameUrl) => {
   const url = `https://www.iihf.com${gameUrl.replace('playbyplay', 'statistics')}`
   const scrapedProspect = await utils.request.htmlRequest(url)
   const stats = []
-  scrapedProspect(`tbody.js-right-table tr[data-fwk-id="${prospect.wjc_id}"] > td`).each(function (_i, elm) {
+  scrapedProspect(`tbody.js-right-table tr[data-fwk-id="${prospect.league_id}"] > td`).each(function (_i, elm) {
     stats.push(scrapedProspect(elm).text().replace(/\n/g, ''))
   })
 
@@ -22,12 +22,12 @@ const findProspectStats = async (prospect, gameUrl) => {
 }
 
 module.exports = async function (prospect, date) {
-  if (!prospect.wjc_team) {
-    throw new Error(`Cannot complete WJC scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n wjc_team`)
+  if (!prospect.team_id) {
+    throw new Error(`Cannot complete WJC scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n team_id`)
   }
 
-  if (!prospect.wjc_id) {
-    throw new Error(`Cannot complete WJC scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n wjc_id`)
+  if (!prospect.league_id) {
+    throw new Error(`Cannot complete WJC scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
   const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })

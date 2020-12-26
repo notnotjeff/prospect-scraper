@@ -328,12 +328,14 @@ module.exports = [
     draft_round: 3,
     draft_pick: 84,
     draft_year: 2019,
-    league_id: '31128854',
     statline_url: null,
     game_statline_url: null,
-    league: 'Liiga',
-    wjc_id: '45425',
-    wjc_team: 'FIN',
+    // league_id: '31128854',
+    // league: 'Liiga',
+    // team_id: null,
+    league_id: '45425', // WJC
+    team_id: 'FIN', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/347571/mikko-kokkonen',
   },
   {
@@ -345,12 +347,14 @@ module.exports = [
     draft_round: 4,
     draft_pick: 115,
     draft_year: 2019,
-    league_id: '17871',
     statline_url: null,
     game_statline_url: null,
-    league: 'QMJHL',
-    wjc_id: '3126259',
-    wjc_team: 'RUS',
+    // league_id: '17871',
+    // team_id: null,
+    // league: 'QMJHL',
+    league_id: '3126259', // WJC
+    team_id: 'RUS', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/514653/mikhail-abramov',
   },
   {
@@ -422,12 +426,14 @@ module.exports = [
     draft_round: 1,
     draft_pick: 15,
     draft_year: 2020,
-    league_id: '30159',
     statline_url: null,
     game_statline_url: null,
-    league: 'KHL',
-    wjc_id: '3126246',
-    wjc_team: 'RUS',
+    // league_id: '30159',
+    // team_id: null,
+    // league: 'KHL',
+    league_id: '3126246', // WJC
+    team_id: 'RUS', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/518585/rodion-amirov',
   },
   {
@@ -439,12 +445,14 @@ module.exports = [
     draft_round: 2,
     draft_pick: 59,
     draft_year: 2020,
-    league_id: '32269686',
     statline_url: null,
     game_statline_url: null,
-    league: 'Liiga',
-    wjc_id: '3125868',
-    wjc_team: 'FIN',
+    // league_id: '32269686',
+    // team_id: null,
+    // league: 'Liiga',
+    league_id: '3125868', // WJC
+    team_id: 'FIN', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/448946/roni-hirvonen',
   },
   {
@@ -456,12 +464,14 @@ module.exports = [
     draft_round: 3,
     draft_pick: 64,
     draft_year: 2020,
-    league_id: '31555838',
     statline_url: null,
     game_statline_url: null,
-    league: 'Liiga',
-    wjc_id: '3125883',
-    wjc_team: 'FIN',
+    // league_id: '31555838',
+    // team_id: null,
+    // league: 'Liiga',
+    league_id: '3125883', // WJC
+    team_id: 'FIN', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/499424/topi-niemela',
   },
   {
@@ -473,9 +483,10 @@ module.exports = [
     draft_round: 4,
     draft_pick: 122,
     draft_year: 2020,
-    league_id: '17505',
     statline_url: null,
     game_statline_url: null,
+    league_id: '17505',
+    team_id: null,
     league: 'QMJHL',
     ep_url: 'https://www.eliteprospects.com/player/410562/william-villeneuve',
   },

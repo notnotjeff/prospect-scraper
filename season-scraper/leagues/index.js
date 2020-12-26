@@ -17,6 +17,7 @@ const allsvenskanScraper = require('./allsvenskanScraper.js')
 const sarja20Scraper = require('./sarja20Scraper.js')
 const mhlScraper = require('./mhlScraper.js')
 const bchlScraper = require('./bchlScraper.js')
+const wjcScraper = require('./wjcScraper.js')
 
 module.exports = {
   ohlScraper,
@@ -38,6 +39,7 @@ module.exports = {
   allsvenskanScraper,
   sarja20Scraper,
   mhlScraper,
+  wjcScraper,
   leagueCodes: {
     OHL: 'ohlScraper',
     BCHL: 'bchlScraper',
@@ -58,5 +60,6 @@ module.exports = {
     Allsv: 'allsvenskanScraper',
     Sarja20: 'sarja20Scraper',
     MHL: 'mhlScraper',
+    WJC: 'wjcScraper',
   },
 }
