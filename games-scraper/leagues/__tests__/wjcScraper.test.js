@@ -28,7 +28,7 @@ describe('wjcScraper()', () => {
     expect(gameData.date).toEqual('2020-12-25')
   })
 
-  it('it returns null when there is no game on the specified date', async () => {
+  it('returns null when there is no game on the specified date', async () => {
     const prospectIndexHtml = require('./__fixtures__/wjc_index.fixture')
     const prospectGameHtml = require('./__fixtures__/wjc_swiss.fixture')
     const prospect = {
