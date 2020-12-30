@@ -559,7 +559,7 @@ module.exports = [
     draft_round: 7,
     draft_pick: 189,
     draft_year: 2020,
-    league_id: '',
+    league_id: '9081',
     statline_url: null,
     game_statline_url: null,
     league: 'USHL',
