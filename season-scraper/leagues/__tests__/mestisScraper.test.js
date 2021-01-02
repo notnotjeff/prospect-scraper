@@ -9,8 +9,6 @@ describe('mestisScraper()', () => {
       first_name: 'Kasper',
       last_name: 'Simontaival',
       league_id: '31574013',
-      statline_url: 'https://mestis.fi/fi/pelaajat/31574013/simontaival-kasper',
-      game_statline_url: 'https://mestis.fi/fi/pelaajat/31574013/simontaival-kasper/ottelu-ottelulta',
       league: 'Mestis',
     }
 

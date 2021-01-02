@@ -11,10 +11,6 @@ When adding a scraper for a new league there are a few steps to follow:
 3. Add the scraper to the `LEAGUE_CODES` constant in the `index.js` file of the scraper (if it's for a season scrape it goes in `season-scraper/index.js` and if it's for a game scraper it goes into `game-scraper/index.js`). Use the name of the league that shows up in `prospect_info.js` under a prospect's `league` key (e.g. KHL, AHL, SHL) and the value should be what you named the scraper in step 2 (e.g. khlScraper, ahlScraper, shlScraper)
 4. Add appropriate test for the league and make sure the request is stubbed using `jest.spyOn` (see other tests on how to accomplish this)
 
-## Finnish Leagues
-
-When looking to add a Finnish league check out [this aggregate site](http://www.leijonat.fi/) for links to various league websites.
-
 # Adding a Prospect
 
 For a prospect to have their data scraped it must exist inside `prospect_info.js`. Here there is an array of prospect objects that contain all the information necessary to find their stats and upload to the database in a format to be shown to the end user. In order to add a prospect you'll need to add a new object for the desired prospect and make sure it has all these fields:
@@ -30,10 +26,6 @@ For a prospect to have their data scraped it must exist inside `prospect_info.js
   draft_pick: 'The exact pick number the player was taken at in their draft (set as null if undrafted) [integer]',
   draft_year: 'Year the player was drafted (set as null if undrafted) [integer]',
   ep_url: 'The link to the prospects Eliteprospects page which is shown to the user to allow them to have easy access to other seasons beyond the current one being scraped [string]',
-  league_id: 'If a player has a league id put it here, some leagues require one in order to scrape the prospects [string]',
-  statline_url: 'The url to the page/json data to scrape a players season statistics [string]',
-  game_statline_url: 'The url to the page/json data to scrape a players individual played games [string]',
-  league: 'The shorthand version of the current league that the player is playing in (check the LEAGUE_CODES constant to see the available leagues) [string]',
 }
 ```
 
@@ -49,24 +41,24 @@ An example of a filled out prospect looks like this:
   draft_round: 1,
   draft_pick: 17,
   draft_year: 2017,
-  ep_url: 'http://www.eliteprospects.com/player.php?player=224910',
-  league_id: '6893',
-  team_id: null,
-  statline_url:
-    'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-  game_statline_url:
-    'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-  league: 'AHL',
-  wjc_id: '123456',
-  wjc_team: 'SWE',
+  ep_url: 'http://www.eliteprospects.com/player.php?player=224910'
 }
 ```
 
-The fields `league_id`, `statline_url`, `game_statline_url`, and `league` are important to how the scraper works (both when scraping games or season statlines). The following section (Finding Prospect URLs) will break down how to fill out these fields for different leagues in order for the scraper to work properly.
+# Scraping a Prospect
 
-# Finding Prospect URLs
+After adding a prospect object to the `prospect_info.js` file (see Adding a Prospect section) you'll need to get the necessary information in order for the scraper to gather the player's season/game data. Depending on the league you'll need to fill out specific fields. Potential fields include:
 
-After adding a prospect object to the `prospect_info.js` file (see Adding a Prospect section) you'll need to get the prospect's `statline_url` (the link to where the scraper can find the player's full season stats) and the `game_statline_url` (the link to where the scraper can find the prospect's played games). These URLs (along with the league field) determine how a prospect's statistics will be scraped
+```javascript
+{
+  league_id: 'Most leagues require a players unique league_id in order to scrape the prospects [string]',
+  team_id: 'Some leagues also need the unique id of the team the player plays for in order to find their stats [string]',
+  season_id: 'Some leagues also need the unique id of the season the prospect is playing in [string]',
+  statline_url: 'The url to the page/json data to scrape a players season statistics [string]',
+  game_statline_url: 'The url to the page/json data to scrape a players individual played games [string]',
+  league: 'The shorthand version of the current league that the player is playing in so that the scraper knows where to find their stats [string]'
+}
+```
 
 Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
 
@@ -96,8 +88,6 @@ Every league is a bit different in how to obtain URLs so there will be a section
 Needed fields:
 ```
 league_id: '7314',
-statline_url: null,
-game_statline_url: null,
 league: 'AHL',
 ```
 
@@ -110,37 +100,28 @@ To get the league_id for the prospect:
 
 ## Allsvenskan
 
+**There is no game scraper for this league**
+
 Needed fields:
 ```
-league_id: null,
-statline_url: 'https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All&team=110b-110bJcIAI',
-game_statline_url: null,
+first_name: 'Jesper',
+last_name: 'Lindgren',
+team_id: '110b-110bJcIAI'
 league: 'Allsv',
 ```
 
-To get the `statline_url` of a prospect playing in the Allsvenskan you'll need to:
+For the Allsvenskan you'll need the prospect's `first name`, `last_name`, and `team_id` fields filled out:
 
 1. Go to the [Allsvenskan player statistics page](https://www.hockeyallsvenskan.se/statistik/spelare) and select the team that the prospect plays on (make sure to select the right year and)
-2. Copy the URL from the address bar into the prospect's `statline_url` field
-3. Remove the `season=<YEAR>&` portion of the URL so that this can remain dynamic if the prospect remains in the league an additional year:
+2. From the URL in the browser's address bar into the prospect's `team_id` by getting the characters after the `&team=` portion. For example the URL `https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI` the `team_id` would be `110b-110bJcIAI`.
+3. On the team page for the prospect make sure the `first_name` and `last_name` fields have the same spelling and characters as the page indicates or else the scraper won't find the player.
 ```
-https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI
-
-# Changes to:
-
-https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All&team=110b-110bJcIAI
-```
-4. Use the prospect's name from this table **exactly** for the prospect's `first_name` and `last_name` fields **including the accents** because the scraper uses the prospect's name to match which statline to use from the table on this page.
-
-At the moment there is no scraper for getting a prospects individual games so you can set the `game_statline_url` to `null`
 
 ## BCHL
 
 Needed fields:
 ```
 league_id: '7314',
-statline_url: null,
-game_statline_url: null,
 league: 'BCHL',
 ```
 
@@ -156,8 +137,6 @@ To get the league_id for the prospect:
 Needed fields:
 ```
 league_id: '23461',
-statline_url: null,
-game_statline_url: null,
 league: 'CZE',
 ```
 
@@ -172,8 +151,6 @@ To get the league_id for the prospect:
 Needed fields:
 ```
 league_id: '23461',
-statline_url: null,
-game_statline_url: null,
 league: 'CZE2',
 ```
 
@@ -185,10 +162,10 @@ To get the league_id for the prospect:
 
 ## ECHL
 
+**There is no games scraper for this league**
+
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: 'a7a81ba19f324b9a59b9c0ea',
 league: 'ECHL',
 ```
@@ -206,8 +183,6 @@ To get the league_id for the prospect:
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: '30159',
 league: 'KHL',
 ```
@@ -221,8 +196,6 @@ league: 'KHL',
 Needed fields:
 ```
 league_id: '31555838',
-statline_url: null,
-game_statline_url: null,
 league: 'Liiga',
 ```
 
@@ -234,8 +207,6 @@ league: 'Liiga',
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: '29969148',
 league: 'Mestis',
 ```
@@ -248,8 +219,6 @@ league: 'Mestis',
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: '31214',
 league: 'MHL',
 ```
@@ -264,8 +233,6 @@ This league only needs the prospect's `league_id` field to function. To get the 
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: 'minm23',
 league: 'NCAA',
 ```
@@ -282,25 +249,26 @@ This league only needs the prospect's `league_id` field to function. To get the 
 
 ## NLA
 
+**There is no games scraper for this league**
+
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
-league_id: '7662',
+first_name: 'Denis',
+last_name: 'Malgin',
+season_id: '3092',
+team_id: '101151',
 league: 'NLA',
 ```
 
 1. [Go to the NLA's player statistics page](https://www.sihf.ch/de/game-center/national-league#/players/points/desc/page/0/).
 2. Filter by the team the desired prospect plays for.
-3. Open the Network tab in the browser dev tools and search for the `https://data.sihf.ch` request
-3. Copy the exact link into the statline URL. For example `https://data.sihf.ch/Statistic/api/cms/cache300?alias=player&searchQuery=1//1&filterQuery=2020/3092/101151&filterBy=Season,Phase&orderBy=points&orderByDescending=true&take=20&callback=externalStatisticsCallback&skip=-1&language=de`
+3. From the URL you'll need the `season_id` and `team_id` which you can get with second and third numbers after the `&filterQuery=` portion of the URL. For example: `https://www.sihf.ch/de/game-center/national-league#/players/points/desc/page/0/2021/3478/101151` would have a `season_id` of `3478` and a `team_id` of `101151`.
+4. Also make sure to use the same spelling that is used in the table of players (including accents!)
 
 ## OHL
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: '7662',
 league: 'OHL',
 ```
@@ -313,8 +281,6 @@ league: 'OHL',
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: '17871',
 league: 'QMJHL',
 ```
@@ -327,8 +293,6 @@ league: 'QMJHL',
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: 255011063073080359893401,
 league: 'Sarja20',
 ```
@@ -343,31 +307,24 @@ This scraper uses the prospect's `league_id` field to determine the URL so all y
 
 Needed fields:
 ```
-league_id: '1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander',
-statline_url: null,
-game_statline_url: null,
+team_id: '1a71-1a71gTHKh__lulea-hockey',
+league_id: 'qRm-1ykhbTRK4__filip-hallander',
 league: 'SHL',
 ```
 
-In order to get the statline_url you'll need to:
+In order to get the `team_id` and `league_id` you'll need to:
 
 1. [Go to the SHL player statistics page](https://www.shl.se/statistik/spelare) and sort by the team that the prospect is on.
 2. Change the `Lag` (team) filter to the team that the prospect plays for
 3. Click on the prospect's name in the table to go to their profile
 4. Click on the `Statistik` heading beside the profile picture to go to the statistics table
-5. Copy the url in the browser's address bar and paste it in the prospect's `statline_url` field. It looks like: `https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics`
-
-For the SHL the game scraper uses the player's id which is a combination of the team name and id along with the player name and id. To get the `league_id` you'll continue from step 5:
-
-6. Copy the text in the URL from the browser's address bar between the `lag/` and the `/statistics`. For example, with this URL `https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics` the player's id would be `1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander`. Notice how it includes the team along with the player. Do not include the beginning or ending `/` characters.
+5. From the url in the browser's address bar grab the `team_id` from the text between the first `/` characters after `lag` (has the prospect's team name in it) as well as the `league_id` from the text between the next set of `/` characters (has the prospect's name in it). For example, the URL `https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics` has a `team_id` of `1a71-1a71gTHKh__lulea-hockey` and a `league_id` of `qRm-1ykhbTRK4__filip-hallander`
 
 ## USHL
 
 Needed fields:
 ```
 league_id: '7842',
-statline_url: null,
-game_statline_url: null,
 league: 'USHL',
 ```
 
@@ -383,24 +340,19 @@ In order to get the `league_id` for the prospect you'll need to:
 Needed fields:
 ```
 league_id: '25697',
-statline_url: null,
-game_statline_url: null,
 league: 'VHL',
 ```
 
-In order to get a VHL prospect to scrape properly you'll need their profile link in the `statline_url` field and the `league_id` field filled out. To get that information:
+In order to get a VHL prospect to scrape properly you'll need the `league_id` field filled out:
 
 1. [Go to the VHL's player page](http://www.vhlru.ru/en/players/) and search for the prospect.
 2. Click on their name in the table to get to their profile page.
-3. Copy the URL in the browser's address bar into the `statline_url` field. The URL looks like: `http://www.vhlru.ru/en/players/25697/` where the number is the player's id
-4. Copy the player id in the URL from step 3 and paste it into the prospect's `league_id` field. For example, the URL `http://www.vhlru.ru/en/players/25697/` has a player id of `25697`
+3. Using the URL in the browser's address bar grab the `league_id`. The `league_id` are the numbers between the `/` characters after the `players` portion. For example, the URL `http://www.vhlru.ru/en/players/25697/` has a `league_id` of `25697`
 
 ## WHL
 
 Needed fields:
 ```
-statline_url: null,
-game_statline_url: null,
 league_id: '27355',
 league: 'WHL',
 ```

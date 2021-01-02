@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE QMJHL (set qmjhl_season_id globably in prospects.js based on current season_id)
-// {
-//   profile_url: "https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&p=1&client_code=lhjmq&view=Teamstat&fmt=json&player_id=17871&lang=en&force_player=0&callback=json",
-//   games_url: `https://lscluster.hockeytech.com/feed/index.php?feed=widgetkit2&key=f322673b6bcae299&client_code=lhjmq&view=Gamebygame&lang=en&season_id=${qmjhl_season_id}&fmt=json&dfdsfdsa=2fdsa&player_id=17871&force_player=0&callback=json`,
-//   league: "QMJHL",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete QMJHHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

@@ -8,8 +8,6 @@ describe('bchlScraper()', () => {
       first_name: 'Dawson',
       last_name: 'Tritt',
       league_id: '5115',
-      statline_url: '',
-      game_statline_url: '',
       league: 'BCHL',
     }
 
@@ -40,8 +38,6 @@ describe('bchlScraper()', () => {
         first_name: 'Dawson',
         last_name: 'Tritt',
         league_id: '5115',
-        statline_url: '',
-        game_statline_url: '',
         league: 'BCHL',
       }
 

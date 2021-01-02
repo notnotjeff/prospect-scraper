@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   league_id: '31214',
-//   statline_url: null,
-//   game_statline_url: null,
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete MHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

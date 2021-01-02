@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE OHL
-// {
-//   profile_url: "http://lscluster.hockeytech.com/feed/?feed=modulekit&view=player&key=2976319eb44abe94&fmt=json&client_code=ohl&lang=en&player_id=7146&category=seasonstats",
-//   games_url: "http://lscluster.hockeytech.com/feed/?feed=modulekit&view=player&key=2976319eb44abe94&fmt=json&client_code=ohl&lang=en&player_id=7146&category=gamebygame",
-//   league: "OHL",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete OHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

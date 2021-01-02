@@ -7,9 +7,8 @@ describe('nlaScraper()', () => {
     const prospect = {
       first_name: 'Denis',
       last_name: 'Malgin',
-      statline_url:
-        'https://data.sihf.ch/Statistic/api/cms/cache300?alias=player&searchQuery=1//1&filterQuery=2020/3092/101151&filterBy=Season,Phase&orderBy=points&orderByDescending=true&take=20&callback=externalStatisticsCallback&skip=-1&language=de',
-      games_url: '',
+      season_id: '3092',
+      team_id: '101151',
       league: 'NLA',
     }
 
@@ -17,16 +16,60 @@ describe('nlaScraper()', () => {
 
     const { goals, assists, points, shots, games_played } = await nlaScraper(prospect)
 
-    expect(goals).toEqual(6)
-    expect(assists).toEqual(3)
-    expect(points).toEqual(9)
+    expect(goals).toEqual(11)
+    expect(assists).toEqual(10)
+    expect(points).toEqual(21)
     expect(shots).toEqual(null)
-    expect(games_played).toEqual(8)
+    expect(games_played).toEqual(19)
   })
 
-  describe('when null league_id is inputted', () => {
+  describe('when null season_id is inputted', () => {
     it('it throws error', async () => {
-      const prospect = { league: 'NLA' }
+      const prospect = {
+        first_name: 'Denis',
+        last_name: 'Malgin',
+        team_id: '101151',
+        league: 'NLA',
+      }
+
+      await expect(nlaScraper(prospect)).rejects.toThrow()
+    })
+  })
+
+  describe('when null team_id is inputted', () => {
+    it('it throws error', async () => {
+      const prospect = {
+        first_name: 'Denis',
+        last_name: 'Malgin',
+        season_id: '3092',
+        league: 'NLA',
+      }
+
+      await expect(nlaScraper(prospect)).rejects.toThrow()
+    })
+  })
+
+  describe('when null first_name is inputted', () => {
+    it('it throws error', async () => {
+      const prospect = {
+        last_name: 'Malgin',
+        season_id: '3092',
+        team_id: '101151',
+        league: 'NLA',
+      }
+
+      await expect(nlaScraper(prospect)).rejects.toThrow()
+    })
+  })
+
+  describe('when null last_name is inputted', () => {
+    it('it throws error', async () => {
+      const prospect = {
+        first_name: 'Denis',
+        season_id: '3092',
+        team_id: '101151',
+        league: 'NLA',
+      }
 
       await expect(nlaScraper(prospect)).rejects.toThrow()
     })
@@ -38,9 +81,8 @@ describe('nlaScraper()', () => {
       const prospect = {
         first_name: 'Not Denis',
         last_name: 'Not Malgin',
-        statline_url:
-          'https://data.sihf.ch/Statistic/api/cms/cache300?alias=player&searchQuery=1//1&filterQuery=2020/3092/101151&filterBy=Season,Phase&orderBy=points&orderByDescending=true&take=20&callback=externalStatisticsCallback&skip=-1&language=de',
-        games_url: '',
+        season_id: '3092',
+        team_id: '101151',
         league: 'NLA',
       }
 

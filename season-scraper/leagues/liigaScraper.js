@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   statline_url: "http://liiga.fi/pelaajat/100025980/lindgren-jesper",
-//   game_statline_url: "http://liiga.fi/fi/pelaajat/100025980/lindgren-jesper/ottelu-ottelulta",
-//   league: "Liiga",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete Liiga scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

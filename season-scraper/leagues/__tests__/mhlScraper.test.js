@@ -8,17 +8,8 @@ describe('mhlScraper()', () => {
     const prospect = {
       first_name: 'Dmitry',
       last_name: 'Ovchinnikov',
-      position: 'C',
-      shoots: 'L',
-      dob: '2002-08-19',
-      draft_round: 2,
-      draft_pick: 59,
-      draft_year: 2020,
       league_id: '31214',
-      statline_url: 'https://engmhl.khl.ru/players/31214/',
-      game_statline_url: 'https://engmhl.khl.ru/players/31214/games/',
       league: 'MHL',
-      ep_url: 'https://www.eliteprospects.com/player/534929/dmitri-ovchinnikov',
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))

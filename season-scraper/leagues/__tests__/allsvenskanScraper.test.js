@@ -8,17 +8,8 @@ describe('allsvenskanScraper()', () => {
     const prospect = {
       first_name: 'Jesper',
       last_name: 'Lindgren',
-      position: 'D',
-      shoots: 'R',
-      dob: '1997-05-19',
-      draft_round: 4,
-      draft_pick: 95,
-      draft_year: 2015,
-      league_id: '6756',
-      statline_url: 'https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI',
-      game_statline_url: 'https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI',
+      team_id: '110b-110bJcIAI',
       league: 'Allsv',
-      ep_url: 'http://www.eliteprospects.com/player.php?player=187806',
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))

@@ -1,13 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE PROSPECT.JS JSON
-// {
-//   league_id: '60490663',
-//   statline_url: 'https://mestis.fi/en/pelaajat/60490663/hollowell-mac',
-//   game_statline_url: 'https://mestis.fi/en/pelaajat/60490663/hollowell-mac/ottelu-ottelulta',
-//   league: 'Mestis',
-// }
-
 module.exports = async function (prospect, date) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete Sarja20 scrape, prospect is missing: \n league_id`)
