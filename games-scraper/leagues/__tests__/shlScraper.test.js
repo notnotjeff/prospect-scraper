@@ -8,17 +8,9 @@ describe('shlScraper()', () => {
     const prospect = {
       first_name: 'Filip',
       last_name: 'Hallander',
-      position: 'C',
-      shoots: 'L',
-      dob: '2000-06-29',
-      draft_round: 2,
-      draft_pick: 58,
-      draft_year: 2018,
-      league_id: '1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander',
-      statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics',
-      game_statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/gamelog',
+      league_id: 'qRm-1ykhbTRK4__filip-hallander',
+      team_id: '1a71-1a71gTHKh__lulea-hockey',
       league: 'SHL',
-      ep_url: 'https://www.eliteprospects.com/player/293387/filip-hallander',
     }
     const date = new Date('2020-10-03 12:00:00')
 
@@ -39,17 +31,9 @@ describe('shlScraper()', () => {
     const prospect = {
       first_name: 'Filip',
       last_name: 'Hallander',
-      position: 'C',
-      shoots: 'L',
-      dob: '2000-06-29',
-      draft_round: 2,
-      draft_pick: 58,
-      draft_year: 2018,
-      league_id: '1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander',
-      statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/statistics',
-      game_statline_url: 'https://www.shl.se/lag/1a71-1a71gTHKh__lulea-hockey/qRm-1ykhbTRK4__filip-hallander/gamelog',
+      league_id: 'qRm-1ykhbTRK4__filip-hallander',
+      team_id: '1a71-1a71gTHKh__lulea-hockey',
       league: 'SHL',
-      ep_url: 'https://www.eliteprospects.com/player/293387/filip-hallander',
     }
     const noGameAtdate = new Date('2010-09-26 12:00:00')
 
@@ -72,17 +56,9 @@ describe('shlScraper()', () => {
     const prospect = {
       first_name: 'Pontus',
       last_name: 'Holmberg',
-      position: 'LW',
-      shoots: 'L',
-      dob: '1999-03-09',
-      draft_round: 6,
-      draft_pick: 156,
-      draft_year: 2018,
-      league_id: 'fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg',
-      statline_url: 'https://www.shl.se/lag/fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg/statistics',
-      game_statline_url: 'https://www.shl.se/lag/fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg/gamelog',
+      league_id: 'qTK-4a8Y9mMrn__pontus-holmberg',
+      team_id: 'fe02-fe02mf1FN__vaxjo-lakers',
       league: 'SHL',
-      ep_url: 'https://www.eliteprospects.com/player/265859/pontus-holmberg',
     }
     const date = new Date('2020-11-10 12:00:00')
 

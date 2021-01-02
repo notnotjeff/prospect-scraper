@@ -7,17 +7,8 @@ describe('ohlScraper()', () => {
     const prospect = {
       first_name: 'Nick',
       last_name: 'Robertson',
-      position: 'LW',
-      shoots: 'L',
-      dob: '2001-09-11',
-      draft_round: 2,
-      draft_pick: 53,
-      draft_year: 2019,
       league_id: '7662',
-      statline_url: null,
-      game_statline_url: null,
       league: 'OHL',
-      ep_url: 'https://www.eliteprospects.com/player/359539/nicholas-robertson',
     }
 
     jest.spyOn(utils.date, 'getSeasonStartYear').mockImplementation(() => 2019)

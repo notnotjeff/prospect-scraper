@@ -8,17 +8,8 @@ describe('khlScraper()', () => {
     const prospect = {
       first_name: 'Rodion',
       last_name: 'Amirov',
-      position: 'LW',
-      shoots: 'L',
-      dob: '2001-10-02',
-      draft_round: 1,
-      draft_pick: 15,
-      draft_year: 2020,
       league_id: '30159',
-      statline_url: 'https://en.khl.ru/players/30159/',
-      game_statline_url: 'https://en.khl.ru/players/30159/',
       league: 'KHL',
-      ep_url: 'https://www.eliteprospects.com/player/518585/rodion-amirov',
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))

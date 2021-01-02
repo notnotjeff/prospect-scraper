@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   statline_url: "https://en.khl.ru/players/31190/",
-//   game_statline_url: "https://en.khl.ru/players/31190/",
-//   league: "KHL",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete KHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

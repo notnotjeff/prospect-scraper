@@ -1,18 +1,12 @@
 const utils = require('../../utils')
 
-// EXAMPLE PROSPECT.JS JSON
-// {
-//   league_id: '30159',
-//   league: "SHL",
-// }
-
 module.exports = async function (prospect, date) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete SHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
   const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
-  const url = `https://www.shl.se/lag/${prospect.league_id}/gamelog`
+  const url = `https://www.shl.se/lag/${prospect.team_id}/${prospect.league_id}/gamelog`
 
   const scrapedProspect = await utils.request.htmlRequest(url)
 

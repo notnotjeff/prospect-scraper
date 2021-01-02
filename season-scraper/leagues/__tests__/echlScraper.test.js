@@ -7,17 +7,8 @@ describe('echlScraper()', () => {
     const prospect = {
       first_name: 'Justin',
       last_name: 'Brazeau',
-      position: 'RW',
-      shoots: 'R',
-      dob: '1998-02-02',
-      draft_round: null,
-      draft_pick: null,
-      draft_year: null,
       league_id: '5ae4e4e2e12fbdac1ee2e381',
-      statline_url: null,
-      game_statline_url: null,
       league: 'ECHL',
-      ep_url: 'http://www.eliteprospects.com/player.php?player=217051',
     }
 
     jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-20')
@@ -46,17 +37,8 @@ describe('echlScraper()', () => {
       const prospect = {
         first_name: 'Justin',
         last_name: 'Brazeau',
-        position: 'RW',
-        shoots: 'R',
-        dob: '1998-02-02',
-        draft_round: null,
-        draft_pick: null,
-        draft_year: null,
         league_id: '5ae4e4e2e12fbdac1ee2e381',
-        statline_url: null,
-        game_statline_url: null,
         league: 'ECHL',
-        ep_url: 'http://www.eliteprospects.com/player.php?player=217051',
       }
 
       jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2010-11')

@@ -7,17 +7,8 @@ describe('ahlScraper()', () => {
     const prospect = {
       first_name: 'Rasmus',
       last_name: 'Sandin',
-      position: 'D',
-      shoots: 'L',
-      dob: '2000-03-07',
-      draft_round: 1,
-      draft_pick: 29,
-      draft_year: 2018,
       league_id: '7314',
-      statline_url: null,
-      game_statline_url: null,
       league: 'AHL',
-      ep_url: 'https://www.eliteprospects.com/player/289453/rasmus-sandin',
     }
 
     jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-20')

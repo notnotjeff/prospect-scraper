@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE PROSPECT.JS JSON
-// {
-//   statline_url: "https://www.hokej.cz/hrac/23461/career?t=224&stats-section=all",
-//   games_url: "https://www.hokej.cz/hrac/23461?t=224"
-//   league: "CZE2",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete CZE2 scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_url`)

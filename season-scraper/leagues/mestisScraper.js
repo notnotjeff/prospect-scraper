@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   profile_url: "https://mestis.fi/fi/pelaajat/31574013/simontaival-kasper",
-//   games_url: "https://mestis.fi/fi/pelaajat/31574013/simontaival-kasper/ottelu-ottelulta",
-//   league: "Mestis",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete Mestis scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

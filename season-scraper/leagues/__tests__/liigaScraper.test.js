@@ -8,17 +8,8 @@ describe('liigaScraper()', () => {
     const prospect = {
       first_name: 'Mikko',
       last_name: 'Kokkonen',
-      position: 'D',
-      shoots: 'L',
-      dob: '2001-01-18',
-      draft_round: 3,
-      draft_pick: 84,
-      draft_year: 2019,
       league_id: '31128854',
-      statline_url: 'https://liiga.fi/fi/pelaajat/31128854/kokkonen-mikko',
-      game_statline_url: 'https://liiga.fi/fi/pelaajat/31128854/kokkonen-mikko/ottelu-ottelulta',
       league: 'Liiga',
-      ep_url: 'https://www.eliteprospects.com/player/347571/mikko-kokkonen',
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
@@ -47,8 +38,6 @@ describe('liigaScraper()', () => {
         first_name: 'Mikko',
         last_name: 'Kokkonen',
         league_id: '31128854',
-        statline_url: null,
-        game_statline_url: null,
         league: 'Liiga',
       }
 

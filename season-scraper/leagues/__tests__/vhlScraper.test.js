@@ -8,17 +8,8 @@ describe('vhlScraper()', () => {
     const prospect = {
       first_name: 'Semyon',
       last_name: 'Kizimov',
-      position: 'LW',
-      shoots: 'L',
-      dob: '2000-01-19',
-      draft_round: 7,
-      draft_pick: 211,
-      draft_year: 2018,
       league_id: '25697',
-      statline_url: 'http://www.vhlru.ru/en/players/25697/',
-      game_statline_url: 'http://www.vhlru.ru/en/players/25697/games/',
       league: 'VHL',
-      ep_url: 'https://www.eliteprospects.com/player/420947/semyon-kizimov',
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))

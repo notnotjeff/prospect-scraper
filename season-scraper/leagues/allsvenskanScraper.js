@@ -1,18 +1,13 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-// statline_url: 'https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI',
-// game_statline_url: 'https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI',
-// league: 'Allsv',
-// }
-
 module.exports = async function (prospect) {
-  if (!prospect.statline_url) {
-    throw new Error(`Cannot complete Allsv scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
+  if (!prospect.team_id) {
+    throw new Error(`Cannot complete Allsv scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n team_id`)
   }
 
-  const page = await utils.request.htmlRequest(prospect.statline_url)
+  const page = await utils.request.htmlRequest(
+    `https://www.hockeyallsvenskan.se/statistik/spelare?gameType=regular&position=All&team=${prospect.team_id}`,
+  )
 
   let goals = 0
   let assists = 0

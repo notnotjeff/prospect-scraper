@@ -1,18 +1,11 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   profile_url: "https://www.shl.se/lag/fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg/statistics",
-//   games_url: "https://www.shl.se/lag/fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg/gamelog",
-//   league: "SHL",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete SHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n statline_url`)
   }
 
-  const url = `https://www.shl.se/lag/${prospect.league_id}/statistics`
+  const url = `https://www.shl.se/lag/${prospect.team_id}/${prospect.league_id}/statistics`
   const page = await utils.request.htmlRequest(url)
 
   let goals = 0

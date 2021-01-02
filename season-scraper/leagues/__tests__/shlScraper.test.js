@@ -8,15 +8,8 @@ describe('shlScraper()', () => {
     const prospect = {
       first_name: 'Pontus',
       last_name: 'Holmberg',
-      position: 'LW',
-      shoots: 'L',
-      dob: '1999-03-09',
-      draft_round: 6,
-      draft_pick: 156,
-      draft_year: 2018,
-      league_id: 'fe02-fe02mf1FN__vaxjo-lakers/qTK-4a8Y9mMrn__pontus-holmberg',
-      statline_url: null,
-      game_statline_url: null,
+      league_id: 'qTK-4a8Y9mMrn__pontus-holmberg',
+      team_id: 'fe02-fe02mf1FN__vaxjo-lakers',
       league: 'SHL',
       ep_url: 'https://www.eliteprospects.com/player/265859/pontus-holmberg',
     }

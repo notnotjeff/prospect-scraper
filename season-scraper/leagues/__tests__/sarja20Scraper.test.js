@@ -7,17 +7,8 @@ describe('sarja20Scraper()', () => {
     const prospect = {
       first_name: 'Kalle',
       last_name: 'Loponen',
-      position: 'D',
-      shoots: 'R',
-      dob: '2001-03-13',
-      draft_round: 7,
-      draft_pick: 204,
-      draft_year: 2019,
       league_id: '255011063073080359893401',
-      statline_url: null,
-      game_statline_url: null,
       league: 'Sarja20',
-      ep_url: 'https://www.eliteprospects.com/player/395424/kalle-loponen',
     }
 
     jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')

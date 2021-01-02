@@ -1,12 +1,5 @@
 const utils = require('../../utils')
 
-// EXAMPLE
-// {
-//   profile_url: "http://www.vhlru.ru/en/players/22888/",
-//   games_url: "http://www.vhlru.ru/en/players/22888/games",
-//   league: "VHL",
-// }
-
 module.exports = async function (prospect) {
   if (!prospect.league_id) {
     throw new Error(`Cannot complete VHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)

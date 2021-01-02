@@ -7,17 +7,8 @@ describe('ushlScraper()', () => {
     const prospect = {
       first_name: 'Mike',
       last_name: 'Koster',
-      position: 'D',
-      shoots: 'L',
-      dob: '2001-04-13',
-      draft_round: 5,
-      draft_pick: 146,
-      draft_year: 2019,
       league_id: '7842',
-      statline_url: null,
-      game_statline_url: null,
       league: 'USHL',
-      ep_url: 'https://www.eliteprospects.com/player/427432/mike-koster',
     }
 
     jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-20')
