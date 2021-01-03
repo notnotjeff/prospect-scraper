@@ -1,20 +1,3 @@
-// EXAMPLE (See 'scraper/leagueScraper' individual files for specific URLs for each league)
-// {
-//   first_name: 'Timothy',
-//   last_name: 'Liljegren',
-//   position: 'D',
-//   shoots: 'R',
-//   dob: '1999-04-20',
-//   draft_round: 1,
-//   draft_pick: 17,
-//   draft_year: 2017,
-//   league_id: '6893',
-//   statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-//   game_statline_url: 'https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=6893&site_id=1&key=50c2cd9b5e18e390&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json',
-//   league: 'AHL',
-//   ep_url: 'http://www.eliteprospects.com/player.php?player=224910'
-// }
-
 module.exports = [
   {
     first_name: 'Eemeli',
@@ -293,7 +276,6 @@ module.exports = [
     draft_year: 2019,
     // league_id: '31128854',
     // league: 'Liiga',
-    // team_id: null,
     league_id: '45425', // WJC
     team_id: 'FIN', // WJC
     league: 'WJC',
@@ -379,7 +361,6 @@ module.exports = [
     draft_pick: 15,
     draft_year: 2020,
     // league_id: '30159',
-    // team_id: null,
     // league: 'KHL',
     league_id: '3126246', // WJC
     team_id: 'RUS', // WJC
@@ -396,7 +377,6 @@ module.exports = [
     draft_pick: 59,
     draft_year: 2020,
     // league_id: '32269686',
-    // team_id: null,
     // league: 'Liiga',
     league_id: '3125868', // WJC
     team_id: 'FIN', // WJC
@@ -413,7 +393,6 @@ module.exports = [
     draft_pick: 64,
     draft_year: 2020,
     // league_id: '31555838',
-    // team_id: null,
     // league: 'Liiga',
     league_id: '3125883', // WJC
     team_id: 'FIN', // WJC
@@ -430,7 +409,6 @@ module.exports = [
     draft_pick: 122,
     draft_year: 2020,
     league_id: '17505',
-    team_id: null,
     league: 'QMJHL',
     ep_url: 'https://www.eliteprospects.com/player/410562/william-villeneuve',
   },
