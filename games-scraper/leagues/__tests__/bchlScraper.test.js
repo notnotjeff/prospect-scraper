@@ -7,17 +7,8 @@ describe('bchlScraper()', () => {
     const prospect = {
       first_name: 'Ryan',
       last_name: 'Tverberg',
-      position: 'C',
-      shoots: 'R',
-      dob: '2002-01-30',
-      draft_round: 7,
-      draft_pick: 213,
-      draft_year: 2020,
       league_id: '6748',
-      statline_url: '',
-      game_statline_url: '',
       league: 'BCHL',
-      ep_url: 'https://www.eliteprospects.com/player/201945/ryan-tverberg',
     }
     const date = new Date('2020-10-27 12:00:00')
 
@@ -39,17 +30,8 @@ describe('bchlScraper()', () => {
     const prospect = {
       first_name: 'Ryan',
       last_name: 'Tverberg',
-      position: 'C',
-      shoots: 'R',
-      dob: '2002-01-30',
-      draft_round: 7,
-      draft_pick: 213,
-      draft_year: 2020,
       league_id: '6748',
-      statline_url: '',
-      game_statline_url: '',
       league: 'BCHL',
-      ep_url: 'https://www.eliteprospects.com/player/201945/ryan-tverberg',
     }
     const date = new Date()
 

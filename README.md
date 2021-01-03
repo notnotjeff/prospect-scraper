@@ -162,15 +162,17 @@ To get the league_id for the prospect:
 
 ## ECHL
 
-**There is no games scraper for this league**
+**The games scraper for this league can only do day of games**
 
 Needed fields:
 ```
-league_id: 'a7a81ba19f324b9a59b9c0ea',
+season_id: '5f4e319b38c0fcf74b12136f',
+team_id: '5c5c2fc55ce4ceb584def768',
+league_id: '11939bb3d311e552551149a7',
 league: 'ECHL',
 ```
 
-To get the league_id for the prospect:
+To get the `league_id` for the prospect:
 
 1. [Go to the ECHL's Team Directory page](https://www.echl.com/en/pages/team-directory) and click on the appropriate link for the team the prospect plays for.
 2. Click on the `Roster` link
@@ -178,6 +180,13 @@ To get the league_id for the prospect:
 4. Open the browser developer tools to the Network Tab
 5. Look for the JSON response for the player (query params look like `s3?q=player-<id>`)
 6. Copy the number from the JSON request into the player's `league_id` field. For example the request `https://www.echl.com/api/s3?q=player-69906a5633645b14f186782b.json` would yield a `league_id` of `69906a5633645b14f186782b`
+
+To get the `season_id` and `team_id`:
+
+1. [Go to the ECHL's Team Directory page](https://www.echl.com/en/pages/team-directory) and click on the appropriate link for the team the prospect plays for.
+2. Click on the schedule page.
+3. Using the Network inspector look for the json request `s3?q=schedule`.
+4. Using the URL of that request grab the two id values, the first is the `season_id` and the second is the `team_id`. For example, using the URL `https://www.echl.com/api/s3?q=schedule-5f4e319b38c0fcf74b12136f-31ffb756ae0a30e567dcf226.json` the `season_id` is `5f4e319b38c0fcf74b12136f` and the `team_id` is `31ffb756ae0a30e567dcf226`
 
 ## KHL
 
