@@ -54,13 +54,11 @@ After adding a prospect object to the `prospect_info.js` file (see Adding a Pros
   league_id: 'Most leagues require a players unique league_id in order to scrape the prospects [string]',
   team_id: 'Some leagues also need the unique id of the team the player plays for in order to find their stats [string]',
   season_id: 'Some leagues also need the unique id of the season the prospect is playing in [string]',
-  statline_url: 'The url to the page/json data to scrape a players season statistics [string]',
-  game_statline_url: 'The url to the page/json data to scrape a players individual played games [string]',
   league: 'The shorthand version of the current league that the player is playing in so that the scraper knows where to find their stats [string]'
 }
 ```
 
-Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function. **Any fields that aren't need are marked null**
+Every league is a bit different in how to obtain URLs so there will be a section on how to find the appropriate URL for each league. The needed fields at the beginning of each section will tell you which fields need to be filled out for each league in order for it's scraper to function.
 
 1. [AHL](#AHL)
 2. [Allsvenskan](#Allsvenskan)
@@ -115,7 +113,6 @@ For the Allsvenskan you'll need the prospect's `first name`, `last_name`, and `t
 1. Go to the [Allsvenskan player statistics page](https://www.hockeyallsvenskan.se/statistik/spelare) and select the team that the prospect plays on (make sure to select the right year and)
 2. From the URL in the browser's address bar into the prospect's `team_id` by getting the characters after the `&team=` portion. For example the URL `https://www.hockeyallsvenskan.se/statistik/spelare?season=2020&gameType=regular&position=All&team=110b-110bJcIAI` the `team_id` would be `110b-110bJcIAI`.
 3. On the team page for the prospect make sure the `first_name` and `last_name` fields have the same spelling and characters as the page indicates or else the scraper won't find the player.
-```
 
 ## BCHL
 
@@ -422,7 +419,6 @@ TWITTER_CONSUMER_SECRET='<CONSUMER_SECRET_HERE>'
 TWITTER_ACCESS_TOKEN_KEY='<ACCESS_TOKEN_HERE>'
 TWITTER_ACCESS_TOKEN_SECRET='<ACCESS_TOKEN_SECRET_HERE>'
 GAMES_FE_URL='localhost:3000/games' // Page for the puppeteer browser to go to and get the content
-GAMES_BE_URL='localhost:5000/games' // The request url that puppeteer waits for completion before moving onto taking the snapshot
 ```
 2. Start the server (if in development) or make sure the project is hosted (in production)
 3. Run the following command in console:

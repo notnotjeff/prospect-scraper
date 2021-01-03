@@ -11,7 +11,6 @@ describe('twitterBot()', () => {
   it('makes puppeteer browser request to leafs-prospects/games and takes screenshot of yesterdays games', async () => {
     // Set ENV variables
     process.env.GAMES_FE_URL = 'https://testing-fe-url.com/games'
-    process.env.GAMES_BE_URL = 'https://testing-be-url.com/games'
     process.env.TWITTER_CONSUMER_KEY = ''
     process.env.TWITTER_CONSUMER_SECRET = ''
     process.env.TWITTER_ACCESS_TOKEN_KEY = ''
@@ -48,7 +47,6 @@ describe('twitterBot()', () => {
     it('makes directory before saving image', async () => {
       // Set ENV variables
       process.env.GAMES_FE_URL = 'https://testing-fe-url.com/games'
-      process.env.GAMES_BE_URL = 'https://testing-be-url.com/games'
       process.env.TWITTER_CONSUMER_KEY = ''
       process.env.TWITTER_CONSUMER_SECRET = ''
       process.env.TWITTER_ACCESS_TOKEN_KEY = ''
