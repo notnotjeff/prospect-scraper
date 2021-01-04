@@ -9,7 +9,7 @@ describe('nlScraper()', () => {
       last_name: 'Malgin',
       season_id: '3092',
       team_id: '101151',
-      league: 'NLA',
+      league: 'NL',
     }
 
     jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
@@ -29,7 +29,7 @@ describe('nlScraper()', () => {
         first_name: 'Denis',
         last_name: 'Malgin',
         team_id: '101151',
-        league: 'NLA',
+        league: 'NL',
       }
 
       await expect(nlScraper(prospect)).rejects.toThrow()
@@ -42,7 +42,7 @@ describe('nlScraper()', () => {
         first_name: 'Denis',
         last_name: 'Malgin',
         season_id: '3092',
-        league: 'NLA',
+        league: 'NL',
       }
 
       await expect(nlScraper(prospect)).rejects.toThrow()
@@ -55,7 +55,7 @@ describe('nlScraper()', () => {
         last_name: 'Malgin',
         season_id: '3092',
         team_id: '101151',
-        league: 'NLA',
+        league: 'NL',
       }
 
       await expect(nlScraper(prospect)).rejects.toThrow()
@@ -68,7 +68,7 @@ describe('nlScraper()', () => {
         first_name: 'Denis',
         season_id: '3092',
         team_id: '101151',
-        league: 'NLA',
+        league: 'NL',
       }
 
       await expect(nlScraper(prospect)).rejects.toThrow()
@@ -83,7 +83,7 @@ describe('nlScraper()', () => {
         last_name: 'Not Malgin',
         season_id: '3092',
         team_id: '101151',
-        league: 'NLA',
+        league: 'NL',
       }
 
       jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)

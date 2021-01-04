@@ -514,7 +514,7 @@ module.exports = [
     draft_year: 2015,
     season_id: '3092',
     team_id: '101151',
-    league: 'NLA',
+    league: 'NL',
     ep_url: 'https://www.eliteprospects.com/player/117376/denis-malgin',
   },
 ]
