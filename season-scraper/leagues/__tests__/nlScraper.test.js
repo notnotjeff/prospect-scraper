@@ -1,9 +1,9 @@
-const nlaScraper = require('../nlaScraper')
+const nlScraper = require('../nlScraper')
 const utils = require('../../../utils')
 
-describe('nlaScraper()', () => {
+describe('nlScraper()', () => {
   it('gets prospect json and scrapes current season stats', async () => {
-    const prospectJson = require('./__fixtures__/nla_denis_malgin.fixture')
+    const prospectJson = require('./__fixtures__/nl_denis_malgin.fixture')
     const prospect = {
       first_name: 'Denis',
       last_name: 'Malgin',
@@ -14,7 +14,7 @@ describe('nlaScraper()', () => {
 
     jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
-    const { goals, assists, points, shots, games_played } = await nlaScraper(prospect)
+    const { goals, assists, points, shots, games_played } = await nlScraper(prospect)
 
     expect(goals).toEqual(11)
     expect(assists).toEqual(10)
@@ -32,7 +32,7 @@ describe('nlaScraper()', () => {
         league: 'NLA',
       }
 
-      await expect(nlaScraper(prospect)).rejects.toThrow()
+      await expect(nlScraper(prospect)).rejects.toThrow()
     })
   })
 
@@ -45,7 +45,7 @@ describe('nlaScraper()', () => {
         league: 'NLA',
       }
 
-      await expect(nlaScraper(prospect)).rejects.toThrow()
+      await expect(nlScraper(prospect)).rejects.toThrow()
     })
   })
 
@@ -58,7 +58,7 @@ describe('nlaScraper()', () => {
         league: 'NLA',
       }
 
-      await expect(nlaScraper(prospect)).rejects.toThrow()
+      await expect(nlScraper(prospect)).rejects.toThrow()
     })
   })
 
@@ -71,13 +71,13 @@ describe('nlaScraper()', () => {
         league: 'NLA',
       }
 
-      await expect(nlaScraper(prospect)).rejects.toThrow()
+      await expect(nlScraper(prospect)).rejects.toThrow()
     })
   })
 
   describe('when player does not exist', () => {
     it('returns null values', async () => {
-      const prospectJson = require('./__fixtures__/nla_denis_malgin.fixture')
+      const prospectJson = require('./__fixtures__/nl_denis_malgin.fixture')
       const prospect = {
         first_name: 'Not Denis',
         last_name: 'Not Malgin',
@@ -88,7 +88,7 @@ describe('nlaScraper()', () => {
 
       jest.spyOn(utils.request, 'jsonRequest').mockImplementation(() => prospectJson)
 
-      const { goals, assists, points, shots, games_played } = await nlaScraper(prospect)
+      const { goals, assists, points, shots, games_played } = await nlScraper(prospect)
 
       expect(goals).toEqual(null)
       expect(assists).toEqual(null)

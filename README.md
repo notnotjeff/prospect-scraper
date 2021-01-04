@@ -71,7 +71,7 @@ Every league is a bit different in how to obtain URLs so there will be a section
 9. [Mestis](#Mestis)
 10. [MHL](#MHL)
 11. [NCAA](#NCAA)
-12. [NLA](#NLA)
+12. [NL](#NL)
 13. [OHL](#OHL)
 14. [QMJHL](#QMJHL)
 15. [SM-Sarja U20](#SM-Sarja)
@@ -253,7 +253,7 @@ This league only needs the prospect's `league_id` field to function. To get the 
 
 **One thing to note is that these profile urls are built using the player's team abbreviation and sequencial id generated based on player number order on the team. So if either of those things change you'll need to update the `league_id`.**
 
-## NLA
+## NL
 
 **There is no games scraper for this league**
 
@@ -263,10 +263,10 @@ first_name: 'Denis',
 last_name: 'Malgin',
 season_id: '3092',
 team_id: '101151',
-league: 'NLA',
+league: 'NL',
 ```
 
-1. [Go to the NLA's player statistics page](https://www.sihf.ch/de/game-center/national-league#/players/points/desc/page/0/).
+1. [Go to the NL's player statistics page](https://www.sihf.ch/de/game-center/national-league#/players/points/desc/page/0/).
 2. Filter by the team the desired prospect plays for.
 3. From the URL you'll need the `season_id` and `team_id` which you can get with second and third numbers after the `&filterQuery=` portion of the URL. For example: `https://www.sihf.ch/de/game-center/national-league#/players/points/desc/page/0/2021/3478/101151` would have a `season_id` of `3478` and a `team_id` of `101151`.
 4. Also make sure to use the same spelling that is used in the table of players (including accents!)
