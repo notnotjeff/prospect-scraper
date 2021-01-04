@@ -47,7 +47,7 @@ module.exports = {
     QMJHL: 'qmjhlScraper',
     AHL: 'ahlScraper',
     USHL: 'ushlScraper',
-    NLA: 'nlScraper',
+    NL: 'nlScraper',
     KHL: 'khlScraper',
     ECHL: 'echlScraper',
     SHL: 'shlScraper',
