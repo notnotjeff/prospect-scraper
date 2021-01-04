@@ -8,7 +8,7 @@ const khlScraper = require('./khlScraper.js')
 const shlScraper = require('./shlScraper.js')
 const vhlScraper = require('./vhlScraper.js')
 const ncaaScraper = require('./ncaaScraper.js')
-const nlaScraper = require('./nlaScraper.js')
+const nlScraper = require('./nlScraper.js')
 const liigaScraper = require('./liigaScraper.js')
 const mestisScraper = require('./mestisScraper.js')
 const cze2Scraper = require('./cze2Scraper.js')
@@ -31,7 +31,7 @@ module.exports = {
   shlScraper,
   vhlScraper,
   ncaaScraper,
-  nlaScraper,
+  nlScraper,
   liigaScraper,
   mestisScraper,
   cze2Scraper,
@@ -47,7 +47,7 @@ module.exports = {
     QMJHL: 'qmjhlScraper',
     AHL: 'ahlScraper',
     USHL: 'ushlScraper',
-    NLA: 'nlaScraper',
+    NLA: 'nlScraper',
     KHL: 'khlScraper',
     ECHL: 'echlScraper',
     SHL: 'shlScraper',

@@ -2,19 +2,19 @@ const utils = require('../../utils')
 
 module.exports = async function (prospect) {
   if (!prospect.first_name) {
-    throw new Error(`Cannot complete NLA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n first_name`)
+    throw new Error(`Cannot complete NL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n first_name`)
   }
 
   if (!prospect.last_name) {
-    throw new Error(`Cannot complete NLA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n last_name`)
+    throw new Error(`Cannot complete NL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n last_name`)
   }
 
   if (!prospect.season_id) {
-    throw new Error(`Cannot complete NLA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n season_id`)
+    throw new Error(`Cannot complete NL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n season_id`)
   }
 
   if (!prospect.team_id) {
-    throw new Error(`Cannot complete NLA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n team_id`)
+    throw new Error(`Cannot complete NL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n team_id`)
   }
 
   const url = `https://data.sihf.ch/Statistic/api/cms/cache300?alias=player&searchQuery=1//1&filterQuery=${new Date().getFullYear()}/${
