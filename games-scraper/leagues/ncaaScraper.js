@@ -48,9 +48,10 @@ module.exports = async function (prospect, date) {
   }
 
   const game = games?.find(g => g[0] === `${month}/${day}/${year}`)
-  if (!game) {
+  if (!game || game[game.length - 1].match(/DID NOT DRESS/g)?.length) {
     return null
   }
+
   const [goals, assists, points] = game[3].split('-').map(s => +s)
   const penalty_minutes = +game[10].split('/')[1].trim()
   const shots = +game[11]
