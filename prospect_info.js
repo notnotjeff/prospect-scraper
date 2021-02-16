@@ -219,9 +219,10 @@ module.exports = [
     draft_round: null,
     draft_pick: null,
     draft_year: null,
-    league_id: 'a7a81ba19f324b9a59b9c0ea', // ECHL ID
-    // league_id: '7517', // AHL ID
-    league: 'ECHL',
+    // league_id: 'a7a81ba19f324b9a59b9c0ea', // ECHL ID
+    // league: 'ECHL',
+    league_id: '7517', // AHL ID
+    league: 'AHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=262071',
   },
   {
@@ -233,9 +234,10 @@ module.exports = [
     draft_round: null,
     draft_pick: null,
     draft_year: null,
-    league_id: 'c8ff052d590070ffd158a1c4', // ECHL ID
-    // league_id: '7544', // AHL ID
-    league: 'ECHL',
+    // league_id: 'c8ff052d590070ffd158a1c4', // ECHL ID
+    // league: 'ECHL',
+    league_id: '7544', // AHL ID
+    league: 'AHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=199895',
   },
   {
@@ -247,9 +249,10 @@ module.exports = [
     draft_round: null,
     draft_pick: null,
     draft_year: null,
-    league_id: '5ae4e4e2e12fbdac1ee2e381', // ECHL ID
-    // league_id: '7989', // AHL ID
-    league: 'ECHL',
+    // league_id: '5ae4e4e2e12fbdac1ee2e381', // ECHL ID
+    // league: 'ECHL',
+    league_id: '7989', // AHL ID
+    league: 'AHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=217051',
   },
   {
