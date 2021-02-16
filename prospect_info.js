@@ -261,8 +261,10 @@ module.exports = [
     draft_round: 2,
     draft_pick: 53,
     draft_year: 2019,
-    league_id: '7662',
-    league: 'OHL',
+    league_id: '8610',
+    league: 'AHL',
+    // league_id: '7662', // OHL
+    // league: 'OHL',
     ep_url: 'https://www.eliteprospects.com/player/359539/nicholas-robertson',
   },
   {
