@@ -1,5 +1,18 @@
 module.exports = [
   {
+    first_name: 'Kristians',
+    last_name: 'Rubins',
+    position: 'D',
+    shoots: 'L',
+    dob: '1997-12-11',
+    draft_round: null,
+    draft_pick: null,
+    draft_year: null,
+    league_id: '7313',
+    league: 'AHL',
+    ep_url: 'https://www.eliteprospects.com/player/207726/kristians-rubins',
+  },
+  {
     first_name: 'Eemeli',
     last_name: 'Rasanen',
     position: 'D',
