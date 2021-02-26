@@ -26,19 +26,6 @@ module.exports = [
     ep_url: 'http://www.eliteprospects.com/player.php?player=302228',
   },
   {
-    first_name: 'Mikko',
-    last_name: 'Lehtonen',
-    position: 'D',
-    shoots: 'L',
-    dob: '1994-01-16',
-    draft_round: null,
-    draft_pick: null,
-    draft_year: null,
-    league_id: '24807',
-    league: 'KHL',
-    ep_url: 'https://www.eliteprospects.com/player/56196/mikko-lehtonen',
-  },
-  {
     first_name: 'Timothy',
     last_name: 'Liljegren',
     position: 'D',
@@ -164,10 +151,10 @@ module.exports = [
     draft_round: 4,
     draft_pick: 118,
     draft_year: 2018,
-    league_id: '60490663', // MESTIS ID
+    // league_id: '60490663', // MESTIS ID
     // league_id: 'c8ff052d590070ffd158a1c4', // ECHL ID
-    // league_id: '7303', // AHL ID
-    league: 'Mestis',
+    league_id: '7303', // AHL ID
+    league: 'AHL',
     ep_url: 'https://www.eliteprospects.com/player/267652/mac-hollowell',
   },
   {
