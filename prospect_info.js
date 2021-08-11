@@ -507,4 +507,17 @@ module.exports = [
     league: 'OHL',
     ep_url: 'https://www.eliteprospects.com/player/586523/ty-voit',
   },
+  {
+    first_name: 'Pavel',
+    last_name: 'Gogolev',
+    position: 'LW',
+    shoots: 'L',
+    dob: '2000-02-19',
+    draft_round: null,
+    draft_pick: null,
+    draft_year: null,
+    league_id: '7753',
+    league: 'AHL',
+    ep_url: 'https://www.eliteprospects.com/player/297757/pavel-gogolev',
+  },
 ]
