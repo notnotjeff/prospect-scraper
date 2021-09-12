@@ -1,4 +1,16 @@
-module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-classic cc-bottom cc-color-override-684520310 " style=""><!--googleoff: all--><div id="cookieconsent:desc" class="cc-message">By continuing to use this site, you consent to the use of cookies for the purposes described in <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.khl.ru/upload/documents/terms_of_use_en.pdf" rel="noopener noreferrer nofollow" target="_blank">“CHL LLC Website Terms of Use”</a> and you acknowledge that you accept the <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.khl.ru/upload/documents/terms_of_use_en.pdf" rel="noopener noreferrer nofollow" target="_blank">“CHL LLC Website Terms of Use”</a>. You can disable the use of cookies in your browser settings</div><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">OK</a></div><!--googleon: all--></div>
+module.exports = `<body id="players" class="lang-en" cz-shortcut-listen="true"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-classic cc-bottom cc-color-override-684520310 " style=""><!--googleoff: all--><div id="cookieconsent:desc" class="cc-message">By continuing to use this site, you consent to the use of cookies for the purposes described in <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.khl.ru/upload/documents/terms_of_use_en.pdf" rel="noopener noreferrer nofollow" target="_blank">“CHL LLC Website Terms of Use”</a> and you acknowledge that you accept the <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.khl.ru/upload/documents/terms_of_use_en.pdf" rel="noopener noreferrer nofollow" target="_blank">“CHL LLC Website Terms of Use”</a>. You can disable the use of cookies in your browser settings</div><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">OK</a></div><!--googleon: all--></div>
+<!-- tns-counter.ru -->
+<script type="text/javascript">
+  (new Image()).src = '//www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*khl_ru/ru/UTF-8/tmsec=khl_en/' + Math.round(Math.random()*1E9);
+</script>
+<noscript>
+  <img src="//www.tns-counter.ru/V13a****khl_ru/ru/UTF-8/tmsec=khl_en/" width="1" height="1" alt="" />
+</noscript>
+<!--/ tns-counter.ru -->
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HS55GV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!--UdmComment-->
 	<div id="panel"></div>
 
 	<div class="e-top_main_bnr">
@@ -81,7 +93,6 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 /></noscript>
 <!-- End Facebook Pixel Code -->	</div>
 
-
 	<div id="wrapper">
 		<div id="header">
 			<div class="b-mobile_move">
@@ -102,6 +113,7 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					</div>
 
 					<div class="b-header_menu_cover m-clear">
+
 						<ul class="b-header_menu">
 							<li class="e-header_menu_item"><a href="/news/">News</a></li>
 							<li class="e-header_menu_item"><a href="https://video.khl.ru/?locale=en">Video</a></li>
@@ -112,73 +124,80 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 							<li class="e-header_menu_item"><a href="/officials/">Officials</a></li>
 							<li class="e-header_menu_item"><a href="/stat/">Stats</a></li>
 							<li class="e-header_menu_item"><a href="https://photo.khl.ru/" target="_blank">Photo</a></li>
+							<li class="e-header_menu_item"><a href="https://www.khl.ru/tv/">KHL TV</a></li>
 							<li class="e-header_menu_item"><a href="/tickets/">Tickets</a></li>
 							<li class="e-header_menu_item"><a href="http://store.khl.ru/" target="_blank">Store</a></li>
-						</ul>
-						<div class="e-header_clubs">
+						</ul>						<div class="e-header_clubs">
 							<span id="s-popup_n_1">Teams</span>
 							<div class="b-dropdown_menu">
 								<div class="b-left_col">
 									<div class="b-line_conf"><span class="e-bevel">«West»</span></div>
 									<dl class="b-division">
 										<dt class="b-division_title">Bobrov division</dt>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/19" alt=""><a href="/clubs/vityaz/">Vityaz</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/19" alt=""><a href="/clubs/vityaz/">Vityaz</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/378/">HC Ryazan</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/russkie_vityazi/">Russkie Vityazi</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/450" alt=""><a href="/clubs/jokerit/">Jokerit</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/450" alt=""><a href="/clubs/jokerit/">Jokerit</a>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/56" alt=""><a href="/clubs/severstal/">Severstal</a>
-											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/383/">Molot-Prikamie</a></li>
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/almaz/">Almaz</a></li>
-											</ul>
-										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/24" alt=""><a href="/clubs/ska/">SKA</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/24" alt=""><a href="/clubs/ska/">SKA</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/376/">SKA-Neva</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/ska_1946/">SKA-1946</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/ska_varyagi/">SKA-Varyagi</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/451" alt=""><a href="/clubs/hc_sochi/">Sochi</a>
-											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/387/">Izhstal</a></li>
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/kapitan/">HC Kapitan</a></li>
-											</ul>
-										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/7" alt=""><a href="/clubs/spartak/">Spartak</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/7" alt=""><a href="/clubs/spartak/">Spartak</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/67715/">Khimik</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/jhc_spartak/">JHC Spartak</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/atlant/">JHC Atlant</a></li>
 											</ul>
 										</dd>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/26" alt=""><a href="/clubs/torpedo/">Torpedo</a>
+											<ul class="b-subdivision">
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/400716/">AKM</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/chaika/">Chaika</a></li>
+											</ul>
+										</dd>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/451" alt=""><a href="/clubs/hc_sochi/">HC Sochi</a>
+											<ul class="b-subdivision">
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/292769/">Rostov</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/kapitan/">HC Kapitan</a></li>
+											</ul>
+										</dd>
 									</dl>
 									<dl class="b-division">
 										<dt class="b-division_title">Tarasov division</dt>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/207" alt=""><a href="/clubs/dinamo_mn/">Dinamo Mn</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/207" alt=""><a href="/clubs/dinamo_mn/">Dinamo Mn</a>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/608" alt=""><a href="/clubs/dynamo_msk/">Dynamo Msk</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/608" alt=""><a href="/clubs/dynamo_msk/">Dynamo M</a>
 											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/374/">Динамо МО</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/90707/">Dinamo SPb</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/jhc_dynamo_msk/">JHC Dynamo Msk</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/208" alt=""><a href="/clubs/dinamo_r/">Dinamo R</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/208" alt=""><a href="/clubs/dinamo_r/">Dinamo R</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/hc_riga/">HK Riga</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/1" alt=""><a href="/clubs/lokomotiv/">Lokomotiv</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/1" alt=""><a href="/clubs/lokomotiv/">Lokomotiv</a>
 											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/20790/">Buran</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/383/">Molot</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/loko/">Loko</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/loko-76/">Loko-76</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/2" alt=""><a href="/clubs/cska/">CSKA</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/56" alt=""><a href="/clubs/severstal/">Severstal</a>
+											<ul class="b-subdivision">
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/20790/">Buran</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/almaz/">Almaz</a></li>
+											</ul>
+										</dd>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/2" alt=""><a href="/clubs/cska/">CSKA</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/67713/">Zvezda</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/krasnaya_armiya/">Krasnaya Armiya</a></li>
@@ -190,37 +209,34 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 									<div class="b-line_conf"><span class="e-bevel">«East»</span></div>
 									<dl class="b-division">
 										<dt class="b-division_title">Kharlamov division</dt>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/190" alt=""><a href="/clubs/avtomobilist/">Avtomobilist</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/190" alt=""><a href="/clubs/avtomobilist/">Avtomobilist</a>
 											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/154148/">Gornyak</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/400715/">Gornyak-UGMK</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/avto/">Avto</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/53" alt=""><a href="/clubs/ak_bars/">Ak Bars</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/53" alt=""><a href="/clubs/ak_bars/">Ak Bars</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/47617/">Bars</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/375/">Neftyanik</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/irbis/">Irbis</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/37" alt=""><a href="/clubs/metallurg_mg/">Metallurg Mg</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/37" alt=""><a href="/clubs/metallurg_mg/">Metallurg Mg</a>
 											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/391/">Zauralye</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/389/">Yermak</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/stalnye_lisy/">Stalnye Lisy</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/71" alt=""><a href="/clubs/neftekhimik/">Neftekhimik</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/71" alt=""><a href="/clubs/neftekhimik/">Neftekhimik</a>
 											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/154156/">CSK VVS</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/387/">Izhstal</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/reaktor/">Reaktor</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/26" alt=""><a href="/clubs/torpedo/">Torpedo</a>
-											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/381/">Lada</a></li>
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/chaika/">Chaika</a></li>
-											</ul>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/568" alt=""><a href="/clubs/kunlun/">Kunlun Red Star</a>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/25" alt=""><a href="/clubs/traktor/">Traktor</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/25" alt=""><a href="/clubs/traktor/">Traktor</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/20795/">Chelmet</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/belye_medvedi/">Belye Medvedi</a></li>
@@ -229,29 +245,33 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 									</dl>
 									<dl class="b-division">
 										<dt class="b-division_title">Chernyshev division</dt>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/34" alt=""><a href="/clubs/avangard/">Avangard</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/34" alt=""><a href="/clubs/avangard/">Avangard</a>
 											<ul class="b-subdivision">
-												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/154152/">Metallurg Nk</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/400717/">Omskie Krylya</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/omskie_yastreby/">Omskie Yastreby</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/54" alt=""><a href="/clubs/amur/">Amur</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/418" alt=""><a href="/clubs/admiral/">Admiral</a>
+											<ul class="b-subdivision">
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/216719/">HC Tambov</a></li>
+												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/taifun/">Taifun</a></li>
+											</ul>
+										</dd>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/54" alt=""><a href="/clubs/amur/">Amur</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/8016/">Sokol</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/amurskie_tigry/">Amurskie Tigry</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/198" alt=""><a href="/clubs/barys/">Barys</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/198" alt=""><a href="/clubs/barys/">Barys</a>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/568" alt=""><a href="/clubs/kunlun/">Kunlun Red Star</a>
-										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/38" alt=""><a href="/clubs/salavat_yulaev/">Salavat Yulaev</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/38" alt=""><a href="/clubs/salavat_yulaev/">Salavat Yulaev</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/390/">Toros</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/tolpar/">Tolpar</a></li>
 											</ul>
 										</dd>
-										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1045/29" alt=""><a href="/clubs/sibir/">Sibir</a>
+										<dd class="b-division_item"><img src="//khl.ru/images/teams/en/1097/29" alt=""><a href="/clubs/sibir/">Sibir</a>
 											<ul class="b-subdivision">
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/vhl.png" alt=""><a href="http://www.vhlru.ru/en/teams/388/">Yuzhny Ural</a></li>
 												<li class="b-subdivision_item"><img src="/bitrix/templates/khl.ru-8.0/img/mhl_logo_en.svg" alt=""><a href="https://engmhl.khl.ru/teams/sibirskie_snaipery/">Sibirskie Snaipery</a></li>
@@ -261,36 +281,9 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 								</div>
 							</div>
 						</div>
-
-						<div class="e-header_project">
-							<span id="s-popup_n_2">Projects</span>
-							<div class="b-dropdown_menu">
-								<div class="b-left_col">
-									<div class="b-line_conf"><span class="e-bevel">Sites</span></div>
-									<dl class="b-division">
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/khl-tv.png" alt=""><a href="https://www.khl.ru/tv/">KHL TV</a></dd>
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/store.png" alt=""><a href="http://store.khl.ru/" target="_blank">Store</a></dd>
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/video.png" alt=""><a href="https://video.khl.ru/" target="_blank">Video</a></dd>
-									</dl>
-									<dl class="b-division">
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/txt.png" alt=""><a href="https://text.khl.ru/" target="_blank">Onlines</a></dd>
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/photo.png" alt=""><a href="https://photo.khl.ru/" target="_blank">Photo</a></dd>
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/rss.png" alt=""><a href="/news/rss/">RSS</a></dd>
-									</dl>
-								</div>
-								<div class="b-right_col">
-									<div class="b-line_conf"><span class="e-bevel">Events</span></div>
-									<dl class="b-division">
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/all-stars.png" alt=""><a href="https://www.allstarweek.com/" target="_blank">All Star Game</a></dd>
-										<dd class="b-division_item"><img src="/bitrix/templates/khl.ru-8.0/img/icons/gaspromneft.png" alt=""><a href="http://www.gazprom-neft.ru/hockey/cup/" target="_blank">Gazpromneft Cup</a></dd>
-									</dl>
-								</div>
-							</div>
-						</div>
-
 						<div class="mastercard">
 							<a href="https://mastercard.khl.ru/?cmp=bac.MasterCard.ps.rus.pcq3.b2c.rus.khl.KHL.cpm.button..khl_priceless_league_sep-dec_2020" target="_blank"><img src="/bitrix/templates/khl.ru-8.0/img/sponsors/mastercard-khl-en.jpg" alt=""></a>
-							<a href="https://hankooktire.sport-express.ru/?utm_source=khl&amp;utm_medium=button&amp;utm_campaign=hankook2020&amp;utm_content=ticket_correct_answer" target="_blank"><img src="/bitrix/templates/khl.ru-8.0/img/sponsors/hankook.jpg" alt=""></a>
+							<a href="https://mascotsmania.khl.ru/?source=khlru" target="_blank"><img src="/bitrix/templates/khl.ru-8.0/img/sponsors/talismaniya_button_en.png" alt=""></a>
 						</div>
 
 						<div class="e-header_social">
@@ -316,267 +309,295 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 									</ul>
 								</div>
 							</div>
-							</div>
+								<a href="/integrity/" target="_blank"><div class="e-panel_compound-integrity-button-top en"></div></a>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="b-header_bottom_cover" style="height: 100px;">
 				<div class="b-feed_matches m-slick_slider slick-initialized slick-slider">
-						<div class="slick-list draggable" tabindex="0"><div class="slick-track" style="opacity: 1; width: 9164px; transform: translate3d(-4424px, 0px, 0px);"><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="0">
+						<div class="slick-list draggable" tabindex="0"><div class="slick-track" style="opacity: 1; width: 12672px; transform: translate3d(-7680px, 0px, 0px);"><div class="b-feed_matches_item m-past slick-slide" index="0" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/208" alt="DRG"></td>
-								<td class="e-matches_data_center"> 7 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/71" alt="NKH"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/2" alt="CSK"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/208" alt="DRG"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">DRG</td>
-								<td class="e-matches_data_center">1 – <b>3</b></td>
-								<td class="e-matches_data_right"><b>NKH</b></td>
+								<td class="e-matches_data_left"><b>CSK</b></td>
+								<td class="e-matches_data_center"><b>3</b> – 2</td>
+								<td class="e-matches_data_right">DRG</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>1:2</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>1:2</em><em>2:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872362/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1318853?locale=en">Video</a></li>
-										<li><a href="/game/1045/872362/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877178/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1504845?locale=en">Video</a></li>
+										<li><a href="/game/1097/877178/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="1">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="1" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/56" alt="SEV"></td>
-								<td class="e-matches_data_center"> 8 Nov, Sun</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/198" alt="BAR"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">SEV</td>
-								<td class="e-matches_data_center">1 – <b>3</b></td>
-								<td class="e-matches_data_right"><b>BAR</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>1:0</em><em>0:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872401/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1319185?locale=en">Video</a></li>
-										<li><a href="/game/1045/872401/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="2">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/25" alt="TRK"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/37" alt="MMG"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>TRK</b></td>
-								<td class="e-matches_data_center"><b>2</b> <span class="e-round m-bg_color_0">OT</span> 1</td>
-								<td class="e-matches_data_right">MMG</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>0:0</em><em>0:0</em><em>1:0</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872586/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320629?locale=en">Video</a></li>
-										<li><a href="/game/1045/872586/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="3">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/1" alt="LOK"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/198" alt="BAR"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>LOK</b></td>
-								<td class="e-matches_data_center"><b>7</b> – 2</td>
-								<td class="e-matches_data_right">BAR</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>3:1</em><em>3:0</em><em>1:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872587/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320741?locale=en">Video</a></li>
-										<li><a href="/game/1045/872587/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="4">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/71" alt="NKH"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/568" alt="KRS"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>NKH</b></td>
-								<td class="e-matches_data_center"><b>6</b> – 3</td>
-								<td class="e-matches_data_right">KRS</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>2:1</em><em>2:0</em><em>2:2</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872588/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320761?locale=en">Video</a></li>
-										<li><a href="/game/1045/872588/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="5">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/26" alt="TOR"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/53" alt="AKB"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">TOR</td>
-								<td class="e-matches_data_center">2 – <b>6</b></td>
-								<td class="e-matches_data_right"><b>AKB</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:2</em><em>1:1</em><em>0:3</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872589/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320681?locale=en">Video</a></li>
-										<li><a href="/game/1045/872589/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="6">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/34" alt="AVG"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/451" alt="SCH"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/34" alt="AVG"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/418" alt="ADM"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
 								<td class="e-matches_data_left"><b>AVG</b></td>
-								<td class="e-matches_data_center"><b>3</b> – 2</td>
-								<td class="e-matches_data_right">SCH</td>
+								<td class="e-matches_data_center"><b>4</b> <span class="e-round m-bg_color_0">SO</span> 3</td>
+								<td class="e-matches_data_right">ADM</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>2:1</em><em>1:1</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>2:1</em><em>0:1</em><em>0:0</em><em>1:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872590/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320789?locale=en">Video</a></li>
-										<li><a href="/game/1045/872590/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877172/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1504981?locale=en">Video</a></li>
+										<li><a href="/game/1097/877172/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="7">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="2" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/19" alt="VIT"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/719" alt="DYN"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/53" alt="AKB"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/568" alt="KRS"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">VIT</td>
-								<td class="e-matches_data_center">1 – <b>2</b></td>
-								<td class="e-matches_data_right"><b>DYN</b></td>
+								<td class="e-matches_data_left">AKB</td>
+								<td class="e-matches_data_center">3 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>KRS</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>1:0</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>3:0</em><em>0:2</em><em>0:2</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872591/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320753?locale=en">Video</a></li>
-										<li><a href="/game/1045/872591/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877173/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1504977?locale=en">Video</a></li>
+										<li><a href="/game/1097/877173/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="8">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="3" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/2" alt="CSK"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/7" alt="SPR"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/1" alt="LOK"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/24" alt="SKA"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">CSK</td>
-								<td class="e-matches_data_center">3 <span class="e-round m-bg_color_0">OT</span> <b>4</b></td>
-								<td class="e-matches_data_right"><b>SPR</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>1:1</em><em>1:1</em><em>0:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872592/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320749?locale=en">Video</a></li>
-										<li><a href="/game/1045/872592/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="9">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/450" alt="JOK"></td>
-								<td class="e-matches_data_center">10 Nov, Tue</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/24" alt="SKA"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">JOK</td>
-								<td class="e-matches_data_center">1 – <b>4</b></td>
+								<td class="e-matches_data_left">LOK</td>
+								<td class="e-matches_data_center">3 <span class="e-round m-bg_color_0">SO</span> <b>4</b></td>
 								<td class="e-matches_data_right"><b>SKA</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>1:2</em><em>1:0</em><em>0:0</em><em>0:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877174/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1504985?locale=en">Video</a></li>
+										<li><a href="/game/1097/877174/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="4" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/71" alt="NKH"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/450" alt="JOK"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>NKH</b></td>
+								<td class="e-matches_data_center"><b>4</b> – 2</td>
+								<td class="e-matches_data_right">JOK</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>2:1</em><em>2:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877175/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1504961?locale=en">Video</a></li>
+										<li><a href="/game/1097/877175/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="5" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/7" alt="SPR"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/54" alt="AMR"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>SPR</b></td>
+								<td class="e-matches_data_center"><b>3</b> – 1</td>
+								<td class="e-matches_data_right">AMR</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>2:0</em><em>1:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877176/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1505005?locale=en">Video</a></li>
+										<li><a href="/game/1097/877176/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="6" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/451" alt="SCH"></td>
+								<td class="e-matches_data_center"> 4 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/19" alt="VIT"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>SCH</b></td>
+								<td class="e-matches_data_center"><b>6</b> <span class="e-round m-bg_color_0">OT</span> 5</td>
+								<td class="e-matches_data_right">VIT</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>4:0</em><em>1:1</em><em>0:4</em><em>1:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877177/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1504969?locale=en">Video</a></li>
+										<li><a href="/game/1097/877177/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="7" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/198" alt="BAR"></td>
+								<td class="e-matches_data_center"> 5 Sep, Sun</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/37" alt="MMG"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">BAR</td>
+								<td class="e-matches_data_center">1 – <b>2</b></td>
+								<td class="e-matches_data_right"><b>MMG</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>0:0</em><em>1:2</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877179/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1505373?locale=en">Video</a></li>
+										<li><a href="/game/1097/877179/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="8" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/190" alt="AVT"></td>
+								<td class="e-matches_data_center"> 5 Sep, Sun</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/38" alt="SAL"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">AVT</td>
+								<td class="e-matches_data_center">2 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>SAL</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>2:2</em><em>0:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877180/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1505445?locale=en">Video</a></li>
+										<li><a href="/game/1097/877180/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="9" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/53" alt="AKB"></td>
+								<td class="e-matches_data_center"> 5 Sep, Sun</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/26" alt="TOR"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">AKB</td>
+								<td class="e-matches_data_center">1 – <b>3</b></td>
+								<td class="e-matches_data_right"><b>TOR</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>0:0</em><em>1:2</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877181/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1505537?locale=en">Video</a></li>
+										<li><a href="/game/1097/877181/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="10" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/56" alt="SEV"></td>
+								<td class="e-matches_data_center"> 5 Sep, Sun</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/207" alt="DMN"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">SEV</td>
+								<td class="e-matches_data_center">1 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>DMN</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
 								<td colspan="3" class="e-matches_data_left"><em>1:2</em><em>0:1</em><em>0:1</em></td>
@@ -586,1018 +607,942 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872593/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1320765?locale=en">Video</a></li>
-										<li><a href="/game/1045/872593/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877182/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1505469?locale=en">Video</a></li>
+										<li><a href="/game/1097/877182/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="10">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="11" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/29" alt="SIB"></td>
-								<td class="e-matches_data_center">11 Nov, Wed</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/207" alt="DMN"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/719" alt="DYN"></td>
+								<td class="e-matches_data_center"> 5 Sep, Sun</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/29" alt="SIB"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">SIB</td>
-								<td class="e-matches_data_center">0 – <b>6</b></td>
-								<td class="e-matches_data_right"><b>DMN</b></td>
+								<td class="e-matches_data_left"><b>DYN</b></td>
+								<td class="e-matches_data_center"><b>4</b> – 0</td>
+								<td class="e-matches_data_right">SIB</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:5</em><em>0:1</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>1:0</em><em>1:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872594/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1321401?locale=en">Video</a></li>
-										<li><a href="/game/1045/872594/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877183/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1505533?locale=en">Video</a></li>
+										<li><a href="/game/1097/877183/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="11">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="12" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/25" alt="TRK"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/53" alt="AKB"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/450" alt="JOK"></td>
+								<td class="e-matches_data_center"> 6 Sep, Mon</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/25" alt="TRK"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>TRK</b></td>
-								<td class="e-matches_data_center"><b>2</b> – 1</td>
-								<td class="e-matches_data_right">AKB</td>
+								<td class="e-matches_data_left"><b>JOK</b></td>
+								<td class="e-matches_data_center"><b>5</b> <span class="e-round m-bg_color_0">OT</span> 4</td>
+								<td class="e-matches_data_right">TRK</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>2:1</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>1:1</em><em>1:3</em><em>1:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872596/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322201?locale=en">Video</a></li>
-										<li><a href="/game/1045/872596/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877189/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1506325?locale=en">Video</a></li>
+										<li><a href="/game/1097/877189/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="12">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="13" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/71" alt="NKH"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/198" alt="BAR"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/34" alt="AVG"></td>
+								<td class="e-matches_data_center"> 6 Sep, Mon</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/54" alt="AMR"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">NKH</td>
-								<td class="e-matches_data_center">1 – <b>2</b></td>
-								<td class="e-matches_data_right"><b>BAR</b></td>
+								<td class="e-matches_data_left"><b>AVG</b></td>
+								<td class="e-matches_data_center"><b>3</b> <span class="e-round m-bg_color_0">OT</span> 2</td>
+								<td class="e-matches_data_right">AMR</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>0:1</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>1:0</em><em>0:2</em><em>1:0</em><em>1:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872598/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322369?locale=en">Video</a></li>
-										<li><a href="/game/1045/872598/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877184/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1506337?locale=en">Video</a></li>
+										<li><a href="/game/1097/877184/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="13">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="14" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/26" alt="TOR"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/568" alt="KRS"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>TOR</b></td>
-								<td class="e-matches_data_center"><b>2</b> – 0</td>
-								<td class="e-matches_data_right">KRS</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:0</em><em>1:0</em><em>0:0</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872599/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322257?locale=en">Video</a></li>
-										<li><a href="/game/1045/872599/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="14">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/1" alt="LOK"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/190" alt="AVT"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">LOK</td>
-								<td class="e-matches_data_center">1 – <b>2</b></td>
-								<td class="e-matches_data_right"><b>AVT</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>0:2</em><em>1:0</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872597/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322377?locale=en">Video</a></li>
-										<li><a href="/game/1045/872597/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="15">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/19" alt="VIT"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/24" alt="SKA"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">VIT</td>
-								<td class="e-matches_data_center">1 – <b>8</b></td>
-								<td class="e-matches_data_right"><b>SKA</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:2</em><em>0:4</em><em>0:2</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872600/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322381?locale=en">Video</a></li>
-										<li><a href="/game/1045/872600/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="16">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/719" alt="DYN"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/56" alt="SEV"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">DYN</td>
-								<td class="e-matches_data_center">2 <span class="e-round m-bg_color_0">SO</span> <b>3</b></td>
-								<td class="e-matches_data_right"><b>SEV</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>1:0</em><em>0:1</em><em>0:0</em><em>0:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872601/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322357?locale=en">Video</a></li>
-										<li><a href="/game/1045/872601/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="17">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/2" alt="CSK"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/38" alt="SAL"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>CSK</b></td>
-								<td class="e-matches_data_center"><b>5</b> – 3</td>
-								<td class="e-matches_data_right">SAL</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>2:1</em><em>1:1</em><em>2:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872602/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322333?locale=en">Video</a></li>
-										<li><a href="/game/1045/872602/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="18">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/208" alt="DRG"></td>
-								<td class="e-matches_data_center">12 Nov, Thu</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/451" alt="SCH"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">DRG</td>
-								<td class="e-matches_data_center">1 – <b>3</b></td>
-								<td class="e-matches_data_right"><b>SCH</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>0:0</em><em>1:3</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872603/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322397?locale=en">Video</a></li>
-										<li><a href="/game/1045/872603/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="19">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/54" alt="AMR"></td>
-								<td class="e-matches_data_center">13 Nov, Fri</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/207" alt="DMN"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">AMR</td>
-								<td class="e-matches_data_center">1 – <b>2</b></td>
-								<td class="e-matches_data_right"><b>DMN</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>0:0</em><em>0:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872604/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322821?locale=en">Video</a></li>
-										<li><a href="/game/1045/872604/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="20">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/29" alt="SIB"></td>
-								<td class="e-matches_data_center">13 Nov, Fri</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/34" alt="AVG"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">SIB</td>
-								<td class="e-matches_data_center">1 – <b>4</b></td>
-								<td class="e-matches_data_right"><b>AVG</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>1:0</em><em>0:4</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872605/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1322957?locale=en">Video</a></li>
-										<li><a href="/game/1045/872605/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="21">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/719" alt="DYN"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/38" alt="SAL"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">DYN</td>
-								<td class="e-matches_data_center">3 <span class="e-round m-bg_color_0">OT</span> <b>4</b></td>
-								<td class="e-matches_data_right"><b>SAL</b></td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>0:1</em><em>1:2</em><em>0:1</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872611/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323529?locale=en">Video</a></li>
-										<li><a href="/game/1045/872611/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="22">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/53" alt="AKB"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/71" alt="NKH"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>AKB</b></td>
-								<td class="e-matches_data_center"><b>3</b> – 2</td>
-								<td class="e-matches_data_right">NKH</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>1:1</em><em>1:0</em></td>
-							</tr>
-						</tbody></table>
-						<div class="e-matches_popup_links">
-							<div class="b-title-option-wrapper">
-								<div class="b-title-option-inner">
-									<ul>
-										<li><a href="/game/1045/872606/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323597?locale=en">Video</a></li>
-										<li><a href="/game/1045/872606/protocol/">Summary</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="23">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/568" alt="KRS"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/25" alt="TRK"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/568" alt="KRS"></td>
+								<td class="e-matches_data_center"> 6 Sep, Mon</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/208" alt="DRG"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
 								<td class="e-matches_data_left">KRS</td>
-								<td class="e-matches_data_center">3 – <b>5</b></td>
-								<td class="e-matches_data_right"><b>TRK</b></td>
+								<td class="e-matches_data_center">5 – <b>6</b></td>
+								<td class="e-matches_data_right"><b>DRG</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>1:2</em><em>2:2</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>2:3</em><em>2:2</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872607/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323549?locale=en">Video</a></li>
-										<li><a href="/game/1045/872607/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877185/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1506385?locale=en">Video</a></li>
+										<li><a href="/game/1097/877185/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="24">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="15" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/56" alt="SEV"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/24" alt="SKA"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/24" alt="SKA"></td>
+								<td class="e-matches_data_center"> 6 Sep, Mon</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/418" alt="ADM"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">SEV</td>
-								<td class="e-matches_data_center">0 – <b>2</b></td>
-								<td class="e-matches_data_right"><b>SKA</b></td>
+								<td class="e-matches_data_left"><b>SKA</b></td>
+								<td class="e-matches_data_center"><b>9</b> – 2</td>
+								<td class="e-matches_data_right">ADM</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>0:1</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>3:0</em><em>2:1</em><em>4:1</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872609/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323601?locale=en">Video</a></li>
-										<li><a href="/game/1045/872609/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877186/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1506373?locale=en">Video</a></li>
+										<li><a href="/game/1097/877186/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="25">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="16" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/19" alt="VIT"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/7" alt="SPR"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/7" alt="SPR"></td>
+								<td class="e-matches_data_center"> 6 Sep, Mon</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/19" alt="VIT"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">VIT</td>
-								<td class="e-matches_data_center">3 – <b>7</b></td>
-								<td class="e-matches_data_right"><b>SPR</b></td>
+								<td class="e-matches_data_left"><b>SPR</b></td>
+								<td class="e-matches_data_center"><b>3</b> <span class="e-round m-bg_color_0">OT</span> 2</td>
+								<td class="e-matches_data_right">VIT</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:4</em><em>2:1</em><em>0:2</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>2:1</em><em>0:0</em><em>0:1</em><em>1:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872610/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323589?locale=en">Video</a></li>
-										<li><a href="/game/1045/872610/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877187/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1506377?locale=en">Video</a></li>
+										<li><a href="/game/1097/877187/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="26">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="17" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/2" alt="CSK"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/451" alt="SCH"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/451" alt="SCH"></td>
+								<td class="e-matches_data_center"> 6 Sep, Mon</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/2" alt="CSK"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>CSK</b></td>
-								<td class="e-matches_data_center"><b>7</b> – 0</td>
-								<td class="e-matches_data_right">SCH</td>
+								<td class="e-matches_data_left">SCH</td>
+								<td class="e-matches_data_center">1 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>CSK</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>1:0</em><em>4:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>0:3</em><em>1:1</em><em>0:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872612/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323585?locale=en">Video</a></li>
-										<li><a href="/game/1045/872612/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877188/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1506349?locale=en">Video</a></li>
+										<li><a href="/game/1097/877188/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide" style="width: 158px;" index="27">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="18" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/208" alt="DRG"></td>
-								<td class="e-matches_data_center">14 Nov, Sat</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/190" alt="AVT"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/37" alt="MMG"></td>
+								<td class="e-matches_data_center"> 7 Sep, Tue</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/38" alt="SAL"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">DRG</td>
-								<td class="e-matches_data_center">2 <span class="e-round m-bg_color_0">OT</span> <b>3</b></td>
-								<td class="e-matches_data_right"><b>AVT</b></td>
+								<td class="e-matches_data_left">MMG</td>
+								<td class="e-matches_data_center">2 – <b>7</b></td>
+								<td class="e-matches_data_right"><b>SAL</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>2:1</em><em>0:1</em><em>0:0</em><em>0:1</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>0:2</em><em>2:4</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872613/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323633?locale=en">Video</a></li>
-										<li><a href="/game/1045/872613/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877190/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1507553?locale=en">Video</a></li>
+										<li><a href="/game/1097/877190/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide slick-active" style="width: 158px;" index="28">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="19" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/54" alt="AMR"></td>
-								<td class="e-matches_data_center">15 Nov, Sun</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/34" alt="AVG"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/1" alt="LOK"></td>
+								<td class="e-matches_data_center"> 7 Sep, Tue</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/207" alt="DMN"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>AMR</b></td>
-								<td class="e-matches_data_center"><b>2</b> – 1</td>
+								<td class="e-matches_data_left">LOK</td>
+								<td class="e-matches_data_center">3 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>DMN</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>2:0</em><em>1:2</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877191/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1507649?locale=en">Video</a></li>
+										<li><a href="/game/1097/877191/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="20" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/26" alt="TOR"></td>
+								<td class="e-matches_data_center"> 7 Sep, Tue</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/29" alt="SIB"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">TOR</td>
+								<td class="e-matches_data_center">0 – <b>3</b></td>
+								<td class="e-matches_data_right"><b>SIB</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>0:1</em><em>0:2</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877192/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1507657?locale=en">Video</a></li>
+										<li><a href="/game/1097/877192/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="21" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/198" alt="BAR"></td>
+								<td class="e-matches_data_center"> 8 Sep, Wed</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/54" alt="AMR"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>BAR</b></td>
+								<td class="e-matches_data_center"><b>3</b> – 2</td>
+								<td class="e-matches_data_right">AMR</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>1:1</em><em>0:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877193/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1508433?locale=en">Video</a></li>
+										<li><a href="/game/1097/877193/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="22" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/53" alt="AKB"></td>
+								<td class="e-matches_data_center"> 8 Sep, Wed</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/2" alt="CSK"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">AKB</td>
+								<td class="e-matches_data_center">1 <span class="e-round m-bg_color_0">OT</span> <b>2</b></td>
+								<td class="e-matches_data_right"><b>CSK</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>1:0</em><em>0:1</em><em>0:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877194/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1508581?locale=en">Video</a></li>
+										<li><a href="/game/1097/877194/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="23" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/56" alt="SEV"></td>
+								<td class="e-matches_data_center"> 8 Sep, Wed</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/418" alt="ADM"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>SEV</b></td>
+								<td class="e-matches_data_center"><b>3</b> <span class="e-round m-bg_color_0">OT</span> 2</td>
+								<td class="e-matches_data_right">ADM</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>0:1</em><em>1:0</em><em>1:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877195/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1508597?locale=en">Video</a></li>
+										<li><a href="/game/1097/877195/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="24" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/719" alt="DYN"></td>
+								<td class="e-matches_data_center"> 8 Sep, Wed</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/34" alt="AVG"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>DYN</b></td>
+								<td class="e-matches_data_center"><b>5</b> – 2</td>
 								<td class="e-matches_data_right">AVG</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>1:0</em><em>1:1</em><em>0:0</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>1:0</em><em>2:2</em><em>2:0</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872614/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323841?locale=en">Video</a></li>
-										<li><a href="/game/1045/872614/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877196/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1508645?locale=en">Video</a></li>
+										<li><a href="/game/1097/877196/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide slick-active" style="width: 158px;" index="29">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="25" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/29" alt="SIB"></td>
-								<td class="e-matches_data_center">15 Nov, Sun</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/37" alt="MMG"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/24" alt="SKA"></td>
+								<td class="e-matches_data_center"> 8 Sep, Wed</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/190" alt="AVT"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left"><b>SIB</b></td>
-								<td class="e-matches_data_center"><b>3</b> – 2</td>
-								<td class="e-matches_data_right">MMG</td>
+								<td class="e-matches_data_left">SKA</td>
+								<td class="e-matches_data_center">2 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>AVT</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>2:0</em><em>1:2</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>1:1</em><em>1:1</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872615/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323933?locale=en">Video</a></li>
-										<li><a href="/game/1045/872615/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877197/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1508641?locale=en">Video</a></li>
+										<li><a href="/game/1097/877197/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-past slick-slide slick-active" style="width: 158px;" index="30">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="26" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/198" alt="BAR"></td>
-								<td class="e-matches_data_center">15 Nov, Sun</td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/207" alt="DMN"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/208" alt="DRG"></td>
+								<td class="e-matches_data_center"> 8 Sep, Wed</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/25" alt="TRK"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">DRG</td>
+								<td class="e-matches_data_center">1 – <b>6</b></td>
+								<td class="e-matches_data_right"><b>TRK</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>1:3</em><em>0:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877198/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1508605?locale=en">Video</a></li>
+										<li><a href="/game/1097/877198/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="27" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/38" alt="SAL"></td>
+								<td class="e-matches_data_center"> 9 Sep, Thu</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/7" alt="SPR"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>SAL</b></td>
+								<td class="e-matches_data_center"><b>2</b> – 1</td>
+								<td class="e-matches_data_right">SPR</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>2:0</em><em>0:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877199/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1509317?locale=en">Video</a></li>
+										<li><a href="/game/1097/877199/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="28" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/568" alt="KRS"></td>
+								<td class="e-matches_data_center"> 9 Sep, Thu</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/450" alt="JOK"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">KRS</td>
+								<td class="e-matches_data_center">5 – <b>6</b></td>
+								<td class="e-matches_data_right"><b>JOK</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>2:4</em><em>2:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877200/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1509473?locale=en">Video</a></li>
+										<li><a href="/game/1097/877200/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="29" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/71" alt="NKH"></td>
+								<td class="e-matches_data_center"> 9 Sep, Thu</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/29" alt="SIB"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>NKH</b></td>
+								<td class="e-matches_data_center"><b>4</b> – 2</td>
+								<td class="e-matches_data_right">SIB</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>1:2</em><em>2:0</em><em>1:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877201/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1509453?locale=en">Video</a></li>
+										<li><a href="/game/1097/877201/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="30" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/26" alt="TOR"></td>
+								<td class="e-matches_data_center"> 9 Sep, Thu</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/451" alt="SCH"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>TOR</b></td>
+								<td class="e-matches_data_center"><b>2</b> – 1</td>
+								<td class="e-matches_data_right">SCH</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>2:0</em><em>0:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877202/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1509461?locale=en">Video</a></li>
+										<li><a href="/game/1097/877202/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="31" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/37" alt="MMG"></td>
+								<td class="e-matches_data_center">10 Sep, Fri</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/418" alt="ADM"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>MMG</b></td>
+								<td class="e-matches_data_center"><b>4</b> <span class="e-round m-bg_color_0">OT</span> 3</td>
+								<td class="e-matches_data_right">ADM</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>0:1</em><em>2:1</em><em>1:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877203/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510053?locale=en">Video</a></li>
+										<li><a href="/game/1097/877203/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="32" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/56" alt="SEV"></td>
+								<td class="e-matches_data_center">10 Sep, Fri</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/25" alt="TRK"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">SEV</td>
+								<td class="e-matches_data_center">1 <span class="e-round m-bg_color_0">SO</span> <b>2</b></td>
+								<td class="e-matches_data_right"><b>TRK</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>1:0</em><em>0:0</em><em>0:0</em><em>0:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877204/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510121?locale=en">Video</a></li>
+										<li><a href="/game/1097/877204/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="33" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/207" alt="DMN"></td>
+								<td class="e-matches_data_center">10 Sep, Fri</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/190" alt="AVT"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">DMN</td>
+								<td class="e-matches_data_center">1 – <b>2</b></td>
+								<td class="e-matches_data_right"><b>AVT</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:0</em><em>0:1</em><em>1:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877207/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510137?locale=en">Video</a></li>
+										<li><a href="/game/1097/877207/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="34" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/19" alt="VIT"></td>
+								<td class="e-matches_data_center">10 Sep, Fri</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/53" alt="AKB"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">VIT</td>
+								<td class="e-matches_data_center">1 <span class="e-round m-bg_color_0">OT</span> <b>2</b></td>
+								<td class="e-matches_data_right"><b>AKB</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>0:0</em><em>1:0</em><em>0:1</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877205/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510133?locale=en">Video</a></li>
+										<li><a href="/game/1097/877205/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="35" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/2" alt="CSK"></td>
+								<td class="e-matches_data_center">10 Sep, Fri</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/1" alt="LOK"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>CSK</b></td>
+								<td class="e-matches_data_center"><b>3</b> – 1</td>
+								<td class="e-matches_data_right">LOK</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>1:1</em><em>0:0</em></td>
+							</tr>
+						</tbody></table>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877206/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510145?locale=en">Video</a></li>
+										<li><a href="/game/1097/877206/protocol/">Summary</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="b-feed_matches_item m-past slick-slide" index="36" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/198" alt="BAR"></td>
+								<td class="e-matches_data_center">11 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/7" alt="SPR"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
 								<td class="e-matches_data_left">BAR</td>
 								<td class="e-matches_data_center">1 – <b>4</b></td>
-								<td class="e-matches_data_right"><b>DMN</b></td>
+								<td class="e-matches_data_right"><b>SPR</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-								<td colspan="3" class="e-matches_data_left"><em>0:2</em><em>0:1</em><em>1:1</em></td>
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>1:2</em><em>0:1</em></td>
 							</tr>
 						</tbody></table>
 						<div class="e-matches_popup_links">
 							<div class="b-title-option-wrapper">
 								<div class="b-title-option-inner">
 									<ul>
-										<li><a href="/game/1045/872616/resume/">Resume</a></li>
-										<li><a href="https://video.khl.ru/events/1323941?locale=en">Video</a></li>
-										<li><a href="/game/1045/872616/protocol/">Summary</a></li>
+										<li><a href="/game/1097/877208/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510445?locale=en">Video</a></li>
+										<li><a href="/game/1097/877208/protocol/">Summary</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-					</div><div class="b-feed_matches_item m-now slick-slide slick-active" style="width: 158px;" index="31">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="37" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/53" alt="AKB"></td>
-								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/190" alt="AVT"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/38" alt="SAL"></td>
+								<td class="e-matches_data_center">11 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/71" alt="NKH"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">AKB</td>
-								<td class="e-matches_data_center"> – </td>
-								<td class="e-matches_data_right">AVT</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:00 msk&nbsp;</em><em>&nbsp;Kazan</em></span></td>
-														</tr>
-						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931665/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">2.00</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">4.15</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">3.20</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
-						<div class="b-title-option-wrapper">
-							<div class="b-title-option-inner">
-								<ul>
-									<li><a href="/game/1045/872617/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250625?locale=en">Video</a></li>
-																</ul>
-							</div>
-						</div>
-					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide slick-active" style="width: 158px;" index="32">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/19" alt="VIT"></td>
-								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/7" alt="SPR"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">VIT</td>
-								<td class="e-matches_data_center"> – </td>
-								<td class="e-matches_data_right">SPR</td>
-							</tr>
-							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 msk&nbsp;</em><em>&nbsp;Podolsk</em></span></td>
-														</tr>
-						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931670/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">2.65</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">4.25</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">2.25</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
-						<div class="b-title-option-wrapper">
-							<div class="b-title-option-inner">
-								<ul>
-									<li><a href="/game/1045/872618/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250629?locale=en">Video</a></li>
-																</ul>
-							</div>
-						</div>
-					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide slick-active" style="width: 158px;" index="33">
-						<table class="b-matches_data m-w_100">
-							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/719" alt="DYN"></td>
-								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/71" alt="NKH"></td>
-							</tr>
-							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">DYN</td>
-								<td class="e-matches_data_center"> – </td>
+								<td class="e-matches_data_left"><b>SAL</b></td>
+								<td class="e-matches_data_center"><b>5</b> – 1</td>
 								<td class="e-matches_data_right">NKH</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 msk&nbsp;</em><em>&nbsp;Moscow</em></span></td>
-														</tr>
+								<td colspan="3" class="e-matches_data_left"><em>2:0</em><em>2:0</em><em>1:1</em></td>
+							</tr>
 						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931667/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">1.45</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">5.20</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">5.80</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
-						<div class="b-title-option-wrapper">
-							<div class="b-title-option-inner">
-								<ul>
-									<li><a href="/game/1045/872619/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250633?locale=en">Video</a></li>
-																</ul>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877209/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510533?locale=en">Video</a></li>
+										<li><a href="/game/1097/877209/protocol/">Summary</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide slick-active" style="width: 158px;" index="34">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="38" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/24" alt="SKA"></td>
-								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/38" alt="SAL"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/34" alt="AVG"></td>
+								<td class="e-matches_data_center">11 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/450" alt="JOK"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">SKA</td>
-								<td class="e-matches_data_center"> – </td>
-								<td class="e-matches_data_right">SAL</td>
+								<td class="e-matches_data_left">AVG</td>
+								<td class="e-matches_data_center">2 – <b>3</b></td>
+								<td class="e-matches_data_right"><b>JOK</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 msk&nbsp;</em><em>&nbsp;Saint Petersburg</em></span></td>
-														</tr>
+								<td colspan="3" class="e-matches_data_left"><em>1:1</em><em>1:0</em><em>0:2</em></td>
+							</tr>
 						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931669/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">1.75</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">4.40</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">3.90</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
-						<div class="b-title-option-wrapper">
-							<div class="b-title-option-inner">
-								<ul>
-									<li><a href="/game/1045/872620/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250637?locale=en">Video</a></li>
-																</ul>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877210/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510537?locale=en">Video</a></li>
+										<li><a href="/game/1097/877210/protocol/">Summary</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide slick-active" style="width: 158px;" index="35">
+					</div><div class="b-feed_matches_item m-past slick-slide" index="39" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/2" alt="CSK"></td>
-								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/1" alt="LOK"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/568" alt="KRS"></td>
+								<td class="e-matches_data_center">11 Sep, Sat</td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/451" alt="SCH"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">CSK</td>
-								<td class="e-matches_data_center"> – </td>
-								<td class="e-matches_data_right">LOK</td>
+								<td class="e-matches_data_left"><b>KRS</b></td>
+								<td class="e-matches_data_center"><b>3</b> <span class="e-round m-bg_color_0">SO</span> 2</td>
+								<td class="e-matches_data_right">SCH</td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 msk&nbsp;</em><em>&nbsp;Moscow</em></span></td>
-														</tr>
+								<td colspan="3" class="e-matches_data_left"><em>0:1</em><em>2:1</em><em>0:0</em><em>0:0</em><em>1:0</em></td>
+							</tr>
 						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931666/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">1.95</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">4.10</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">3.35</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
-						<div class="b-title-option-wrapper">
-							<div class="b-title-option-inner">
-								<ul>
-									<li><a href="/game/1045/872621/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250641?locale=en">Video</a></li>
-																</ul>
+						<div class="e-matches_popup_links">
+							<div class="b-title-option-wrapper">
+								<div class="b-title-option-inner">
+									<ul>
+										<li><a href="/game/1097/877211/resume/">Resume</a></li>
+										<li><a href="https://video.khl.ru/events/1510573?locale=en">Video</a></li>
+										<li><a href="/game/1097/877211/protocol/">Summary</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="36">
+					</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="40" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/450" alt="JOK"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/54" alt="AMR"></td>
 								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/25" alt="TRK"></td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/719" alt="DYN"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
-								<td class="e-matches_data_left">JOK</td>
-								<td class="e-matches_data_center"> – </td>
-								<td class="e-matches_data_right">TRK</td>
+								<td class="e-matches_data_left">AMR</td>
+								<td class="e-matches_data_center">2 – <b>6</b></td>
+								<td class="e-matches_data_right"><b>DYN</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 msk&nbsp;</em><em>&nbsp;Helsinki</em></span></td>
+															<td colspan="3" class="e-matches_data_left"><em>1-2</em><em>1-1</em><em>0-3</em></td>
 														</tr>
 						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931668/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">2.25</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">3.95</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">2.80</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
+											<div class="e-matches_popup_links">
 						<div class="b-title-option-wrapper">
 							<div class="b-title-option-inner">
 								<ul>
-									<li><a href="/game/1045/872622/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250645?locale=en">Video</a></li>
+									<li><a href="/game/1097/877212/resume/">Resume</a></li>
+									<li><a href="https://video.khl.ru/events/1510693?locale=en">Video</a></li>
+																	<li><a href="/game/1097/877212/protocol/">Summary</a></li>
 																</ul>
 							</div>
 						</div>
 					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="37">
+				</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="41" style="width: 192px;">
 						<table class="b-matches_data m-w_100">
 							<tbody><tr class="b-matches_data_top">
-								<td class="e-matches_data_left"><img src="/images/teams/en/1045/208" alt="DRG"></td>
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/26" alt="TOR"></td>
 								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
-								<td class="e-matches_data_right"><img src="/images/teams/en/1045/568" alt="KRS"></td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/24" alt="SKA"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>TOR</b></td>
+								<td class="e-matches_data_center"><b>3</b> – 2</td>
+								<td class="e-matches_data_right">SKA</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+															<td colspan="3" class="e-matches_data_left"><em>3-1</em><em>0-1</em><em>0-0</em></td>
+														</tr>
+						</tbody></table>
+											<div class="e-matches_popup_links">
+						<div class="b-title-option-wrapper">
+							<div class="b-title-option-inner">
+								<ul>
+									<li><a href="/game/1097/877213/resume/">Resume</a></li>
+									<li><a href="https://video.khl.ru/events/1510865?locale=en">Video</a></li>
+																	<li><a href="/game/1097/877213/protocol/">Summary</a></li>
+																</ul>
+							</div>
+						</div>
+					</div>
+				</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="42" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/19" alt="VIT"></td>
+								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/190" alt="AVT"></td>
+							</tr>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left">VIT</td>
+								<td class="e-matches_data_center">3 <span class="e-round m-bg_color_0">SO</span> <b>4</b></td>
+								<td class="e-matches_data_right"><b>AVT</b></td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+															<td colspan="3" class="e-matches_data_left"><em>0-1</em><em>0-1</em><em>3-1</em><em>0:0</em><em>0-1</em></td>
+														</tr>
+						</tbody></table>
+											<div class="e-matches_popup_links">
+						<div class="b-title-option-wrapper">
+							<div class="b-title-option-inner">
+								<ul>
+									<li><a href="/game/1097/877214/resume/">Resume</a></li>
+									<li><a href="https://video.khl.ru/events/1510913?locale=en">Video</a></li>
+																	<li><a href="/game/1097/877214/protocol/">Summary</a></li>
+																</ul>
+							</div>
+						</div>
+					</div>
+				</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="43" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/208" alt="DRG"></td>
+								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/1" alt="LOK"></td>
 							</tr>
 							<tr class="b-matches_data_middle">
 								<td class="e-matches_data_left">DRG</td>
-								<td class="e-matches_data_center"> – </td>
-								<td class="e-matches_data_right">KRS</td>
+								<td class="e-matches_data_center">0 – <b>4</b></td>
+								<td class="e-matches_data_right"><b>LOK</b></td>
 							</tr>
 							<tr class="b-matches_data_bottom">
-															<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>20:30 msk&nbsp;</em><em>&nbsp;Riga</em></span></td>
+															<td colspan="3" class="e-matches_data_left"><em>0-4</em><em>0-0</em><em>0-0</em></td>
 														</tr>
 						</tbody></table>
-													
-						<a href="https://www.fonbet.ru/bets/hockey/13283/24931671/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-							<table class="b-matches_data m-w_100 cof">
-								<tbody>
-									<tr class="b-matches_data_top" style="font-size:10px;">
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-										<td class="fonbet-value">
-											<div class="fonbet-cell"></div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="b-matches_data m-w_100 cof-data">
-								<tbody>
-									<tr style="font-size: 10px;">
-										<td class="fonbet-value"><div class="fonbet-trans">2.25</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">4.15</div></td>
-										<td class="fonbet-value"><div class="fonbet-trans">2.70</div></td>
-									</tr>
-								</tbody>
-							</table>
-						</a>
-																<div class="e-matches_popup_links">
+											<div class="e-matches_popup_links">
 						<div class="b-title-option-wrapper">
 							<div class="b-title-option-inner">
 								<ul>
-									<li><a href="/game/1045/872623/preview/">Preview</a></li>
-									<li><a href="https://video.khl.ru/events/1250649?locale=en">Video</a></li>
+									<li><a href="/game/1097/877216/resume/">Resume</a></li>
+									<li><a href="https://video.khl.ru/events/1510833?locale=en">Video</a></li>
+																	<li><a href="/game/1097/877216/protocol/">Summary</a></li>
 																</ul>
 							</div>
 						</div>
 					</div>
-				</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="38">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/54" alt="AMR"></td>
-							<td class="e-matches_data_center">17 Nov, Tue</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/34" alt="AVG"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>AMR</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>AVG</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>12:00 <small>msk</small>&nbsp;</em><em>&nbsp;Khabarovsk</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931672/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">4.00</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.40</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">1.73</div></td>
+				</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="44" style="width: 192px;">
+						<table class="b-matches_data m-w_100">
+							<tbody><tr class="b-matches_data_top">
+								<td class="e-matches_data_left"><img src="/images/teams/en/1097/207" alt="DMN"></td>
+								<td class="e-matches_data_center"><span class="m-color_1">Today</span></td>
+								<td class="e-matches_data_right"><img src="/images/teams/en/1097/53" alt="AKB"></td>
 							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872624/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250653?locale=en">Video</a></li>
-								<li><a href="/game/1045/872624/preview/#store">Store</a></li>
-							</ul>
+							<tr class="b-matches_data_middle">
+								<td class="e-matches_data_left"><b>DMN</b></td>
+								<td class="e-matches_data_center"><b>5</b> – 2</td>
+								<td class="e-matches_data_right">AKB</td>
+							</tr>
+							<tr class="b-matches_data_bottom">
+															<td colspan="3" class="e-matches_data_left"><em>1-0</em><em>0-2</em><em>4-0</em></td>
+														</tr>
+						</tbody></table>
+											<div class="e-matches_popup_links">
+						<div class="b-title-option-wrapper">
+							<div class="b-title-option-inner">
+								<ul>
+									<li><a href="/game/1097/877215/resume/">Resume</a></li>
+									<li><a href="https://video.khl.ru/events/1510869?locale=en">Video</a></li>
+																	<li><a href="/game/1097/877215/protocol/">Summary</a></li>
+																</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="39">
+				</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="45" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/29" alt="SIB"></td>
-							<td class="e-matches_data_center">17 Nov, Tue</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/26" alt="TOR"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/29" alt="SIB"></td>
+							<td class="e-matches_data_center">13 Sep, Mon</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/56" alt="SEV"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
 							<td class="e-matches_data_left"><b>SIB</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>TOR</b></td>
+							<td class="e-matches_data_right"><b>SEV</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
 							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>15:30 <small>msk</small>&nbsp;</em><em>&nbsp;Novosibirsk</em></span></td>
@@ -1607,27 +1552,27 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931673/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854139/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">2.00</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.20</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">3.15</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">1.90</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.00</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">3.60</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -1636,54 +1581,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872625/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250657?locale=en">Video</a></li>
-								<li><a href="/game/1045/872625/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877217/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469253?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877217/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="40">
+			</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="46" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/198" alt="BAR"></td>
-							<td class="e-matches_data_center">17 Nov, Tue</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/37" alt="MMG"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/37" alt="MMG"></td>
+							<td class="e-matches_data_center">13 Sep, Mon</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/71" alt="NKH"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>BAR</b></td>
+							<td class="e-matches_data_left"><b>MMG</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>MMG</b></td>
+							<td class="e-matches_data_right"><b>NKH</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>16:30 <small>msk</small>&nbsp;</em><em>&nbsp;Nur-Sultan</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Magnitogorsk</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931674/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854165/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">2.40</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.05</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">2.55</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">1.53</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.70</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">5.30</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -1692,54 +1637,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872626/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250661?locale=en">Video</a></li>
-								<li><a href="/game/1045/872626/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877218/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469257?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877218/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="41">
+			</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="47" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/24" alt="SKA"></td>
-							<td class="e-matches_data_center">18 Nov, Wed</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/25" alt="TRK"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/418" alt="ADM"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/719" alt="DYN"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>SKA</b></td>
+							<td class="e-matches_data_left"><b>ADM</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>TRK</b></td>
+							<td class="e-matches_data_right"><b>DYN</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Saint Petersburg</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>12:30 <small>msk</small>&nbsp;</em><em>&nbsp;Vladivostok</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931676/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854191/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.73</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.40</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.00</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.90</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.70</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">1.57</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -1748,137 +1693,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872627/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250665?locale=en">Video</a></li>
-								<li><a href="https://spb.kassir.ru/sport/ledovyiy-dvorets-2/ska---traktor_2020-11-18?utm_source=KHL&amp;utm_medium=spb&amp;utm_campaign=49969" target="_blank">Tickets</a></li>
+								<li><a href="/game/1097/877219/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469261?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877219/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="42">
+			</div><div class="b-feed_matches_item m-now slick-slide slick-active" index="48" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/7" alt="SPR"></td>
-							<td class="e-matches_data_center">18 Nov, Wed</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/56" alt="SEV"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>SPR</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>SEV</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Moscow</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931677/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.90</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.20</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">3.45</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872628/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250669?locale=en">Video</a></li>
-								<li><a href="https://hk-spartak.qtickets.ru/event/15903?utm_campaign=khlru" target="_blank">Tickets</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="43">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/450" alt="JOK"></td>
-							<td class="e-matches_data_center">18 Nov, Wed</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/568" alt="KRS"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/450" alt="JOK"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/1" alt="LOK"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
 							<td class="e-matches_data_left"><b>JOK</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>KRS</b></td>
+							<td class="e-matches_data_right"><b>LOK</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Helsinki</em></span></td>
-						</tr>
-					</tbody></table>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872629/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250673?locale=en">Video</a></li>
-								<li><a href="/game/1045/872629/preview/#store">Store</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="44">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/54" alt="AMR"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/37" alt="MMG"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>AMR</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>MMG</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>12:00 <small>msk</small>&nbsp;</em><em>&nbsp;Khabarovsk</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>18:30 <small>msk</small>&nbsp;</em><em>&nbsp;Helsinki</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931678/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854217/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">2.70</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.15</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">2.25</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.35</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.10</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.60</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -1887,54 +1749,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872630/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250677?locale=en">Video</a></li>
-								<li><a href="/game/1045/872630/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877225/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469285?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877225/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="45">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="49" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/198" alt="BAR"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/34" alt="AVG"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/568" alt="KRS"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/190" alt="AVT"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>BAR</b></td>
+							<td class="e-matches_data_left"><b>KRS</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>AVG</b></td>
+							<td class="e-matches_data_right"><b>AVT</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>16:30 <small>msk</small>&nbsp;</em><em>&nbsp;Nur-Sultan</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Mytishchi</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931679/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854301/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">2.70</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.15</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">2.25</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">5.00</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.70</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">1.55</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -1943,331 +1805,24 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872631/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250681?locale=en">Video</a></li>
-								<li><a href="/game/1045/872631/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877220/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469265?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877220/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="46">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="50" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/1" alt="LOK"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/450" alt="JOK"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>LOK</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>JOK</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:00 <small>msk</small>&nbsp;</em><em>&nbsp;Yaroslavl</em></span></td>
-						</tr>
-					</tbody></table>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872608/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250589?locale=en">Video</a></li>
-								<li><a href="/game/1045/872608/preview/#store">Store</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="47">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/53" alt="AKB"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/26" alt="TOR"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>AKB</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>TOR</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:00 <small>msk</small>&nbsp;</em><em>&nbsp;Kazan</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931680/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.45</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">5.10</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">5.90</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872632/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250685?locale=en">Video</a></li>
-								<li><a href="/game/1045/872632/preview/#store">Store</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="48">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/71" alt="NKH"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/2" alt="CSK"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>NKH</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>CSK</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:00 <small>msk</small>&nbsp;</em><em>&nbsp;Nizhnekamsk</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931681/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">5.40</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.90</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">1.50</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872633/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250689?locale=en">Video</a></li>
-								<li><a href="/game/1045/872633/preview/#store">Store</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="49">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/207" alt="DMN"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/451" alt="SCH"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>DMN</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>SCH</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:10 <small>msk</small>&nbsp;</em><em>&nbsp;Minsk</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931682/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">2.12</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.20</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">2.90</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872635/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250697?locale=en">Video</a></li>
-								<li><a href="/game/1045/872635/preview/#store">Store</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="50">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/719" alt="DYN"></td>
-							<td class="e-matches_data_center">19 Nov, Thu</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/208" alt="DRG"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>DYN</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>DRG</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Moscow</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931683/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.30</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">6.30</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">7.90</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872634/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250693?locale=en">Video</a></li>
-								<li><a href="/game/1045/872634/preview/#store">Store</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="51">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/38" alt="SAL"></td>
-							<td class="e-matches_data_center">20 Nov, Fri</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/7" alt="SPR"></td>
-						</tr>
-						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>SAL</b></td>
-							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>SPR</b></td>
-						</tr>
-						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Ufa</em></span></td>
-						</tr>
-					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931684/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.80</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.35</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">3.75</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
-								<div class="e-matches_popup_links">
-					<div class="b-title-option-wrapper">
-						<div class="b-title-option-inner">
-							<ul>
-								<li><a href="/game/1045/872636/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250701?locale=en">Video</a></li>
-								<li><a href="https://tickets.championat.com/khl/57539944/?utm_campaign=khlru" target="_blank">Tickets</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="52">
-					<table class="b-matches_data m-w_100">
-						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/19" alt="VIT"></td>
-							<td class="e-matches_data_center">20 Nov, Fri</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/56" alt="SEV"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/19" alt="VIT"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/25" alt="TRK"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
 							<td class="e-matches_data_left"><b>VIT</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>SEV</b></td>
+							<td class="e-matches_data_right"><b>TRK</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
 							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Podolsk</em></span></td>
@@ -2277,27 +1832,27 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24931685/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854249/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.95</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.20</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">3.30</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.90</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.10</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.15</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -2306,54 +1861,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872637/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250705?locale=en">Video</a></li>
-								<li><a href="/game/1045/872637/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877221/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469269?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877221/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="53">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="51" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/190" alt="AVT"></td>
-							<td class="e-matches_data_center">21 Nov, Sat</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/26" alt="TOR"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/7" alt="SPR"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/24" alt="SKA"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>AVT</b></td>
+							<td class="e-matches_data_left"><b>SPR</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>TOR</b></td>
+							<td class="e-matches_data_right"><b>SKA</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>14:30 <small>msk</small>&nbsp;</em><em>&nbsp;Ekaterinburg</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Moscow</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24994550/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854397/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.55</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.80</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">5.00</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">3.00</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.10</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.10</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -2362,54 +1917,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872638/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250709?locale=en">Video</a></li>
-								<li><a href="/game/1045/872638/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877222/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469273?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="https://hk-spartak.qtickets.ru/event/25860?utm_campaign=khlru&amp;multiprice_list=full" target="_blank">Tickets</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="54">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="52" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/568" alt="KRS"></td>
-							<td class="e-matches_data_center">21 Nov, Sat</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/53" alt="AKB"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/451" alt="SCH"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/53" alt="AKB"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>KRS</b></td>
+							<td class="e-matches_data_left"><b>SCH</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
 							<td class="e-matches_data_right"><b>AKB</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Mytishchi</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Sochi</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24994552/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854371/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">4.55</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.60</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">1.62</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">5.50</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.90</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">1.50</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -2418,54 +1973,54 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872639/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250713?locale=en">Video</a></li>
-								<li><a href="/game/1045/872639/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877223/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469277?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877223/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="55">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="53" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/1" alt="LOK"></td>
-							<td class="e-matches_data_center">21 Nov, Sat</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/208" alt="DRG"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/2" alt="CSK"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/198" alt="BAR"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>LOK</b></td>
+							<td class="e-matches_data_left"><b>CSK</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>DRG</b></td>
+							<td class="e-matches_data_right"><b>BAR</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Yaroslavl</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Moscow</em></span></td>
 						</tr>
 					</tbody></table>
 				
 				<table class="b-matches_data m-w_100 cof">
 					<tbody>
 						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
 							</td>			
 						</tr>
 					</tbody>
 				</table>
 
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24994553/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854275/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
 
 					<table class="b-matches_data m-w_100 cof-data">
 						<tbody>
 							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">1.30</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">6.10</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">8.30</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">1.40</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">5.10</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">7.00</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -2474,113 +2029,425 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872640/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250717?locale=en">Video</a></li>
-								<li><a href="/game/1045/872640/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877224/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469281?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877224/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="56">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="54" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/450" alt="JOK"></td>
-							<td class="e-matches_data_center">21 Nov, Sat</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/451" alt="SCH"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/208" alt="DRG"></td>
+							<td class="e-matches_data_center">14 Sep, Tue</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/26" alt="TOR"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>DRG</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>TOR</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Riga</em></span></td>
+						</tr>
+					</tbody></table>
+				
+				<table class="b-matches_data m-w_100 cof">
+					<tbody>
+						<tr class="b-matches_data_top" style="font-size:10px;">
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>			
+						</tr>
+					</tbody>
+				</table>
+
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854327/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
+
+					<table class="b-matches_data m-w_100 cof-data">
+						<tbody>
+							<tr style="font-size: 10px;">
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.65</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.30</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.25</div></td>
+							</tr>
+						</tbody>
+					</table>
+				</a>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877226/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469289?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877226/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="55" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/54" alt="AMR"></td>
+							<td class="e-matches_data_center">15 Sep, Wed</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/56" alt="SEV"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>AMR</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>SEV</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>12:00 <small>msk</small>&nbsp;</em><em>&nbsp;Khabarovsk</em></span></td>
+						</tr>
+					</tbody></table>
+				
+				<table class="b-matches_data m-w_100 cof">
+					<tbody>
+						<tr class="b-matches_data_top" style="font-size:10px;">
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>			
+						</tr>
+					</tbody>
+				</table>
+
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854423/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
+
+					<table class="b-matches_data m-w_100 cof-data">
+						<tbody>
+							<tr style="font-size: 10px;">
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.05</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.00</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">3.20</div></td>
+							</tr>
+						</tbody>
+					</table>
+				</a>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877227/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469293?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877227/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="56" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/37" alt="MMG"></td>
+							<td class="e-matches_data_center">15 Sep, Wed</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/34" alt="AVG"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>MMG</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>AVG</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Magnitogorsk</em></span></td>
+						</tr>
+					</tbody></table>
+				
+				<table class="b-matches_data m-w_100 cof">
+					<tbody>
+						<tr class="b-matches_data_top" style="font-size:10px;">
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>
+							<td class="SiU0ZE2woYQH">
+								<div class="B822AeWNrW0w"></div>
+							</td>			
+						</tr>
+					</tbody>
+				</table>
+
+				<a href="#" data-link="https://www.fonbet.ru/sports/hockey/13283/29854449/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="3Tnw4qyYAag3 lk-go">
+
+					<table class="b-matches_data m-w_100 cof-data">
+						<tbody>
+							<tr style="font-size: 10px;">
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.45</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">4.20</div></td>
+								<td class="SiU0ZE2woYQH"><div class="fq9ozY0WyTW0">2.45</div></td>
+							</tr>
+						</tbody>
+					</table>
+				</a>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877228/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469297?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877228/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="57" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/29" alt="SIB"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/719" alt="DYN"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>SIB</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>DYN</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>15:30 <small>msk</small>&nbsp;</em><em>&nbsp;Novosibirsk</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877229/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469301?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877229/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="58" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/38" alt="SAL"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/568" alt="KRS"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>SAL</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>KRS</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Ufa</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877230/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469305?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877230/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="59" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/450" alt="JOK"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/26" alt="TOR"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
 							<td class="e-matches_data_left"><b>JOK</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>SCH</b></td>
+							<td class="e-matches_data_right"><b>TOR</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Helsinki</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>18:30 <small>msk</small>&nbsp;</em><em>&nbsp;Helsinki</em></span></td>
 						</tr>
 					</tbody></table>
 								<div class="e-matches_popup_links">
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872641/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250721?locale=en">Video</a></li>
-								<li><a href="/game/1045/872641/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877234/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469321?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877234/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div><div class="b-feed_matches_item m-now slick-slide" style="width: 158px;" index="57">
+			</div><div class="b-feed_matches_item m-now slick-slide" index="60" style="width: 192px;">
 					<table class="b-matches_data m-w_100">
 						<tbody><tr class="b-matches_data_top">
-							<td class="e-matches_data_left"><img src="/images/teams/en/1045/207" alt="DMN"></td>
-							<td class="e-matches_data_center">21 Nov, Sat</td>
-							<td class="e-matches_data_right"><img src="/images/teams/en/1045/2" alt="CSK"></td>
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/71" alt="NKH"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/25" alt="TRK"></td>
 						</tr>
 						<tr class="b-matches_data_middle">
-							<td class="e-matches_data_left"><b>DMN</b></td>
+							<td class="e-matches_data_left"><b>NKH</b></td>
 							<td class="e-matches_data_center"><b>–</b></td>
-							<td class="e-matches_data_right"><b>CSK</b></td>
+							<td class="e-matches_data_right"><b>TRK</b></td>
 						</tr>
 						<tr class="b-matches_data_bottom">
-							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:10 <small>msk</small>&nbsp;</em><em>&nbsp;Minsk</em></span></td>
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:00 <small>msk</small>&nbsp;</em><em>&nbsp;Nizhnekamsk</em></span></td>
 						</tr>
 					</tbody></table>
-				
-				<table class="b-matches_data m-w_100 cof">
-					<tbody>
-						<tr class="b-matches_data_top" style="font-size:10px;">
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>
-							<td class="fonbet-value">
-								<div class="fonbet-cell"></div>
-							</td>			
-						</tr>
-					</tbody>
-				</table>
-
-				<a href="https://www.fonbet.ru/bets/hockey/13283/24994554/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_bets" class="fonbet-href" target="_blank">
-
-					<table class="b-matches_data m-w_100 cof-data">
-						<tbody>
-							<tr style="font-size: 10px;">
-								<td class="fonbet-value"><div class="fonbet-trans">4.70</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">4.60</div></td>
-								<td class="fonbet-value"><div class="fonbet-trans">1.60</div></td>
-							</tr>
-						</tbody>
-					</table>
-				</a>
 								<div class="e-matches_popup_links">
 					<div class="b-title-option-wrapper">
 						<div class="b-title-option-inner">
 							<ul>
-								<li><a href="/game/1045/872642/preview/">Preview</a></li>
-								<li><a href="https://video.khl.ru/events/1250725?locale=en">Video</a></li>
-								<li><a href="/game/1045/872642/preview/#store">Store</a></li>
+								<li><a href="/game/1097/877231/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469309?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877231/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="61" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/7" alt="SPR"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/2" alt="CSK"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>SPR</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>CSK</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Moscow</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877232/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469313?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="https://hk-spartak.qtickets.ru/event/25861?utm_campaign=khlru&amp;multiprice_list=full" target="_blank">Tickets</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="62" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/451" alt="SCH"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/24" alt="SKA"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>SCH</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>SKA</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Sochi</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877233/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469317?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877233/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="63" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/208" alt="DRG"></td>
+							<td class="e-matches_data_center">16 Sep, Thu</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/198" alt="BAR"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>DRG</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>BAR</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>19:30 <small>msk</small>&nbsp;</em><em>&nbsp;Riga</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877235/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469325?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877235/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="64" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/418" alt="ADM"></td>
+							<td class="e-matches_data_center">17 Sep, Fri</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/56" alt="SEV"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>ADM</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>SEV</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>12:30 <small>msk</small>&nbsp;</em><em>&nbsp;Vladivostok</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877236/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469329?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877236/preview/#store">Store</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><div class="b-feed_matches_item m-now slick-slide" index="65" style="width: 192px;">
+					<table class="b-matches_data m-w_100">
+						<tbody><tr class="b-matches_data_top">
+							<td class="e-matches_data_left"><img src="/images/teams/en/1097/190" alt="AVT"></td>
+							<td class="e-matches_data_center">17 Sep, Fri</td>
+							<td class="e-matches_data_right"><img src="/images/teams/en/1097/34" alt="AVG"></td>
+						</tr>
+						<tr class="b-matches_data_middle">
+							<td class="e-matches_data_left"><b>AVT</b></td>
+							<td class="e-matches_data_center"><b>–</b></td>
+							<td class="e-matches_data_right"><b>AVG</b></td>
+						</tr>
+						<tr class="b-matches_data_bottom">
+							<td colspan="3" class="e-matches_data_left"><span class="e-cut"><em>17:00 <small>msk</small>&nbsp;</em><em>&nbsp;Ekaterinburg</em></span></td>
+						</tr>
+					</tbody></table>
+								<div class="e-matches_popup_links">
+					<div class="b-title-option-wrapper">
+						<div class="b-title-option-inner">
+							<ul>
+								<li><a href="/game/1097/877237/preview/">Preview</a></li>
+								<li><a href="https://video.khl.ru/events/1469333?partner=ygWDXBN?locale=en">Video</a></li>
+								<li><a href="/game/1097/877237/preview/#store">Store</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div></div></div>
-	
-						
-	
-						
-						
-						
-						
-						
-						
-						
-						
-	
-						
-	
-						
-						
 						
 						
 						
@@ -2590,6 +2457,20 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 	
 						
 						
+						
+						
+						
+	
+						
+						
+						
+						
+						
+						
+	
+						
+						
+						
 	
 						
 						
@@ -2597,8 +2478,19 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 						
 						
 						
+	
+						
+						
+						
 						
 	
+						
+						
+						
+						
+						
+	
+						
 						
 						
 						
@@ -2610,18 +2502,12 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					
 					
 					
-					
-					
 
 
 					
 					
-					
 	
 					
-					
-					
-	
 					
 					
 					
@@ -2636,14 +2522,19 @@ module.exports = `<body id="players" class="lang-en"><div role="dialog" aria-liv
 					
 					
 					
+					
+					
+					
+					
+	
 					
 					
 	
 
 
 				<button type="button" data-role="none" class="slick-prev" style="display: block;">Previous</button><button type="button" data-role="none" class="slick-next" style="display: block;">Next</button></div>
-				<a href="https://www.fonbet.ru/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=banner_logobet/#!/bets/hockey" target="_blank"><div class="cof-logo lang_en"></div></a>
-				<a href="https://www.fonbet.ru/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=banner_logobet/#!/bets/hockey" target="_blank"><div class="ban-logo lang_en"></div></a>
+				<a href="#" class="lk-go" data-link="https://www.fonbet.ru/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=banner_logobet/#!/bets/hockey" target="_blank"><div class="cof-logo lang_en"></div></a>
+				<a href="#" class="lk-go" data-link="https://www.fonbet.ru/promo/freebet15000/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=sponsorship&amp;utm_content=bonus" target="_blank"><div class="ban-logo lang_en"></div></a>
 			</div>
 
 <script type="text/javascript">
@@ -2663,12 +2554,12 @@ $(document).ready(function() {
   } else if (window.innerWidth <= 480) {
     SScnt = 2;
   }
-  //58
+  //66
   $('.b-feed_matches.m-slick_slider').slick({
     slidesToShow: 9,
     slidesToScroll: 1,
 
-    initialSlide: parseInt(28==0?( 0/*58 - SScnt*/ ):28), 
+    initialSlide: parseInt(40==0?( /*0*/66 - SScnt ):(40+9-SScnt)), 
     infinite: false,
     responsive: [
       {
@@ -2722,8 +2613,8 @@ $(document).ready(function() {
 
 		</div> <!-- #header -->
 <div class="b-content_section m-player s-float_panel_start">
-  <div class="b-float_panel" style="position: fixed; top: 0px; left: 0px; height: 892px;">
-    <div class="b-float_panel_cover" style="min-height: 662px;">
+  <div class="b-float_panel" style="position: fixed; left: 0px; top: 0px; height: 547px;">
+    <div class="b-float_panel_cover">
       <form class="b-float_panel_block">
         <h5 class="b-float_panel_title">Search</h5>
 
@@ -2802,36 +2693,38 @@ $(document).ready(function() {
               <div id="season" class="b-point_switcher_cover m-pad ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
                 <ul class="e-point_switcher">
 				  					<li style="left:0%"></li>
-				  					<li style="left:8.3333333333333%"></li>
-				  					<li style="left:16.666666666667%"></li>
-				  					<li style="left:25%"></li>
-				  					<li style="left:33.333333333333%"></li>
-				  					<li style="left:41.666666666667%"></li>
-				  					<li style="left:50%"></li>
-				  					<li style="left:58.333333333333%"></li>
-				  					<li style="left:66.666666666667%"></li>
-				  					<li style="left:75%"></li>
-				  					<li style="left:83.333333333333%"></li>
-				  					<li style="left:91.666666666667%"></li>
+				  					<li style="left:7.6923076923077%"></li>
+				  					<li style="left:15.384615384615%"></li>
+				  					<li style="left:23.076923076923%"></li>
+				  					<li style="left:30.769230769231%"></li>
+				  					<li style="left:38.461538461538%"></li>
+				  					<li style="left:46.153846153846%"></li>
+				  					<li style="left:53.846153846154%"></li>
+				  					<li style="left:61.538461538462%"></li>
+				  					<li style="left:69.230769230769%"></li>
+				  					<li style="left:76.923076923077%"></li>
+				  					<li style="left:84.615384615385%"></li>
+				  					<li style="left:92.307692307692%"></li>
 				  					<li style="left:100%"></li>
 				  
                 </ul>
               <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 100%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 100%;"></a></div>
               <ul class="e-point_scale m-pad">
 				                  <li class="m-n_0" style="left:0%"><span>08</span></li>
-				                  <li class="m-n_1" style="left:7.6923076923077%"><span>09</span></li>
-				                  <li class="m-n_2" style="left:15.384615384615%"><span>10</span></li>
-				                  <li class="m-n_3" style="left:23.076923076923%"><span>11</span></li>
-				                  <li class="m-n_4" style="left:30.769230769231%"><span>12</span></li>
-				                  <li class="m-n_5" style="left:38.461538461538%"><span>13</span></li>
-				                  <li class="m-n_6" style="left:46.153846153846%"><span>14</span></li>
-				                  <li class="m-n_7" style="left:53.846153846154%"><span>15</span></li>
-				                  <li class="m-n_8" style="left:61.538461538462%"><span>16</span></li>
-				                  <li class="m-n_9" style="left:69.230769230769%"><span>17</span></li>
-				                  <li class="m-n_10" style="left:76.923076923077%"><span>18</span></li>
-				                  <li class="m-n_11" style="left:84.615384615385%"><span>19</span></li>
-				                  <li class="m-n_12 m-active" style="left:92.307692307692%"><span>20</span></li>
-				                  <li class="m-n_13 m-active" style="left:100%"><span>21</span></li>
+				                  <li class="m-n_1" style="left:7.1428571428571%"><span>09</span></li>
+				                  <li class="m-n_2" style="left:14.285714285714%"><span>10</span></li>
+				                  <li class="m-n_3" style="left:21.428571428571%"><span>11</span></li>
+				                  <li class="m-n_4" style="left:28.571428571429%"><span>12</span></li>
+				                  <li class="m-n_5" style="left:35.714285714286%"><span>13</span></li>
+				                  <li class="m-n_6" style="left:42.857142857143%"><span>14</span></li>
+				                  <li class="m-n_7" style="left:50%"><span>15</span></li>
+				                  <li class="m-n_8" style="left:57.142857142857%"><span>16</span></li>
+				                  <li class="m-n_9" style="left:64.285714285714%"><span>17</span></li>
+				                  <li class="m-n_10" style="left:71.428571428571%"><span>18</span></li>
+				                  <li class="m-n_11" style="left:78.571428571429%"><span>19</span></li>
+				                  <li class="m-n_12" style="left:85.714285714286%"><span>20</span></li>
+				                  <li class="m-n_13 m-active" style="left:92.857142857143%"><span>21</span></li>
+				                  <li class="m-n_14 m-active" style="left:100%"><span>22</span></li>
 				
               </ul>
             </div>
@@ -2842,10 +2735,10 @@ $(document).ready(function() {
 		  
       <script>
         $(document).ready(function () {
-			var seasons = [ [160,165],[167,168],[185,186],[202,203],[222,223,237],[244,245,265],[266,267],[309,310],[405,406],[468,472],[671,674],[851,854],[1045]];
+			var seasons = [ [160,165],[167,168],[185,186],[202,203],[222,223,237],[244,245,265],[266,267],[309,310],[405,406],[468,472],[671,674],[851,854],[1045,1046],[1097]];
 			
 			seasons.forEach(function(season_i, i, arr) {
-				if( season_i.indexOf(1045)>=0 )
+				if( season_i.indexOf(1097)>=0 )
 				{
 					season_value=i;
 					$('.e-point_scale li, .e-point_switcher li').removeClass('m-active');
@@ -2858,7 +2751,7 @@ $(document).ready(function() {
 			  animate: 250,
 			  range: 'min',
 			  min: 0,
-			  max: 12,
+			  max: 13,
 			  step: 1,
 			  value: season_value,
 			  slide: function (event, ui) {
@@ -2930,7 +2823,7 @@ $(document).ready(function() {
               </span>
               <i style="background: url() 50% 50% no-repeat;background-size:cover;"></i>
 						<a href="https://mastercard.khl.ru/" target="_blank">
-				<div class="master_rank"><span>№1767</span></div>
+				<div class="master_rank"><span>№1487</span></div>
 			</a>
 			            </span>
             
@@ -2941,7 +2834,7 @@ $(document).ready(function() {
 
         <div class="b-short_block">
       <div class="e-diagram">
-        <canvas id="canvas_pl" width="379" height="189" style="width: 379px; height: 189px;"></canvas>
+        <canvas id="canvas_pl" style="width: 550px; height: 275px;" width="550" height="275"></canvas>
       </div>
     </div>
     <script type="text/javascript">
@@ -2953,7 +2846,7 @@ $(document).ready(function() {
             fillColor: "rgba(1,145,237,0.7)",
             strokeColor: "rgba(1,145,237,0)",
             additionally: ["160","73","330","72","86","87"],
-            data: [17.718715393134,17.848410757946,41.044776119403,6.3157894736842,26.875,17.611336032389]
+            data: [17.241379310345,17.422434367542,39.192399049881,6.25,26.625386996904,17.092337917485]
           }
         ]
       };
@@ -2969,6 +2862,8 @@ $(document).ready(function() {
       });
     });
     </script>
+		
+
     
     <div class="b-wide_block">
       <table class="b-player_data">
@@ -2987,7 +2882,7 @@ $(document).ready(function() {
           </td>
           <td width="10%">
             <p>Age</p>
-            <h4>26</h4>
+            <h4>27</h4>
           </td>
                     <td width="15%">
             <p>Shoots</p>
@@ -3000,7 +2895,77 @@ $(document).ready(function() {
         </tr>
       </tbody></table>
     </div>
-<!--UdmComment-->
+	
+			<div class="b-middle_block s-scroll_to">
+          <h5>Playoffs 2019/2020</h5>
+          <ul class="b-round_diagram_cover">
+            <li class="e-round_diagram_item">
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="3" class="m-round_diagram" data-readonly="true" data-min="0" data-max="12" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <label>points</label>
+            </li>
+            <li class="e-round_diagram_item">
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="1" class="m-round_diagram" data-readonly="true" data-min="0" data-max="5" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <label>goals</label>
+            </li>
+            <li class="e-round_diagram_item">
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="4" class="m-round_diagram" data-readonly="true" data-min="0" data-max="6" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <label>games played</label>
+            </li>
+            <li class="e-round_diagram_item">
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="1" class="m-round_diagram" data-readonly="true" data-min="-8" data-max="8" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <label>plus/minus</label>
+            </li>
+          </ul>
+        </div>
+					<div class="b-short_block m-brd">
+			  <h5 class="b-nomination">Points (G+A)</h5>
+			  <div class="s-ajax_best_player">
+								<a href="/players/22366/">
+					<dl id="s-ajax_2_0" class="b-details m-ajax">
+					  <dt class="e-details_img">
+						<img src="/images/teamplayers/11092/22366.jpg" alt="">
+					  </dt>
+					  <dd class="b-details_txt">
+						<div class="b-details_info_title">
+						  <span class="e-bevel m-fl">1</span>
+						  <span class="e-score m-fr"><b>5</b></span>
+						</div>
+						<h5 class="e-player_name">Petersson Andre</h5>
+					  </dd>
+					</dl>
+				</a>
+								<a href="/players/20937/">
+					<dl id="s-ajax_2_0" class="b-details m-ajax">
+					  <dt class="e-details_img">
+						<img src="/images/teamplayers/11101/20937.jpg" alt="">
+					  </dt>
+					  <dd class="b-details_txt">
+						<div class="b-details_info_title">
+						  <span class="e-bevel m-fl">2</span>
+						  <span class="e-score m-fr"><b>5</b></span>
+						</div>
+						<h5 class="e-player_name">Hartikainen Teemu</h5>
+					  </dd>
+					</dl>
+				</a>
+								<a href="/players/30737/">
+					<dl id="s-ajax_2_0" class="b-details m-ajax">
+					  <dt class="e-details_img">
+						<img src="/images/teamplayers/11100/30737.jpg" alt="">
+					  </dt>
+					  <dd class="b-details_txt">
+						<div class="b-details_info_title">
+						  <span class="e-bevel m-fl">3</span>
+						  <span class="e-score m-fr"><b>4</b></span>
+						</div>
+						<h5 class="e-player_name">Puustinen Juuso</h5>
+					  </dd>
+					</dl>
+				</a>
+				
+			  </div>
+			</div>
+			<!--UdmComment-->
 
     <div class="b-wide_block">
       <div class="b-blocks_cover m-share">
@@ -3016,7 +2981,6 @@ $(document).ready(function() {
 
   </div>
 </div>
-
 
 <script>
   $(document).ready(function ($) {
@@ -3189,10 +3153,10 @@ $(document).ready(function() {
               </dl>
                       </div>
 
-          <div id="pl_Stats_wrapper" class="dataTables_wrapper no-footer"><div class="DTFC_ScrollWrapper" style="position: relative; clear: both; height: 892px;"><div class="DTFC_RightWrapper" style="position:absolute; top:0; right:0;"><div class="DTFC_RightHeadWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightHeadBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div><div class="DTFC_RightBodyWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><div class="DTFC_RightBodyLiner" style="position:relative; top:0; left:0; overflow-y:scroll;"></div></div><div class="DTFC_RightFootWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightFootBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1188px; padding-right: 0px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer" role="grid" style="margin-left: 0px; width: 1188px;" width="100%" cellspacing="0"><thead>
-            <tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 163px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 11px;">№</th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px;">GP</th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px;">G</th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 36px;">Assists</th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">PTS</th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px;">+/-</th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;">+</th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;">-</th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px;">PIM</th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px;">ESG</th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">PPG</th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px;">SHG</th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">OTG</th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px;">GWG</th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px;">SDS</th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SOG</th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px;">%SOG</th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">S/G</th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px;">FO</th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px;">FOW</th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px;">%FO</th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">TOI/G</th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">SFT/G</th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px;">HITS</th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 20px;">BLS</th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px;">FOA</th></tr>
+          <div id="pl_Stats_wrapper" class="dataTables_wrapper no-footer"><div class="DTFC_ScrollWrapper" style="position: relative; clear: both; height: 892px;"><div class="DTFC_RightWrapper" style="position:absolute; top:0; right:0;"><div class="DTFC_RightHeadWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightHeadBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div><div class="DTFC_RightBodyWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><div class="DTFC_RightBodyLiner" style="position:relative; top:0; left:0; overflow-y:scroll;"></div></div><div class="DTFC_RightFootWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightFootBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1544px; padding-right: 0px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer" role="grid" style="margin-left: 0px; width: 1544px;" width="100%" cellspacing="0"><thead>
+            <tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 305px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 215px;">№</th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px;">GP</th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px;">G</th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 37px;">Assists</th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">PTS</th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px;">+/-</th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;">+</th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;">-</th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px;">PIM</th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">ESG</th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px;">PPG</th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SHG</th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">OTG</th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px;">GWG</th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">SDS</th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SOG</th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px;">%SOG</th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">S/G</th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px;">FO</th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px;">FOW</th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px;">%FO</th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">TOI/G</th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">SFT/G</th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 27px;">HITS</th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">BLS</th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">FOA</th></tr>
             </thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer" id="pl_Stats" role="grid" style="width: 100%;" width="100%" cellspacing="0"><thead>
-            <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 163px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Tournament / Team</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 11px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">№</div></th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GP</div></th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">G</div></th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 36px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Assists</div></th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PTS</div></th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+/-</div></th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+</div></th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">-</div></th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PIM</div></th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">ESG</div></th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PPG</div></th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SHG</div></th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">OTG</div></th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GWG</div></th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SDS</div></th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SOG</div></th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%SOG</div></th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">S/G</div></th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FO</div></th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOW</div></th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%FO</div></th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">TOI/G</div></th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SFT/G</div></th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">HITS</div></th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 20px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">BLS</div></th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOA</div></th></tr>
+            <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 305px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Tournament / Team</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 215px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">№</div></th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GP</div></th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">G</div></th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 37px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Assists</div></th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PTS</div></th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+/-</div></th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+</div></th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">-</div></th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PIM</div></th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">ESG</div></th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PPG</div></th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SHG</div></th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">OTG</div></th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GWG</div></th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SDS</div></th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SOG</div></th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%SOG</div></th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">S/G</div></th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FO</div></th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOW</div></th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%FO</div></th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">TOI/G</div></th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SFT/G</div></th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 27px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">HITS</div></th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">BLS</div></th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOA</div></th></tr>
             </thead>
             
             <tbody>
@@ -3246,8 +3210,9 @@ $(document).ready(function() {
             
             <tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2019/2020
-                                  </td>
+										Playoffs 2019/2020
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3304,8 +3269,9 @@ $(document).ready(function() {
                     <td>4</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2019/2020
-                                  </td>
+										Regular season 2019/2020
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3362,8 +3328,9 @@ $(document).ready(function() {
                     <td>7</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2018/2019
-                                  </td>
+										Playoffs 2018/2019
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3420,8 +3387,9 @@ $(document).ready(function() {
                     <td>2</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2018/2019
-                                  </td>
+										Regular season 2018/2019
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3478,8 +3446,9 @@ $(document).ready(function() {
                     <td>20</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2017/2018
-                                  </td>
+										Playoffs 2017/2018
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3536,8 +3505,9 @@ $(document).ready(function() {
                     <td>1</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2017/2018
-                                  </td>
+										Regular season 2017/2018
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3594,8 +3564,9 @@ $(document).ready(function() {
                     <td>16</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2016/2017
-                                  </td>
+										Playoffs 2016/2017
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3652,8 +3623,9 @@ $(document).ready(function() {
                     <td>5</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2016/2017
-                                  </td>
+										Regular season 2016/2017
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3710,8 +3682,9 @@ $(document).ready(function() {
                     <td>20</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2015/2016
-                                  </td>
+										Playoffs 2015/2016
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3768,8 +3741,9 @@ $(document).ready(function() {
                     <td>1</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2015/2016
-                                  </td>
+										Regular season 2015/2016
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3826,8 +3800,9 @@ $(document).ready(function() {
                     <td>7</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2014/2015
-                                  </td>
+										Playoffs 2014/2015
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3884,8 +3859,9 @@ $(document).ready(function() {
                     <td>0</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2014/2015
-                                  </td>
+										Regular season 2014/2015
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -3942,8 +3918,9 @@ $(document).ready(function() {
                     <td>3</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Playoffs 2013/2014
-                                  </td>
+										Playoffs 2013/2014
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -4000,8 +3977,9 @@ $(document).ready(function() {
                     <td></td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  Regular season 2013/2014
-                                  </td>
+										Regular season 2013/2014
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -4058,7 +4036,9 @@ $(document).ready(function() {
                     <td></td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-                  KHL Summary                </td>
+					KHL Summary
+					                  
+                </td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -4173,54 +4153,70 @@ $(document).ready(function() {
                     <td>77</td>
                     <td>86</td>
                                   </tr></tbody>
-          </table></div></div><div class="DTFC_LeftWrapper" style="position: absolute; top: 0px; left: 0px; width: 204px; height: 1px;"><div class="DTFC_LeftHeadWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="margin-left: 0px; width: 100%;" width="100%" cellspacing="0"><thead><tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 305px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 215px;">№</th></tr></thead></table></div><div class="DTFC_LeftBodyWrapper" style="position: relative; top: 0px; left: 0px; overflow: hidden; height: 866px;"><div class="DTFC_LeftBodyLiner" style="position: relative; top: 0px; left: 0px; overflow-y: scroll; width: 224px; padding-right: 20px; box-sizing: border-box; height: 866px; max-height: 866px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="width: 100%; padding: 0px; margin: 0px;" width="100%" cellspacing="0"><thead>
+          </table></div></div><div class="DTFC_LeftWrapper" style="position: absolute; top: 0px; left: 0px; width: 553px; height: 1px;"><div class="DTFC_LeftHeadWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="margin-left: 0px; width: 100%;" width="100%" cellspacing="0"><thead><tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 305px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 215px;">№</th></tr></thead></table></div><div class="DTFC_LeftBodyWrapper" style="position: relative; top: 0px; left: 0px; overflow: hidden; height: 866px;"><div class="DTFC_LeftBodyLiner" style="position: relative; top: 0px; left: 0px; overflow-y: scroll; width: 573px; padding-right: 20px; box-sizing: border-box; height: 866px; max-height: 866px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="width: 100%; padding: 0px; margin: 0px;" width="100%" cellspacing="0"><thead>
             <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 305px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 215px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"></th></tr>
             </thead>
             
             <tbody><tr class="group odd" role="row" data-dt-row="0" style="height: 29px;"><td class=" m-text_left" data-dt-row="0" data-dt-column="0">
-                  Playoffs 2019/2020
-                                  </td><td data-dt-row="0" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="1" style="height: 25px;"><td class=" m-text_left" data-dt-row="1" data-dt-column="0">
+										Playoffs 2019/2020
+					                  
+                </td><td data-dt-row="0" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="1" style="height: 25px;"><td class=" m-text_left" data-dt-row="1" data-dt-column="0">
                     <a href="/stat/players/854/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="1" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="2" style="height: 29px;"><td class=" m-text_left" data-dt-row="2" data-dt-column="0">
-                  Regular season 2019/2020
-                                  </td><td data-dt-row="2" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="3" style="height: 25px;"><td class=" m-text_left" data-dt-row="3" data-dt-column="0">
+										Regular season 2019/2020
+					                  
+                </td><td data-dt-row="2" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="3" style="height: 25px;"><td class=" m-text_left" data-dt-row="3" data-dt-column="0">
                     <a href="/stat/players/851/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="3" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="4" style="height: 29px;"><td class=" m-text_left" data-dt-row="4" data-dt-column="0">
-                  Playoffs 2018/2019
-                                  </td><td data-dt-row="4" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="5" style="height: 25px;"><td class=" m-text_left" data-dt-row="5" data-dt-column="0">
+										Playoffs 2018/2019
+					                  
+                </td><td data-dt-row="4" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="5" style="height: 25px;"><td class=" m-text_left" data-dt-row="5" data-dt-column="0">
                     <a href="/stat/players/674/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="5" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="6" style="height: 29px;"><td class=" m-text_left" data-dt-row="6" data-dt-column="0">
-                  Regular season 2018/2019
-                                  </td><td data-dt-row="6" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="7" style="height: 25px;"><td class=" m-text_left" data-dt-row="7" data-dt-column="0">
+										Regular season 2018/2019
+					                  
+                </td><td data-dt-row="6" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="7" style="height: 25px;"><td class=" m-text_left" data-dt-row="7" data-dt-column="0">
                     <a href="/stat/players/671/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="7" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="8" style="height: 29px;"><td class=" m-text_left" data-dt-row="8" data-dt-column="0">
-                  Playoffs 2017/2018
-                                  </td><td data-dt-row="8" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="9" style="height: 25px;"><td class=" m-text_left" data-dt-row="9" data-dt-column="0">
+										Playoffs 2017/2018
+					                  
+                </td><td data-dt-row="8" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="9" style="height: 25px;"><td class=" m-text_left" data-dt-row="9" data-dt-column="0">
                     <a href="/stat/players/472/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="9" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="10" style="height: 29px;"><td class=" m-text_left" data-dt-row="10" data-dt-column="0">
-                  Regular season 2017/2018
-                                  </td><td data-dt-row="10" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="11" style="height: 25px;"><td class=" m-text_left" data-dt-row="11" data-dt-column="0">
+										Regular season 2017/2018
+					                  
+                </td><td data-dt-row="10" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="11" style="height: 25px;"><td class=" m-text_left" data-dt-row="11" data-dt-column="0">
                     <a href="/stat/players/468/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="11" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="12" style="height: 29px;"><td class=" m-text_left" data-dt-row="12" data-dt-column="0">
-                  Playoffs 2016/2017
-                                  </td><td data-dt-row="12" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="13" style="height: 25px;"><td class=" m-text_left" data-dt-row="13" data-dt-column="0">
+										Playoffs 2016/2017
+					                  
+                </td><td data-dt-row="12" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="13" style="height: 25px;"><td class=" m-text_left" data-dt-row="13" data-dt-column="0">
                     <a href="/stat/players/406/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="13" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="14" style="height: 29px;"><td class=" m-text_left" data-dt-row="14" data-dt-column="0">
-                  Regular season 2016/2017
-                                  </td><td data-dt-row="14" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="15" style="height: 25px;"><td class=" m-text_left" data-dt-row="15" data-dt-column="0">
+										Regular season 2016/2017
+					                  
+                </td><td data-dt-row="14" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="15" style="height: 25px;"><td class=" m-text_left" data-dt-row="15" data-dt-column="0">
                     <a href="/stat/players/405/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="15" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="16" style="height: 29px;"><td class=" m-text_left" data-dt-row="16" data-dt-column="0">
-                  Playoffs 2015/2016
-                                  </td><td data-dt-row="16" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="17" style="height: 25px;"><td class=" m-text_left" data-dt-row="17" data-dt-column="0">
+										Playoffs 2015/2016
+					                  
+                </td><td data-dt-row="16" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="17" style="height: 25px;"><td class=" m-text_left" data-dt-row="17" data-dt-column="0">
                     <a href="/stat/players/310/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="17" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="18" style="height: 29px;"><td class=" m-text_left" data-dt-row="18" data-dt-column="0">
-                  Regular season 2015/2016
-                                  </td><td data-dt-row="18" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="19" style="height: 25px;"><td class=" m-text_left" data-dt-row="19" data-dt-column="0">
+										Regular season 2015/2016
+					                  
+                </td><td data-dt-row="18" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="19" style="height: 25px;"><td class=" m-text_left" data-dt-row="19" data-dt-column="0">
                     <a href="/stat/players/309/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="19" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="20" style="height: 29px;"><td class=" m-text_left" data-dt-row="20" data-dt-column="0">
-                  Playoffs 2014/2015
-                                  </td><td data-dt-row="20" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="21" style="height: 25px;"><td class=" m-text_left" data-dt-row="21" data-dt-column="0">
+										Playoffs 2014/2015
+					                  
+                </td><td data-dt-row="20" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="21" style="height: 25px;"><td class=" m-text_left" data-dt-row="21" data-dt-column="0">
                     <a href="/stat/players/267/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="21" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="22" style="height: 29px;"><td class=" m-text_left" data-dt-row="22" data-dt-column="0">
-                  Regular season 2014/2015
-                                  </td><td data-dt-row="22" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="23" style="height: 25px;"><td class=" m-text_left" data-dt-row="23" data-dt-column="0">
+										Regular season 2014/2015
+					                  
+                </td><td data-dt-row="22" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="23" style="height: 25px;"><td class=" m-text_left" data-dt-row="23" data-dt-column="0">
                     <a href="/stat/players/266/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="23" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="24" style="height: 29px;"><td class=" m-text_left" data-dt-row="24" data-dt-column="0">
-                  Playoffs 2013/2014
-                                  </td><td data-dt-row="24" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="25" style="height: 25px;"><td class=" m-text_left" data-dt-row="25" data-dt-column="0">
+										Playoffs 2013/2014
+					                  
+                </td><td data-dt-row="24" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="25" style="height: 25px;"><td class=" m-text_left" data-dt-row="25" data-dt-column="0">
                     <a href="/stat/players/245/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="25" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="26" style="height: 29px;"><td class=" m-text_left" data-dt-row="26" data-dt-column="0">
-                  Regular season 2013/2014
-                                  </td><td data-dt-row="26" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="27" style="height: 25px;"><td class=" m-text_left" data-dt-row="27" data-dt-column="0">
+										Regular season 2013/2014
+					                  
+                </td><td data-dt-row="26" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="27" style="height: 25px;"><td class=" m-text_left" data-dt-row="27" data-dt-column="0">
                     <a href="/stat/players/244/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="27" data-dt-column="1">94</td></tr><tr class="group odd" role="row" data-dt-row="28" style="height: 29px;"><td class=" m-text_left" data-dt-row="28" data-dt-column="0">
-                  KHL Summary                </td><td data-dt-row="28" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="29" style="height: 25px;"><td class=" m-text_left" data-dt-row="29" data-dt-column="0">
+					KHL Summary
+					                  
+                </td><td data-dt-row="28" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="29" style="height: 25px;"><td class=" m-text_left" data-dt-row="29" data-dt-column="0">
                     Regular season:</td><td data-dt-row="29" data-dt-column="1"></td></tr><tr role="row" class="odd" data-dt-row="30" style="height: 25px;"><td class=" m-text_left" data-dt-row="30" data-dt-column="0">
                     Playoffs:</td><td data-dt-row="30" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="31" style="height: 25px;"><td class=" m-text_left" data-dt-row="31" data-dt-column="0">
                     KHL Total:</td><td data-dt-row="31" data-dt-column="1"></td></tr></tbody>
@@ -5539,77 +5535,98 @@ $(document).ready(function() {
 			<div class="b-footer_links">
 				<div class="b-footer_links_cover">
 					<ul class="b-partners_list m-smart_col">
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="http://www.sogaz.ru/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_SOGAZ-color.svg" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_SOGAZ-grey.svg" alt="" class="e-ico_gray">
 								<span>General partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="http://mastercard.ru/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/mastercard-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/mastercard-gray.png" alt="" class="e-ico_gray">
 								<span>Official partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="http://www.rt.ru/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_rt-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_rt-gray.png" alt="" class="e-ico_gray">
 								<span>Partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
-							<a href="https://www.fonbet.ru/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=banner_footer/#!/bets/hockey" target="_blank">
+						<li class="e-partners_list_item" style="width: 219px;">
+							<a href="#" data-link="https://www.fonbet.ru/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=banner_footer/#!/bets/hockey" class="lk-go" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/fonbet-color-2019.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/fonbet-gray-2019.png" alt="" class="e-ico_gray">
 								<span>Partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="http://www.megafon.ru/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_megafon-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_megafon-gray.png" alt="" class="e-ico_gray">
 								<span>Partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="https://www.sap.com/uk/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/sap-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/sap-gray.png" alt="" class="e-ico_gray">
 								<span>Technological partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="http://haier.com/ru" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_haier-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/en_haier-gray.png" alt="" class="e-ico_gray">
 								<span>Partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="https://www.hankooktire.com/uk/passenger-cars/winter.html" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/hankook-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/hankook-gray.png" alt="" class="e-ico_gray">
 								<span>Partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
-							<a href="https://kdl.ru/" target="_blank">
-								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/kdl-color.png" alt="" class="e-ico_color"><br>
-								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/kdl-grey.png" alt="" class="e-ico_gray">
+						<li class="e-partners_list_item" style="width: 219px;">
+							<a href="//www.ingrad.com/" target="_blank">
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/ingrad-color.svg" alt="" class="e-ico_color"><br>
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/ingrad-gray.svg" alt="" class="e-ico_gray">
+								<span>Partner</span>
+							</a>
+						</li>
+						<li class="e-partners_list_item" style="width: 219px;">
+							<a href="//www.toyota.ru/?utm_source=khl&amp;utm_medium=khlsite&amp;utm_campaign=main" target="_blank">
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/toyota-color.svg" alt="" class="e-ico_color"><br>
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/toyota-gray.svg" alt="" class="e-ico_gray">
+								<span>Partner</span>
+							</a>
+						</li>
+						<li class="e-partners_list_item" style="width: 219px;">
+							<a href="//suitsupply.com/" target="_blank">
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/suitsupply-color.svg" alt="" class="e-ico_color"><br>
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/suitsupply-gray.svg" alt="" class="e-ico_gray">
+								<span>Partner</span>
+							</a>
+						</li>
+						<li class="e-partners_list_item" style="width: 219px;">
+							<a href="//www.bystrumgel.com/" target="_blank">
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/Bistrum-gel-color.svg" alt="" class="e-ico_color"><br>
+								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/2021/Bistrum-gel-gray.svg" alt="" class="e-ico_gray">
 								<span>Supplier</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="https://vk.com/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/ru_vk-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/ru_vk-gray.png" alt="" class="e-ico_gray">
 								<span>Media partner</span>
 							</a>
 						</li>
-						<li class="e-partners_list_item" style="width: 211px;">
+						<li class="e-partners_list_item" style="width: 219px;">
 							<a href="http://www.avtoradio.ru/" target="_blank">
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/avtoradio-color.png" alt="" class="e-ico_color"><br>
 								<img src="/bitrix/templates/khl.ru-8.0/img/sponsors/avtoradio-gray.png" alt="" class="e-ico_gray">
@@ -5631,7 +5648,7 @@ $(document).ready(function() {
 					<li class="e-bottom_menu_item"><a href="/official/contact-us/">Contacts</a></li>
 					<li class="e-bottom_menu_item"><a href="/official/advertising-website/">Advertising</a></li>
 				</ul>
-				<p class="e-copyright">КХЛ 2008—2020 <nobr>All rights reserved&nbsp; </nobr>
+				<p class="e-copyright">КХЛ 2008—2021 <nobr>All rights reserved&nbsp; </nobr>
 					<br>
 					<nobr><a href="#" id="s-full_page">Desktop version</a></nobr>
 				</p>
@@ -5644,19 +5661,42 @@ $(document).ready(function() {
 					<div><a href="/upload/documents/processing_of_personal_data_en.pdf" target="_blank">CHL LLC PROVISION on processing of personal data</a></div>
 					<div><a href="/upload/documents/terms_of_use_en.pdf" target="_blank">CHL LLC Website Terms of Use</a></div>
 				</div>
-				<p class="e-copyright_copy">KHL 2008—2020 <nobr>All rights reserved</nobr></p>
+				<p class="e-copyright_copy">KHL 2008—2021 <nobr>All rights reserved</nobr></p>
 			</li>
 			<li class="m-right">
 				<div class="b-rules_cover_copy">
 					<p class="e-rules_copy">All rights to materials posted on the website www.khl.ru (hereinafter referred to as the Website) and which are the objects of exclusive rights, including the registered trademarks and symbolics of the “КХЛ”/“KHL”, “МХЛ” / “JHL”, “ЖХЛ” / “WHL” (hereinafter referred to as the Trademarks), as well as on photo and video images, articles, etc., which are owned by CHL LLC, are protected in compliance with the legislation of the Russian Federation. The placement and / or use of Trademarks and other intellectual property of CHL LLC without the direct consent of CHL LLC are considered and prosecuted as intellectual property rights violations of CHL LLC in accordance with the laws of the Russian Federation. It is forbidden to automatically extract information from the Website by any services without the official permission of CHL LLC. Quoting from the Website and satellite projects of the official messages of the Kontinental Hockey League is allowed only with a direct link to the site www.khl.ru.</p>
-					<a href="http://www.liveinternet.ru/click;KHLru" class="e-counter_copy" target="_blank"><img src="//counter.yadro.ru/logo;KHLru?12.3" alt="" style="display: none !important;" hidden=""></a>
+					<a href="http://www.liveinternet.ru/click;KHLru" class="e-counter_copy" target="_blank"><img src="//counter.yadro.ru/logo;KHLru?12.3" alt="" m90lh9a0j=""></a>
 				</div>
 			</li>
 		</ul>
 	</div>
 
+<div style="visibility:hidden;position:absolute;display:none;">
+<!-- start counters -->
+<!-- Rating@Mail.ru counter -->
+  <script type="text/javascript">
+    var _tmr = window._tmr || (window._tmr = []);
+    _tmr.push({id: "1472795", type: "pageView", start: (new Date()).getTime()});
+    (function (d, w, id) {
+      if (d.getElementById(id)) return;
+      var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+      ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+      var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+      if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+    })(document, window, "topmailru-code");
+  </script><noscript><div>
+      <img src="//top-fwz1.mail.ru/counter?id=1472795;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+    </div></noscript>
+<!-- //Rating@Mail.ru counter -->
+<!--LiveInternet counter--><script type="text/javascript">new Image().src = "//counter.yadro.ru/hit;KHLru?r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"" : ";s"+screen.width+"*"+screen.height+"*" + (screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u"+escape(document.URL) + ";h"+escape(document.title.substring(0,80)) + ";" +Math.random();</script><!--/LiveInternet-->
+<!-- end counters -->
+</div>
+
+<script type="text/javascript" async="" id="smcx-sdk" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd3mwqPllvHK1n1NtWOMgfdEqSMnVKx99N7VBJK5C7Xg0.js"></script><script>(function(t,e,s,o){var n,a,c;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),a=n[n.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=o,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd3mwqPllvHK1n1NtWOMgfdEqSMnVKx99N7VBJK5C7Xg0.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
 <script async="" src="//lama.khl.ru/www/delivery/asyncjs.php"></script>
 
 
-
-<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></body>`
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul><div id="__smcx__" style="display: none;"><iframe id="smcx_frame" frameborder="0"></iframe><style class="smcx-style" type="text/css">.smcx-widget{display:block;margin:0;padding:0 !important;position:static;z-index:999997;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:100;font-size:13px;line-height:13px;color:black;opacity:1.0;transform:translate3d(0, 0, 0);-webkit-transition:all 300ms ease 0;-moz-transition:all 300ms ease 0;-ms-transition:all 300ms ease 0;-o-transition:all 300ms ease 0;transition:all 300ms ease 0}.smcx-widget,.smcx-widget *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.smcx-widget-footer{position:relative;width:100%;height:35px;margin:0;padding:0 10px}.smcx-widget-footer>.smcx-branding{display:block;position:absolute;top:0;right:10px;width:300px;height:35px;line-height:35px;background-position:right 3px;background-attachment:scroll;background-repeat:no-repeat;cursor:pointer}.smcx-widget-footer>.smcx-branding>.smcx-powered-by{position:absolute;top:0;right:146px;height:35px;margin:0;padding:0;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:normal;line-height:35px;text-align:right}.smcx-embed{position:static !important;width:470px;height:295px;overflow:hidden;border:1px solid #ccc;background-color:#FFF;-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-topleft:0;-moz-border-radius-topright:0;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:3px;border-bottom-left-radius:3px}.smcx-embed-footer{-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-topleft:0;-moz-border-radius-topright:0;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:3px;border-bottom-left-radius:3px}.smcx-modal{position:fixed !important;width:470px;height:295px;left:50%;top:50%;margin:-147.5px 0 0 -235px;padding:0;background:#7f7f2f;background:-webkit-gradient(linear, left top, left bottom, from(#BCD732), to(#B2CB2C));background:-moz-linear-gradient(center top, #BCD732 0%, #B2CB2C 100%);background:-moz-gradient(center top, #BCD732 0%, #B2CB2C 100%);border-radius:5px}.smcx-modal-header{position:relative;width:100%;height:35px;margin:0;padding:0 10px}.smcx-modal-header>.smcx-modal-title{height:35px;line-height:35px;margin:0;padding:0;font-size:14px;font-weight:bold;color:#FFFFFF}.smcx-modal-content{position:relative;height:250px;margin:0;padding:20px;background:white;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;background-clip:padding-box;overflow:none}.smcx-modal-content>.smcx-modal-h1{margin:20px 0 15px 0;padding:0;color:#000;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:28px;font-weight:normal;line-height:28px;text-align:center;word-wrap:break-word}.smcx-modal-content>.smcx-modal-p{color:#333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:18px;text-align:center;word-wrap:break-word}.smcx-iframe-container{height:100%;overflow:hidden;margin:0 !important}.smcx-modal-actions{position:absolute;bottom:10px;left:0;width:100%;height:57px;padding:10px 20px}.smcx-modal-close{position:absolute;top:10px;right:10px;width:16px;height:16px;background:#E8E8E8 url("https://prod.smassets.net/assets/responseweb/responseweb/0.356.0/assets/images/website/x.png") 2px 2px scroll no-repeat;cursor:pointer;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;background-clip:padding-box;-webkit-transition:background-color 300ms ease 0;-moz-transition:background-color 300ms ease 0;-ms-transition:background-color 300ms ease 0;-o-transition:background-color 300ms ease 0;transition:background-color 300ms ease 0}.smcx-modal-close:hover{background-color:#C8C8C8}.smcx-modal-invitation>.smcx-modal-content{margin:10px 10px 0 10px}.smcx-modal-survey>.smcx-modal-content{margin:0 10px;padding:0}.smcx-btn{display:inline-block;margin-bottom:0;font-weight:bold;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding:8px 14px;font-size:14px;line-height:1.42857;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;background-clip:padding-box}.smcx-btn,.smcx-btn:hover{text-decoration:none}.smcx-btn-secondary{color:#333;background:#7f7f7f;background:-webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(#E8E8E8));background:-moz-linear-gradient(center top, #F8F8F8 0%, #E8E8E8 100%);background:-moz-gradient(center top, #F8F8F8 0%, #E8E8E8 100%);border:none;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;background-clip:padding-box}.smcx-btn-secondary:hover{color:#333}.smcx-btn-primary{color:#FFF;background:#7f7f35;background:-webkit-gradient(linear, left top, left bottom, from(#BED830), to(#86A33B));background:-moz-linear-gradient(center top, #BED830 0%, #86A33B 100%);background:-moz-gradient(center top, #BED830 0%, #86A33B 100%);border:none}.smcx-btn-primary:hover{color:#FFF;background:#7f7f43;background:-webkit-gradient(linear, left top, left bottom, from(#c5dc45), to(#95b642));background:-moz-linear-gradient(center top, #c5dc45 0%, #95b642 100%);background:-moz-gradient(center top, #c5dc45 0%, #95b642 100%)}.smcx-widget-light .smcx-widget-footer>.smcx-branding{background-image:url("https://prod.smassets.net/assets/responseweb/responseweb/0.356.0/assets/images/website/sm-logo-grey-145x30.png")}.smcx-widget-light .smcx-widget-footer>.smcx-branding>.smcx-powered-by{color:#60604A}.smcx-widget-dark .smcx-widget-footer>.smcx-branding{background-image:url("https://prod.smassets.net/assets/responseweb/responseweb/0.356.0/assets/images/website/sm-logo-white-145x30.png")}.smcx-widget-dark .smcx-widget-footer>.smcx-branding>.smcx-powered-by{color:#FFF}.smcx-widget.smcx-hide-branding .smcx-embed-footer{display:none}.smcx-widget.smcx-hide-branding .smcx-modal-footer{height:10px}.smcx-widget.smcx-hide-branding .smcx-modal-footer>.smcx-branding{display:none}.smcx-show{display:block}.smcx-hide{display:none}.smcx-transparent{opacity:0.0 !important}.smcx-opaque{opacity:1.0 !important}.smcx-offscreen-top{top:-100px !important}.smcx-offscreen-bottom{bottom:-100px !important}.smcx-offscreen-left{left:-100px !important}.smcx-offscreen-right{right:-100px !important}.smcx-modal-offset-top{margin-top:-185px !important}.smcx-modal-offset-bottom{margin-top:-105px !important}.smcx-top{top:0}.smcx-bottom{bottom:0}.smcx-left{left:0}.smcx-right{right:0}.smcx-pull-left{float:left}.smcx-pull-right{float:right}
+</style><style class="smcx-style" type="text/css">.smcx-modal{width:98%;max-width:500px;height:300px;margin-left:-250px !important;margin-top:-150px !important;background:#333E48}.smcx-modal>.smcx-modal-content{max-width:480px;height:255px}@media (max-width: 500px){.smcx-modal{left:0 !important;margin-left:1% !important}}.smcx-modal.smcx-hide-branding>.smcx-modal-content{height:280px}.smcx-modal-actions>.smcx-btn-primary{background:#295169;color:#fff}.smcx-modal-actions>.smcx-btn-secondary{background:#d0d2d3;color:#000}
+</style></div></body>`
