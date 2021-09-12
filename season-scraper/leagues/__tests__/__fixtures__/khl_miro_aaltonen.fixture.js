@@ -303,8 +303,8 @@ module.exports = `
 									<ul>
 										<li><span class="active" id="EN">EN</span>
 											<ul>
-													<li><div id="RU"></div><span><a href="https://www.khl.ru/players/30159/">RU</a></span></li>
-													<li><div id="CN"></div><span><a href="https://cn.khl.ru/players/30159/">CN</a></span></li>
+													<li><div id="RU"></div><span><a href="https://www.khl.ru/players/17585/">RU</a></span></li>
+													<li><div id="CN"></div><span><a href="https://cn.khl.ru/players/17585/">CN</a></span></li>
 												</ul>
 										</li>
 									</ul>
@@ -1441,7 +1441,7 @@ module.exports = `
 															<td colspan="3" class="e-matches_data_left"><em>3-1</em><em>0-1</em><em>0-0</em></td>
 														</tr>
 						</tbody></table>
-											<div class="e-matches_popup_links">
+											<div class="e-matches_popup_links" style="display: none;">
 						<div class="b-title-option-wrapper">
 							<div class="b-title-option-inner">
 								<ul>
@@ -1468,7 +1468,7 @@ module.exports = `
 															<td colspan="3" class="e-matches_data_left"><em>0-1</em><em>0-1</em><em>3-1</em><em>0:0</em><em>0-1</em></td>
 														</tr>
 						</tbody></table>
-											<div class="e-matches_popup_links">
+											<div class="e-matches_popup_links" style="display: none;">
 						<div class="b-title-option-wrapper">
 							<div class="b-title-option-inner">
 								<ul>
@@ -2614,8 +2614,8 @@ $(document).ready(function() {
 
 		</div> <!-- #header -->
 <div class="b-content_section m-player s-float_panel_start">
-  <div class="b-float_panel" style="position: fixed; left: 0px; top: 0px; height: 547px;">
-    <div class="b-float_panel_cover">
+  <div class="b-float_panel" style="position: absolute; top: 0px; left: -260px; height: 547px;">
+    <div class="b-float_panel_cover" style="min-height: 317px;">
       <form class="b-float_panel_block">
         <h5 class="b-float_panel_title">Search</h5>
 
@@ -2770,6 +2770,91 @@ $(document).ready(function() {
 			});
         });
       </script>
+                <h5 class="e-club_title">Vityaz (Moscow Region)</h5>
+        <ul class="b-player_list">
+                    <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/17585.jpg" alt="">
+            <a href="/players/17585/"><span class="e-player_name">Aaltonen Miro</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/15999.jpg" alt="">
+            <a href="/players/15999/"><span class="e-player_name">Antipin Viktor</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/19294.jpg" alt="">
+            <a href="/players/19294/"><span class="e-player_name">Arkalov Ilya</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/40114.jpg" alt="">
+            <a href="/players/40114/"><span class="e-player_name">Audette Daniel</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/15979.jpg" alt="">
+            <a href="/players/15979/"><span class="e-player_name">Borodkin Artyom</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/15301.jpg" alt="">
+            <a href="/players/15301/"><span class="e-player_name">Ezhov Ilya</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/14881.jpg" alt="">
+            <a href="/players/14881/"><span class="e-player_name">Golovkov Igor</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/17829.jpg" alt="">
+            <a href="/players/17829/"><span class="e-player_name">Grebenshchikov Svyatoslav</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/14733.jpg" alt="">
+            <a href="/players/14733/"><span class="e-player_name">Indrasis Miks</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/23171.jpg" alt="">
+            <a href="/players/23171/"><span class="e-player_name">Ivanyuzhenkov Artyom</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/40263.jpg" alt="">
+            <a href="/players/40263/"><span class="e-player_name">Kemilainen Valtteri</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/31664.jpg" alt="">
+            <a href="/players/31664/"><span class="e-player_name">Kloberdanets Maxim</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/21258.jpg" alt="">
+            <a href="/players/21258/"><span class="e-player_name">Larichev Ivan</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/19388.jpg" alt="">
+            <a href="/players/19388/"><span class="e-player_name">Leshchenko Vyacheslav</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/516.jpg" alt="">
+            <a href="/players/516/"><span class="e-player_name">Lyamin Kirill</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/16252.jpg" alt="">
+            <a href="/players/16252/"><span class="e-player_name">Malykhin Fyodor</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/17315.jpg" alt="">
+            <a href="/players/17315/"><span class="e-player_name">Musin Damir</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/16216.jpg" alt="">
+            <a href="/players/16216/"><span class="e-player_name">Nesterov German</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/25013.jpg" alt="">
+            <a href="/players/25013/"><span class="e-player_name">Ojamaki Niko</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/16042.jpg" alt="">
+            <a href="/players/16042/"><span class="e-player_name">Popov Vitaly</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/21598.jpg" alt="">
+            <a href="/players/21598/"><span class="e-player_name">Smolin Mikhail</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/34055.jpg" alt="">
+            <a href="/players/34055/"><span class="e-player_name">Steklov Kirill</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/16012.jpg" alt="">
+            <a href="/players/16012/"><span class="e-player_name">Todykov Anton</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/21992.jpg" alt="">
+            <a href="/players/21992/"><span class="e-player_name">Voronkov Yegor</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/22769.jpg" alt="">
+            <a href="/players/22769/"><span class="e-player_name">Voyevodin Danil</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/24882.jpg" alt="">
+            <a href="/players/24882/"><span class="e-player_name">Yaremchuk Alexander</span></a>          </li>
+                  <li class="e-player_list_item">
+            <img src="/images/teamplayers/12471/29656.jpg" alt="">
+            <a href="/players/29656/"><span class="e-player_name">Zinovyev Danil</span></a>          </li>
+        
+        </ul>
         
       </form>
 
@@ -2810,22 +2895,22 @@ $(document).ready(function() {
     <div class="b-middle_block">
       <dl class="b-details">
         <dt class="e-details_img">
-          <img src="/images/teamplayers/12362/30159.jpg" alt="">
+          <img src="/images/teamplayers/12471/17585.jpg" alt="">
         </dt>
         <dd class="b-details_txt">
-          <h3 class="e-player_name">Rodion Amirov <span class="e-num"></span> <!--<span class="e-bevel m-bg_color_1">1</span>--></h3>
+          <h3 class="e-player_name">Miro Aaltonen <span class="e-num"><sup>№</sup> 55</span> <!--<span class="e-bevel m-bg_color_1">1</span>--></h3>
           <p class="e-translit_name"></p>
         </dd>
         <dd class="b-details_txt m-details" style="margin-top: -15px;">
           <div class="b-details_info">
             <span class="e-club m-fl">
               <span style="min-width: 200px;">
-                                  <b>Toros</b><br>
+                                  <a href="/clubs/vityaz/"><b>Vityaz</b></a><br>
                                                                                   <small>forward</small>
               </span>
-              <i style="background: url(/images/teams/en/1097/192) 50% 50% no-repeat;background-size:cover;"></i>
+              <i style="background: url(/images/teams/en/1097/19) 50% 50% no-repeat;background-size:cover;"></i>
 						<a href="https://mastercard.khl.ru/" target="_blank">
-				<div class="master_rank"><span>№1955</span></div>
+				<div class="master_rank"><span>№27</span></div>
 			</a>
 			            </span>
             
@@ -2847,8 +2932,8 @@ $(document).ready(function() {
           {
             fillColor: "rgba(1,145,237,0.7)",
             strokeColor: "rgba(1,145,237,0)",
-            additionally: ["15","9","69","16","-8","6"],
-            data: [1.6163793103448,2.1479713603819,8.1947743467933,1.3888888888889,2.4767801857585,1.1787819253438]
+            additionally: ["141","61","216","91","5","80"],
+            data: [15.193965517241,14.558472553699,25.653206650831,7.8993055555556,1.5479876160991,15.717092337917]
           }
         ]
       };
@@ -2872,19 +2957,19 @@ $(document).ready(function() {
         <tbody><tr>
           <td width="30%">
             <p>Born</p>
-            <h4>2 October 2001</h4>
+            <h4>7 June 1993</h4>
           </td>
                     <td width="10%">
             <p>Height</p>
-            <h4>183</h4>
+            <h4>177</h4>
           </td>
           <td width="10%">
             <p>Weight</p>
-            <h4>76</h4>
+            <h4>84</h4>
           </td>
           <td width="10%">
             <p>Age</p>
-            <h4>19</h4>
+            <h4>28</h4>
           </td>
                     <td width="15%">
             <p>Shoots</p>
@@ -2892,29 +2977,29 @@ $(document).ready(function() {
           </td>
           <td width="25%">
             <p>Country</p>
-            <h4 style="white-space:nowrap;">Russia <img src="/images/flags_iso/RU.png" alt="RU" style="border-radius:0;border:none;"></h4>
+            <h4 style="white-space:nowrap;">Finland <img src="/images/flags_iso/FI.png" alt="FI" style="border-radius:0;border:none;"></h4>
           </td>
         </tr>
       </tbody></table>
     </div>
 	
 			<div class="b-middle_block s-scroll_to">
-          <h5>Playoffs 2020/2021</h5>
+          <h5>Regular season 2021/2022</h5>
           <ul class="b-round_diagram_cover">
             <li class="e-round_diagram_item">
-              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="0" class="m-round_diagram" data-readonly="true" data-min="0" data-max="20" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="10" class="m-round_diagram" data-readonly="true" data-min="0" data-max="10" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
               <label>points</label>
             </li>
             <li class="e-round_diagram_item">
-              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="0" class="m-round_diagram" data-readonly="true" data-min="0" data-max="12" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="2" class="m-round_diagram" data-readonly="true" data-min="0" data-max="6" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
               <label>goals</label>
             </li>
             <li class="e-round_diagram_item">
-              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="9" class="m-round_diagram" data-readonly="true" data-min="0" data-max="24" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="5" class="m-round_diagram" data-readonly="true" data-min="0" data-max="6" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
               <label>games played</label>
             </li>
             <li class="e-round_diagram_item">
-              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="-1" class="m-round_diagram" data-readonly="true" data-min="-6" data-max="12" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
+              <div style="display:inline;width:155px;height:200px;"><canvas width="155" height="200"></canvas><input type="text" value="1" class="m-round_diagram" data-readonly="true" data-min="-6" data-max="7" data-width="155" data-thickness="0.12" data-linecap="round" data-fgcolor="#3a3a3a" data-bgcolor="#e9ebec" readonly="readonly" style="width: 81px; height: 51px; position: absolute; vertical-align: middle; margin-top: 51px; margin-left: -118px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 38px Arial; text-align: center; color: rgb(58, 58, 58); padding: 0px; appearance: none;"></div>
               <label>plus/minus</label>
             </li>
           </ul>
@@ -2922,45 +3007,45 @@ $(document).ready(function() {
 					<div class="b-short_block m-brd">
 			  <h5 class="b-nomination">Points (G+A)</h5>
 			  <div class="s-ajax_best_player">
-								<a href="/players/15995/">
+								<a href="/players/14466/">
 					<dl id="s-ajax_2_0" class="b-details m-ajax">
 					  <dt class="e-details_img">
-						<img src="/images/teamplayers/12357/15995.jpg" alt="">
+						<img src="/images/teamplayers/12473/14466.jpg" alt="">
 					  </dt>
 					  <dd class="b-details_txt">
 						<div class="b-details_info_title">
 						  <span class="e-bevel m-fl">1</span>
-						  <span class="e-score m-fr"><b>12</b></span>
+						  <span class="e-score m-fr"><b>6</b></span>
 						</div>
-						<h5 class="e-player_name">Shalunov Maxim</h5>
+						<h5 class="e-player_name">Shipachyov Vadim</h5>
 					  </dd>
 					</dl>
 				</a>
-								<a href="/players/39158/">
+								<a href="/players/14262/">
 					<dl id="s-ajax_2_0" class="b-details m-ajax">
 					  <dt class="e-details_img">
-						<img src="/images/teamplayers/12358/39158.jpg" alt="">
+						<img src="/images/teamplayers/12480/14262.jpg" alt="">
 					  </dt>
 					  <dd class="b-details_txt">
 						<div class="b-details_info_title">
 						  <span class="e-bevel m-fl">2</span>
-						  <span class="e-score m-fr"><b>8</b></span>
+						  <span class="e-score m-fr"><b>5</b></span>
 						</div>
-						<h5 class="e-player_name">Boucher Reid</h5>
+						<h5 class="e-player_name">Kulemin Nikolai</h5>
 					  </dd>
 					</dl>
 				</a>
-								<a href="/players/16039/">
+								<a href="/players/25013/">
 					<dl id="s-ajax_2_0" class="b-details m-ajax">
 					  <dt class="e-details_img">
-						<img src="/images/teamplayers/12363/16039.jpg" alt="">
+						<img src="/images/teamplayers/12471/25013.jpg" alt="">
 					  </dt>
 					  <dd class="b-details_txt">
 						<div class="b-details_info_title">
 						  <span class="e-bevel m-fl">3</span>
-						  <span class="e-score m-fr"><b>7</b></span>
+						  <span class="e-score m-fr"><b>5</b></span>
 						</div>
-						<h5 class="e-player_name">Pulkkinen Teemu</h5>
+						<h5 class="e-player_name">Ojamaki Niko</h5>
 					  </dd>
 					</dl>
 				</a>
@@ -3036,8 +3121,7 @@ $(document).ready(function() {
         <div class="m-scroll_block ui-draggable" data-tab="plstats">
           <b class="e-title_tab_item m-active" data-id="khl">KHL</b>
           <b class="e-title_tab_item" data-id="games">Games in KHL</b>
-                      <b class="e-title_tab_item" data-link="http://www.vhlru.ru/players/30159/">SHL stats</b>                      <b class="e-title_tab_item" data-link="http://mhl.khl.ru/players/30159/">JHL A stats</b>
-                      
+          
         </div>
       </div>
       <div class="m-fr">
@@ -3155,10 +3239,10 @@ $(document).ready(function() {
               </dl>
                       </div>
 
-          <div id="pl_Stats_wrapper" class="dataTables_wrapper no-footer"><div class="DTFC_ScrollWrapper" style="position: relative; clear: both; height: 298px;"><div class="DTFC_RightWrapper" style="position:absolute; top:0; right:0;"><div class="DTFC_RightHeadWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightHeadBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div><div class="DTFC_RightBodyWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><div class="DTFC_RightBodyLiner" style="position:relative; top:0; left:0; overflow-y:scroll;"></div></div><div class="DTFC_RightFootWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightFootBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1544px; padding-right: 0px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer" role="grid" style="margin-left: 0px; width: 1544px;" width="100%" cellspacing="0"><thead>
-            <tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 311px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 222px;">№</th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px;">GP</th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px;">G</th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 37px;">Assists</th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">PTS</th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px;">+/-</th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 7px;">+</th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 6px;">-</th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px;">PIM</th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">ESG</th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px;">PPG</th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SHG</th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">OTG</th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px;">GWG</th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">SDS</th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SOG</th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px;">%SOG</th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">S/G</th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px;">FO</th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px;">FOW</th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px;">%FO</th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">TOI/G</th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">SFT/G</th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 27px;">HITS</th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">BLS</th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">FOA</th></tr>
+          <div id="pl_Stats_wrapper" class="dataTables_wrapper no-footer"><div class="DTFC_ScrollWrapper" style="position: relative; clear: both; height: 618px;"><div class="DTFC_RightWrapper" style="position:absolute; top:0; right:0;"><div class="DTFC_RightHeadWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightHeadBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div><div class="DTFC_RightBodyWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><div class="DTFC_RightBodyLiner" style="position:relative; top:0; left:0; overflow-y:scroll;"></div></div><div class="DTFC_RightFootWrapper" style="position:relative; top:0; left:0;"><div class="DTFC_RightFootBlocker DTFC_Blocker" style="position:absolute; top:0; bottom:0;"></div></div></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px none; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1544px; padding-right: 0px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer" role="grid" style="margin-left: 0px; width: 1544px;" width="100%" cellspacing="0"><thead>
+            <tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 304px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 213px;">№</th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px;">GP</th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px;">G</th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 37px;">Assists</th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">PTS</th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px;">+/-</th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;">+</th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;">-</th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px;">PIM</th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">ESG</th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px;">PPG</th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SHG</th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">OTG</th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px;">GWG</th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px;">SDS</th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">SOG</th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px;">%SOG</th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">S/G</th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 20px;">FO</th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px;">FOW</th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px;">%FO</th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">TOI/G</th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px;">SFT/G</th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 27px;">HITS</th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px;">BLS</th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px;">FOA</th></tr>
             </thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer" id="pl_Stats" role="grid" style="width: 100%;" width="100%" cellspacing="0"><thead>
-            <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 311px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Tournament / Team</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 222px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">№</div></th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GP</div></th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">G</div></th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 37px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Assists</div></th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PTS</div></th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+/-</div></th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 7px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+</div></th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 6px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">-</div></th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PIM</div></th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">ESG</div></th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PPG</div></th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SHG</div></th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">OTG</div></th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GWG</div></th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SDS</div></th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SOG</div></th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%SOG</div></th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">S/G</div></th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FO</div></th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOW</div></th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%FO</div></th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">TOI/G</div></th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SFT/G</div></th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 27px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">HITS</div></th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">BLS</div></th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOA</div></th></tr>
+            <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 304px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Tournament / Team</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 213px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">№</div></th><th title="Games played" class="sorting_disabled" rowspan="1" colspan="1" style="width: 16px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GP</div></th><th title="Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 9px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">G</div></th><th title="Assists" class="sorting_disabled" rowspan="1" colspan="1" style="width: 37px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Assists</div></th><th title="Points" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PTS</div></th><th title="Plus/Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 17px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+/-</div></th><th title="Plus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">+</div></th><th title="Minus" class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">-</div></th><th title="Penalty in minutes" class="sorting_disabled" rowspan="1" colspan="1" style="width: 22px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PIM</div></th><th title="Even strength goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">ESG</div></th><th title="Power play goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 24px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">PPG</div></th><th title="Shorthanded goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SHG</div></th><th title="Overtime goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">OTG</div></th><th title="Game Winning Goals" class="sorting_disabled" rowspan="1" colspan="1" style="width: 30px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">GWG</div></th><th title="Shootout deciding shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 23px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SDS</div></th><th title="Shots on goal" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SOG</div></th><th title="Shots on goal percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 35px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%SOG</div></th><th title="Average Shots/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">S/G</div></th><th title="Faceoffs" class="sorting_disabled" rowspan="1" colspan="1" style="width: 20px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FO</div></th><th title="Faceoffs won" class="sorting_disabled" rowspan="1" colspan="1" style="width: 29px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOW</div></th><th title="Faceoffs won percentage" class="sorting_disabled" rowspan="1" colspan="1" style="width: 26px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">%FO</div></th><th title="Average time on ice/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">TOI/G</div></th><th title="Average Shifts/Game" class="sorting_disabled" rowspan="1" colspan="1" style="width: 34px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">SFT/G</div></th><th title="Hits" class="sorting_disabled" rowspan="1" colspan="1" style="width: 27px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">HITS</div></th><th title="Blocked shots" class="sorting_disabled" rowspan="1" colspan="1" style="width: 21px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">BLS</div></th><th title="Foul against" class="sorting_disabled" rowspan="1" colspan="1" style="width: 25px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height:0;overflow:hidden;">FOA</div></th></tr>
             </thead>
             
             <tbody>
@@ -3176,10 +3260,27 @@ $(document).ready(function() {
                               
                               
               
+                          
+                              
+              
+                          
+                              
+              
+                          
+                              
+              
+                          
+                              
+              
+                          
+                              
+                              
+                              
+              
             
             <tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
-										Playoffs 2020/2021
+										Regular season 2021/2022
 					                  
                 </td>
                 <td></td>
@@ -3210,32 +3311,32 @@ $(document).ready(function() {
                   <td></td>
                               </tr><tr role="row" class="even" style="height: 25px;">
                   <td class=" m-text_left">
-                    <a href="/stat/players/1046/all/salavat_yulaev/">Salavat Yulaev (Ufa)</a></td>
-                                                        <td>27</td>                  <td>9</td>
-                                      <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>-1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>6</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>13</td>
-                    <td>0.0</td>
-                    <td>1.4</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>-</td>
-                    <td>9:57</td>
-                    <td>14.2</td>
+                    <a href="/stat/players/1097/all/vityaz/">Vityaz (Moscow Region)</a></td>
+                                                        <td>55</td>                  <td>5</td>
+                                      <td>2</td>
                     <td>8</td>
+                    <td>10</td>
+                    <td>1</td>
+                    <td>7</td>
+                    <td>6</td>
                     <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>11</td>
+                    <td>18.2</td>
+                    <td>2.2</td>
+                    <td>63</td>
+                    <td>36</td>
+                    <td>57.1</td>
+                    <td>17:27</td>
+                    <td>24.8</td>
+                    <td>4</td>
                     <td>2</td>
+                    <td>0</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
 										Regular season 2020/2021
@@ -3269,32 +3370,91 @@ $(document).ready(function() {
                   <td></td>
                               </tr><tr role="row" class="even" style="height: 25px;">
                   <td class=" m-text_left">
-                    <a href="/stat/players/1045/all/salavat_yulaev/">Salavat Yulaev (Ufa)</a></td>
-                                                        <td>27</td>                  <td>39</td>
-                                      <td>9</td>
-                    <td>4</td>
-                    <td>13</td>
-                    <td>-1</td>
-                    <td>13</td>
-                    <td>14</td>
-                    <td>6</td>
-                    <td>5</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>73</td>
-                    <td>12.3</td>
-                    <td>1.9</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>100.0</td>
-                    <td>13:54</td>
-                    <td>16.9</td>
-                    <td>15</td>
+                    <a href="/stat/players/1045/all/ska/">SKA (Saint Petersburg)</a></td>
+                                                        <td>52</td>                  <td>35</td>
+                                      <td>10</td>
+                    <td>9</td>
+                    <td>19</td>
+                    <td>2</td>
+                    <td>18</td>
                     <td>16</td>
-                    <td>13</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>57</td>
+                    <td>17.5</td>
+                    <td>1.6</td>
+                    <td>323</td>
+                    <td>121</td>
+                    <td>37.5</td>
+                    <td>15:35</td>
+                    <td>21.0</td>
+                    <td>21</td>
+                    <td>16</td>
+                    <td>8</td>
+                                  </tr><tr class="group odd" role="row" style="height: 29px;">
+                <td class=" m-text_left">
+										Playoffs 2019/2020
+					                  
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                              </tr><tr role="row" class="even" style="height: 25px;">
+                  <td class=" m-text_left">
+                    <a href="/stat/players/854/all/ska/">SKA (Saint Petersburg)</a></td>
+                                                        <td>52</td>                  <td>4</td>
+                                      <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>0.0</td>
+                    <td>2.0</td>
+                    <td>74</td>
+                    <td>36</td>
+                    <td>48.6</td>
+                    <td>17:29</td>
+                    <td>23.0</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
 										Regular season 2019/2020
@@ -3328,14 +3488,130 @@ $(document).ready(function() {
                   <td></td>
                               </tr><tr role="row" class="even" style="height: 25px;">
                   <td class=" m-text_left">
-                    <a href="/stat/players/851/all/salavat_yulaev/">Salavat Yulaev (Ufa)</a></td>
-                                                        <td>27</td>                  <td>21</td>
-                                      <td>0</td>
+                    <a href="/stat/players/851/all/vityaz/">Vityaz (Moscow Region)</a></td>
+                                                        <td>55</td>                  <td>34</td>
+                                      <td>9</td>
+                    <td>15</td>
+                    <td>24</td>
                     <td>2</td>
-                    <td>2</td>
-                    <td>-6</td>
-                    <td>2</td>
+                    <td>22</td>
+                    <td>20</td>
                     <td>8</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>87</td>
+                    <td>10.3</td>
+                    <td>2.6</td>
+                    <td>536</td>
+                    <td>232</td>
+                    <td>43.3</td>
+                    <td>19:09</td>
+                    <td>24.1</td>
+                    <td>36</td>
+                    <td>16</td>
+                    <td>7</td>
+                                  </tr><tr role="row" class="odd" style="height: 25px;">
+                  <td class=" m-text_left">
+                    <a href="/stat/players/851/all/ska/">SKA (Saint Petersburg)</a></td>
+                                                        <td>52</td>                  <td>11</td>
+                                      <td>2</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>12</td>
+                    <td>16.7</td>
+                    <td>1.1</td>
+                    <td>135</td>
+                    <td>58</td>
+                    <td>43.0</td>
+                    <td>14:33</td>
+                    <td>18.5</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>2</td>
+                                  </tr><tr role="row" class="even" style="height: 25px;">
+                  <td class=" m-text_left">
+                    Summary:</td>
+                                      <td></td>
+                                                      <td>45</td>
+                                      <td>11</td>
+                    <td>17</td>
+                    <td>28</td>
+                    <td>2</td>
+                    <td>30</td>
+                    <td>28</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>99</td>
+                    <td>11.1</td>
+                    <td>2.2</td>
+                    <td>671</td>
+                    <td>290</td>
+                    <td>43.2</td>
+                    <td>18:02</td>
+                    <td>22.7</td>
+                    <td>45</td>
+                    <td>23</td>
+                    <td>9</td>
+                                  </tr><tr class="group odd" role="row" style="height: 29px;">
+                <td class=" m-text_left">
+										Playoffs 2018/2019
+					                  
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                              </tr><tr role="row" class="even" style="height: 25px;">
+                  <td class=" m-text_left">
+                    <a href="/stat/players/674/all/vityaz/">Vityaz (Moscow Region)</a></td>
+                                                        <td>55</td>                  <td>4</td>
+                                      <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>-3</td>
+                    <td>0</td>
+                    <td>3</td>
                     <td>4</td>
                     <td>0</td>
                     <td>0</td>
@@ -3343,17 +3619,194 @@ $(document).ready(function() {
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>29</td>
+                    <td>5</td>
                     <td>0.0</td>
-                    <td>1.4</td>
+                    <td>1.2</td>
+                    <td>26</td>
+                    <td>8</td>
+                    <td>30.8</td>
+                    <td>16:51</td>
+                    <td>22.8</td>
+                    <td>1</td>
+                    <td>1</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>-</td>
-                    <td>9:53</td>
-                    <td>12.2</td>
+                                  </tr><tr class="group odd" role="row" style="height: 29px;">
+                <td class=" m-text_left">
+										Regular season 2018/2019
+					                  
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                              </tr><tr role="row" class="even" style="height: 25px;">
+                  <td class=" m-text_left">
+                    <a href="/stat/players/671/all/vityaz/">Vityaz (Moscow Region)</a></td>
+                                                        <td>55</td>                  <td>61</td>
+                                      <td>19</td>
+                    <td>23</td>
+                    <td>42</td>
+                    <td>9</td>
+                    <td>36</td>
+                    <td>27</td>
+                    <td>20</td>
+                    <td>13</td>
                     <td>6</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>5</td>
+                    <td>1</td>
+                    <td>165</td>
+                    <td>11.5</td>
+                    <td>2.7</td>
+                    <td>329</td>
+                    <td>135</td>
+                    <td>41.0</td>
+                    <td>17:23</td>
+                    <td>21.2</td>
+                    <td>39</td>
+                    <td>22</td>
                     <td>5</td>
+                                  </tr><tr class="group odd" role="row" style="height: 29px;">
+                <td class=" m-text_left">
+										Playoffs 2016/2017
+					                  
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                              </tr><tr role="row" class="even" style="height: 25px;">
+                  <td class=" m-text_left">
+                    <a href="/stat/players/406/all/vityaz/">Vityaz (Moscow Region)</a></td>
+                                                        <td>55</td>                  <td>4</td>
+                                      <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>-1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>14</td>
+                    <td>0.0</td>
+                    <td>3.5</td>
+                    <td>37</td>
+                    <td>15</td>
+                    <td>40.5</td>
+                    <td>17:13</td>
+                    <td>23.0</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>2</td>
+                                  </tr><tr class="group odd" role="row" style="height: 29px;">
+                <td class=" m-text_left">
+										Regular season 2016/2017
+					                  
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                              </tr><tr role="row" class="even" style="height: 25px;">
+                  <td class=" m-text_left">
+                    <a href="/stat/players/405/all/vityaz/">Vityaz (Moscow Region)</a></td>
+                                                        <td>55</td>                  <td>59</td>
+                                      <td>19</td>
+                    <td>25</td>
+                    <td>44</td>
+                    <td>-4</td>
+                    <td>31</td>
+                    <td>35</td>
+                    <td>38</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>168</td>
+                    <td>11.3</td>
+                    <td>2.8</td>
+                    <td>640</td>
+                    <td>275</td>
+                    <td>43.0</td>
+                    <td>17:27</td>
+                    <td>23.0</td>
+                    <td>36</td>
+                    <td>27</td>
+                    <td>23</td>
                                   </tr><tr class="group odd" role="row" style="height: 29px;">
                 <td class=" m-text_left">
 					KHL Summary
@@ -3389,113 +3842,135 @@ $(document).ready(function() {
                   <td class=" m-text_left">
                     Regular season:</td>
                                       <td></td>
-                                                      <td>60</td>
-                                      <td>9</td>
-                    <td>6</td>
-                    <td>15</td>
-                    <td>-7</td>
-                    <td>15</td>
-                    <td>22</td>
-                    <td>10</td>
-                    <td>5</td>
-                    <td>4</td>
+                                                      <td>204</td>
+                                      <td>61</td>
+                    <td>80</td>
+                    <td>141</td>
+                    <td>8</td>
+                    <td>120</td>
+                    <td>112</td>
+                    <td>80</td>
+                    <td>35</td>
+                    <td>24</td>
+                    <td>2</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>11</td>
                     <td>1</td>
-                    <td>102</td>
-                    <td>8.8</td>
-                    <td>1.7</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>100.0</td>
-                    <td>12:29</td>
-                    <td>15.3</td>
-                    <td>21</td>
-                    <td>21</td>
-                    <td>18</td>
+                    <td>498</td>
+                    <td>12.2</td>
+                    <td>2.4</td>
+                    <td>2009</td>
+                    <td>847</td>
+                    <td>42.2</td>
+                    <td>17:13</td>
+                    <td>22.1</td>
+                    <td>145</td>
+                    <td>90</td>
+                    <td>45</td>
                                   </tr><tr role="row" class="odd" style="height: 25px;">
                   <td class=" m-text_left">
                     Playoffs:</td>
                                       <td></td>
-                                                      <td>9</td>
+                                                      <td>12</td>
                                       <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>-1</td>
-                    <td>2</td>
+                    <td>-3</td>
                     <td>3</td>
                     <td>6</td>
+                    <td>11</td>
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>13</td>
+                    <td>27</td>
                     <td>0.0</td>
-                    <td>1.4</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>-</td>
-                    <td>9:57</td>
-                    <td>14.2</td>
-                    <td>8</td>
-                    <td>2</td>
-                    <td>2</td>
+                    <td>2.2</td>
+                    <td>137</td>
+                    <td>59</td>
+                    <td>43.1</td>
+                    <td>17:11</td>
+                    <td>22.9</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>4</td>
                                   </tr><tr role="row" class="even" style="height: 25px;">
                   <td class=" m-text_left">
                     KHL Total:</td>
                                       <td></td>
-                                                      <td>69</td>
-                                      <td>9</td>
-                    <td>6</td>
-                    <td>15</td>
-                    <td>-8</td>
-                    <td>17</td>
-                    <td>25</td>
-                    <td>16</td>
+                                                      <td>216</td>
+                                      <td>61</td>
+                    <td>80</td>
+                    <td>141</td>
                     <td>5</td>
-                    <td>4</td>
+                    <td>123</td>
+                    <td>118</td>
+                    <td>91</td>
+                    <td>35</td>
+                    <td>24</td>
+                    <td>2</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>11</td>
                     <td>1</td>
-                    <td>115</td>
-                    <td>7.8</td>
-                    <td>1.7</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>100.0</td>
-                    <td>12:09</td>
-                    <td>15.1</td>
-                    <td>29</td>
-                    <td>23</td>
-                    <td>20</td>
+                    <td>525</td>
+                    <td>11.6</td>
+                    <td>2.4</td>
+                    <td>2146</td>
+                    <td>906</td>
+                    <td>42.2</td>
+                    <td>17:13</td>
+                    <td>22.1</td>
+                    <td>152</td>
+                    <td>95</td>
+                    <td>49</td>
                                   </tr></tbody>
-          </table></div></div><div class="DTFC_LeftWrapper" style="position: absolute; top: 0px; left: 0px; width: 566px; height: 1px;"><div class="DTFC_LeftHeadWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="margin-left: 0px; width: 100%;" width="100%" cellspacing="0"><thead><tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 311px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 222px;">№</th></tr></thead></table></div><div class="DTFC_LeftBodyWrapper" style="position: relative; top: 0px; left: 0px; overflow: hidden; height: 272px;"><div class="DTFC_LeftBodyLiner" style="position: relative; top: 0px; left: 0px; overflow-y: scroll; width: 586px; padding-right: 20px; box-sizing: border-box; height: 272px; max-height: 272px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="width: 100%; padding: 0px; margin: 0px;" width="100%" cellspacing="0"><thead>
-            <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 311px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 222px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"></th></tr>
+          </table></div></div><div class="DTFC_LeftWrapper" style="position: absolute; top: 0px; left: 0px; width: 550px; height: 1px;"><div class="DTFC_LeftHeadWrapper" style="position:relative; top:0; left:0; overflow:hidden;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="margin-left: 0px; width: 100%;" width="100%" cellspacing="0"><thead><tr role="row" style="height: 25px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 304px;">Tournament / Team</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 213px;">№</th></tr></thead></table></div><div class="DTFC_LeftBodyWrapper" style="position: relative; top: 0px; left: 0px; overflow: hidden; height: 592px;"><div class="DTFC_LeftBodyLiner" style="position: relative; top: 0px; left: 0px; overflow-y: scroll; width: 570px; padding-right: 20px; box-sizing: border-box; height: 592px; max-height: 592px;"><table class="nowrap stripe compact hover m-table_small lightlinks dataTable no-footer DTFC_Cloned" role="grid" style="width: 100%; padding: 0px; margin: 0px;" width="100%" cellspacing="0"><thead>
+            <tr role="row" style="height: 0px;"><th class="m-text_left sorting_disabled" rowspan="1" colspan="1" style="width: 304px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 213px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"></th></tr>
             </thead>
             
             <tbody><tr class="group odd" role="row" data-dt-row="0" style="height: 29px;"><td class=" m-text_left" data-dt-row="0" data-dt-column="0">
-										Playoffs 2020/2021
+										Regular season 2021/2022
 					                  
                 </td><td data-dt-row="0" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="1" style="height: 25px;"><td class=" m-text_left" data-dt-row="1" data-dt-column="0">
-                    <a href="/stat/players/1046/all/salavat_yulaev/">Salavat Yulaev (Ufa)</a></td><td data-dt-row="1" data-dt-column="1">27</td></tr><tr class="group odd" role="row" data-dt-row="2" style="height: 29px;"><td class=" m-text_left" data-dt-row="2" data-dt-column="0">
+                    <a href="/stat/players/1097/all/vityaz/">Vityaz (Moscow Region)</a></td><td data-dt-row="1" data-dt-column="1">55</td></tr><tr class="group odd" role="row" data-dt-row="2" style="height: 29px;"><td class=" m-text_left" data-dt-row="2" data-dt-column="0">
 										Regular season 2020/2021
 					                  
                 </td><td data-dt-row="2" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="3" style="height: 25px;"><td class=" m-text_left" data-dt-row="3" data-dt-column="0">
-                    <a href="/stat/players/1045/all/salavat_yulaev/">Salavat Yulaev (Ufa)</a></td><td data-dt-row="3" data-dt-column="1">27</td></tr><tr class="group odd" role="row" data-dt-row="4" style="height: 29px;"><td class=" m-text_left" data-dt-row="4" data-dt-column="0">
-										Regular season 2019/2020
+                    <a href="/stat/players/1045/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="3" data-dt-column="1">52</td></tr><tr class="group odd" role="row" data-dt-row="4" style="height: 29px;"><td class=" m-text_left" data-dt-row="4" data-dt-column="0">
+										Playoffs 2019/2020
 					                  
                 </td><td data-dt-row="4" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="5" style="height: 25px;"><td class=" m-text_left" data-dt-row="5" data-dt-column="0">
-                    <a href="/stat/players/851/all/salavat_yulaev/">Salavat Yulaev (Ufa)</a></td><td data-dt-row="5" data-dt-column="1">27</td></tr><tr class="group odd" role="row" data-dt-row="6" style="height: 29px;"><td class=" m-text_left" data-dt-row="6" data-dt-column="0">
-					KHL Summary
+                    <a href="/stat/players/854/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="5" data-dt-column="1">52</td></tr><tr class="group odd" role="row" data-dt-row="6" style="height: 29px;"><td class=" m-text_left" data-dt-row="6" data-dt-column="0">
+										Regular season 2019/2020
 					                  
                 </td><td data-dt-row="6" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="7" style="height: 25px;"><td class=" m-text_left" data-dt-row="7" data-dt-column="0">
-                    Regular season:</td><td data-dt-row="7" data-dt-column="1"></td></tr><tr role="row" class="odd" data-dt-row="8" style="height: 25px;"><td class=" m-text_left" data-dt-row="8" data-dt-column="0">
-                    Playoffs:</td><td data-dt-row="8" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="9" style="height: 25px;"><td class=" m-text_left" data-dt-row="9" data-dt-column="0">
-                    KHL Total:</td><td data-dt-row="9" data-dt-column="1"></td></tr></tbody>
+                    <a href="/stat/players/851/all/vityaz/">Vityaz (Moscow Region)</a></td><td data-dt-row="7" data-dt-column="1">55</td></tr><tr role="row" class="odd" data-dt-row="8" style="height: 25px;"><td class=" m-text_left" data-dt-row="8" data-dt-column="0">
+                    <a href="/stat/players/851/all/ska/">SKA (Saint Petersburg)</a></td><td data-dt-row="8" data-dt-column="1">52</td></tr><tr role="row" class="even" data-dt-row="9" style="height: 25px;"><td class=" m-text_left" data-dt-row="9" data-dt-column="0">
+                    Summary:</td><td data-dt-row="9" data-dt-column="1"></td></tr><tr class="group odd" role="row" data-dt-row="10" style="height: 29px;"><td class=" m-text_left" data-dt-row="10" data-dt-column="0">
+										Playoffs 2018/2019
+					                  
+                </td><td data-dt-row="10" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="11" style="height: 25px;"><td class=" m-text_left" data-dt-row="11" data-dt-column="0">
+                    <a href="/stat/players/674/all/vityaz/">Vityaz (Moscow Region)</a></td><td data-dt-row="11" data-dt-column="1">55</td></tr><tr class="group odd" role="row" data-dt-row="12" style="height: 29px;"><td class=" m-text_left" data-dt-row="12" data-dt-column="0">
+										Regular season 2018/2019
+					                  
+                </td><td data-dt-row="12" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="13" style="height: 25px;"><td class=" m-text_left" data-dt-row="13" data-dt-column="0">
+                    <a href="/stat/players/671/all/vityaz/">Vityaz (Moscow Region)</a></td><td data-dt-row="13" data-dt-column="1">55</td></tr><tr class="group odd" role="row" data-dt-row="14" style="height: 29px;"><td class=" m-text_left" data-dt-row="14" data-dt-column="0">
+										Playoffs 2016/2017
+					                  
+                </td><td data-dt-row="14" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="15" style="height: 25px;"><td class=" m-text_left" data-dt-row="15" data-dt-column="0">
+                    <a href="/stat/players/406/all/vityaz/">Vityaz (Moscow Region)</a></td><td data-dt-row="15" data-dt-column="1">55</td></tr><tr class="group odd" role="row" data-dt-row="16" style="height: 29px;"><td class=" m-text_left" data-dt-row="16" data-dt-column="0">
+										Regular season 2016/2017
+					                  
+                </td><td data-dt-row="16" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="17" style="height: 25px;"><td class=" m-text_left" data-dt-row="17" data-dt-column="0">
+                    <a href="/stat/players/405/all/vityaz/">Vityaz (Moscow Region)</a></td><td data-dt-row="17" data-dt-column="1">55</td></tr><tr class="group odd" role="row" data-dt-row="18" style="height: 29px;"><td class=" m-text_left" data-dt-row="18" data-dt-column="0">
+					KHL Summary
+					                  
+                </td><td data-dt-row="18" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="19" style="height: 25px;"><td class=" m-text_left" data-dt-row="19" data-dt-column="0">
+                    Regular season:</td><td data-dt-row="19" data-dt-column="1"></td></tr><tr role="row" class="odd" data-dt-row="20" style="height: 25px;"><td class=" m-text_left" data-dt-row="20" data-dt-column="0">
+                    Playoffs:</td><td data-dt-row="20" data-dt-column="1"></td></tr><tr role="row" class="even" data-dt-row="21" style="height: 25px;"><td class=" m-text_left" data-dt-row="21" data-dt-column="0">
+                    KHL Total:</td><td data-dt-row="21" data-dt-column="1"></td></tr></tbody>
           </table></div></div><div class="DTFC_LeftFootWrapper" style="position:relative; top:0; left:0; overflow:hidden;"></div></div></div></div>
         </div>
 
@@ -3512,18 +3987,24 @@ $(document).ready(function() {
             <li class="b-short_tile_item" id="G_Tn" style="padding:0;border:none;">
               <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100"><select title="Турнир" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
                 <option value="">All tournaments</option>
-                                  <option value="1046">Playoffs 2020/2021</option>
+                                  <option value="1097">Regular season 2021/2022</option>
                                   <option value="1045">Regular season 2020/2021</option>
+                                  <option value="854">Playoffs 2019/2020</option>
                                   <option value="851">Regular season 2019/2020</option>
+                                  <option value="674">Playoffs 2018/2019</option>
+                                  <option value="671">Regular season 2018/2019</option>
+                                  <option value="406">Playoffs 2016/2017</option>
+                                  <option value="405">Regular season 2016/2017</option>
                 
-              </select><div class="jq-selectbox__select" title="Турнир" style="position: relative"><div class="jq-selectbox__select-text">All tournaments</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;"><div class="jq-selectbox__search" style="display: none;"><input type="search" autocomplete="off" placeholder="Поиск..."></div><div class="jq-selectbox__not-found" style="display: none;">Совпадений не найдено</div><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li class="selected sel" style="display: block; white-space: nowrap;">All tournaments</li><li class="" style="display: block; white-space: nowrap;">Playoffs 2020/2021</li><li class="" style="display: block; white-space: nowrap;">Regular season 2020/2021</li><li class="" style="display: block; white-space: nowrap;">Regular season 2019/2020</li></ul></div></div>
+              </select><div class="jq-selectbox__select" title="Турнир" style="position: relative"><div class="jq-selectbox__select-text">All tournaments</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;"><div class="jq-selectbox__search" style="display: none;"><input type="search" autocomplete="off" placeholder="Поиск..."></div><div class="jq-selectbox__not-found" style="display: none;">Совпадений не найдено</div><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li class="selected sel" style="display: block; white-space: nowrap;">All tournaments</li><li class="" style="display: block; white-space: nowrap;">Regular season 2021/2022</li><li class="" style="display: block; white-space: nowrap;">Regular season 2020/2021</li><li class="" style="display: block; white-space: nowrap;">Playoffs 2019/2020</li><li class="" style="display: block; white-space: nowrap;">Regular season 2019/2020</li><li class="" style="display: block; white-space: nowrap;">Playoffs 2018/2019</li><li class="" style="display: block; white-space: nowrap;">Regular season 2018/2019</li><li class="" style="display: block; white-space: nowrap;">Playoffs 2016/2017</li><li class="" style="display: block; white-space: nowrap;">Regular season 2016/2017</li></ul></div></div>
             </li>
             <li class="b-short_tile_item" id="G_Cl" style="padding:0;border:none;">
               <div class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100"><select title="Team" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
                 <option value="">All teams</option>
-                                  <option value="38">Salavat Yulaev (Ufa)</option>
+                                  <option value="19">Vityaz (Moscow Region)</option>
+                                  <option value="24">SKA (Saint Petersburg)</option>
                 
-              </select><div class="jq-selectbox__select" title="Team" style="position: relative"><div class="jq-selectbox__select-text">All teams</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;"><div class="jq-selectbox__search" style="display: none;"><input type="search" autocomplete="off" placeholder="Поиск..."></div><div class="jq-selectbox__not-found" style="display: none;">Совпадений не найдено</div><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li class="selected sel" style="display: block; white-space: nowrap;">All teams</li><li class="" style="display: block; white-space: nowrap;">Salavat Yulaev (Ufa)</li></ul></div></div>
+              </select><div class="jq-selectbox__select" title="Team" style="position: relative"><div class="jq-selectbox__select-text">All teams</div><div class="jq-selectbox__trigger"><div class="jq-selectbox__trigger-arrow"></div></div></div><div class="jq-selectbox__dropdown" style="position: absolute; left: 0px; display: none;"><div class="jq-selectbox__search" style="display: none;"><input type="search" autocomplete="off" placeholder="Поиск..."></div><div class="jq-selectbox__not-found" style="display: none;">Совпадений не найдено</div><ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden"><li class="selected sel" style="display: block; white-space: nowrap;">All teams</li><li class="" style="display: block; white-space: nowrap;">Vityaz (Moscow Region)</li><li class="" style="display: block; white-space: nowrap;">SKA (Saint Petersburg)</li></ul></div></div>
             </li>
           </ul>
 
@@ -3707,83 +4188,167 @@ $(document).ready(function() {
                           
                           
                           
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
             
-            <tr class="group"><td colspan="27">Playoffs 2020/2021</td></tr><tr role="row" class="odd">
+            <tr class="group"><td colspan="27">Regular season 2021/2022</td></tr><tr role="row" class="odd">
                 
                 
                 
-                <td data-order="2021-03-23" class="m-text_right sorting_1">23 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1046/all/ak_bars/">Ak Bars</a></td>
-                <td><a href="/game/1046/877007/protocol/">2:3</a></td>
-                <td>27</td>
+                <td data-order="2021-09-12" class="m-text_right sorting_1">12 Sep 2021</td>
+                <td><a href="/stat/players/1097/all/vityaz/"><strong>Vityaz</strong>                  </a> - <a href="/stat/players/1097/all/avtomobilist/">Avtomobilist</a></td>
+                <td><a href="/game/1097/877214/protocol/">3:4 Б</a></td>
+                <td>55</td>
                                   <td>0</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>2</td>
                   <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>3</td>
-                  <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>8:37</td>
-                  <td>11.0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                              </tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-03-21" class="m-text_right sorting_1">21 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1046/all/ak_bars/">Ak Bars</a></td>
-                <td><a href="/game/1046/877005/protocol/">1:2</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>2:37</td>
-                  <td>4.0</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                              </tr><tr role="row" class="odd">
-                
-                
-                
-                <td data-order="2021-03-19" class="m-text_right sorting_1">19 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/ak_bars/">Ak Bars                  </a> - <a href="/stat/players/1046/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1046/877003/protocol/">2:1 ОТ</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>1</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -3793,11 +4358,11 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>2</td>
                   <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>9:13</td>
-                  <td>15.0</td>
+                  <td>17</td>
+                  <td>10</td>
+                  <td>58.8</td>
+                  <td>20:35</td>
+                  <td>28.0</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -3805,10 +4370,258 @@ $(document).ready(function() {
                 
                 
                 
-                <td data-order="2021-03-17" class="m-text_right sorting_1">17 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/ak_bars/">Ak Bars                  </a> - <a href="/stat/players/1046/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1046/877001/protocol/">4:1</a></td>
-                <td>27</td>
+                <td data-order="2021-09-10" class="m-text_right sorting_1">10 Sep 2021</td>
+                <td><a href="/stat/players/1097/all/vityaz/"><strong>Vityaz</strong>                  </a> (а) - <a href="/stat/players/1097/all/ak_bars/">Ak Bars</a></td>
+                <td><a href="/game/1097/877205/protocol/">1:2 ОТ</a></td>
+                <td>55</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0.0</td>
+                  <td>8</td>
+                  <td>5</td>
+                  <td>62.5</td>
+                  <td>15:00</td>
+                  <td>21.0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="odd">
+                
+                
+                
+                <td data-order="2021-09-06" class="m-text_right sorting_1">6 Sep 2021</td>
+                <td><a href="/stat/players/1097/all/spartak/">Spartak                  </a> - <a href="/stat/players/1097/all/vityaz/">                      <strong>Vityaz</strong></a></td>
+                <td><a href="/game/1097/877187/protocol/">3:2 ОТ</a></td>
+                <td>55</td>
+                                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>-1</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>0.0</td>
+                  <td>9</td>
+                  <td>5</td>
+                  <td>55.6</td>
+                  <td>18:34</td>
+                  <td>27.0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2021-09-04" class="m-text_right sorting_1">4 Sep 2021</td>
+                <td><a href="/stat/players/1097/all/hc_sochi/">HC Sochi                  </a> - <a href="/stat/players/1097/all/vityaz/">                      <strong>Vityaz</strong></a></td>
+                <td><a href="/game/1097/877177/protocol/">6:5 ОТ</a></td>
+                <td>55</td>
+                                  <td>1</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>33.3</td>
+                  <td>15</td>
+                  <td>10</td>
+                  <td>66.7</td>
+                  <td>17:47</td>
+                  <td>25.0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="odd">
+                
+                
+                
+                <td data-order="2021-09-02" class="m-text_right sorting_1">2 Sep 2021</td>
+                <td><a href="/stat/players/1097/all/torpedo/">Torpedo                  </a> - <a href="/stat/players/1097/all/vityaz/">                      <strong>Vityaz</strong></a></td>
+                <td><a href="/game/1097/877165/protocol/">3:6</a></td>
+                <td>55</td>
+                                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>100.0</td>
+                  <td>14</td>
+                  <td>6</td>
+                  <td>42.9</td>
+                  <td>15:21</td>
+                  <td>23.0</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>0</td>
+                              </tr><tr class="group"><td colspan="27">Regular season 2020/2021</td></tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2021-02-27" class="m-text_right sorting_1">27 Feb 2021</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/dinamo_mn/">Dinamo Mn</a></td>
+                <td><a href="/game/1045/873005/protocol/">4:2</a></td>
+                <td>52</td>
+                                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>33.3</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0.0</td>
+                  <td>13:26</td>
+                  <td>18.0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="odd">
+                
+                
+                
+                <td data-order="2021-02-25" class="m-text_right sorting_1">25 Feb 2021</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/vityaz/">Vityaz</a></td>
+                <td><a href="/game/1045/872987/protocol/">4:0</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>-</td>
+                  <td>7</td>
+                  <td>1</td>
+                  <td>14.3</td>
+                  <td>14:00</td>
+                  <td>19.0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2021-02-22" class="m-text_right sorting_1">22 Feb 2021</td>
+                <td><a href="/stat/players/1045/all/kunlun/">Kunlun RS                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872976/protocol/">3:4</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0.0</td>
+                  <td>5</td>
+                  <td>1</td>
+                  <td>20.0</td>
+                  <td>15:50</td>
+                  <td>25.0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="odd">
+                
+                
+                
+                <td data-order="2021-02-20" class="m-text_right sorting_1">20 Feb 2021</td>
+                <td><a href="/stat/players/1045/all/lokomotiv/">Lokomotiv                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872969/protocol/">2:1</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>0.0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0.0</td>
+                  <td>19:16</td>
+                  <td>24.0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2021-01-17" class="m-text_right sorting_1">17 Jan 2021</td>
+                <td><a href="/stat/players/1045/all/cska/">CSKA                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872860/protocol/">3:1</a></td>
+                <td>52</td>
                                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -3822,55 +4635,24 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>1</td>
-                  <td>0.0</td>
-                  <td>0</td>
                   <td>0</td>
                   <td>-</td>
-                  <td>12:59</td>
-                  <td>18.0</td>
+                  <td>10</td>
+                  <td>4</td>
+                  <td>40.0</td>
+                  <td>12:16</td>
+                  <td>20.0</td>
                   <td>0</td>
-                  <td>0</td>
+                  <td>1</td>
                   <td>0</td>
                               </tr><tr role="row" class="odd">
                 
                 
                 
-                <td data-order="2021-03-11" class="m-text_right sorting_1">11 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1046/all/traktor/">Traktor</a></td>
-                <td><a href="/game/1046/876922/protocol/">3:2</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>2</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>2:30</td>
-                  <td>6.0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                              </tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-03-09" class="m-text_right sorting_1">9 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/traktor/">Traktor                  </a> - <a href="/stat/players/1046/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1046/876903/protocol/">0:3</a></td>
-                <td>27</td>
+                <td data-order="2021-01-12" class="m-text_right sorting_1">12 Jan 2021</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/hc_sochi/">HC Sochi</a></td>
+                <td><a href="/game/1045/872837/protocol/">3:1</a></td>
+                <td>52</td>
                                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -3878,37 +4660,6 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>2</td>
-                  <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>10:30</td>
-                  <td>17.0</td>
-                  <td>2</td>
-                  <td>0</td>
-                  <td>1</td>
-                              </tr><tr role="row" class="odd">
-                
-                
-                
-                <td data-order="2021-03-07" class="m-text_right sorting_1">7 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/traktor/">Traktor                  </a> - <a href="/stat/players/1046/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1046/876895/protocol/">0:4</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>2</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -3917,135 +4668,11 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>1</td>
                   <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>15:14</td>
-                  <td>17.0</td>
-                  <td>2</td>
-                  <td>0</td>
-                  <td>1</td>
-                              </tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-03-05" class="m-text_right sorting_1">5 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1046/all/traktor/">Traktor</a></td>
-                <td><a href="/game/1046/876887/protocol/">3:2 ОТ</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>2</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>2</td>
-                  <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>14:26</td>
+                  <td>14</td>
+                  <td>8</td>
+                  <td>57.1</td>
+                  <td>13:49</td>
                   <td>21.0</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>0</td>
-                              </tr><tr role="row" class="odd">
-                
-                
-                
-                <td data-order="2021-03-03" class="m-text_right sorting_1">3 Mar 2021</td>
-                <td><a href="/stat/players/1046/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1046/all/traktor/">Traktor</a></td>
-                <td><a href="/game/1046/876879/protocol/">1:3</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>2</td>
-                  <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>13:29</td>
-                  <td>19.0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                              </tr><tr class="group"><td colspan="27">Regular season 2020/2021</td></tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-02-27" class="m-text_right sorting_1">27 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/lokomotiv/">Lokomotiv                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/873002/protocol/">4:1</a></td>
-                <td>27</td>
-                                  <td>1</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>3</td>
-                  <td>33.3</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>15:24</td>
-                  <td>16.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                              </tr><tr role="row" class="odd">
-                
-                
-                
-                <td data-order="2021-02-25" class="m-text_right sorting_1">25 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/avangard/">Avangard                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/872993/protocol/">1:2</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>13:25</td>
-                  <td>16.0</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -4053,78 +4680,16 @@ $(document).ready(function() {
                 
                 
                 
-                <td data-order="2021-02-23" class="m-text_right sorting_1">23 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/dinamo_r/">Dinamo R                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/872986/protocol/">1:3</a></td>
-                <td>27</td>
+                <td data-order="2021-01-10" class="m-text_right sorting_1">10 Jan 2021</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/cska/">CSKA</a></td>
+                <td><a href="/game/1045/872829/protocol/">2:3 ОТ</a></td>
+                <td>52</td>
                                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>3</td>
-                  <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>11:57</td>
-                  <td>14.0</td>
-                  <td>0</td>
+                  <td>-1</td>
                   <td>0</td>
                   <td>1</td>
-                              </tr><tr role="row" class="odd">
-                
-                
-                
-                <td data-order="2021-02-20" class="m-text_right sorting_1">20 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1045/all/kunlun/">Kunlun RS</a></td>
-                <td><a href="/game/1045/872967/protocol/">5:4</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-3</td>
-                  <td>0</td>
-                  <td>3</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>3</td>
-                  <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>13:51</td>
-                  <td>16.0</td>
-                  <td>3</td>
-                  <td>2</td>
-                  <td>2</td>
-                              </tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-02-18" class="m-text_right sorting_1">18 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1045/all/ak_bars/">Ak Bars</a></td>
-                <td><a href="/game/1045/872958/protocol/">3:2</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -4134,53 +4699,22 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>1</td>
                   <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>11:35</td>
-                  <td>13.0</td>
-                  <td>0</td>
+                  <td>10</td>
+                  <td>4</td>
+                  <td>40.0</td>
+                  <td>19:49</td>
+                  <td>26.0</td>
+                  <td>2</td>
                   <td>1</td>
                   <td>0</td>
                               </tr><tr role="row" class="odd">
                 
                 
                 
-                <td data-order="2021-02-07" class="m-text_right sorting_1">7 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1045/all/amur/">Amur</a></td>
-                <td><a href="/game/1045/872937/protocol/">4:0</a></td>
-                <td>27</td>
-                                  <td>1</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>3</td>
-                  <td>33.3</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>15:03</td>
-                  <td>16.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                              </tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-02-04" class="m-text_right sorting_1">4 Feb 2021</td>
-                <td><a href="/stat/players/1045/all/salavat_yulaev/"><strong>Salavat Yulaev</strong>                  </a> - <a href="/stat/players/1045/all/dinamo_r/">Dinamo R</a></td>
-                <td><a href="/game/1045/872925/protocol/">5:4 Б</a></td>
-                <td>27</td>
+                <td data-order="2021-01-07" class="m-text_right sorting_1">7 Jan 2021</td>
+                <td><a href="/stat/players/1045/all/lokomotiv/">Lokomotiv                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872812/protocol/">4:1</a></td>
+                <td>52</td>
                                   <td>1</td>
                   <td>0</td>
                   <td>1</td>
@@ -4194,29 +4728,91 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>2</td>
+                  <td>4</td>
+                  <td>25.0</td>
+                  <td>13</td>
+                  <td>7</td>
+                  <td>53.8</td>
+                  <td>16:49</td>
+                  <td>28.0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2020-12-10" class="m-text_right sorting_1">10 Dec 2020</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/avtomobilist/">Avtomobilist</a></td>
+                <td><a href="/game/1045/872727/protocol/">7:2</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0.0</td>
+                  <td>6</td>
+                  <td>3</td>
                   <td>50.0</td>
+                  <td>10:09</td>
+                  <td>15.0</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>-</td>
-                  <td>13:45</td>
-                  <td>18.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>2</td>
                               </tr><tr role="row" class="odd">
                 
                 
                 
-                <td data-order="2021-01-30" class="m-text_right sorting_1">30 Jan 2021</td>
-                <td><a href="/stat/players/1045/all/barys/">Barys                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/872905/protocol/">2:3 ОТ</a></td>
-                <td>27</td>
+                <td data-order="2020-12-03" class="m-text_right sorting_1">3 Dec 2020</td>
+                <td><a href="/stat/players/1045/all/metallurg_mg/">Metallurg Mg                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872696/protocol/">2:1</a></td>
+                <td>52</td>
                                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
+                  <td>-1</td>
+                  <td>0</td>
                   <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>-</td>
+                  <td>17</td>
+                  <td>4</td>
+                  <td>23.5</td>
+                  <td>16:07</td>
+                  <td>23.0</td>
+                  <td>2</td>
                   <td>1</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2020-11-30" class="m-text_right sorting_1">30 Nov 2020</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/jokerit/">Jokerit</a></td>
+                <td><a href="/game/1045/872683/protocol/">1:2 Б</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>0</td>
                   <td>0</td>
                   <td>0</td>
@@ -4227,109 +4823,140 @@ $(document).ready(function() {
                   <td>0</td>
                   <td>1</td>
                   <td>0.0</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>33.3</td>
+                  <td>20:40</td>
+                  <td>25.0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="odd">
+                
+                
+                
+                <td data-order="2020-11-28" class="m-text_right sorting_1">28 Nov 2020</td>
+                <td><a href="/stat/players/1045/all/salavat_yulaev/">Salavat Yulaev                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872671/protocol/">2:3 Б</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>0.0</td>
                   <td>0</td>
                   <td>0</td>
                   <td>-</td>
-                  <td>14:14</td>
+                  <td>16:45</td>
+                  <td>21.0</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                              </tr><tr role="row" class="even">
+                
+                
+                
+                <td data-order="2020-11-26" class="m-text_right sorting_1">26 Nov 2020</td>
+                <td><a href="/stat/players/1045/all/severstal/">Severstal                  </a> - <a href="/stat/players/1045/all/ska/">                      <strong>SKA</strong></a></td>
+                <td><a href="/game/1045/872662/protocol/">2:3</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>-</td>
+                  <td>7</td>
+                  <td>3</td>
+                  <td>42.9</td>
+                  <td>12:07</td>
+                  <td>18.0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+                              </tr><tr role="row" class="odd">
+                
+                
+                
+                <td data-order="2020-11-24" class="m-text_right sorting_1">24 Nov 2020</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/barys/">Barys</a></td>
+                <td><a href="/game/1045/872654/protocol/">4:3</a></td>
+                <td>52</td>
+                                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>-1</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0.0</td>
+                  <td>7</td>
+                  <td>3</td>
+                  <td>42.9</td>
+                  <td>10:33</td>
                   <td>16.0</td>
                   <td>0</td>
-                  <td>2</td>
+                  <td>0</td>
                   <td>0</td>
                               </tr><tr role="row" class="even">
                 
                 
                 
-                <td data-order="2021-01-28" class="m-text_right sorting_1">28 Jan 2021</td>
-                <td><a href="/stat/players/1045/all/amur/">Amur                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/872895/protocol/">2:3</a></td>
-                <td>27</td>
-                                  <td>1</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>1</td>
-                  <td>100.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>14:30</td>
-                  <td>18.0</td>
-                  <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
-                              </tr><tr role="row" class="odd">
-                
-                
-                
-                <td data-order="2021-01-26" class="m-text_right sorting_1">26 Jan 2021</td>
-                <td><a href="/stat/players/1045/all/amur/">Amur                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/872885/protocol/">1:2</a></td>
-                <td>27</td>
+                <td data-order="2020-11-22" class="m-text_right sorting_1">22 Nov 2020</td>
+                <td><a href="/stat/players/1045/all/ska/"><strong>SKA</strong>                  </a> - <a href="/stat/players/1045/all/amur/">Amur</a></td>
+                <td><a href="/game/1045/872647/protocol/">5:3</a></td>
+                <td>52</td>
                                   <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
                   <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
                   <td>0.0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>13:18</td>
-                  <td>17.0</td>
+                  <td>12</td>
                   <td>1</td>
+                  <td>8.3</td>
+                  <td>14:48</td>
+                  <td>22.0</td>
                   <td>0</td>
-                  <td>0</td>
-                              </tr><tr role="row" class="even">
-                
-                
-                
-                <td data-order="2021-01-21" class="m-text_right sorting_1">21 Jan 2021</td>
-                <td><a href="/stat/players/1045/all/traktor/">Traktor                  </a> - <a href="/stat/players/1045/all/salavat_yulaev/">                      <strong>Salavat Yulaev</strong></a></td>
-                <td><a href="/game/1045/872874/protocol/">2:1 ОТ</a></td>
-                <td>27</td>
-                                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>0</td>
-                  <td>0</td>
-                  <td>-</td>
-                  <td>12:31</td>
-                  <td>15.0</td>
                   <td>1</td>
-                  <td>0</td>
-                  <td>0</td>
+                  <td>1</td>
                               </tr></tbody>
-          </table><div class="dataTables_info" id="pl_Games_info" role="status" aria-live="polite">Showing 1 to 20 of 71 entries</div><div class="dataTables_paginate paging_simple_numbers" id="pl_Games_paginate"><a class="paginate_button previous disabled" aria-controls="pl_Games" data-dt-idx="0" tabindex="0" id="pl_Games_previous">Previous</a><span><a class="paginate_button current" aria-controls="pl_Games" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="4" tabindex="0">4</a></span><a class="paginate_button next" aria-controls="pl_Games" data-dt-idx="5" tabindex="0" id="pl_Games_next">Next</a></div></div>
+          </table><div class="dataTables_info" id="pl_Games_info" role="status" aria-live="polite">Showing 1 to 20 of 217 entries</div><div class="dataTables_paginate paging_simple_numbers" id="pl_Games_paginate"><a class="paginate_button previous disabled" aria-controls="pl_Games" data-dt-idx="0" tabindex="0" id="pl_Games_previous">Previous</a><span><a class="paginate_button current" aria-controls="pl_Games" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="pl_Games" data-dt-idx="6" tabindex="0">11</a></span><a class="paginate_button next" aria-controls="pl_Games" data-dt-idx="7" tabindex="0" id="pl_Games_next">Next</a></div></div>
 
         </div>
 
@@ -4344,11 +4971,23 @@ $(document).ready(function() {
   <div class="b-content_section m-add_news">
     <div class="b-blocks_cover m-text_articles">
       <div class="b-middle_block">
-        <h4><a href="/news/key/d0a0d0bed0b4d0b8d0bed0bd20d090d0bcd0b8d180d0bed0b2/">News</a></h4>
+        <h4><a href="/news/key/d09cd0b8d180d0be20d090d0b0d0bbd182d0bed0bdd0b5d0bd/">News</a></h4>
         <div class="b-row m-clear">
                     <div class="b-text_article">
-            <a href="/news/2020/12/03/476769.html" class="m-cover_link">
-              <p>Road to World Juniors: Amirov, Mukhamadullin <span class="e-date">3 December 2020, 16:30</span></p>
+            <a href="/news/2019/12/12/461028.html" class="m-cover_link">
+              <p>Miro Aaltonen traded to SKA <span class="e-date">12 December 2019, 17:20</span></p>
+            </a>
+          </div>
+                              <div class="b-text_article">
+            <a href="/news/2018/10/24/413522.html" class="m-cover_link">
+              <p>From China to Helsinki. How Finn players are performing in the new season <span class="e-date">24 October 2018, 13:15</span></p>
+            </a>
+          </div>
+                  </div>
+        <div class="b-row m-clear">
+                              <div class="b-text_article">
+            <a href="/news/2018/07/02/401963.html" class="m-cover_link">
+              <p>Antipin back in Magnitogorsk, Desharnais moves to Lokomotiv <span class="e-date">2 July 2018, 23:13</span></p>
             </a>
           </div>
                     
@@ -4622,7 +5261,7 @@ $(document).ready(function() {
 			<li class="m-right">
 				<div class="b-rules_cover_copy">
 					<p class="e-rules_copy">All rights to materials posted on the website www.khl.ru (hereinafter referred to as the Website) and which are the objects of exclusive rights, including the registered trademarks and symbolics of the “КХЛ”/“KHL”, “МХЛ” / “JHL”, “ЖХЛ” / “WHL” (hereinafter referred to as the Trademarks), as well as on photo and video images, articles, etc., which are owned by CHL LLC, are protected in compliance with the legislation of the Russian Federation. The placement and / or use of Trademarks and other intellectual property of CHL LLC without the direct consent of CHL LLC are considered and prosecuted as intellectual property rights violations of CHL LLC in accordance with the laws of the Russian Federation. It is forbidden to automatically extract information from the Website by any services without the official permission of CHL LLC. Quoting from the Website and satellite projects of the official messages of the Kontinental Hockey League is allowed only with a direct link to the site www.khl.ru.</p>
-					<a href="http://www.liveinternet.ru/click;KHLru" class="e-counter_copy" target="_blank"><img src="//counter.yadro.ru/logo;KHLru?12.3" alt="" zjb0qe7jo=""></a>
+					<a href="http://www.liveinternet.ru/click;KHLru" class="e-counter_copy" target="_blank"><img src="//counter.yadro.ru/logo;KHLru?12.3" alt="" myntnfhrx=""></a>
 				</div>
 			</li>
 		</ul>

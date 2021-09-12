@@ -82,7 +82,7 @@ describe('vhlScraper()', () => {
   })
 
   describe('when skater has multiple seasons', () => {
-    it('it returns null values', async () => {
+    it('it returns summed values', async () => {
       const prospectHtml = require('./__fixtures__/vhl_nikolai_chebykin.fixture')
       const prospect = {
         first_name: 'Nikolai',
