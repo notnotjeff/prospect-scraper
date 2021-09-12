@@ -7,7 +7,7 @@ module.exports = async function (prospect, date) {
 
   const { day, month, year } = utils.date.setDateValues(date, { zeroPad: false })
   const dateForObject = utils.date.setDateValues(date, { zeroPad: true })
-  const url = `https://liiga.fi/fi/pelaajat/${
+  const url = `https://old.liiga.fi/fi/pelaajat/${
     prospect.league_id
   }/${prospect.last_name.toLowerCase()}-${prospect.first_name.toLowerCase()}/ottelu-ottelulta`
 

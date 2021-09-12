@@ -5,7 +5,7 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete Liiga scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const url = `https://liiga.fi/fi/pelaajat/${prospect.league_id}/${prospect.last_name.toLowerCase()}-${prospect.first_name.toLowerCase()}`
+  const url = `https://old.liiga.fi/en/pelaajat/${prospect.league_id}/${prospect.last_name.toLowerCase()}-${prospect.first_name.toLowerCase()}`
   const scrapedProspect = await utils.request.htmlRequest(url)
 
   const currentSeason = utils.date.getCurrentSeason('YYYY-YYYY')

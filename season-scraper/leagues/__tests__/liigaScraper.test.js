@@ -3,6 +3,10 @@ const liigaScraper = require('../liigaScraper')
 const utils = require('../../../utils')
 
 describe('liigaScraper()', () => {
+  beforeEach(() => {
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
+  })
+
   it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/liiga_mikko_kokkonen.fixture')
     const prospect = {

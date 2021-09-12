@@ -48,7 +48,9 @@ module.exports = [
     draft_pick: 182,
     draft_year: 2016,
     league_id: '22161',
-    league: 'VHL',
+    league: 'KHL',
+    // league_id: '22161', // VHL
+    // league: 'VHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=300931',
   },
   {
@@ -299,8 +301,10 @@ module.exports = [
     draft_round: 7,
     draft_pick: 204,
     draft_year: 2019,
-    league_id: '255011063073080359893401',
-    league: 'Sarja20',
+    league_id: '30730803',
+    league: 'Liiga',
+    // league_id: '255011063073080359893401', // Sarja20
+    // league: 'Sarja20',
     ep_url: 'https://www.eliteprospects.com/player/395424/kalle-loponen',
   },
   {
@@ -370,8 +374,10 @@ module.exports = [
     draft_round: 5,
     draft_pick: 137,
     draft_year: 2020,
-    league_id: '31214',
-    league: 'MHL',
+    league_id: '31214', // KHL
+    league: 'KHL',
+    // league_id: '31214', // MHL
+    // league: 'MHL',
     ep_url: 'https://www.eliteprospects.com/player/534929/dmitri-ovchinnikov',
   },
   {
