@@ -10,7 +10,7 @@ module.exports = async function (prospect) {
   const page = await utils.request.htmlRequest(url)
 
   const seasons = []
-  page(`#DataTables_Table_0 > tbody > tr[role=row]`).each(function (_i, elm) {
+  page(`.dataTables_scrollBody, table > tbody > tr`).each(function (_i, elm) {
     const row = page(elm)
     const tds = []
     row.find('th').each(function (_tdI, tdElm) {
@@ -21,17 +21,15 @@ module.exports = async function (prospect) {
       const td = page(tdElm).text().trim()
       tds.push(td)
     })
-    if (tds[0] !== 'Season / Team') {
+    if (!['Season / Team', 'Regular Season', 'Playoffs', 'Summary'].includes(tds[0])) {
       seasons.push(tds)
     }
   })
-  // console.log(seasons)
 
   let seasonRow = null
   const parsedSeasons = []
   seasons.forEach(s => {
     if (s.filter(c => c !== '').length === 1) {
-      // console.log(s[0])
       seasonRow = s[0]
     } else {
       parsedSeasons.push([seasonRow, ...s])
