@@ -6,7 +6,7 @@ dotenv.config()
 async function removeAllGames() {
   console.log(`Removing all games...`)
 
-  await db('games').where('created_at', '!=', null).del()
+  await db('games').whereNot('id', null).del()
 
   console.log('Finished removing games!')
   process.exit()
