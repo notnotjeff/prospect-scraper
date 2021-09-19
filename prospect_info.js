@@ -509,7 +509,7 @@ module.exports = [
     draft_round: 5,
     draft_pick: 153,
     draft_year: 2021,
-    league_id: '8321',
+    league_id: '8292',
     league: 'OHL',
     ep_url: 'https://www.eliteprospects.com/player/586523/ty-voit',
   },
