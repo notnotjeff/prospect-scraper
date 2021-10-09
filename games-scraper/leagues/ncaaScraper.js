@@ -1,18 +1,11 @@
 const utils = require('../../utils')
 
-// Helper function to check table header to make sure we have the right page (should have current season and players name)
-function checkPage(header, firstName, lastName, year) {
-  const sanitizedTableHeader = header.replace(`'`, '').replace(`.`, '')
-  const sanitizedFirstName = firstName.replace(`'`, '').replace(`.`, '')
-  const sanitizedLastName = lastName.replace(`'`, '').replace(`.`, '')
-  const sanitizedYears = year.replace(`'`, '').replace(`.`, '')
+function formatGameDate(dateString, year) {
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
+  const monthDay = dateString.split('. ')
+  const month = months.indexOf(monthDay[0]) + 1
 
-  return (
-    !sanitizedTableHeader ||
-    !sanitizedTableHeader.includes(sanitizedLastName) ||
-    !sanitizedTableHeader.includes(sanitizedFirstName) ||
-    !sanitizedTableHeader.includes(sanitizedYears)
-  )
+  return `${year}-${month}-${monthDay[1]}`
 }
 
 module.exports = async function (prospect, date) {
@@ -20,41 +13,51 @@ module.exports = async function (prospect, date) {
     throw new Error(`Cannot complete NCAA scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const currentYear = utils.date.getCurrentSeason('YYYY-YYYY')
-  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
-  const url = `http://collegehockeyinc.com/stats/players${currentYear.slice(-2)}.php?${prospect.league_id}`
+  const currentYear = utils.date.getCurrentSeason('YYYY-YY')
+  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: false })
+  const url = `http://collegehockeyinc.com/players/career/${prospect.league_id}/`
 
   const scrapedProspect = await utils.request.htmlRequest(url)
 
-  const games = []
-  scrapedProspect('body > div.page.text-center > main > section > div > div > div > div.playerstatsfull > table:nth-child(3) > tbody > tr').each(
-    function (_i, elm) {
-      const tds = []
-      const row = scrapedProspect(elm)
-      row.find('td').each(function (_tdI, tdElm) {
-        const td = scrapedProspect(tdElm).text().trim()
-        tds.push(td)
+  const seasons = []
+  scrapedProspect('.gxgdata').each(function (_i, elm) {
+    const games = []
+    const seasonName = scrapedProspect(elm).find('h2').text().split(' ')[0].trim().replace('‑', '-')
+    scrapedProspect(elm)
+      .find('tbody > tr')
+      .each(function (_trI, trElm) {
+        const game = []
+        scrapedProspect(trElm)
+          .find('td')
+          .each(function (_tdI, tdElm) {
+            const td = scrapedProspect(tdElm).text().trim()
+            game.push(td)
+          })
+        games.push({
+          date: formatGameDate(game[0], year),
+          opposition: game[1],
+          goals: +game[2],
+          assists: +game[3],
+          points: +game[4],
+          penalty_minutes: +game[5],
+        })
       })
-      games.push(tds)
-    },
-  )
+    seasons.push({ name: seasonName, games })
+  })
 
-  const isWrongPage = checkPage(String(games?.[0]?.[0]), prospect.first_name, prospect.last_name, currentYear)
+  const season = seasons?.find(s => s.name === currentYear)
 
-  if (isWrongPage) {
-    throw new Error(
-      `This is the wrong URL for ${prospect.first_name} ${prospect.last_name}. The NCAA player page changes yearly, make sure you've validated the URL and updated the player's id for the current year.`,
-    )
-  }
-
-  const game = games?.find(g => g[0] === `${month}/${day}/${year}`)
-  if (!game || game[game.length - 1].match(/DID NOT DRESS/g)?.length) {
+  if (!season) {
     return null
   }
 
-  const [goals, assists, points] = game[3].split('-').map(s => +s)
-  const penalty_minutes = +game[10].split('/')[1].trim()
-  const shots = +game[11]
+  const game = season?.games?.find(g => g.date === `${year}-${month}-${day}`)
+  if (!game) {
+    return null
+  }
+
+  const { goals, assists, points, penalty_minutes } = game
+  const zeroPaddedDate = utils.date.setDateValues(date, { zeroPad: true })
 
   return {
     first_name: prospect.first_name,
@@ -63,8 +66,8 @@ module.exports = async function (prospect, date) {
     goals,
     assists,
     points,
-    shots,
+    shots: null,
     penalty_minutes,
-    date: `${year}-${month}-${day}`,
+    date: `${zeroPaddedDate.year}-${zeroPaddedDate.month}-${zeroPaddedDate.day}`,
   }
 }
