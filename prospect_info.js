@@ -441,8 +441,8 @@ module.exports = [
     draft_round: 7,
     draft_pick: 195,
     draft_year: 2020,
-    league_id: '8172',
-    league: 'USHL',
+    league_id: '58152',
+    league: 'NCAA',
     ep_url: 'https://www.eliteprospects.com/player/201729/wyatt-schingoethe',
   },
   {
