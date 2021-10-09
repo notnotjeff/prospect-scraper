@@ -24,7 +24,6 @@ module.exports = async function (prospect) {
       goals: +tds[2],
       assists: +tds[3],
       points: +tds[4],
-      penalty_minutes: +tds[8],
       shots: +tds[9],
     })
   })
@@ -35,7 +34,7 @@ module.exports = async function (prospect) {
     return null
   }
 
-  const { goals, assists, points, shots, penalty_minutes, games_played } = season
+  const { goals, assists, points, shots, games_played } = season
 
   return {
     goals,
@@ -43,6 +42,5 @@ module.exports = async function (prospect) {
     points,
     shots,
     games_played,
-    penalty_minutes,
   }
 }

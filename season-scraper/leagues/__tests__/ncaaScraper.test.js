@@ -15,14 +15,13 @@ describe('ncaaScraper()', () => {
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
     jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-21')
 
-    const { goals, assists, points, shots, games_played, penalty_minutes } = await ncaaScraper(prospect)
+    const { goals, assists, points, shots, games_played } = await ncaaScraper(prospect)
 
     expect(games_played).toEqual(14)
     expect(goals).toEqual(4)
     expect(assists).toEqual(3)
     expect(points).toEqual(7)
     expect(shots).toEqual(28)
-    expect(penalty_minutes).toEqual(16)
   })
 
   describe('when null league_id is inputted', () => {
