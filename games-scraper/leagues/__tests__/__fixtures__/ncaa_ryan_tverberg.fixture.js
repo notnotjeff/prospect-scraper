@@ -1,12 +1,12 @@
 module.exports = `
-<body>
+<body cz-shortcut-listen="true">
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Header-->
       <header class="page-head">
         <!-- RD Navbar Transparent-->
-        <div class="rd-navbar-wrap" style="height: 0px;">
-          <nav class="rd-navbar rd-navbar-sidebar-toggle rd-navbar-dark rd-navbar-fixed" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-stick-up="false" data-lg-hover-on="false">
+        <div class="rd-navbar-wrap" style="height: 56px;">
+          <nav class="rd-navbar rd-navbar-sidebar-toggle rd-navbar-dark rd-navbar-fixed rd-navbar--is-stuck" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-stick-up="false" data-lg-hover-on="false">
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
@@ -104,11 +104,11 @@ module.exports = `
                         <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="/teams-and-conferences.php"><span>Scores And Stats</span></a>
                           <ul class="rd-navbar-dropdown rd-navbar-open-left">
                             <li><a href="/nationalscores.php"><span class="text-middle">Daily Scoreboard</span></a></li>
-                            <li><a href="/stats/compnat21.php"><span class="text-middle">This Week's Schedule</span></a></li>
-							<li><a href="/stats/compnatfull21.php"><span class="text-middle">National Composite</span></a></li>
-                            <li><a href="/stats/filters21.php"><span class="text-middle">Scoring Leaders</span></a></li>
-                            <li><a href="/stats/filters21.php?stats=goalie"><span class="text-middle">Goaltending Leaders</span></a></li>
-                            <li><a href="/stats/filters21.php?stats=teamstats"><span class="text-middle">Team Leaders</span></a></li>
+                            <li><a href="/stats/compnat22.php"><span class="text-middle">This Week's Schedule</span></a></li>
+							<li><a href="/stats/compnatfull22.php"><span class="text-middle">National Composite</span></a></li>
+                            <li><a href="/conferences/national/natplayer22.php"><span class="text-middle">National Scoring Leaders</span></a></li>
+                            <li><a href="/conferences/national/natgoalie22.php"><span class="text-middle">National Goaltending Leaders</span></a></li>
+                            <li><a href="/conferences/national/natteam22.php"><span class="text-middle">National Team Leaders</span></a></li>
                             <li><a href="/national-polls.php"><span class="text-middle">National Polls</span></a></li>
                           </ul>
                         <span class="rd-navbar-submenu-toggle"></span></li>
@@ -130,7 +130,7 @@ module.exports = `
                         <span class="rd-navbar-submenu-toggle"></span></li>
                       </ul>
                       <div class="rd-navbar-footer">
-                        <p class="small">College Hockey Inc. © <span id="copyright-year">2020</span>  
+                        <p class="small">College Hockey Inc. © <span id="copyright-year">2021</span>  
                           <!-- {%FOOTER_LINK}-->
                         </p>
                       </div>
@@ -162,7 +162,7 @@ module.exports = `
       
       
       <!-- Page Content-->
-      <main>
+      <main class="page-content">
         <!-- About Us-->
         <section class="section-34 section-sm-34">
           <div class="shell">
@@ -170,203 +170,362 @@ module.exports = `
               
               <div class="cell-xs-12 cell-lg-12 text-md-left cell-lg-push-1 offset-top-0 offset-lg-top-0">
                
-                 
+                <h1><img src="https://sportdesigns.com/team-logos/con.png" alt="logo" class="teamhomelogo" align="right">UConn</h1>
                 
+                      <p class="teamlinks"><strong><a href="/teams/uconn/index.php">Team Home</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/teams/uconn/schedule22.php">Team Schedule</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="/teams/uconn/stats22.php">Team Statistics</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/teams/uconn/roster22.php">Team Roster</a></strong></p>                      
+                <hr class="dividerfull hr-lg-left-0 bg-mantis">
                 
-                
-                
-                 
-                <div class="playerstatsfull">
-                <!--Status: OK-->
-<table class="base2" width="100%">
-         <tbody><tr>
-           <td width="120"><img src="http://ohiostatebuckeyes.com/wp-content/uploads/2018/05/24_OConnell_Ryan_jersey-4-e1537651692149-840x1024.jpg" alt="photo" width="120" height="170"></td>
-           <td bgcolor="#DDDDDD"><span class="playerbios"><img src="http://www.collegehockeystats.net/img120/2021/osu120.gif" alt="logo" width="120" align="right">#24 Ryan&nbsp;O'Connell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
-<span class="reg13">Ohio State Buckeyes<br>
-<strong>Class:</strong>&nbsp;Junior<br>
-<strong>Position:</strong>&nbsp;Defense<br>
-<strong>Height:</strong>&nbsp;6-1<br>
-<strong>Weight:</strong>&nbsp;185<br>
-<strong>Hometown:</strong>&nbsp;Manotick,&nbsp;Ontario<br>
-<strong>Last Team:</strong>&nbsp;Penticton&nbsp;Vees (BCHL)<br>
-<strong>NHL:</strong>&nbsp;Toronto&nbsp;(2017&nbsp;7th&nbsp;Round,&nbsp;#203&nbsp;Overall) </span></td>
-           <td width="235"><img src="http://www.sportdesigns.com/images/action/osum/base.jpg" alt="photo" width="235" height="170"></td>
-          </tr>       </tbody></table>
-             <div align="center"><img src="/transparent.gif" alt="" width="5" height="10"></div>
-             <table class="base">
-               <tbody><tr class="white10" bgcolor="#333333">
-                 <td colspan="3">Ryan&nbsp;O'Connell - 2020-2021 Game by Game</td>
-                 <td>Points</td>
-                 <td>GW</td>
-                 <td>PP Pts</td>
-                 <td>SH Pts</td>
-                 <td>Gstrk</td>
-                 <td>Astrk</td>
-                 <td>Pstrk</td>
-                 <td>P/M</td>
-                 <td>SOG</td>
-                 <td>+/-</td>
-                 <td>Season GP:Pts</td>
-                 <td>Reverse GP:Pts</td>
-               </tr>
-<tr>
-<td><a href="/stats/mboxes21.php?mminosu1.n23"><font color="000000">11/23/2020</font></a></td>
-<td><a href="/stats/mboxes21.php?mminosu1.n23"><font color="000000">at Minnesota</font></a></td>
-<td>L  1-4  </td><td>0-1-1</td>
-<td>&nbsp;</td>
-<td>0-0-0</td>
-<td>0-0-0</td>
-<td>&nbsp;</td>
-<td> 1:1 </td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-<td> 1: 0- 1- 1</td>
-<td> 1: 0- 1- 1</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td><strong>Season Totals:</strong></td>
-<td colspan="2"><strong> 1 Games Played<strong></strong></strong></td>
-<td><strong>0-1-1<strong></strong></strong></td>
-<td>&nbsp;</td>
-<td><strong>0-0-0<strong></strong></strong></td>
-<td><strong>0-0-0<strong></strong></strong></td>
-<td colspan="3">&nbsp;</td>
-<td><strong>0/0<strong></strong></strong></td>
-<td><strong>0<strong></strong></strong></td>
-<td><strong>E</strong></td>
-<td colspan="2">&nbsp;</td>
-</tr>
-             </tbody></table>
-             <div align="center"><img src="/transparent.gif" alt="" width="5" height="10"></div>
-             <table class="base">
-               <tbody><tr class="white10" bgcolor="#333333">
-                 <td colspan="6">Record When Ryan&nbsp;O'Connell</td>
-</tr>
-<tr>
-<td><strong>Plays:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-<td><strong>Does Not Play:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-</tr>
-<tr>
-<td><strong>Scores a Goal:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-<td><strong>Does Not Score a Goal:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-</tr>
-<tr>
-<td><strong>Scores an Assist:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-<td><strong>Does Not Score an Assist:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-</tr>
-<tr>
-<td><strong>Scores a Point:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-<td><strong>Does Not Score a Point:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-</tr>
-             </tbody></table>
-                </div>
-                
-                
-                <div class="playerstatsmob">
-                <!--Status: OK-->
-<table class="players">
-         <tbody><tr>
-           <td width="90"><img src="http://ohiostatebuckeyes.com/wp-content/uploads/2018/05/24_OConnell_Ryan_jersey-4-e1537651692149-840x1024.jpg" alt="photo" width="90" height="128"></td>
-           <td bgcolor="#DDDDDD"><span class="playerbios"><img src="http://www.collegehockeystats.net/img50/osu50.gif" alt="logo" width="50" align="right">#24 Ryan&nbsp;O'Connell<br>Ohio State Buckeyes</span><br>
-<span class="reg13"><strong>Class:</strong>&nbsp;Junior<br>
-<strong>Position:</strong>&nbsp;Defense<br>
-<strong>Height:</strong>&nbsp;6-1<br>
-<strong>Weight:</strong>&nbsp;185<br>
-<strong>Hometown:</strong>&nbsp;Manotick,&nbsp;Ontario<br>
-<strong>Last Team:</strong>&nbsp;Penticton&nbsp;Vees (BCHL)<br>
-<strong>NHL:</strong>&nbsp;Toronto&nbsp;(2017&nbsp;7th&nbsp;Round,&nbsp;#203&nbsp;Overall) </span></td>
-          </tr>       </tbody></table>
-             <div align="center"><img src="/transparent.gif" alt="" width="5" height="10"></div>
-             <table class="playerstats">
-               <tbody><tr class="white10" bgcolor="#333333">
-                 <th colspan="3">2020-2021 Game by Game</th>
-                 <th>Points</th>
-                 <th>Pstrk</th>
-                 <th>P/M</th>
-                 <th>SOG</th>
-                 <th>+/-</th>
-               </tr>
-<tr>
-<td>11/23</td>
-<td>at         Minnesota</td>
-<td>L  1-4  </td><td>0-1-1</td>
-<td> 1:0-1-1</td>
-<td> 0/ 0</td>
-<td> 0</td>
-<td>E</td>
-</tr>
-<tr bgcolor="#DDDDDD">
-<td colspan="3"><strong>Season Totals:  1 Games Played</strong></td>
-<td><strong>0-1-1</strong></td>
-<td>&nbsp;</td>
-<td><strong>0/0</strong></td>
-<td><strong>0</strong></td>
-<td><strong>E</strong></td>
-</tr>
-             </tbody></table>
-             <div align="center"><img src="/transparent.gif" alt="" width="5" height="10"></div>
-             <table class="playerstats">
-               <tbody><tr class="white10" bgcolor="#333333">
-                 <th colspan="6">Record When Ryan&nbsp;O'Connell</th>
-</tr>
-<tr>
-<td><strong>Plays:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-<td><strong>Does Not Play:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-</tr>
-<tr>
-<td><strong>Scores a Goal:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-<td><strong>Does Not Score a Goal:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-</tr>
-<tr>
-<td><strong>Scores an Assist:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-<td><strong>Does Not Score an Assist:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-</tr>
-<tr>
-<td><strong>Scores a Point:</strong></td>
-<td>1 GMS</td>
-<td>0-1-0</td>
-<td><strong>Does Not Score a Point:</strong></td>
-<td>0 GMS</td>
-<td>0-0-0</td>
-</tr>
-             </tbody></table>
-                </div>
-                
-               
-               
-               
-                
-                 
+		
+		
+		
+		  <div id="content">
+					   
+					   
+
+ 
+					   
+                <h1><span class="”player-number”">#28</span> Ryan Tverberg <small>career statistics</small></h1>
+
+<div class="factbox bio">
+	<div class="image"><img src="https://www.collegehockeynews.com/images/hs/team/017/057164_ryan_tverberg.jpg" alt="Ryan Tverberg headshot" title="Ryan Tverberg headshot"></div>
+	<div class="gridinfo">
+				<div>Birth Year</div>
+		<div>2002</div>
+				<div>Hometown</div>
+		<div>Richmond Hill, Ont.</div>
+		<div>Height</div>
+		<div>5-11</div>
+				<div>Weight</div>
+		<div>180</div>
+				<div>Position</div>
+		<div>F</div>
+				<div>NHL Draft</div>
+		<div>2020, Round 7 (No. 213 overall) by TOR</div>
+			</div>
+</div>
+
+<div class="factbox">
+	<h2>Year-by-Year Summary</h2>
+	<table class="data" width="500" cellspacing="0" cellpadding="3" border="0">
+	<thead>
+	<tr class="stats-header">
+		<td>Season</td>
+		<td>GP</td>
+		<td>G</td>
+		<td>A</td>
+		<td>Pts.</td>
+		<td>PPG</td>
+		<td>SHG</td>
+		<td class="”player-gwg”">GWG</td>
+		<td>PIM</td>
+		<td>Shots</td>
+		<td>+/-</td>
+	</tr>
+	</thead>
+	<tbody>
+			<tr>
+		<td>2020‑21&nbsp;&nbsp;Connecticut</td>
+		<td>14</td>
+		<td>4</td>
+		<td>3</td>
+		<td>7</td>
+		<td>2</td>
+		<td>0</td>
+		<td class="”player-gwg”">1</td>
+		<td>16</td>
+		<td>28</td>
+		<td>1</td>
+		</tr>
+				<tr>
+		<td>2021‑22&nbsp;&nbsp;Connecticut</td>
+		<td>1</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>1</td>
+		<td>0</td>
+		<td class="”player-gwg”">0</td>
+		<td>0</td>
+		<td>4</td>
+		<td>1</td>
+		</tr>
+			</tbody>
+		<tfoot>
+	<tr class="stats-section">
+		<td>Career Totals</td>
+		<td>15</td>
+		<td>5</td>
+		<td>5</td>
+		<td>10</td>
+		<td>3</td>
+		<td>0</td>
+		<td class="”player-gwg”">1</td>
+		<td>16</td>
+		<td>32</td>
+		<td>2</td>
+	</tr>
+	</tfoot>
+	</table>
+</div>
+
+<div class="factbox">
+	<h2>Conference Year-by-Year Summary</h2>
+	<table class="data" width="500" cellspacing="0" cellpadding="3" border="0">
+	<thead>
+	<tr class="stats-header">
+		<td>Season</td>
+		<td>GP</td>
+		<td>G</td>
+		<td>A</td>
+		<td>Pts.</td>
+		<td>PPG</td>
+		<td>SHG</td>
+		<td class="”player-gwg”">GWG</td>
+		<td>PIM</td>
+		<td>Shots</td>
+		<td>+/-</td>
+	</tr>
+	</thead>
+	<tbody>
+			<tr>
+		<td>2020‑21&nbsp;&nbsp;Connecticut</td>
+		<td>13</td>
+		<td>4</td>
+		<td>3</td>
+		<td>7</td>
+		<td>2</td>
+		<td>0</td>
+		<td class="”player-gwg”">1</td>
+		<td>14</td>
+		<td>25</td>
+		<td>2</td>
+		</tr>
+			</tbody>
+		<tfoot>
+	<tr class="stats-section">
+		<td>Career Totals</td>
+		<td>13</td>
+		<td>4</td>
+		<td>3</td>
+		<td>7</td>
+		<td>2</td>
+		<td>0</td>
+		<td class="”player-gwg”">1</td>
+		<td>14</td>
+		<td>25</td>
+		<td>2</td>
+	</tr>
+	</tfoot>
+	</table>
+</div>
+
+<div class="season_selector"><a href="">2020‑21</a><a href="">2021‑22</a></div>
+<div class="gxgdata factbox" style="display: block;">
+	<h2>2020‑21 Game-by-Game</h2>
+<table id="gbgtable" class="data" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<tr class="stats-header">
+		<td>Date</td>
+		<td class="left">Opponent</td>
+		<td>G</td>
+		<td>A</td>
+		<td class="center">Pts.</td>
+		<td class="center">PIM</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td valign="top" nowrap="">Jan. 15</td>
+		<td class="left" valign="top" nowrap="">
+						New Hampshire		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Jan. 16</td>
+		<td class="left" valign="top" nowrap="">
+			at 			New Hampshire		</td>
+		<td valign="top">1</td>
+		<td valign="top">1</td>
+		<td class="center" valign="top">2</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Jan. 22</td>
+		<td class="left" valign="top" nowrap="">
+			at 			Boston College		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Jan. 23</td>
+		<td class="left" valign="top" nowrap="">
+						Boston College		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Jan. 29</td>
+		<td class="left" valign="top" nowrap="">
+			at 			Merrimack		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Jan. 30</td>
+		<td class="left" valign="top" nowrap="">
+						Merrimack		</td>
+		<td valign="top">1</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">1</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Feb. 5</td>
+		<td class="left" valign="top" nowrap="">
+			at 			Northeastern		</td>
+		<td valign="top">0</td>
+		<td valign="top">1</td>
+		<td class="center" valign="top">1</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Feb. 9</td>
+		<td class="left" valign="top" nowrap="">
+			at 			UMass Lowell		</td>
+		<td valign="top">1</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">1</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Feb. 12</td>
+		<td class="left" valign="top" nowrap="">
+			at 			Providence		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Feb. 20</td>
+		<td class="left" valign="top" nowrap="">
+						Boston University		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Feb. 26</td>
+		<td class="left" valign="top" nowrap="">
+						Maine		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Feb. 27</td>
+		<td class="left" valign="top" nowrap="">
+						Maine		</td>
+		<td valign="top">1</td>
+		<td valign="top">1</td>
+		<td class="center" valign="top">2</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Mar. 5</td>
+		<td class="left" valign="top" nowrap="">
+						Providence		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap="">Mar. 14</td>
+		<td class="left" valign="top" nowrap="">
+						Providence		</td>
+		<td valign="top">0</td>
+		<td valign="top">0</td>
+		<td class="center" valign="top">0</td>
+		<td class="center" valign="top">2</td>
+	</tr>
+</tbody>
+<tfoot>
+	<tr>
+		<td colspan="2">TOTALS</td>
+		<td>4</td>
+		<td>3</td>
+		<td class="center">7</td>
+		<td class="center">16</td>
+	</tr>
+</tfoot>
+</table></div>
+<div class="gxgdata factbox" style="display: none;">
+	<h2>2021‑22 Game-by-Game</h2>
+<table id="gbgtable" class="data" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<tr class="stats-header">
+		<td>Date</td>
+		<td class="left">Opponent</td>
+		<td>G</td>
+		<td>A</td>
+		<td class="center">Pts.</td>
+		<td class="center">PIM</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td valign="top" nowrap="">Oct. 2</td>
+		<td class="left" valign="top" nowrap="">
+						Sacred Heart		</td>
+		<td valign="top">1</td>
+		<td valign="top">2</td>
+		<td class="center" valign="top">3</td>
+		<td class="center" valign="top">0</td>
+	</tr>
+</tbody>
+<tfoot>
+	<tr>
+		<td colspan="2">TOTALS</td>
+		<td>1</td>
+		<td>2</td>
+		<td class="center">3</td>
+		<td class="center">0</td>
+	</tr>
+</tfoot>
+</table></div>
+
+<script>
+const g = document.querySelector('.season_selector');
+for (let i = 0, len = g.children.length; i < len; i++) {
+    g.children[i].onclick = function(e) {
+		e.preventDefault();
+		var fbs = document.querySelectorAll('.gxgdata');
+		for (let z = 0, leng = fbs.length; z < leng; ++z) {
+			fbs[z].style.display = 'none';
+		}
+		fbs[i].style.display = 'block';
+        //alert(i);
+    }
+}
+</script>
+
+
+				   
+	   </div>
+	    
               </div>
             </div>
           </div>
@@ -384,13 +543,13 @@ module.exports = `
         <div class="shell offset-top-10">
          
          
-          <p class="small text-darker"><a href="http://collegehockeyinc.com/contact-us.php">Contact Us</a> --- College Hockey Inc. © 2020 ---
+          <p class="small text-darker"><a href="http://collegehockeyinc.com/contact-us.php">Contact Us</a> --- College Hockey Inc. © 2021 ---
  A website production of <a href="http://www.867studios.com">867 Studios</a>
             <!-- {%FOOTER_LINK}-->
           </p>
         </div>
       </footer>
-	  <script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+	  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -439,8 +598,8 @@ module.exports = `
       </div>
     </div>
     <!-- Java script-->
-    <script src="../js/core.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="/js/core.min.js"></script>
+    <script src="/js/script.js"></script>
   
-<a href="#" id="ui-to-top" class="ui-to-top icon icon-xs icon-circle icon-darker-filled mdi mdi-chevron-up"></a></body>
+<a href="#" id="ui-to-top" class="ui-to-top icon icon-xs icon-circle icon-darker-filled mdi mdi-chevron-up active"></a><style>undefined</style></body>
 `
