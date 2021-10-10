@@ -193,36 +193,6 @@ module.exports = [
     ep_url: 'http://www.eliteprospects.com/player.php?player=262071',
   },
   {
-    first_name: 'Colton',
-    last_name: 'Conrad',
-    position: 'C',
-    shoots: 'R',
-    dob: '1997-04-27',
-    draft_round: null,
-    draft_pick: null,
-    draft_year: null,
-    // league_id: 'c8ff052d590070ffd158a1c4', // ECHL ID
-    // league: 'ECHL',
-    league_id: '7544', // AHL ID
-    league: 'AHL',
-    ep_url: 'http://www.eliteprospects.com/player.php?player=199895',
-  },
-  {
-    first_name: 'Justin',
-    last_name: 'Brazeau',
-    position: 'RW',
-    shoots: 'R',
-    dob: '1998-02-02',
-    draft_round: null,
-    draft_pick: null,
-    draft_year: null,
-    // league_id: '5ae4e4e2e12fbdac1ee2e381', // ECHL ID
-    // league: 'ECHL',
-    league_id: '7989', // AHL ID
-    league: 'AHL',
-    ep_url: 'http://www.eliteprospects.com/player.php?player=217051',
-  },
-  {
     first_name: 'Nick',
     last_name: 'Robertson',
     position: 'LW',
