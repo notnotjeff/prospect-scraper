@@ -57,4 +57,27 @@ describe('liigaScraper()', () => {
       expect(games_played).toEqual(null)
     })
   })
+
+  describe('when prospect has played on multiple teams in one season', () => {
+    it('it returns null values', async () => {
+      const prospectHtml = require('./__fixtures__/liiga_axel_rindell_two_teams.fixture')
+      const prospect = {
+        first_name: 'Axel',
+        last_name: 'Rindell',
+        league_id: '30439447',
+        league: 'Liiga',
+      }
+
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2021-2022')
+
+      const { goals, assists, points, shots, games_played } = await liigaScraper(prospect)
+
+      expect(goals).toEqual(1)
+      expect(assists).toEqual(13)
+      expect(points).toEqual(14)
+      expect(shots).toEqual(112)
+      expect(games_played).toEqual(27)
+    })
+  })
 })
