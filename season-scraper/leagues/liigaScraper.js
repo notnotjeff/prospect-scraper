@@ -22,17 +22,19 @@ module.exports = async function (prospect) {
     seasons.push(cells)
   })
 
-  const season = seasons.find(s => s[0] === currentSeason)
+  const season = seasons
+    ?.filter(s => s[0] === currentSeason)
+    ?.reduce(
+      (previousSeason, currentSeason) => {
+        previousSeason.goals += +currentSeason[4]
+        previousSeason.assists += +currentSeason[5]
+        previousSeason.points += +currentSeason[6]
+        previousSeason.shots += +currentSeason[14]
+        previousSeason.games_played += +currentSeason[3]
+        return previousSeason
+      },
+      { goals: null, assists: null, points: null, shots: null, games_played: null },
+    )
 
-  if (season) {
-    return {
-      goals: +season[4],
-      assists: +season[5],
-      points: +season[6],
-      shots: +season[14],
-      games_played: +season[3],
-    }
-  } else {
-    return { goals: null, assists: null, points: null, shots: null, games_played: null }
-  }
+  return season
 }
