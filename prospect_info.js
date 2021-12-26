@@ -35,7 +35,7 @@ module.exports = [
     draft_pick: 124,
     draft_year: 2017,
     league_id: '22888',
-    league: 'KHL',
+    league: 'VHL',
     ep_url: 'http://www.eliteprospects.com/player.php?player=322627',
   },
   {
@@ -299,11 +299,11 @@ module.exports = [
     draft_round: 2,
     draft_pick: 59,
     draft_year: 2020,
-    league_id: '32269686',
-    league: 'Liiga',
-    // league_id: '3125868', // WJC
-    // team_id: 'FIN', // WJC
-    // league: 'WJC',
+    // league_id: '32269686',
+    // league: 'Liiga',
+    league_id: '3125868', // WJC
+    team_id: 'FIN', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/448946/roni-hirvonen',
   },
   {
@@ -315,11 +315,11 @@ module.exports = [
     draft_round: 3,
     draft_pick: 64,
     draft_year: 2020,
-    league_id: '31555838',
-    league: 'Liiga',
-    // league_id: '3125883', // WJC
-    // team_id: 'FIN', // WJC
-    // league: 'WJC',
+    // league_id: '31555838',
+    // league: 'Liiga',
+    league_id: '3125883', // WJC
+    team_id: 'FIN', // WJC
+    league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/499424/topi-niemela',
   },
   {
@@ -466,8 +466,11 @@ module.exports = [
     draft_round: 2,
     draft_pick: 57,
     draft_year: 2021,
-    league_id: '58270',
-    league: 'NCAA',
+    // league_id: '58270',
+    // league: 'NCAA',
+    league_id: '3129716',
+    league: 'WJC',
+    team_id: 'USA',
     ep_url: 'https://www.eliteprospects.com/player/292083/matthew-knies',
   },
   {
