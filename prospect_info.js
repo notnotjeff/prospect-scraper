@@ -299,11 +299,11 @@ module.exports = [
     draft_round: 2,
     draft_pick: 59,
     draft_year: 2020,
-    // league_id: '32269686',
-    // league: 'Liiga',
-    league_id: '3125868', // WJC
-    team_id: 'FIN', // WJC
-    league: 'WJC',
+    league_id: '32269686',
+    league: 'Liiga',
+    // league_id: '3125868', // WJC
+    // team_id: 'FIN', // WJC
+    // league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/448946/roni-hirvonen',
   },
   {
@@ -315,11 +315,11 @@ module.exports = [
     draft_round: 3,
     draft_pick: 64,
     draft_year: 2020,
-    // league_id: '31555838',
-    // league: 'Liiga',
-    league_id: '3125883', // WJC
-    team_id: 'FIN', // WJC
-    league: 'WJC',
+    league_id: '31555838',
+    league: 'Liiga',
+    // league_id: '3125883', // WJC
+    // team_id: 'FIN', // WJC
+    // league: 'WJC',
     ep_url: 'https://www.eliteprospects.com/player/499424/topi-niemela',
   },
   {
@@ -466,11 +466,11 @@ module.exports = [
     draft_round: 2,
     draft_pick: 57,
     draft_year: 2021,
-    // league_id: '58270',
-    // league: 'NCAA',
-    league_id: '3129716',
-    league: 'WJC',
-    team_id: 'USA',
+    league_id: '58270',
+    league: 'NCAA',
+    // league_id: '3129716',
+    // league: 'WJC',
+    // team_id: 'USA',
     ep_url: 'https://www.eliteprospects.com/player/292083/matthew-knies',
   },
   {
@@ -511,5 +511,18 @@ module.exports = [
     league_id: '7753',
     league: 'AHL',
     ep_url: 'https://www.eliteprospects.com/player/297757/pavel-gogolev',
+  },
+  {
+    first_name: 'Chad',
+    last_name: 'Krys',
+    position: 'D',
+    shoots: 'L',
+    dob: '1998-04-10',
+    draft_round: 2,
+    draft_pick: 45,
+    draft_year: 2016,
+    league_id: '7559',
+    league: 'AHL',
+    ep_url: 'https://www.eliteprospects.com/player/229559/chad-krys',
   },
 ]
