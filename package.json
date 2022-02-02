@@ -1,12 +1,28 @@
 {
   "name": "prospect-scraper",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.1.0",
+  "description": "Scrape NHL prospects from multiple development leagues",
+  "keywords": [
+    "nhl",
+    "prospects",
+    "draft",
+    "hockey",
+    "scraper"
+  ],
+  "homepage": "https://github.com/notnotjeff/prospect-scraper",
+  "author": "Jeff Craig",
+  "contributors": [
+    "Jeff Craig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notnotjeff/prospect-scraper.git"
+  },
+  "bugs": "https://github.com/notnotjeff/prospect-scraper/issues",
   "engines": {
     "node": "^14.9.0"
   },
-  "description": "Scrape prospects from multiple development leagues",
-  "main": "",
+  "main": "lib/prospectScraper.js",
   "jest": {
     "verbose": true,
     "modulePathIgnorePatterns": [
@@ -22,26 +38,14 @@
     "prettier": "prettier --ignore-path ../.gitignore \"**/*.+(js|json)\"",
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different",
-    "validate": "npm run check-format && npm run lint && npm run test",
-    "games:scrape": "node scripts/run-games-scrape",
-    "games:scrape:yesterday": "node scripts/run-games-scrape-yesterday",
-    "games:wjc": "node scripts/run-games-wjc",
-    "games:wjc:yesterday": "node scripts/run-games-wjc-yesterday",
-    "games:remove": "node scripts/run-games-remove",
-    "games:remove-old": "node scripts/run-games-remove-old",
-    "seasons:scrape": "node scripts/run-seasons-scrape",
-    "seasons:reset": "node scripts/run-seasons-reset",
-    "twitter:games-recap": "node scripts/run-twitter-games-recap.js"
+    "validate": "npm run check-format && npm run lint && npm run test"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
-    "knex": "^0.21.12",
-    "pg": "^8.2.1",
     "puppeteer": "^5.5.0",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5",
-    "twit": "^2.2.11"
+    "request-promise": "^4.2.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -59,6 +63,5 @@
     "nock": "^12.0.3",
     "prettier": "^2.0.5"
   },
-  "author": "Jeff Craig",
-  "license": "ISC"
+  "license": "MIT"
 }
