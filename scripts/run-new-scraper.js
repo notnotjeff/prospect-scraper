@@ -3,7 +3,7 @@ const utils = require('../utils')
 
 const testerFunction = async () => {
   const stats = await americanHockeyLeague(6893)
-  console.log(stats)
+  console.log(stats.data)
 }
 
 testerFunction()
