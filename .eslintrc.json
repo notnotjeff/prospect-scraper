@@ -13,6 +13,9 @@
     "process": true,
     "__dirname": true
   },
-  "rules": {},
+  "rules": {
+    "camelcase": "warn",
+    "no-unused-vars": "warn"
+  },
   "ignorePatterns": ["__fixtures__/", "*.md"]
 }
