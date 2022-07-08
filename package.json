@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": "^14.9.0"
+    "node": "^18.0.0"
   },
   "description": "Scrape prospects from multiple development leagues",
   "main": "",
@@ -38,7 +38,7 @@
     "dotenv": "^8.2.0",
     "knex": "^0.21.12",
     "pg": "^8.2.1",
-    "puppeteer": "^5.5.0",
+    "puppeteer": "^15.3.2",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "twit": "^2.2.11"

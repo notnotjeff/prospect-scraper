@@ -33,4 +33,29 @@ describe('shlScraper()', () => {
       await expect(shlScraper(prospect)).rejects.toThrow()
     })
   })
+
+  describe('when year does not exist on prospect profile', () => {
+    it('returns null values', async () => {
+      const prospectHtml = require('./__fixtures__/shl_pontus_holmberg.fixture')
+      const prospect = {
+        first_name: 'Pontus',
+        last_name: 'Holmberg',
+        league_id: 'qTK-4a8Y9mMrn__pontus-holmberg',
+        team_id: 'fe02-fe02mf1FN__vaxjo-lakers',
+        league: 'SHL',
+        ep_url: 'https://www.eliteprospects.com/player/265859/pontus-holmberg',
+      }
+  
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2022-2023')
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+  
+      const { goals, assists, points, shots, games_played } = await shlScraper(prospect)
+  
+      expect(goals).toEqual(null)
+      expect(assists).toEqual(null)
+      expect(points).toEqual(null)
+      expect(shots).toEqual(null)
+      expect(games_played).toEqual(null)
+    })
+  })
 })

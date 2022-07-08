@@ -51,21 +51,23 @@ describe('shlScraper()', () => {
     await expect(shlScraper(prospect, date)).rejects.toThrow()
   })
 
-  it('asdf', async () => {
-    const prospectHtml = require('./__fixtures__/shl_pontus_holmberg.fixture')
-    const prospect = {
-      first_name: 'Pontus',
-      last_name: 'Holmberg',
-      league_id: 'qTK-4a8Y9mMrn__pontus-holmberg',
-      team_id: 'fe02-fe02mf1FN__vaxjo-lakers',
-      league: 'SHL',
-    }
-    const date = new Date('2020-11-10 12:00:00')
-
-    jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-
-    const gameData = await shlScraper(prospect, date)
-
-    expect(gameData).toEqual(null)
+  describe('when no games on date', () => {
+    it('returns no game data', async () => {
+      const prospectHtml = require('./__fixtures__/shl_pontus_holmberg.fixture')
+      const prospect = {
+        first_name: 'Pontus',
+        last_name: 'Holmberg',
+        league_id: 'qTK-4a8Y9mMrn__pontus-holmberg',
+        team_id: 'fe02-fe02mf1FN__vaxjo-lakers',
+        league: 'SHL',
+      }
+      const date = new Date('2020-11-10 12:00:00')
+  
+      jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
+  
+      const gameData = await shlScraper(prospect, date)
+  
+      expect(gameData).toEqual(null)
+    })
   })
 })
