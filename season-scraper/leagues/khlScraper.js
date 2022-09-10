@@ -5,55 +5,49 @@ module.exports = async function (prospect) {
     throw new Error(`Cannot complete KHL scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const currentSeason = utils.date.getCurrentSeason('YYYY-YYYY').split('-').join('/')
+  const currentSeason = utils.date.getCurrentSeason('YY-YY').split('-').join('/')
   const url = `https://en.khl.ru/players/${prospect.league_id}/`
   const page = await utils.request.htmlRequest(url)
 
-  const seasons = []
-  page(`#pl_Stats > tbody > tr`).each(function (_i, elm) {
-    const row = page(elm)
-    const tds = []
-    row.find('th').each(function (_tdI, tdElm) {
-      const td = page(tdElm).text().trim()
-      tds.push(td)
-    })
-    row.find('td').each(function (_tdI, tdElm) {
-      const td = page(tdElm).text().trim()
-      tds.push(td)
-    })
-    if (!['KHL Summary', 'Regular season:', 'Playoffs:', 'KHL Total:', 'Summary:'].includes(tds[0])) {
-      seasons.push(tds)
+  const seasonObject = {}
+  let seasonInfo = []
+  let seasonId = null
+
+  page(`.detail-table__scroll > table > tbody > tr`).each(function (_i, elm) {
+    const children = page(elm).children()
+    const seasonYear = children.text().match(/\d{2}\/\d{2}/)?.[0]
+    const seasonType = children.text().match(/regular|playoffs/)?.[0]
+    
+    if (seasonYear) {
+      seasonInfo = []
+      seasonId = `${seasonYear}-${seasonType}`
+      seasonObject[seasonId] = { seasonYear, seasonType, stats: [] }
+      seasonInfo.push(seasonYear)
+      seasonInfo.push(seasonType)
+    } else if (children.length > 0) {
+      const tds = [...seasonInfo]
+      children.each(function (_tdI, tdElm) {
+        const td = page(tdElm).text().trim()
+        tds.push(td)
+      })
+      seasonObject[seasonId].stats.push(tds)
     }
   })
 
-  let seasonRow = null
-  const parsedSeasons = []
-  seasons.forEach(s => {
-    if (s.filter(c => c !== '').length === 1) {
-      seasonRow = s[0]
-    } else {
-      parsedSeasons.push([seasonRow, ...s])
-    }
+  const seasons = Object.values(seasonObject).map(s => {
+    return s.stats[s.stats.length - 1]
   })
+  const season = seasons.find(s => (s[0] === currentSeason && s[1] === 'regular'))
 
-  const teams = parsedSeasons.filter(s => s[0].includes(currentSeason) && !s[0].match(/Playoffs/g)?.length)
-
-  if (!teams.length) {
-    return { goals: null, assists: null, points: null, shots: null, games_played: null }
+  if (!season) {
+    return {}
   }
 
-  const season = teams.reduce(
-    (acc, team) => {
-      return {
-        goals: acc.goals + +team[4],
-        assists: acc.assists + +team[5],
-        points: acc.points + +team[6],
-        shots: acc.shots + +team[17],
-        games_played: acc.games_played + +team[3],
-      }
-    },
-    { goals: 0, assists: 0, points: 0, shots: 0, games_played: 0 },
-  )
-
-  return season
+  return {
+    goals: +season[5],
+    assists: +season[6],
+    points: +season[7],
+    shots: +season[18],
+    games_played: +season[4],
+  }
 }

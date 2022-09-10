@@ -41,7 +41,7 @@ describe('ncaaScraper()', () => {
   })
 
   describe('when no season', () => {
-    it('returns null', async () => {
+    it('returns empty object', async () => {
       const prospectHtml = require('./__fixtures__/ncaa_ryan_tverberg.fixture')
       const prospect = {
         first_name: 'Ryan',
@@ -55,7 +55,7 @@ describe('ncaaScraper()', () => {
 
       const season = await ncaaScraper(prospect)
 
-      expect(season).toEqual(null)
+      expect(season).toEqual({})
     })
   })
 })

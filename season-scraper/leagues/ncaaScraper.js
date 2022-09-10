@@ -27,11 +27,11 @@ module.exports = async function (prospect) {
       shots: +tds[9],
     })
   })
-
+  
   const season = seasons.find(s => s.name === currentSeason)
 
   if (!season) {
-    return null
+    return {}
   }
 
   const { goals, assists, points, shots, games_played } = season
