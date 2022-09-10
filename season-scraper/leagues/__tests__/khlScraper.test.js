@@ -13,7 +13,7 @@ describe('khlScraper()', () => {
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '20-21')
 
     const { goals, assists, points, shots, games_played } = await khlScraper(prospect)
 
@@ -35,7 +35,7 @@ describe('khlScraper()', () => {
       }
 
       jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '19-20')
 
       const { goals, assists, points, shots, games_played } = await khlScraper(prospect)
 
@@ -57,7 +57,7 @@ describe('khlScraper()', () => {
         league: 'KHL',
       }
 
-      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '19-20')
       jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
 
       const { goals, assists, points, shots, games_played } = await khlScraper(prospect)

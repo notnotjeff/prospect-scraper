@@ -13,10 +13,10 @@ module.exports = async function (prospect, date) {
   const scrapedProspect = await utils.request.htmlRequest(url)
 
   const games = []
-  scrapedProspect('#pl_Games > tbody > tr').each(function (_i, elm) {
+  scrapedProspect('#table_all_games > tr').each(function (_i, elm) {
     const cells = []
     scrapedProspect(elm)
-      .find('td')
+      .children()
       .each(function (_cellI, cellElm) {
         const cell = scrapedProspect(cellElm).text().trim().replace('\n', '').replace('\t', '')
         cells.push(cell)
@@ -24,7 +24,7 @@ module.exports = async function (prospect, date) {
     games.push(cells)
   })
 
-  const game = games?.find(g => g[3] === `${singleDigitDay} ${monthName} ${year}`)
+  const game = games?.find(g => g[0] === `${singleDigitDay} ${monthName} ${year}`)
 
   if (!game) {
     return null
@@ -34,11 +34,11 @@ module.exports = async function (prospect, date) {
     first_name: prospect.first_name,
     last_name: prospect.last_name,
     league: prospect.league,
-    goals: +game[7],
-    assists: +game[8],
-    points: +game[9],
-    shots: +game[20],
-    penalty_minutes: +game[13],
+    goals: +game[4],
+    assists: +game[5],
+    points: +game[6],
+    shots: +game[17],
+    penalty_minutes: +game[10],
     date: `${year}-${month}-${day}`,
   }
 }
