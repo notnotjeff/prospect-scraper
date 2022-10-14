@@ -190,8 +190,8 @@ module.exports = [
     draft_round: 4,
     draft_pick: 124,
     draft_year: 2019,
-    league_id: '36326',
-    league: 'NCAA',
+    league_id: '9563',
+    league: 'AHL',
     ep_url: 'https://www.eliteprospects.com/player/201476/nick-abruzzese',
   },
   {
