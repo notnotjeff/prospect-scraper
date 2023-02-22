@@ -3,72 +3,59 @@ const ncaaScraper = require('../ncaaScraper')
 const utils = require('../../../utils')
 
 describe('ncaaScraper()', () => {
-  it('gets prospect json and scrapes current season stats', async () => {
-    const prospectHtml = require('./__fixtures__/ncaa_nick_abruzzese.fixture')
+  it('gets prospect data and scrapes current season stats', async () => {
+    const prospectHtml = require('./__fixtures__/ncaa_ryan_tverberg.fixture')
     const prospect = {
-      first_name: 'Nick',
-      last_name: 'Abruzzese',
-      league_id: 'harm22',
+      first_name: 'Ryan',
+      last_name: 'Tverberg',
+      league_id: '57164',
       league: 'NCAA',
     }
 
     jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-21')
 
     const { goals, assists, points, shots, games_played } = await ncaaScraper(prospect)
 
-    expect(goals).toEqual(14)
-    expect(assists).toEqual(30)
-    expect(points).toEqual(44)
-    expect(shots).toEqual(74)
-    expect(games_played).toEqual(31)
+    expect(games_played).toEqual(14)
+    expect(goals).toEqual(4)
+    expect(assists).toEqual(3)
+    expect(points).toEqual(7)
+    expect(shots).toEqual(28)
   })
 
   describe('when null league_id is inputted', () => {
     it('throws error', async () => {
-      const prospect = { league: 'NCAA' }
-
-      await expect(ncaaScraper(prospect)).rejects.toThrow()
-    })
-  })
-
-  describe('when no games played', () => {
-    it('returns null values', async () => {
-      const prospectHtml = require('./__fixtures__/ncaa_ryan_oconnell.fixture')
+      const prospectHtml = require('./__fixtures__/ncaa_ryan_tverberg.fixture')
       const prospect = {
         first_name: 'Ryan',
-        last_name: "O'Connell",
-        league_id: 'osum09',
+        last_name: 'Tverberg',
         league: 'NCAA',
       }
 
       jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2020-2021')
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2010-2011')
 
-      const { goals, assists, points, shots, games_played } = await ncaaScraper(prospect)
-
-      expect(goals).toEqual(null)
-      expect(assists).toEqual(null)
-      expect(points).toEqual(null)
-      expect(shots).toEqual(null)
-      expect(games_played).toEqual(null)
+      await expect(ncaaScraper(prospect)).rejects.toThrow()
     })
   })
 
-  describe('when player name is not found on page', () => {
-    it('throws error', async () => {
-      const prospectHtml = require('./__fixtures__/ncaa_nick_abruzzese.fixture')
+  describe('when no season', () => {
+    it('returns empty object', async () => {
+      const prospectHtml = require('./__fixtures__/ncaa_ryan_tverberg.fixture')
       const prospect = {
-        first_name: 'Not Nick',
-        last_name: 'Not Abruzzese',
-        league_id: 'harm22',
+        first_name: 'Ryan',
+        last_name: 'Tverberg',
+        league_id: '57164',
         league: 'NCAA',
       }
 
       jest.spyOn(utils.request, 'htmlRequest').mockImplementation(() => cheerio.load(prospectHtml))
-      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2019-2020')
+      jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '2010-2011')
 
-      await expect(ncaaScraper(prospect)).rejects.toThrow()
+      const season = await ncaaScraper(prospect)
+
+      expect(season).toEqual({})
     })
   })
 })

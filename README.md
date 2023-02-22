@@ -239,7 +239,7 @@ This league only needs the prospect's `league_id` field to function. To get the 
 
 Needed fields:
 ```
-league_id: 'minm23',
+league_id: '57164',
 league: 'NCAA',
 ```
 
@@ -249,9 +249,7 @@ This league only needs the prospect's `league_id` field to function. To get the 
 2. Click the team's name in order to head to the profile page for the team
 3. Click on the `Roster` button to load the team's roster
 4. Locate the player's name on the roster and click on it
-5. In the browser's address bar, copy the number after the `?` and paste it into the player's `league_id` field. For example, Mike Koster's profile URL is `http://collegehockeyinc.com/stats/players21.php?minm23`, therefore his `league_id` is `minm23`
-
-**One thing to note is that these profile urls are built using the player's team abbreviation and sequencial id generated based on player number order on the team. So if either of those things change you'll need to update the `league_id`.**
+5. In the browser's address bar, copy the number after the `/career/` and paste it into the player's `league_id` field. For example, Ryan Tverberg's profile URL is `http://collegehockeyinc.com/players/career/57164/`, therefore his `league_id` is `57164`
 
 ## NL
 

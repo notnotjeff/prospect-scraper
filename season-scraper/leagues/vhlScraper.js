@@ -6,11 +6,11 @@ module.exports = async function (prospect) {
   }
 
   const currentSeason = utils.date.getCurrentSeason('YY-YY').split('-').join('/')
-  const url = `http://www.vhlru.ru/en/players/${prospect.league_id}/`
+  const url = `https://www.vhlru.ru/en/players/${prospect.league_id}/`
   const page = await utils.request.htmlRequest(url)
 
   const seasons = []
-  page(`.player_stats > tbody > tr`).each(function (_i, elm) {
+  page(`.dataTables_scrollBody, table > tbody > tr`).each(function (_i, elm) {
     const row = page(elm)
     const tds = []
     row.find('th').each(function (_tdI, tdElm) {
@@ -21,20 +21,22 @@ module.exports = async function (prospect) {
       const td = page(tdElm).text().trim()
       tds.push(td)
     })
-    seasons.push(tds)
+    if (!['Season / Team', 'Regular Season', 'Playoffs', 'Summary'].includes(tds[0])) {
+      seasons.push(tds)
+    }
   })
 
   let seasonRow = null
   const parsedSeasons = []
   seasons.forEach(s => {
-    if (s.length === 1) {
+    if (s.filter(c => c !== '').length === 1) {
       seasonRow = s[0]
     } else {
       parsedSeasons.push([seasonRow, ...s])
     }
   })
 
-  const teams = parsedSeasons.filter(s => s[0].includes(currentSeason) && !s[1].includes('Summary:'))
+  const teams = parsedSeasons.filter(s => s[0].includes(currentSeason) && !s[1].includes('Summary:') && s[0].includes('Regular Season'))
 
   if (!teams.length) {
     return { goals: null, assists: null, points: null, shots: null, games_played: null }

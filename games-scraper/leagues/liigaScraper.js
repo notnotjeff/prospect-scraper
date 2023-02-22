@@ -5,25 +5,18 @@ module.exports = async function (prospect, date) {
     throw new Error(`Cannot complete Liiga scrape, prospect ${prospect.first_name} ${prospect.last_name} is missing: \n league_id`)
   }
 
-  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: false })
-  const dateForObject = utils.date.setDateValues(date, { zeroPad: true })
-  const url = `https://liiga.fi/fi/pelaajat/${
-    prospect.league_id
-  }/${prospect.last_name.toLowerCase()}-${prospect.first_name.toLowerCase()}/ottelu-ottelulta`
+  const currentSeason = utils.date.getCurrentSeason('YYYY-YYYY').split('-')[1]
+  const { day, month, year } = utils.date.setDateValues(date, { zeroPad: true })
+  const url = `https://liiga.fi/api/v1/players/info/${prospect.league_id}/games/${currentSeason}`
 
-  const scrapedProspect = await utils.request.htmlRequest(url)
-
-  const games = []
-  scrapedProspect('#stats-section > table > tbody > tr').each(function (_i, elm) {
-    const row = scrapedProspect(elm)
-      .text()
-      .trim()
-      .split('\n')
-      .map(r => r.trim())
-    games.push(row)
+  const gameData = await utils.request.jsonRequest(url)
+  const games = [...gameData.regular, ...gameData.playoffs]
+  const game = games.find(({ date: gameDateString }) => {
+    const gameDate = new Date(gameDateString)
+    return (date.getFullYear() === gameDate.getFullYear() &&
+    date.getMonth() === gameDate.getMonth() &&
+    date.getDate() === gameDate.getDate())
   })
-
-  const game = games?.find(g => g[0] === `${day}.${month}.${year}`)
 
   if (!game) {
     return null
@@ -33,11 +26,11 @@ module.exports = async function (prospect, date) {
     first_name: prospect.first_name,
     last_name: prospect.last_name,
     league: prospect.league,
-    goals: +game[10],
-    assists: +game[11],
-    points: +game[12],
-    shots: +game[22],
-    penalty_minutes: +game[13],
-    date: `${dateForObject.year}-${dateForObject.month}-${dateForObject.day}`,
+    goals: game?.goals,
+    assists: game?.assists,
+    points: game?.totalPoints,
+    shots: game?.shots,
+    penalty_minutes: game?.penaltyMinutes,
+    date: `${year}-${month}-${day}`,
   }
 }

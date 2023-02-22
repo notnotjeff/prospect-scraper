@@ -3,6 +3,10 @@ const vhlScraper = require('../vhlScraper')
 const utils = require('../../../utils')
 
 describe('vhlScraper()', () => {
+  beforeEach(() => {
+    jest.spyOn(utils.date, 'getCurrentSeason').mockImplementation(() => '20-21')
+  })
+
   it('gets prospect json and scrapes current season stats', async () => {
     const prospectHtml = require('./__fixtures__/vhl_semyon_kizimov.fixture')
     const prospect = {
@@ -16,11 +20,11 @@ describe('vhlScraper()', () => {
 
     const { goals, assists, points, shots, games_played } = await vhlScraper(prospect)
 
-    expect(goals).toEqual(2)
-    expect(assists).toEqual(2)
-    expect(points).toEqual(4)
-    expect(shots).toEqual(4)
-    expect(games_played).toEqual(5)
+    expect(goals).toEqual(7)
+    expect(assists).toEqual(7)
+    expect(points).toEqual(14)
+    expect(shots).toEqual(45)
+    expect(games_played).toEqual(35)
   })
 
   describe('when null league_id is inputted', () => {
@@ -78,7 +82,7 @@ describe('vhlScraper()', () => {
   })
 
   describe('when skater has multiple seasons', () => {
-    it('it returns null values', async () => {
+    it('it returns summed values', async () => {
       const prospectHtml = require('./__fixtures__/vhl_nikolai_chebykin.fixture')
       const prospect = {
         first_name: 'Nikolai',
@@ -92,11 +96,11 @@ describe('vhlScraper()', () => {
 
       const { goals, assists, points, shots, games_played } = await vhlScraper(prospect)
 
-      expect(goals).toEqual(0)
-      expect(assists).toEqual(3)
-      expect(points).toEqual(3)
-      expect(shots).toEqual(4)
-      expect(games_played).toEqual(4)
+      expect(goals).toEqual(4)
+      expect(assists).toEqual(11)
+      expect(points).toEqual(15)
+      expect(shots).toEqual(56)
+      expect(games_played).toEqual(28)
     })
   })
 })

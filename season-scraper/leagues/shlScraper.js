@@ -23,6 +23,8 @@ module.exports = async function (prospect) {
     }
   })
 
+  if(!currentYearRow) { return { goals: null, assists: null, points: null, shots: null, games_played: null } }
+
   goals += +currentYearRow[4]
   assists += +currentYearRow[5]
   points += +currentYearRow[6]

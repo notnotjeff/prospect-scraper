@@ -1,5 +1,5 @@
 module.exports = `
-<body id="players" class="lang-en">
+<body id="players" class="lang-en webp">
 
 <div id="panel"></div>
 
@@ -265,38 +265,7 @@ module.exports = `
 								
                             </a>
                             <div class="header-left__logo-group">
-                                <div class="header-logos logos">
-                                    <a href="http://www.vhlru.ru/" target="_blank" class="logos-item">
-                                        <picture>
-                                            <source srcset="/local/templates/khl-redesign/img/header/VHL.webp" type="image/webp">
-                                            <img src="/local/templates/khl-redesign/img/header/VHL.png" alt="SHL logo" class="logos-item__img">
-                                        </picture>
-                                    </a>
-                                    <a href="https://mhl.khl.ru/" target="_blank" class="logos-item">
-										<picture>
-                                            <source srcset="/local/templates/khl-redesign/img/mhl_logo_en.svg" type="image/webp">
-                                            <img src="/local/templates/khl-redesign/img/mhl_logo_en.svg" alt="JHL logo" class="logos-item__img logos-item__img_small">
-                                        </picture>
-					                                    </a>
-					
-
-                                    <a href="http://whl.khl.ru/" target="_blank" class="logos-item">
-                                        <picture>
-                                            <source srcset="/local/templates/khl-redesign/img/header/JHL.webp" type="image/webp">
-                                            <img src="/local/templates/khl-redesign/img/header/JHL.png" alt="WHL logo" class="logos-item__img">
-                                        </picture>
-                                    </a>
-
-
-<div class="logos-item header-center__item_hide">
-                                <a href="https://video.khl.ru/profile/" class="header-right__user user-link-login data-hide-for data-hide-for-auth">
-                                    <svg class="user-link__svg"><use xlink:href="#user"></use></svg>
-                                </a>
-                                <a href="/players/30159/index.php?logout=yes&amp;sessid=9651cdd0059c2d1f89b16a611e29ed7b&amp;idplayer=30159&amp;pager_selector=&amp;PAGEN_1=3" class="header-right__user user-link-unlogin user-link-logout data-hide-for data-hide-for-auth"><p class="user-link-txt">exit</p>
-                                </a>
-</div>
-
-                                </div>
+                                
                             </div>
                         </div>
                         <div class="header-center">
@@ -338,7 +307,113 @@ module.exports = `
 </div>
                             </div>
                             
-<div class="header-center__menu">
+
+                        </div>
+                        <div class="header-right">
+                            <div class="header-right__btn">
+                                
+
+                                <a href="https://video.khl.ru/auth/?login=yes&amp;backurl=https%3A%2F%2Fen.khl.ru%2F%2Fplayers%2F17585%2Findex.php%3Fidplayer%3D17585" class="header-right__user user-link-unlogin user-link-unlogin--desktop show-not-authorized data-hide-for-notauth">
+                                    <p class="user-link-txt user-link-txt_desk-only">login | sign up</p>
+                                    <svg class="user-link__svg user-link__svg_mob-only">
+                                        <use xlink:href="#user"></use>
+                                    </svg>
+                                </a>
+
+                                <a href="https://video.khl.ru/profile/" class="header-right__user user-link-login data-hide-for data-hide-for-auth">
+                                    <svg class="user-link__svg"><use xlink:href="#user"></use></svg>
+                                </a>
+                                <a href="/players/17585/index.php?logout=yes&amp;sessid=9651cdd0059c2d1f89b16a611e29ed7b&amp;idplayer=17585" class="header-right__user user-link-unlogin user-link-logout data-hide-for data-hide-for-auth"><p class="user-link-txt">exit</p>
+                                </a>
+                                <div class="header-right__search search-link">
+                                    <svg class="header-right__search-svg search-link__svg">
+                                        <use xlink:href="#search-icon"></use>
+                                    </svg>
+                                    <form class="search-link__input" action="/search/">
+                                        <button class="header-search-btn">
+                                            <svg class="header-search-btn__svg search-link__svg search-link__svg_gray">
+                                                <use xlink:href="#search-icon"></use>
+                                            </svg>
+                                        </button>
+                                        <input type="text" class="header-search__input-item " name="q" id="header-search" placeholder="Search">
+                                    </form>
+                                </div>
+                                <div class="select-lang header__select-lang ">
+                                    <button class="select-lang__current roboto roboto-normal roboto-md color-white down-white">
+                                        EN                                    </button>
+                                    <div class="select-lang__dropdown color-dark">
+                                                                                    <a href="http://www.khl.ru/players/17585/" class="select-lang__dropdown-item ">RU</a>
+                                                                                    <a href="http://cn.khl.ru/players/17585/" class="select-lang__dropdown-item ">CN</a>
+                                                                            </div>
+                                </div>
+                                <div class="header-burger">
+                                    <span class="header-burger__span"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="header-main">
+                            <!--не удаляй этот пустой див!-->
+                        </div>
+                    </div>
+                </div>
+                <div class="header-menu header-menu_mob-only">
+                    <div class="header-menu__item header-menu__item_space-between header-menu__item_for-logos">
+                    <div class="header-logos logos">
+                                    <a href="http://www.vhlru.ru/" target="_blank" class="logos-item">
+                                        <picture>
+                                            <source srcset="/local/templates/khl-redesign/img/header/VHL.webp" type="image/webp">
+                                            <img src="/local/templates/khl-redesign/img/header/VHL.png" alt="SHL logo" class="logos-item__img">
+                                        </picture>
+                                    </a>
+                                    <a href="https://mhl.khl.ru/" target="_blank" class="logos-item">
+										<picture>
+                                            <source srcset="/local/templates/khl-redesign/img/mhl_logo_en.svg" type="image/webp">
+                                            <img src="/local/templates/khl-redesign/img/mhl_logo_en.svg" alt="JHL logo" class="logos-item__img logos-item__img_small">
+                                        </picture>
+					                                    </a>
+					
+
+                                    <a href="http://whl.khl.ru/" target="_blank" class="logos-item">
+                                        <picture>
+                                            <source srcset="/local/templates/khl-redesign/img/header/JHL.webp" type="image/webp">
+                                            <img src="/local/templates/khl-redesign/img/header/JHL.png" alt="WHL logo" class="logos-item__img">
+                                        </picture>
+                                    </a>
+
+
+<div class="logos-item header-center__item_hide">
+                                <a href="https://video.khl.ru/profile/" class="header-right__user user-link-login data-hide-for data-hide-for-auth">
+                                    <svg class="user-link__svg"><use xlink:href="#user"></use></svg>
+                                </a>
+                                <a href="/players/17585/index.php?logout=yes&amp;sessid=9651cdd0059c2d1f89b16a611e29ed7b&amp;idplayer=17585" class="header-right__user user-link-unlogin user-link-logout data-hide-for data-hide-for-auth"><p class="user-link-txt">exit</p>
+                                </a>
+</div>
+
+                                </div></div>
+                    <div class="header-menu__item header-menu__item_for-social">
+                    <div class="header-right__social social">
+    
+    <a href="https://www.youtube.com/khl" target="_blank" class="social-item">
+    <svg class="social-item__svg">
+        <use xlink:href="#youtube"></use>
+    </svg>
+</a>
+<a href="https://t.me/khl_official_telegram" target="_blank" class="social-item">
+    <svg class="social-item__svg">
+        <use xlink:href="#telegram"></use>
+    </svg>
+</a>
+</div></div>
+                    <div class="header-menu__item header-menu__item_space-between header-menu__item_for-btns">
+                    <div class="header-right__btns">
+                                    <a href="/tickets/" class="header-right__btn-item btn btn-md btn-primary border-small border-primary roboto roboto-bold roboto-sm color-white">
+                                        Tickets                                    </a>
+                                    <a target="_blank" href="https://store.khl.ru/" class="header-right__btn-item btn btn-md btn-primary border-small border-primary roboto roboto-bold roboto-sm color-white">
+                                        Store                                    </a>
+                                </div></div>
+                    <div class="header-menu__item header-menu__item_for-nav">
+                    <div class="header-center__menu">
     <ul class="header-center__list">
                 <li class="header-center__item ">
 
@@ -1063,56 +1138,9 @@ module.exports = `
 
                     </li>
             </ul>
-</div>
-                        </div>
-                        <div class="header-right">
-                            <div class="header-right__btn">
-                                <div class="header-right__btns">
-                                    <a href="/tickets/" class="header-right__btn-item btn btn-md btn-primary border-small border-primary roboto roboto-bold roboto-sm color-white">
-                                        Tickets                                    </a>
-                                    <a target="_blank" href="https://store.khl.ru/" class="header-right__btn-item btn btn-md btn-primary border-small border-primary roboto roboto-bold roboto-sm color-white">
-                                        Store                                    </a>
-                                </div>
-
-                                <a href="https://video.khl.ru/auth/?login=yes&amp;backurl=https%3A%2F%2Fen.khl.ru%2F%2Fplayers%2F30159%2Findex.php%3Fidplayer%3D30159%26pager_selector%3D%26PAGEN_1%3D3" class="header-right__user user-link-unlogin user-link-unlogin--desktop show-not-authorized data-hide-for-notauth">
-                                    <p class="user-link-txt user-link-txt_desk-only">login | sign up</p>
-                                    <svg class="user-link__svg user-link__svg_mob-only">
-                                        <use xlink:href="#user"></use>
-                                    </svg>
-                                </a>
-
-                                <a href="https://video.khl.ru/profile/" class="header-right__user user-link-login data-hide-for data-hide-for-auth">
-                                    <svg class="user-link__svg"><use xlink:href="#user"></use></svg>
-                                </a>
-                                <a href="/players/30159/index.php?logout=yes&amp;sessid=9651cdd0059c2d1f89b16a611e29ed7b&amp;idplayer=30159&amp;pager_selector=&amp;PAGEN_1=3" class="header-right__user user-link-unlogin user-link-logout data-hide-for data-hide-for-auth"><p class="user-link-txt">exit</p>
-                                </a>
-                                <div class="header-right__search search-link">
-                                    <svg class="header-right__search-svg search-link__svg">
-                                        <use xlink:href="#search-icon"></use>
-                                    </svg>
-                                    <form class="search-link__input" action="/search/">
-                                        <button class="header-search-btn">
-                                            <svg class="header-search-btn__svg search-link__svg search-link__svg_gray">
-                                                <use xlink:href="#search-icon"></use>
-                                            </svg>
-                                        </button>
-                                        <input type="text" class="header-search__input-item " name="q" id="header-search" placeholder="Search">
-                                    </form>
-                                </div>
-                                <div class="select-lang header__select-lang ">
-                                    <button class="select-lang__current roboto roboto-normal roboto-md color-white down-white">
-                                        EN                                    </button>
-                                    <div class="select-lang__dropdown color-dark">
-                                                                                    <a href="http://www.khl.ru/players/30159/?idplayer=30159&amp;pager_selector=&amp;PAGEN_1=3&amp;pager_selector=" class="select-lang__dropdown-item ">RU</a>
-                                                                                    <a href="http://cn.khl.ru/players/30159/?idplayer=30159&amp;pager_selector=&amp;PAGEN_1=3&amp;pager_selector=" class="select-lang__dropdown-item ">CN</a>
-                                                                            </div>
-                                </div>
-                                <div class="header-burger">
-                                    <span class="header-burger__span"></span>
-                                </div>
-                            </div>
-                            <div class="header-right__social social">
-    <div class="social-mob social-mob__header">
+</div></div>
+                    <div class="header-menu__item header-menu__item_markets header-menu__item_for-markets">
+                    <div class="social-mob social-mob__header">
         <a href="https://redirect.appmetrica.yandex.com/serve/244032198947185405" target="_blank" class="social-mob__item">
             <picture>
                 <source srcset="/local/templates/khl-redesign/img/header/googlePlay.webp" type="image/webp">
@@ -1125,35 +1153,7 @@ module.exports = `
                 <img src="/local/templates/khl-redesign/img/header/app-store.png" alt="social-mob" class="social-mob__item-img">
             </picture>
         </a>
-    </div>
-    <a href="https://www.youtube.com/khl" target="_blank" class="social-item">
-    <svg class="social-item__svg">
-        <use xlink:href="#youtube"></use>
-    </svg>
-</a>
-<a href="https://t.me/khl_official_telegram" target="_blank" class="social-item">
-    <svg class="social-item__svg">
-        <use xlink:href="#telegram"></use>
-    </svg>
-</a>
-</div>
-                        </div>
-                        <div class="header-main">
-                            <!--не удаляй этот пустой див!-->
-                        </div>
-                    </div>
-                </div>
-                <div class="header-menu header-menu_mob-only">
-                    <div class="header-menu__item header-menu__item_space-between header-menu__item_for-logos">
-                    </div>
-                    <div class="header-menu__item header-menu__item_for-social">
-                    </div>
-                    <div class="header-menu__item header-menu__item_space-between header-menu__item_for-btns">
-                    </div>
-                    <div class="header-menu__item header-menu__item_for-nav">
-                    </div>
-                    <div class="header-menu__item header-menu__item_markets header-menu__item_for-markets">
-                    </div>
+    </div></div>
                 </div>
 
             </div>
@@ -3318,13 +3318,13 @@ module.exports = `
                     </div>
                     <div class="slider-item__info">
                                                 <date class="slider-item__info-date roboto roboto-xs roboto-bold color-primary">
-                            Now                        </date>
+                            Today                        </date>
                                                 <div class="slider-item__info-score">
                             <p class="slider-item__info-num">1</p>
                             <div class="slider-item__info-sep">
                                                                     <span class="separator__center-line separator__center-line_into-slider"></span>
                                                             </div>
-                            <p class="slider-item__info-num">3</p>
+                            <p class="slider-item__info-num">5</p>
                         </div>
                     </div>
 
@@ -3343,38 +3343,20 @@ module.exports = `
                             <p class="slider-item__timing">
                                 <span class="roboto-sm roboto-light ">1-1</span>
 <span class="roboto-sm roboto-light ">0-2</span>
-<span class="roboto-sm roboto-bold border-radius50 bg-main slider-item__info-timingSpan color-white">3</span>
+<span class="roboto-sm roboto-light ">0-2</span>
                             </p>
                         </div>
                                         
 
                     <div class="slider-item__hover">
-                                                <a href="/game/1154/881303/preview/" class="slider-item__hover-link roboto roboto-normal roboto-xs color-black" tabindex="0">
-                            Preview                        </a>
-                                                <a href="https://video.khl.ru/events/1711355?partner=ygWDXBN?locale=en" class="slider-item__hover-link roboto roboto-normal roboto-xs color-black" tabindex="0">
+                                                <a href="/game/1154/881303/resume/" class="slider-item__hover-link roboto roboto-normal roboto-xs color-black" tabindex="0">
+                            Resume                        </a>
+                                                <a href="https://video.khl.ru/quotes/882427?locale=en" class="slider-item__hover-link roboto roboto-normal roboto-xs color-black" tabindex="0">
                             Video                        </a>
-                                                <a href="https://text.khl.ru/en/881303.html" class="slider-item__hover-link roboto roboto-normal roboto-xs color-black" tabindex="0">
-                            Online                        </a>
+                                                <a href="/game/1154/881303/protocol/" class="slider-item__hover-link roboto roboto-normal roboto-xs color-black" tabindex="0">
+                            Summary                        </a>
                                             </div>
                 </div>
-                                <div class="slider-item__links">
-                    <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/live/hockey/13283/36076977/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_live" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="0">
-                        <p class="slider-item__link-text">L1</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">28.00</p>
-                    </a>
-                    <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/live/hockey/13283/36076977/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_live" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="0">
-                        <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">8.50</p>
-                    </a>
-                    <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/live/hockey/13283/36076977/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_live" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="0">
-                        <p class="slider-item__link-text">L2</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">1.11</p>
-                    </a>
-                </div>
-
-                <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/live/hockey/13283/36076977/?utm_source=khl.ru&amp;utm_medium=referral&amp;utm_campaign=sponsorship&amp;utm_content=feed_live" class="slider-item__fonbet fonbet 3Tnw4qyYAag3" tabindex="0">
-                    <img src="/local/templates/khl-redesign/img/slider/FONBET.svg" alt="" class="fonbet-img">
-                </a>
                             </div></div></div><div class="slick-slide slick-active" data-slick-index="42" aria-hidden="false" style="width: 239px;"><div><div class="slider-item" data-item-matches-slide="" style="width: 100%; display: inline-block;">
                 <div class="slider-item__wrap">
                     <div class="slider-item__logo">
@@ -3428,15 +3410,15 @@ module.exports = `
                                 <div class="slider-item__links">
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076957/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="0">
                         <p class="slider-item__link-text">L1</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.40</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.35</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076957/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="0">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">4.10</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.90</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076957/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="0">
                         <p class="slider-item__link-text">L2</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.55</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.70</p>
                     </a>
                 </div>
 
@@ -3498,7 +3480,7 @@ module.exports = `
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077108/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.80</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.65</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077108/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
@@ -3560,11 +3542,11 @@ module.exports = `
                                 <div class="slider-item__links">
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076987/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L1</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.30</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.35</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076987/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">4.15</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.95</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076987/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
@@ -3626,15 +3608,15 @@ module.exports = `
                                 <div class="slider-item__links">
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076967/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L1</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.50</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.45</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076967/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.95</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.80</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076967/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.50</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.60</p>
                     </a>
                 </div>
 
@@ -4094,7 +4076,7 @@ module.exports = `
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077118/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.85</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.90</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077118/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
@@ -4160,7 +4142,7 @@ module.exports = `
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076927/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">4.15</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">4.10</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076927/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
@@ -4416,7 +4398,7 @@ module.exports = `
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076947/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.90</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">3.95</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36076947/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
@@ -4674,11 +4656,11 @@ module.exports = `
                                 <div class="slider-item__links">
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077088/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L1</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.95</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">2.90</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077088/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">x</p>
-                        <p class="slider-item__link-num fq9ozY0WyTW0-live">4.00</p>
+                        <p class="slider-item__link-num fq9ozY0WyTW0-live">4.05</p>
                     </a>
                     <a target="_blank" href="#" data-rbqc1uv7j1dj="https://www.fonbet.ru/sports/hockey/13283/36077088/?utm_source=khl.ru&amp;utm_medium=cpc&amp;utm_campaign=des_base&amp;utm_content=odds&amp;utm_term=khl_line" class="slider-item__link bg-danger 3Tnw4qyYAag3" tabindex="-1">
                         <p class="slider-item__link-text">L2</p>
@@ -4867,8 +4849,8 @@ module.exports = `
                             <div class="frameCard-header__person-logo">
                                 <div class="frameCard-header__person-logoMain">
                                     <picture>
-                                        <source srcset="/images/players/30159.jpg" type="image/webp">
-                                        <img src="/images/players/30159.jpg" alt="" class="frameCard-header__person-imgMain">
+                                        <source srcset="/images/players/17585.jpg" type="image/webp">
+                                        <img src="/images/players/17585.jpg" alt="" class="frameCard-header__person-imgMain">
                                     </picture>
                                 </div>
                                                             </div>
@@ -4878,9 +4860,9 @@ module.exports = `
                             <div class="frameCard-header__detail-header">
                                 <div class="frameCard-header__detail-top">
                                     <div class="frameCard-header__detail-title roboto-condensed roboto-bold title-md color-black link">
-                                        <span class="frameCard-header__detail-titleItem roboto link" style="color:black!important">Rodion Amirov</span>
+                                        <span class="frameCard-header__detail-titleItem roboto link" style="color:black!important">Miro Aaltonen</span>
                                                                             </div>
-                                    <!--<a href="/players/compare/?append=30159" class="frameCard-header__detail-btn roboto roboto-bold roboto-sm color-white btn btn-primary roboto-ttu">
+                                    <!--<a href="/players/compare/?append=17585" class="frameCard-header__detail-btn roboto roboto-bold roboto-sm color-white btn btn-primary roboto-ttu">
                                         Compare                                    </a>-->
                                 </div>
                                 <div class="frameCard-header__detail-top">
@@ -4896,31 +4878,31 @@ module.exports = `
                                         <p class="roboto roboto-normal roboto-md color-black roboto-md_lh-ll">
                                             Born                                        </p>
                                         <p class="roboto roboto-bold roboto-lg roboto-lg__lg-bigger color-black">
-                                            2 October 2001                                        </p>
+                                            7 June 1993                                        </p>
                                     </div>
                                                                                                                                             <div class="frameCard-header__detail-item">
                                         <p class="roboto roboto-normal roboto-md color-black roboto-md_lh-ll">
                                             Age                                        </p>
                                         <p class="roboto roboto-bold roboto-lg roboto-lg__lg-bigger color-black">
-                                            20                                        </p>
+                                            29                                        </p>
                                     </div>
                                                                                                                                             <div class="frameCard-header__detail-item">
                                         <p class="roboto roboto-normal roboto-md color-black roboto-md_lh-ll">
                                             Country                                        </p>
                                         <p class="roboto roboto-bold roboto-lg roboto-lg__lg-bigger color-black">
-                                            Russia                                        </p>
+                                            Finland                                        </p>
                                     </div>
                                                                                                                                             <div class="frameCard-header__detail-item">
                                         <p class="roboto roboto-normal roboto-md color-black roboto-md_lh-ll">
                                             Height                                        </p>
                                         <p class="roboto roboto-bold roboto-lg roboto-lg__lg-bigger color-black">
-                                            185                                        </p>
+                                            177                                        </p>
                                     </div>
                                                                                                                                             <div class="frameCard-header__detail-item">
                                         <p class="roboto roboto-normal roboto-md color-black roboto-md_lh-ll">
                                             Weight                                        </p>
                                         <p class="roboto roboto-bold roboto-lg roboto-lg__lg-bigger color-black">
-                                            87                                        </p>
+                                            84                                        </p>
                                     </div>
                                                                                                                                             <div class="frameCard-header__detail-item">
                                         <p class="roboto roboto-normal roboto-md color-black roboto-md_lh-ll">
@@ -4950,18 +4932,10 @@ module.exports = `
                         Games in KHL                    </label>
                 </div>
                 
-                                                                        <a href="http://www.vhlru.ru/players/30159/" class="filter-smallCheckbox__item" target="_blank">
-                        <label class="filter-smallCheckbox__item-label statTable-tabs__label roboto roboto-sm roboto-light color-dark" for="statTable-tabs__vhl">
-                            SHL stats                        </label>
-                    </a>
-                                                                            <a href="http://mhl.khl.ru/players/30159/" class="filter-smallCheckbox__item" target="_blank">
-                        <label class="filter-smallCheckbox__item-label statTable-tabs__label roboto roboto-sm roboto-light color-dark" for="statTable-tabs__mhl">
-                            JHL A stats                        </label>
-                    </a>
-                                    
+                                
             </div>
         </div>
-        <div class="statTable-tabContent fade tabs_show">
+        <div class="statTable-tabContent  fade">
             <div class="detail-table">
                 <div class="detail-table__scroll">
                     <table>
@@ -5193,78 +5167,36 @@ module.exports = `
 
             <tr>
                                                 <td class="detail-table__col detail-table_medium">
-                        <a class="detail-table__link" href="/stat/players/1097/all/salavat_yulaev/"><p class="detail-table__txt color-primary">Salavat Yulaev (Ufa)</p></a><a>                    </a></td>
+                        <a class="detail-table__link" href="/stat/players/1097/all/vityaz/"><p class="detail-table__txt color-primary">Vityaz (Moscow Region)</p></a><a>                    </a></td>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">44</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">10</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
+                        <p class="detail-table__txt">32</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">42</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
+                        <p class="detail-table__txt">-3</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">34</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">4</p>
+                        <p class="detail-table__txt">37</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">10</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">9</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11.1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.9</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">10:25</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14.4</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
+                        <p class="detail-table__txt">7</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">2</p>
@@ -5273,98 +5205,46 @@ module.exports = `
                         <p class="detail-table__txt">1</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                    </tr>
-    
-
-    <tr>
-        <td class="detail-table__title">
-            <p class="roboto-bold">
-                20/21 | playoffs            </p>
-        </td>
-    </tr>
-
-            <tr>
-                                                <td class="detail-table__col detail-table_medium">
-                        <a class="detail-table__link" href="/stat/players/1046/all/salavat_yulaev/"><p class="detail-table__txt color-primary">Salavat Yulaev (Ufa)</p></a><a>                    </a></td>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">9</p>
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">101</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">9.9</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-1</p>
+                        <p class="detail-table__txt">2.3</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">502</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
+                        <p class="detail-table__txt">236</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">6</p>
+                        <p class="detail-table__txt">47.0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">18:57</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">25.6</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">34</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">23</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1.4</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">9:57</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14.2</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">8</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">11</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -5381,84 +5261,178 @@ module.exports = `
 
             <tr>
                                                 <td class="detail-table__col detail-table_medium">
-                        <a class="detail-table__link" href="/stat/players/1045/all/salavat_yulaev/"><p class="detail-table__txt color-primary">Salavat Yulaev (Ufa)</p></a><a>                    </a></td>
+                        <a class="detail-table__link" href="/stat/players/1045/all/ska/"><p class="detail-table__txt color-primary">SKA (Saint Petersburg)</p></a><a>                    </a></td>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">52</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">39</p>
+                        <p class="detail-table__txt">35</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">10</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">9</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">4</p>
+                        <p class="detail-table__txt">19</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">13</p>
+                        <p class="detail-table__txt">2</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">6</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">5</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">4</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">73</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">12.3</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1.9</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">100.0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:54</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.9</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15</p>
+                        <p class="detail-table__txt">18</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">16</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">13</p>
+                        <p class="detail-table__txt">10</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">57</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17.5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1.6</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">323</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">121</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">37.5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">15:35</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">21.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">21</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+    
+
+    <tr>
+        <td class="detail-table__title">
+            <p class="roboto-bold">
+                19/20 | playoffs            </p>
+        </td>
+    </tr>
+
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        <a class="detail-table__link" href="/stat/players/854/all/ska/"><p class="detail-table__txt color-primary">SKA (Saint Petersburg)</p></a><a>                    </a></td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">52</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">74</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">36</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">48.6</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:29</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -5475,30 +5449,294 @@ module.exports = `
 
             <tr>
                                                 <td class="detail-table__col detail-table_medium">
-                        <a class="detail-table__link" href="/stat/players/851/all/salavat_yulaev/"><p class="detail-table__txt color-primary">Salavat Yulaev (Ufa)</p></a><a>                    </a></td>
+                        <a class="detail-table__link" href="/stat/players/851/all/vityaz/"><p class="detail-table__txt color-primary">Vityaz (Moscow Region)</p></a><a>                    </a></td>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">21</p>
+                        <p class="detail-table__txt">34</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">15</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">24</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">20</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">6</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">87</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">10.3</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.6</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">536</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">232</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">43.3</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:09</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">24.1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">36</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        <a class="detail-table__link" href="/stat/players/851/all/ska/"><p class="detail-table__txt color-primary">SKA (Saint Petersburg)</p></a><a>                    </a></td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">52</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">2</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-6</p>
+                        <p class="detail-table__txt">2</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">12</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16.7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1.1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">135</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">58</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">43.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">14:33</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18.5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        Summary:                    </td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">45</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">28</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">30</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">28</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">10</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">99</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11.1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">671</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">290</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">43.2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:02</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22.7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">45</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+    
+
+    <tr>
+        <td class="detail-table__title">
+            <p class="roboto-bold">
+                18/19 | playoffs            </p>
+        </td>
+    </tr>
+
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        <a class="detail-table__link" href="/stat/players/674/all/vityaz/"><p class="detail-table__txt color-primary">Vityaz (Moscow Region)</p></a><a>                    </a></td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-3</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">4</p>
@@ -5522,37 +5760,319 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">29</p>
+                        <p class="detail-table__txt">5</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0.0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1.4</p>
+                        <p class="detail-table__txt">1.2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">30.8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16:51</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22.8</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+    
+
+    <tr>
+        <td class="detail-table__title">
+            <p class="roboto-bold">
+                18/19 | regular            </p>
+        </td>
+    </tr>
+
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        <a class="detail-table__link" href="/stat/players/671/all/vityaz/"><p class="detail-table__txt color-primary">Vityaz (Moscow Region)</p></a><a>                    </a></td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">61</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">9:53</p>
+                        <p class="detail-table__txt">19</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">12.2</p>
+                        <p class="detail-table__txt">23</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">42</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">36</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">27</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">20</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">13</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">6</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">5</p>
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">165</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11.5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">329</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">135</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">41.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:23</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">21.2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">39</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+    
+
+    <tr>
+        <td class="detail-table__title">
+            <p class="roboto-bold">
+                16/17 | playoffs            </p>
+        </td>
+    </tr>
+
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        <a class="detail-table__link" href="/stat/players/406/all/vityaz/"><p class="detail-table__txt color-primary">Vityaz (Moscow Region)</p></a><a>                    </a></td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">14</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3.5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">37</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">15</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">40.5</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:13</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                    </tr>
+    
+
+    <tr>
+        <td class="detail-table__title">
+            <p class="roboto-bold">
+                16/17 | regular            </p>
+        </td>
+    </tr>
+
+            <tr>
+                                                <td class="detail-table__col detail-table_medium">
+                        <a class="detail-table__link" href="/stat/players/405/all/vityaz/"><p class="detail-table__txt color-primary">Vityaz (Moscow Region)</p></a><a>                    </a></td>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">59</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">44</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">31</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">35</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">38</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">12</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">169</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11.2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">640</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">275</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">43.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:27</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">36</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">27</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -5574,79 +6094,79 @@ module.exports = `
                         <p class="detail-table__txt"></p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">70</p>
+                        <p class="detail-table__txt">244</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">10</p>
+                        <p class="detail-table__txt">69</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">8</p>
+                        <p class="detail-table__txt">106</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">18</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-5</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">19</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">24</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">10</p>
+                        <p class="detail-table__txt">175</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">6</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">4</p>
+                        <p class="detail-table__txt">149</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">143</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">88</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">42</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">12</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">591</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11.7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2465</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1057</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">42.9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:33</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22.7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">175</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">111</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">9.0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1.6</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">100.0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">12:12</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15.2</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">22</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">23</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">19</p>
+                        <p class="detail-table__txt">56</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -5659,7 +6179,7 @@ module.exports = `
                         <p class="detail-table__txt"></p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">9</p>
+                        <p class="detail-table__txt">12</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -5671,10 +6191,7 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">-3</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">3</p>
@@ -5683,7 +6200,7 @@ module.exports = `
                         <p class="detail-table__txt">6</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">11</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -5701,37 +6218,40 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">13</p>
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">27</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0.0</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1.4</p>
+                        <p class="detail-table__txt">2.2</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">137</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">59</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">43.1</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">9:57</p>
+                        <p class="detail-table__txt">17:11</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">14.2</p>
+                        <p class="detail-table__txt">22.9</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">8</p>
+                        <p class="detail-table__txt">7</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">5</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">4</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -5744,79 +6264,79 @@ module.exports = `
                         <p class="detail-table__txt"></p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">79</p>
+                        <p class="detail-table__txt">256</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">10</p>
+                        <p class="detail-table__txt">69</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">8</p>
+                        <p class="detail-table__txt">106</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">18</p>
+                        <p class="detail-table__txt">175</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-6</p>
+                        <p class="detail-table__txt">3</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">21</p>
+                        <p class="detail-table__txt">152</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">149</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">16</p>
+                        <p class="detail-table__txt">99</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">6</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">4</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">124</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">8.1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1.6</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">100.0</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11:56</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15.1</p>
-                    </th>
-                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">30</p>
+                        <p class="detail-table__txt">42</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">25</p>
                     </th>
                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">21</p>
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">12</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">618</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11.2</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2.4</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2602</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1116</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">42.9</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:32</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22.7</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">182</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">116</p>
+                    </th>
+                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">60</p>
                     </th>
                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -5872,9 +6392,13 @@ module.exports = `
                     <select data-placeholder="Select" name="tournament" id="select-statTable-filter" class="select-item select_uiCustom" style="display: none;">
                                                 <option value="">all</option>
                                                 <option value="1097">Regular season 2021/2022</option>
-                                                <option value="1046">Playoffs 2020/2021</option>
                                                 <option value="1045">Regular season 2020/2021</option>
+                                                <option value="854">Playoffs 2019/2020</option>
                                                 <option value="851">Regular season 2019/2020</option>
+                                                <option value="674">Playoffs 2018/2019</option>
+                                                <option value="671">Regular season 2018/2019</option>
+                                                <option value="406">Playoffs 2016/2017</option>
+                                                <option value="405">Regular season 2016/2017</option>
                                             </select><span tabindex="0" id="select-statTable-filter-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="select-statTable-filter-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-blank"></span><span class="ui-selectmenu-text">Select</span></span>
                 </div>
                 <div class="select statTable-body__filter-item">
@@ -5882,7 +6406,8 @@ module.exports = `
                         Клубы                    </label>
                     <select data-placeholder="Select" name="club" id="select-statTable-filter" class="select-item select_uiCustom" style="display: none;">
                                                     <option value="">all</option>
-                                                    <option value="38">Salavat Yulaev (Ufa)</option>
+                                                    <option value="19">Vityaz (Moscow Region)</option>
+                                                    <option value="24">SKA (Saint Petersburg)</option>
                                             </select><span tabindex="0" id="select-statTable-filter-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="select-statTable-filter-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-blank"></span><span class="ui-selectmenu-text">Select</span></span>
                 </div>
                 <button type="submit" class="statTable-body__filter-btn btn btn-primary roboto roboto-bold roboto-sm color-white roboto-ttu">
@@ -6104,6 +6629,7 @@ module.exports = `
                                                                                                                     </tr>
                         </thead>
                         <tbody id="table_all_games" class="roboto roboto-sm roboto-normal color-black">
+                            
     <tr>
         <td class="matches-table__title" colspan="5">
             <p class="roboto-condensed roboto-bold roboto-lg">
@@ -6114,531 +6640,15 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            3 Jan 2022                        </p>
+                            11 Jan 2022                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1097/all/metallurg_mg/"><p class="matches-table__txt link color-primary">Metallurg Mg</p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(к) - <a href="/stat/players/1097/all/severstal/"><p class="matches-table__txt link color-primary">Severstal</p></a>                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877693/protocol/">3:4 ОТ</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877733/protocol/">2:3 ОТ</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">10:14</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            29 Dec 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/barys/"><p class="matches-table__txt link color-primary">Barys</p></a> - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877681/protocol/">1:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11:09</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            27 Dec 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/sibir/"><p class="matches-table__txt link color-primary">Sibir</p></a> - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877670/protocol/">3:2 ОТ</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:06</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">20.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            25 Dec 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1097/all/avtomobilist/"><p class="matches-table__txt link color-primary">Avtomobilist</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877659/protocol/">4:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">8:26</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">10.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            22 Dec 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/spartak/"><p class="matches-table__txt link color-primary">Spartak</p></a> - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877645/protocol/">3:2 Б</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">50.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14:09</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">19.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            20 Dec 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/kunlun/"><p class="matches-table__txt link color-primary">Kunlun RS</p></a> - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877632/protocol/">3:4 ОТ</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:32</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">18.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            6 Dec 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1097/all/admiral/"><p class="matches-table__txt link color-primary">Admiral</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877592/protocol/">4:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -6650,255 +6660,6 @@ module.exports = `
                         <p class="detail-table__txt">1</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1:08</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            29 Sep 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1097/all/avtomobilist/"><p class="matches-table__txt link color-primary">Avtomobilist</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877290/protocol/">3:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11:28</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            25 Sep 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/lokomotiv/"><p class="matches-table__txt link color-primary">Lokomotiv</p></a> - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877273/protocol/">2:3 ОТ</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">9:09</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            23 Sep 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1097/all/ska/"><p class="matches-table__txt link color-primary">SKA</p></a> - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1097/877265/protocol/">2:4</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
@@ -6906,110 +6667,6 @@ module.exports = `
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11:54</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-    
-
-    <tr>
-        <td class="matches-table__title" colspan="5">
-            <p class="roboto-condensed roboto-bold roboto-lg">
-                Playoffs 2020/2021            </p>
-        </td>
-    </tr>
-
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            23 Mar 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1046/all/ak_bars/"><p class="matches-table__txt link color-primary">Ak Bars</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/877007/protocol/">2:3</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7039,25 +6696,369 @@ module.exports = `
                         <p class="detail-table__txt">0.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
+                        <p class="detail-table__txt">14</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">10</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">71.4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:48</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            9 Jan 2022                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(к) - <a href="/stat/players/1097/all/avangard/"><p class="matches-table__txt link color-primary">Avangard</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877726/protocol/">1:4</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">8:37</p>
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">11.0</p>
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">36.4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:18</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            7 Jan 2022                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/cska/"><p class="matches-table__txt link color-primary">CSKA</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877717/protocol/">3:4 ОТ</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">50.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">14</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">6</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">42.9</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:35</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            5 Jan 2022                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/dinamo_mn/"><p class="matches-table__txt link color-primary">Dinamo Mn</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877706/protocol/">3:4 Б</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">21</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">33.3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:56</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">30.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            30 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/hc_sochi/"><p class="matches-table__txt link color-primary">HC Sochi</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877688/protocol/">3:4</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">50.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:58</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">30.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7069,15 +7070,187 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            21 Mar 2021                        </p>
+                            28 Dec 2021                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1046/all/ak_bars/"><p class="matches-table__txt link color-primary">Ak Bars</p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/severstal/"><p class="matches-table__txt link color-primary">Severstal</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/877005/protocol/">1:2</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877674/protocol/">2:3 ОТ</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">50.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:01</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            25 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/metallurg_mg/"><p class="matches-table__txt link color-primary">Metallurg Mg</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877662/protocol/">3:5</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">5</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:21</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">24.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            23 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/hc_sochi/"><p class="matches-table__txt link color-primary">HC Sochi</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877653/protocol/">3:2 ОТ</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7119,10 +7292,28 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:51</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7131,13 +7322,167 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            22 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(к) - <a href="/stat/players/1097/all/dinamo_r/"><p class="matches-table__txt link color-primary">Dinamo R</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877643/protocol/">2:3 ОТ</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">2:37</p>
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">4.0</p>
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">33.3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">5</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">60.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:18</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            10 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/dinamo_r/"><p class="matches-table__txt link color-primary">Dinamo R</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(к)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877618/protocol/">2:3 ОТ</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">100.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:23</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -7155,15 +7500,187 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            19 Mar 2021                        </p>
+                            8 Dec 2021                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/ak_bars/"><p class="matches-table__txt link color-primary">Ak Bars</p></a> - <a href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/dinamo_mn/"><p class="matches-table__txt link color-primary">Dinamo Mn</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/877003/protocol/">2:1 ОТ</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877608/protocol/">1:4</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:34</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            6 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/severstal/"><p class="matches-table__txt link color-primary">Severstal</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877597/protocol/">3:1</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:55</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">24.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            3 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/dinamo_mn/"><p class="matches-table__txt link color-primary">Dinamo Mn</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877580/protocol/">2:5</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7178,7 +7695,179 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:59</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            1 Dec 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a> - <a href="/stat/players/1097/all/jokerit/"><p class="matches-table__txt link color-primary">Jokerit</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877569/protocol/">2:3</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">6</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:54</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">24.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            20 Nov 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/kunlun/"><p class="matches-table__txt link color-primary">Kunlun RS</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877517/protocol/">2:3 ОТ</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">1</p>
@@ -7211,25 +7900,111 @@ module.exports = `
                         <p class="detail-table__txt">0.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">15</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">8</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">53.3</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">9:13</p>
+                        <p class="detail-table__txt">19:48</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">15.0</p>
+                        <p class="detail-table__txt">26.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            18 Nov 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/salavat_yulaev/"><p class="matches-table__txt link color-primary">Salavat Yulaev</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877505/protocol/">2:4</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">37.5</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:43</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7241,15 +8016,15 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            17 Mar 2021                        </p>
+                            15 Nov 2021                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/ak_bars/"><p class="matches-table__txt link color-primary">Ak Bars</p></a> - <a href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/avangard/"><p class="matches-table__txt link color-primary">Avangard</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/877001/protocol/">4:1</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877488/protocol/">3:0</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -7291,1066 +8066,25 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">-</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">12:59</p>
+                        <p class="detail-table__txt">10</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">18.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            11 Mar 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1046/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/876922/protocol/">3:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2:30</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">6.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            9 Mar 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a> - <a href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/876903/protocol/">0:3</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">10:30</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">17.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            7 Mar 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a> - <a href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/876895/protocol/">0:4</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15:14</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">17.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            5 Mar 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1046/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/876887/protocol/">3:2 ОТ</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14:26</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">21.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            3 Mar 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1046/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1046/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1046/876879/protocol/">1:3</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:29</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">19.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-    
-
-    <tr>
-        <td class="matches-table__title" colspan="5">
-            <p class="roboto-condensed roboto-bold roboto-lg">
-                Regular season 2020/2021            </p>
-        </td>
-    </tr>
-
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            27 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/lokomotiv/"><p class="matches-table__txt link color-primary">Lokomotiv</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/873002/protocol/">4:1</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">33.3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15:24</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            25 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/avangard/"><p class="matches-table__txt link color-primary">Avangard</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872993/protocol/">1:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:25</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            23 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/dinamo_r/"><p class="matches-table__txt link color-primary">Dinamo R</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872986/protocol/">1:3</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11:57</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            20 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1045/all/kunlun/"><p class="matches-table__txt link color-primary">Kunlun RS</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872967/protocol/">5:4</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:51</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            18 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1045/all/ak_bars/"><p class="matches-table__txt link color-primary">Ak Bars</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872958/protocol/">3:2</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">11:35</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            7 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1045/all/amur/"><p class="matches-table__txt link color-primary">Amur</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872937/protocol/">4:0</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">33.3</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">15:03</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            4 Feb 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a> - <a href="/stat/players/1045/all/dinamo_r/"><p class="matches-table__txt link color-primary">Dinamo R</p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872925/protocol/">5:4 Б</a></p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">2</p>
+                        <p class="detail-table__txt">5</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">50.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">17:10</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">13:45</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">18.0</p>
+                        <p class="detail-table__txt">22.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -8368,15 +8102,15 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            30 Jan 2021                        </p>
+                            7 Nov 2021                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/barys/"><p class="matches-table__txt link color-primary">Barys</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/admiral/"><p class="matches-table__txt link color-primary">Admiral</p></a>                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872905/protocol/">2:3 ОТ</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877482/protocol/">0:1 Б</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -8386,6 +8120,92 @@ module.exports = `
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">5</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">20.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">21:02</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            5 Nov 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/cska/"><p class="matches-table__txt link color-primary">CSKA</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877472/protocol/">5:6 Б</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">1</p>
@@ -8424,22 +8244,167 @@ module.exports = `
                         <p class="detail-table__txt">0.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">13</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">7</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">53.8</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">14:14</p>
+                        <p class="detail-table__txt">24:32</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">16.0</p>
+                        <p class="detail-table__txt">28.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            1 Nov 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877450/protocol/">2:4</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">12.5</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">42.9</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16:56</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">27.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            30 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/metallurg_mg/"><p class="matches-table__txt link color-primary">Metallurg Mg</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877443/protocol/">2:1</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -8448,87 +8413,28 @@ module.exports = `
                         <p class="detail-table__txt">2</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                    </tr>
-            <tr>
-                                                                <td class="matches-table__col matches-table__col_date">
-                        <p class="matches-table__txt roboto-normal color-secondary">
-                            28 Jan 2021                        </p>
-                    </td>
-                                                                                <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/amur/"><p class="matches-table__txt link color-primary">Amur</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872895/protocol/">2:3</a></p>
+                        <p class="detail-table__txt">0.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
-                    </th>
-                                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
+                        <p class="detail-table__txt">16</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">7</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
+                        <p class="detail-table__txt">43.8</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
+                        <p class="detail-table__txt">19:48</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">100.0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">14:30</p>
-                    </th>
-                                                                                <th class="detail-table__col">
-                        <p class="detail-table__txt">18.0</p>
+                        <p class="detail-table__txt">28.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">1</p>
+                        <p class="detail-table__txt">3</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -8540,15 +8446,187 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            26 Jan 2021                        </p>
+                            28 Oct 2021                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/amur/"><p class="matches-table__txt link color-primary">Amur</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/avtomobilist/"><p class="matches-table__txt link color-primary">Avtomobilist</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872885/protocol/">1:2</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877433/protocol/">5:2</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">14</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">14.3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:26</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            26 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/hc_sochi/"><p class="matches-table__txt link color-primary">HC Sochi</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877426/protocol/">1:3</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">73.1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">19:25</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            24 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/dynamo_msk/"><p class="matches-table__txt link color-primary">Dynamo Msk</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877415/protocol/">2:5</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -8596,19 +8674,277 @@ module.exports = `
                         <p class="detail-table__txt">0.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
+                        <p class="detail-table__txt">18</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">8</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">44.4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">16:15</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            21 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/spartak/"><p class="matches-table__txt link color-primary">Spartak</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877399/protocol/">2:5</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">13:18</p>
+                        <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">17.0</p>
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">5</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">29.4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">18:18</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">27.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            18 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/sibir/"><p class="matches-table__txt link color-primary">Sibir</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877384/protocol/">5:2</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">9</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">40.9</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">17:01</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">25.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            16 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/dinamo_r/"><p class="matches-table__txt link color-primary">Dinamo R</p></a>                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877376/protocol/">3:4 ОТ</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">33.3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">10</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">30.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">20:31</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">27.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -8626,15 +8962,101 @@ module.exports = `
             <tr>
                                                                 <td class="matches-table__col matches-table__col_date">
                         <p class="matches-table__txt roboto-normal color-secondary">
-                            21 Jan 2021                        </p>
+                            13 Oct 2021                        </p>
                     </td>
                                                                                 <td class="matches-table__col matches-table__col_name">
-                        <a class="matches-table__link" href="/stat/players/1045/all/traktor/"><p class="matches-table__txt link color-primary">Traktor</p></a> - <a href="/stat/players/1045/all/salavat_yulaev/"><p class="matches-table__txt link color-primary"><strong>Salavat Yulaev</strong></p></a>                    </td>
+                        <a class="matches-table__link" href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а) - <a href="/stat/players/1097/all/torpedo/"><p class="matches-table__txt link color-primary">Torpedo</p></a>                    </td>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt"><a href="/game/1045/872874/protocol/">2:1 ОТ</a></p>
+                        <p class="detail-table__txt"><a href="/game/1097/877361/protocol/">1:3</a></p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">27</p>
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">-1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">13</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">15.4</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">20:54</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">26.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            8 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/sibir/"><p class="matches-table__txt link color-primary">Sibir</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877335/protocol/">2:1</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
                     </th>
                                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
@@ -8676,25 +9098,25 @@ module.exports = `
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">2</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">0.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">15</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">0</p>
+                        <p class="detail-table__txt">5</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">-</p>
+                        <p class="detail-table__txt">33.3</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">12:31</p>
+                        <p class="detail-table__txt">20:24</p>
                     </th>
                                                                                 <th class="detail-table__col">
-                        <p class="detail-table__txt">15.0</p>
+                        <p class="detail-table__txt">27.0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt"></p>
@@ -8703,30 +9125,124 @@ module.exports = `
                         <p class="detail-table__txt">1</p>
                     </th>
                                                                                 <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                    </tr>
+            <tr>
+                                                                <td class="matches-table__col matches-table__col_date">
+                        <p class="matches-table__txt roboto-normal color-secondary">
+                            6 Oct 2021                        </p>
+                    </td>
+                                                                                <td class="matches-table__col matches-table__col_name">
+                        <a class="matches-table__link" href="/stat/players/1097/all/admiral/"><p class="matches-table__txt link color-primary">Admiral</p></a> - <a href="/stat/players/1097/all/vityaz/"><p class="matches-table__txt link color-primary"><strong>Vityaz</strong></p></a>&nbsp;(а)                    </td>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"><a href="/game/1097/877326/protocol/">3:2</a></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">55</p>
+                    </th>
+                                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">2</p>
+                    </th>
+                                                                                <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
                     </th>
                                                                                 <th class="detail-table__col">
                         <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">3</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">11</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">7</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">63.6</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">22:16</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">23.0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt"></p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">0</p>
+                    </th>
+                                                                                <th class="detail-table__col">
+                        <p class="detail-table__txt">1</p>
                     </th>
                                                                     </tr>
     
-</tbody>
+                        </tbody>
                     </table>
                 </div>
             </div>
             
 <div class="judges-tableStat__bottom judges-tableStat__bottom ajax-pagination-container" data-container-id="table_all_games" data-selector="" id="table_all_games_pagination">
         <p class="roboto roboto-normal roboto-sm color-subheader judges-tableStat__bottom-text">
-        Games From 1 To 30 from 81    </p>
+        Games From 1 To 30 from 256    </p>
     <div class="pagging judges-tableStat__pagging">
         <button class="paggin-item_current pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
             1
-            </button>        <a href="/players/30159/?idplayer=30159&amp;pager_selector=&amp;PAGEN_1=2" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
+            </button>        <a href="/players/17585/?idplayer=17585&amp;PAGEN_1=2" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
             2
-        </a>        <a href="/players/30159/?idplayer=30159&amp;pager_selector=&amp;PAGEN_1=3" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
+        </a>        <a href="/players/17585/?idplayer=17585&amp;PAGEN_1=3" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
             3
+        </a>        <a href="/players/17585/?idplayer=17585&amp;PAGEN_1=4" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
+            4
+        </a>        <a href="/players/17585/?idplayer=17585&amp;PAGEN_1=5" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
+            5
+        </a>        <a href="/players/17585/?idplayer=17585&amp;PAGEN_1=7" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
+            ...
+        </a>            <a href="/players/17585/?idplayer=17585&amp;PAGEN_1=9" class="pagging-item color-primary roboto roboto-bold roboto-sm roboto-sm btn btn-white border-primary border-small">
+            9
         </a>
-    <a type="button" href="/players/30159/?idplayer=30159&amp;pager_selector=&amp;PAGEN_1=2" class="paginate_button next pagging-arrow pagging-next btn btn-white border-primary border-small">
+    <a type="button" href="/players/17585/?idplayer=17585&amp;PAGEN_1=2" class="paginate_button next pagging-arrow pagging-next btn btn-white border-primary border-small">
             <svg class="svg_arr-rigth pagging-arrow__svg pagging-arrow__svg_next">
                 <use xlink:href="#arr-rigth"></use>
             </svg>
@@ -8740,7 +9256,7 @@ module.exports = `
     <div class="flex-rov">
         <div class="news main-news judges-detail__news flex-rov__100-270_768">
             <div class="news-header">
-                <a href="/news/key/d0a0d0bed0b4d0b8d0bed0bd20d090d0bcd0b8d180d0bed0b2/" class="mews-link">
+                <a href="/news/key/d09cd0b8d180d0be20d090d0b0d0bbd182d0bed0bdd0b5d0bd/" class="mews-link">
                     <h2 class="news-title roboto-condensed color-dark roboto-bold title-md arr-right__after">
                         News                    </h2>
                 </a>
@@ -8758,19 +9274,41 @@ module.exports = `
                 </div>
             </div>
                         <div class="news-frame news-frame_p-40">
+                                <div class="news-frame__info">
+                                            <div class="news-frame__info-item news-item">
+                            <a href="/news/2018/10/24/413522.html" class="news-item__info-link roboto roboto-nr color-black roboto-bold link">
+                                From China to Helsinki. How Finn players are performing in the new season                            </a>
+                            <div class="news-item__info-wrap">
+                                <time class="news-item__info-date roboto roboto-normal roboto-xs color-secondary">
+                                    24 October 2018, 13:15                                </time>
+                                <a href="/news/section//" class="news-item__info-tag roboto-condensed roboto-bold color-dark roboto-xxs">
+                                    News                                </a>
+                            </div>
+                        </div>
+                                            <div class="news-frame__info-item news-item">
+                            <a href="/news/2018/07/02/401963.html" class="news-item__info-link roboto roboto-nr color-black roboto-bold link">
+                                Antipin back in Magnitogorsk, Desharnais moves to Lokomotiv                            </a>
+                            <div class="news-item__info-wrap">
+                                <time class="news-item__info-date roboto roboto-normal roboto-xs color-secondary">
+                                    2 July 2018, 23:13                                </time>
+                                <a href="/news/section/5180/" class="news-item__info-tag roboto-condensed roboto-bold color-dark roboto-xxs">
+                                    Transfers                                </a>
+                            </div>
+                        </div>
+                                    </div>
                                 <div class="news-frame__main">
-                    <a href="/news/2020/12/03/476769.html">
-                    <div class="news-frame__main-wrapp news-frame__main-wrapp_xx" style="background-image: url('/upload/iblock/1c8/1c8d467a29cafa5c820d7e61041fa8aa.jpg');">
+                    <a href="/news/2019/12/12/461028.html">
+                    <div class="news-frame__main-wrapp news-frame__main-wrapp_xx" style="background-image: url('/upload/iblock/734/73441cba1b963356a8d879c385bb1ff2.jpg');">
                     </div>
                     </a>
                     <div class="news-frame__main-item news-item">
-                        <a href="/news/2020/12/03/476769.html" class="news-item__info-link roboto roboto-lg color-black roboto-bold link">
-                            Road to World Juniors: Amirov, Mukhamadullin                        </a>
+                        <a href="/news/2019/12/12/461028.html" class="news-item__info-link roboto roboto-lg color-black roboto-bold link">
+                            Miro Aaltonen traded to SKA                        </a>
                         <div class="news-item__info-wrap news-item__info-wrap_flex-start">
                             <time class="news-item__info-date roboto roboto-normal roboto-sm color-secondary">
-                                3 December 2020, 16:30                            </time>
-                            <a href="/news/section/8277/" class="news-item__info-tag roboto-condensed roboto-bold color-dark roboto-xs">
-                                World Juniors                            </a>
+                                12 December 2019, 17:20                            </time>
+                            <a href="/news/section/5180/" class="news-item__info-tag roboto-condensed roboto-bold color-dark roboto-xs">
+                                Transfers                            </a>
                         </div>
                     </div>
                 </div>
@@ -10168,8 +10706,8 @@ $("#header \x3e div.b-mobile_move \x3e div \x3e div.b-header_menu_cover.m-clear 
 $("#wrapper \x3e div.b-content_section.s-float_panel_start \x3e div:nth-child(3) \x3e div.b-short_block \x3e div.khl_share_buttons.b-share.m-clear \x3e a.b-share_button.m-vk").on("click",function(){dataLayer.push({event:"WPVkShare"})});$("#wrapper \x3e div.b-content_section.s-float_panel_start \x3e div:nth-child(3) \x3e div.b-short_block \x3e div.khl_share_buttons.b-share.m-clear \x3e a.b-share_button.m-ok").on("click",function(){dataLayer.push({event:"WPOkShare"})});
 $("#wrapper \x3e div.b-content_section.s-float_panel_start \x3e div:nth-child(3) \x3e div.b-short_block \x3e div.khl_share_buttons.b-share.m-clear \x3e a.b-share_button.m-fb").on("click",function(){dataLayer.push({event:"WPFbShare"})});</script>
 <iframe style="display:none;" src="https://api-video.khl.ru/khl/scripts/khl_id.html" id="ifr"></iframe>
-<script type="text/javascript" id="">window.addEventListener("message",function(a){"https://api-video.khl.ru"===a.origin&&a.data.cookie&&(document.cookie=a.data.cookie)},!1);</script>
+<script type="text/javascript" id="">window.addEventListener("message",function(a){"https://api-video.khl.ru"===a.origin&&a.data.cookie&&(document.cookie=a.data.cookie)},!1);</script><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="select-statTable-filter-button" id="select-statTable-filter-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="select-statTable-filter-button" id="select-statTable-filter-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
 <script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(6571768,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0});</script>
 <noscript><div><img src="https://mc.yandex.ru/watch/6571768" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-<script type="text/javascript" id="">!function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://vk.com/js/api/openapi.js?169";a.onload=function(){VK.Retargeting.Init("VK-RTRG-964007-2Qp35");VK.Retargeting.Hit()};document.head.appendChild(a)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-964007-2Qp35" style="position:fixed; left:-999px;" alt=""></noscript><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="select-statTable-filter-button" id="select-statTable-filter-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><div class="ui-selectmenu-menu ui-front"><ul aria-hidden="true" aria-labelledby="select-statTable-filter-button" id="select-statTable-filter-menu" role="listbox" tabindex="0" class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><iframe src="https://gum.criteo.com/syncframe?origin=publishertag&amp;topUrl=en.khl.ru#{&quot;uid&quot;:{&quot;origin&quot;:0},&quot;lwid&quot;:{&quot;origin&quot;:0},&quot;bundle&quot;:{&quot;origin&quot;:0},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;sid&quot;:{&quot;origin&quot;:0},&quot;tld&quot;:&quot;khl.ru&quot;,&quot;topUrl&quot;:&quot;en.khl.ru&quot;,&quot;version&quot;:129,&quot;cw&quot;:true,&quot;lsw&quot;:true,&quot;origin&quot;:&quot;publishertag&quot;,&quot;requestId&quot;:&quot;0.9237323352708616&quot;}" style="border-width: 0px; margin: 0px; display: none;" title="Criteo GUM iframe" width="0" height="0" frameborder="0"></iframe><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body>
+<script type="text/javascript" id="">!function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://vk.com/js/api/openapi.js?169";a.onload=function(){VK.Retargeting.Init("VK-RTRG-964007-2Qp35");VK.Retargeting.Hit()};document.head.appendChild(a)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-964007-2Qp35" style="position:fixed; left:-999px;" alt=""></noscript><iframe src="https://gum.criteo.com/syncframe?origin=publishertag&amp;topUrl=en.khl.ru#{&quot;uid&quot;:{&quot;origin&quot;:0},&quot;lwid&quot;:{&quot;origin&quot;:0},&quot;bundle&quot;:{&quot;origin&quot;:0},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;sid&quot;:{&quot;origin&quot;:0},&quot;tld&quot;:&quot;khl.ru&quot;,&quot;topUrl&quot;:&quot;en.khl.ru&quot;,&quot;version&quot;:129,&quot;cw&quot;:true,&quot;lsw&quot;:true,&quot;origin&quot;:&quot;publishertag&quot;,&quot;requestId&quot;:&quot;0.7019770383727529&quot;}" style="border-width: 0px; margin: 0px; display: none;" title="Criteo GUM iframe" width="0" height="0" frameborder="0"></iframe><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body>
 `
