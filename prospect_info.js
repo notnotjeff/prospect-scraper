@@ -147,11 +147,10 @@ module.exports = [
     draft_round: 2,
     draft_pick: 59,
     draft_year: 2020,
-    league_id: '32269686',
-    league: 'Liiga',
-    // league_id: '3125868', // WJC
-    // team_id: 'FIN', // WJC
-    // league: 'WJC',
+    // league_id: '32269686', // Liiga
+    // league: 'Liiga', // Liiga
+    league_id: '9747',
+    league: 'AHL',
     ep_url: 'https://www.eliteprospects.com/player/448946/roni-hirvonen',
   },
   {
@@ -194,8 +193,10 @@ module.exports = [
     draft_round: 5,
     draft_pick: 137,
     draft_year: 2020,
-    league_id: '31214', // KHL
-    league: 'KHL',
+    league_id: '9017', // AHL
+    league: 'AHL',
+    // league_id: '31214', // KHL
+    // league: 'KHL',
     // league_id: '31214', // MHL
     // league: 'MHL',
     ep_url: 'https://www.eliteprospects.com/player/534929/dmitri-ovchinnikov',
@@ -303,8 +304,8 @@ module.exports = [
     draft_round: 5,
     draft_pick: 153,
     draft_year: 2021,
-    league_id: '8292',
-    league: 'OHL',
+    league_id: '9763',
+    league: 'AHL',
     ep_url: 'https://www.eliteprospects.com/player/586523/ty-voit',
   },
   {
